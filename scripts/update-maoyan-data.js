@@ -163,9 +163,7 @@ async function main() {
   }
   // 修改后的代码：明确指定存放在 data 文件夹下
   fs.writeFileSync('data/maoyan-data.json', JSON.stringify(movies, null, 2));
-console.log('数据已成功更新至 data/maoyan-data.json');
-
-  console.log(`数据已保存至: ${OUTPUT_PATH}`);
+  console.log('数据已成功更新至 data/maoyan-data.json');
 }
 
 // 执行入口
