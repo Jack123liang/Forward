@@ -4,7 +4,7 @@
   "icon": "https://github.com/MakkaPakka518/ForwardWidgets/raw/main/makka.png",
   "widgets": [
     {
-      "id": "forward.move.media.lists",
+      "id": "forward.combined.media.lists",
       "title": "影视榜单",
       "description": "影视动画榜单。",
       "requiredVersion": "0.0.2",
