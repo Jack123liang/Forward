@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T15:22:04.360+08:00",
+  "last_updated": "2026-02-01T00:21:10.627+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.567,
+      "rating": 6.59,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.982,
+      "rating": 5.976,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
       "releaseDate": "2026-01-01",
-      "rating": 6.72,
+      "rating": 6.742,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dy8IFyfuaZoL5vWEXCoj0Uqafro.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 7.2,
+      "rating": 7.667,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.1,
+      "rating": 5.169,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
       "releaseDate": "2025-12-24",
-      "rating": 7.061,
+      "rating": 7.055,
       "mediaType": "movie"
     },
     {
@@ -256,18 +256,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "originalTitle": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fULsIKIX0F47Fzh759lOjqGOu68.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1305781,
       "type": "tmdb",
       "title": "镖人：风起大漠",
@@ -280,13 +268,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 1447971,
+      "id": 1359005,
       "type": "tmdb",
-      "title": "惊蛰无声",
-      "originalTitle": "惊蛰无声",
-      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fULsIKIX0F47Fzh759lOjqGOu68.jpg",
+      "backdropPath": null,
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -299,6 +287,18 @@
       "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
       "posterPath": "https://image.tmdb.org/t/p/w500/uESXCRJ5WPmys6S4ivY6lO8MAKh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1447971,
+      "type": "tmdb",
+      "title": "惊蛰无声",
+      "originalTitle": "惊蛰无声",
+      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -328,18 +328,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1164767,
-      "type": "tmdb",
-      "title": "营救汪星人",
-      "originalTitle": "营救汪星人",
-      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
-      "releaseDate": "2018-01-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1462229,
       "type": "tmdb",
       "title": "飞驰人生3",
@@ -352,14 +340,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 871900,
+      "id": 1164767,
       "type": "tmdb",
-      "title": "藏地情书",
-      "originalTitle": "藏地情书",
-      "description": "影片讲述毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-14",
+      "title": "营救汪星人",
+      "originalTitle": "营救汪星人",
+      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
+      "releaseDate": "2018-01-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -383,6 +371,18 @@
       "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
       "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 871900,
+      "type": "tmdb",
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "影片讲述毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": null,
       "releaseDate": "2026-02-14",
       "rating": 0,
       "mediaType": "movie"
