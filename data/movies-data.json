@@ -1,7 +1,326 @@
 {
-  "last_updated": "2026-01-31T13:31:14.998+08:00",
-  "nowplaying": [],
-  "coming": [],
-  "classics": [],
-  "yearly2025": []
+  "last_updated": "2026-01-31T15:15:42.444+08:00",
+  "now_playing": [
+    {
+      "id": 840464,
+      "type": "tmdb",
+      "title": "末日逃生2：迁移",
+      "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "releaseDate": "2026-01-31",
+      "rating": 6.567,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1234731,
+      "type": "tmdb",
+      "title": "新狂蟒之灾",
+      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "releaseDate": "2026-01-09",
+      "rating": 5.982,
+      "mediaType": "movie"
+    },
+    {
+      "id": 991494,
+      "type": "tmdb",
+      "title": "海绵宝宝：深海大冒险",
+      "description": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
+      "releaseDate": "2026-01-01",
+      "rating": 6.72,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1271895,
+      "type": "tmdb",
+      "title": "96分钟：列车爆炸案",
+      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dy8IFyfuaZoL5vWEXCoj0Uqafro.jpg",
+      "releaseDate": "2026-01-10",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1236153,
+      "type": "tmdb",
+      "title": "极限审判",
+      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
+      "releaseDate": "2026-01-20",
+      "rating": 6.667,
+      "mediaType": "movie"
+    },
+    {
+      "id": 680493,
+      "type": "tmdb",
+      "title": "重返寂静岭",
+      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 5.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1290821,
+      "type": "tmdb",
+      "title": "庇护之地",
+      "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
+      "releaseDate": "2026-01-30",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 967941,
+      "type": "tmdb",
+      "title": "魔法坏女巫2",
+      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
+      "releaseDate": "2025-12-24",
+      "rating": 6.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1259102,
+      "type": "tmdb",
+      "title": "永恒站",
+      "description": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
+      "releaseDate": "2025-12-24",
+      "rating": 7.061,
+      "mediaType": "movie"
+    },
+    {
+      "id": 694,
+      "type": "tmdb",
+      "title": "闪灵",
+      "description": "杰克 是一个作家。一个冬天，他得到了一个看管山顶酒店的差事。这正合杰克的意思，他正好可以有一个幽静的地方写作。于是杰克带着妻儿搬进了酒店。冬天大雪封路，山顶酒店只有杰克一家三口。从他们一搬进来，杰克的妻子温蒂 就发现这里气氛诡异，杰克的儿子丹尼 经常看到一些他不认识的人，但这里除了他们一家别无他人。而杰克除了一整天闷头写作外，脾气亦变得越来越古怪。直到有一天，温蒂发现丈夫这些天来一直写就只有一句话：杰克发疯了！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
+      "releaseDate": "2026-01-30",
+      "rating": 8.206,
+      "mediaType": "movie"
+    },
+    {
+      "id": 650524,
+      "type": "tmdb",
+      "title": "寻秦记",
+      "description": "2030年，香港诸多现代物被抽取到秦朝，抽送中的生命体更是因此灰飞烟灭。拯救行动迫在眉睫，项少龙带领众人孤注一掷。秦王的欲望，家人的安危，是离开还是留下，都将在这秘境之地寻找答案。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wIATfOCE25jVxdXXO2ss6S770Bm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
+      "releaseDate": "2025-12-31",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1305715,
+      "type": "tmdb",
+      "title": "过家家",
+      "description": "在小城市长大的单亲男孩钟不凡一直想去北京闯荡一番，却因为家庭原因一直没能实现在一次与亲生父亲的争执中失手伤人，以为自己闯下大祸，仓皇逃匿，被命运捉弄阴错阳差地逃到了北京。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jTuu8wLW2RUg1IzX4IC7wqpsjIo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dT3mUfkXKzUbDu4qlldRGXxePLj.jpg",
+      "releaseDate": "2026-01-01",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 804370,
+      "type": "tmdb",
+      "title": "时空奇旅",
+      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
+      "releaseDate": "2026-01-17",
+      "rating": 7.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 838240,
+      "type": "tmdb",
+      "title": "机器人之梦",
+      "description": "一只狗住在曼哈顿，它厌倦了独处。某日，它决定为自己制造一个机器人作伴。它们的友谊日益深厚，随着80年代纽约的节奏，终成彼此不可或缺的存在。一个夏夜，狗怀着巨大的悲伤，被迫将机器人遗弃在海滩。它们还能再相见吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
+      "releaseDate": "2024-06-08",
+      "rating": 7.973,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1537690,
+      "type": "tmdb",
+      "title": "爆水管",
+      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 0,
+      "mediaType": "movie"
+    }
+  ],
+  "upcoming": [
+    {
+      "id": 313369,
+      "type": "tmdb",
+      "title": "爱乐之城",
+      "description": "心怀演员梦想的米娅在试镜间隙为电影明星端送拿铁，而执着于爵士乐的塞巴斯汀则在昏暗酒吧靠弹奏钢琴曲勉强度日。然而当事业渐有起色，两人不得不做出抉择，这些决定逐渐磨损着他们如薄纱般的恋情，那些曾奋力彼此守护的梦想，此刻却可能将彼此撕裂。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9THebFYR0S1eopeDjXfcQFYNJGY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+      "releaseDate": "2017-02-14",
+      "rating": 7.898,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359005,
+      "type": "tmdb",
+      "title": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fULsIKIX0F47Fzh759lOjqGOu68.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1305781,
+      "type": "tmdb",
+      "title": "镖人：风起大漠",
+      "description": "大漠镖客刀马受恩人莫族长委托护送神秘人知世郎回长安，遭到暴乱的胡商家族的倾力围剿，莫族长殒命维护刀马多年前曾冒死救下罪臣家孤婴小七的左骁骑卫身份，全然因为知世郎告诉了他小七和刀马的神秘宿命。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yC6MexRwOyp7PDWCGnDIpdnnzYj.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1447971,
+      "type": "tmdb",
+      "title": "惊蛰无声",
+      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1421552,
+      "type": "tmdb",
+      "title": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uESXCRJ5WPmys6S4ivY6lO8MAKh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 51731,
+      "type": "tmdb",
+      "title": "鹿鼎记II神龙教",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1djbwZxkovIVONz6x4nSPA7VMGE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1565586,
+      "type": "tmdb",
+      "title": "遇见不同的遇见",
+      "description": "　　都市“躺平青年”但爽，带领“突如其来”电视栏目组，突袭暗访专业从事借钱为生的老乡“滚刀肉”吴德，在吴德的引领下，但爽有缘结识了有财、有貌的“超级卷王”是蒂，未曾想这对欢喜冤家的爱情之路总是遇见不同的遇见，在经历了英雄救美、海景房骗局、P2P理财“深坑”的一系列惊心动魄的故事下，最终花好月圆走在了一起。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ouAaqGz1aAzPXbnt7zciIVMB20E.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jjEUYqfMBw7v4aFpwRQCRfN9QA.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1164767,
+      "type": "tmdb",
+      "title": "营救汪星人",
+      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
+      "releaseDate": "2018-01-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4AHYWDA0HQQNT65pCpr7mLaZ6et.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 871900,
+      "type": "tmdb",
+      "title": "藏地情书",
+      "description": "影片讲述毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1607088,
+      "type": "tmdb",
+      "title": "熊出没·年年有熊",
+      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1614368,
+      "type": "tmdb",
+      "title": "喜欢上“欠欠”的你",
+      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1604938,
+      "type": "tmdb",
+      "title": "六六大顺",
+      "description": "　　濒临破产的老板李大顺（李孟武 饰）为逆转绝境，与死磕项目的技术宅李谱（肖轶 饰）踏上寻“小分子水”之路，临时搭挡的组合囧况百出，还没发车就透露着热闹，并偶遇了身世可怜的少年六六……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/eHkhTwKHpHL2h77wwfJ5CPGgstO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/iFVmttz2mnWnz1twTmEpZAPwapt.jpg",
+      "releaseDate": "2026-02-06",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1563614,
+      "type": "tmdb",
+      "title": "只爱你",
+      "description": "阿杰（黄曦彦 饰）曾是辍学两年的街头混混，人生写满了“没出息”；小光（张祎曈 饰）是活在自己安静世界里的少女，与喧嚣人世始终隔着一道无声的墙。一场强制的保安工作，让两条平行线意外交汇。爱让混世魔王变身专属骑士，也让沉默的少女第一次为爱勇敢发声。两个不被看好的人，一段不被看好的爱情，却成了彼此黑暗世界里唯一且最亮的光——“全世界都当我不存在，只有他，拼命想听见我的声音。”",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gmakYKR3JjobOgMXgBRoXMJE7gR.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    }
+  ]
 }
