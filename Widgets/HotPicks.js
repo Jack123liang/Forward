@@ -204,7 +204,7 @@ var WidgetMetadata = {
 // 实时榜单
 async function getTVRanking(params = {}) {
     try {       
-        const response = await Widget.http.get(`https://raw.githubusercontent.com/2kuai/ForwardWidgets/refs/heads/main/data/maoyan-data.json`, {
+        const response = await Widget.http.get(`https://github.com/Jack123liang/Forward/raw/refs/heads/main/data/maoyan-data.json`, {
             headers: {
                 "User-Agent": USER_AGENT,
                 "referer": "https://piaofang.maoyan.com/dashboard/web-heat"
@@ -278,7 +278,7 @@ async function getDoubanRecs(params = {}, mediaType) {
 async function getSuspenseTheater(params = {}) {
   try {
     const response = await Widget.http.get(
-      'https://raw.githubusercontent.com/2kuai/ForwardWidgets/main/data/theater-data.json',
+      'https://github.com/Jack123liang/Forward/raw/refs/heads/main/data/theater-data.json',
       {
         headers: {
           "User-Agent": USER_AGENT
@@ -351,7 +351,7 @@ async function getMovies(params = {}) {
     const type = params.sort;
     const sortBy = params.sort_by; // 获取排序方式
 
-    const response = await Widget.http.get('https://raw.githubusercontent.com/2kuai/ForwardWidgets/main/data/movies-data.json', {
+    const response = await Widget.http.get('https://github.com/Jack123liang/Forward/raw/refs/heads/main/data/movies-data.json', {
       headers: {
         "User-Agent": USER_AGENT
       }
