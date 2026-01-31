@@ -1,41 +1,24 @@
 name: Update Doulist Data
-
 on:
   schedule:
-    - cron: '0 16 * * *'  # 北京时间 00:00 (UTC+8)
-  workflow_dispatch:  # 允许手动触发
-
+    - cron: '0 1 * * *' # 每天凌晨更新一次即可，豆瓣不需要频繁更新
+  workflow_dispatch:
 jobs:
-  update-data:
+  build:
     runs-on: ubuntu-latest
-    env:
-      TZ: Asia/Shanghai
-      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-    
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          
-      - name: Install dependencies
+          node-version: 20
+      - run: npm install axios
+      - run: node scripts/update-doulist-data.js
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Commit
         run: |
-          npm install --no-package-lock --no-save axios cheerio
-          
-      - name: Create data directory
-        run: mkdir -p data
-        
-      - name: Update doulist data
-        run: |
-          node scripts/update-doulist-data.js
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/doulist-data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update doulist data [skip ci]" && git push)
+          git commit -m "Update Doulist Data" || echo "No changes"
+          git push
