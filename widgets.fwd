@@ -114,7 +114,7 @@
     {
       "id": "forward.auto.danmu_api",
       "title": "danmu_api弹幕",
-      "description": "danmu_api获取弹幕",
+      "description": "从danmu_api获取弹幕",
       "requiredVersion": "0.0.2",
       "version": "1.0.3",
       "author": "huangxd",
