@@ -1,4 +1,6 @@
-WidgetMetadata = {
+const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
+
+var WidgetMetadata = {
   id: "hot_picks",
   title: "热门精选",
   description: "获取最新热门影片推荐",
