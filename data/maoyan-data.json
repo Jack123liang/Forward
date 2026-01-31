@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T14:32:19.619+08:00",
+  "last_updated": "2026-01-31T14:34:36.892+08:00",
   "tv": {
     "全网": [
       {
@@ -598,17 +598,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "releaseDate": "2024-05-14",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 312066,
         "type": "tmdb",
         "title": "主咖和Ta的朋友们",
@@ -616,6 +605,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/swK14jY3w3pOuRwfScdhgpqiwgG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "releaseDate": "2026-01-24",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "releaseDate": "2024-05-14",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -903,17 +903,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 254532,
-        "type": "tmdb",
-        "title": "势均力敌的我们",
-        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
-        "releaseDate": "2024-05-14",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 312066,
         "type": "tmdb",
         "title": "主咖和Ta的朋友们",
@@ -921,6 +910,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/swK14jY3w3pOuRwfScdhgpqiwgG.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/qVOEDQRtXkZJtxXEw1KiQoBzhnp.jpg",
         "releaseDate": "2026-01-24",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 254532,
+        "type": "tmdb",
+        "title": "势均力敌的我们",
+        "description": "高颜值帅哥美女荒岛追爱！二十名单身男女在与世隔绝的荒野上展开一场十天十夜的寻爱之旅。在极限的生存压力和刺激下，他们将展露最真实的情感态度，面对爱情的选择与生存的挑战。在不断的淘汰危机和配对选择中，他们能否找到势均力敌的另一半？",
+        "posterPath": "https://image.tmdb.org/t/p/w500/jyauIZsO5ij5uVthOI3hgSVO1BS.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/3qbod3Mw3qprGZ8Q6i6RzjXqTyC.jpg",
+        "releaseDate": "2024-05-14",
         "rating": 0,
         "mediaType": "tv"
       },
