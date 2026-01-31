@@ -17,7 +17,7 @@ WidgetMetadata = {
   title: "danmu_api弹幕",
   version: "1.0.3",
   requiredVersion: "0.0.2",
-  description: "danmu_api获取弹幕",
+  description: "支持添加多条api并自命名&繁简互转",
   author: "huangxd",
   site: "https://github.com/huangxd-/ForwardWidgets",
   globalParams: [
