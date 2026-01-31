@@ -59,7 +59,7 @@ async function searchTMDB(showName) {
           ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
           : null, // 补全背景图
         releaseDate: bestMatch.first_air_date || bestMatch.release_date, // 补全日期
-        rating: bestMatch.vote_average,
+        rating: Math.round(bestMatch.vote_average), 
         mediaType: bestMatch.media_type || (bestMatch.name ? "tv" : "movie") // 补全类型
       };
     }
