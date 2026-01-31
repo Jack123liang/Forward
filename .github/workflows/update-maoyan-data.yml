@@ -17,11 +17,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Axios
-        run: npm install axios  # 确保手动安装依赖
+      - name: Install Dependencies
+        run: npm install axios  # 脚本里用了 axios，必须安装
 
       - name: Run Script
         run: node scripts/update-maoyan-data.js
+        env:
+          # 关键：这里必须把 GitHub 的 Secret 传递给脚本的环境变量
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }} 
 
       - name: Commit and Push
         run: |
