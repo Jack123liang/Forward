@@ -1,7 +1,7 @@
 {
   "title": "Jack's Widgets",
   "description": "影视榜单,流媒体top10,烂番茄好评榜，弹幕api-pro等追剧模块",
-  "icon": "https://github.com/MakkaPakka518/ForwardWidgets/raw/main/makka.png",
+  "icon": "https://raw.githubusercontent.com/Jack123liang/Forward/main/icon.png",
   "widgets": [
     {
       "id": "forward.combined.media.lists",
