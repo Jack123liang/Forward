@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 // --- 配置项 ---
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
-const TMDB_API_KEY = process.env.TMDB_API_KEY; // 请确保在 GitHub Secrets 中配置
+const TMDB_API_KEY = process.env.TMDB_API_KEY; 
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const TMDB_REQUEST_DELAY = 300; 
 const OUTPUT_PATH = path.join(process.cwd(), 'data', 'maoyan-data.json');
@@ -28,7 +28,7 @@ function cleanShowName(showName) {
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-// --- TMDB 搜索 ---
+// --- TMDB 搜索 (对齐原作者字段) ---
 async function searchTMDB(showName) {
   if (!TMDB_API_KEY) return null;
   try {
@@ -49,12 +49,18 @@ async function searchTMDB(showName) {
       const bestMatch = data.results[0];
       return {
         id: bestMatch.id,
+        type: "tmdb",
         title: bestMatch.name || bestMatch.title,
-        overview: bestMatch.overview,
+        description: bestMatch.overview, // 对齐原作者字段
         posterPath: bestMatch.poster_path 
           ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` 
           : null,
-        rating: bestMatch.vote_average
+        backdropPath: bestMatch.backdrop_path 
+          ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` 
+          : null, // 补全背景图
+        releaseDate: bestMatch.first_air_date || bestMatch.release_date, // 补全日期
+        rating: bestMatch.vote_average,
+        mediaType: bestMatch.media_type || (bestMatch.name ? "tv" : "movie") // 补全类型
       };
     }
     return null;
@@ -83,20 +89,24 @@ async function fetchPlatformData(platform, seriesType) {
       const rawList = response.data.dataList.list.filter(item => item.seriesInfo?.name);
       const enhancedShows = [];
 
-      for (const item of rawList.slice(0, 20)) { // 每个平台取前20名
+      for (const item of rawList.slice(0, 15)) { 
         const originalName = item.seriesInfo.name;
         const cleanedName = cleanShowName(originalName);
         
         await delay(TMDB_REQUEST_DELAY);
         const tmdbData = await searchTMDB(cleanedName);
 
-        // 核心修改：无论是否有 TMDB 数据，都保留猫眼数据
-        enhancedShows.push({
-          title: originalName,
-          heat: item.heatScore,
-          updown: item.heatUpdown,
-          ...(tmdbData || { note: "no_tmdb_match" }) 
-        });
+        // 如果 TMDB 有数据则使用，没有则创建保底数据
+        if (tmdbData) {
+            enhancedShows.push(tmdbData);
+        } else {
+            enhancedShows.push({
+                title: originalName,
+                description: "暂无简介",
+                type: "maoyan",
+                note: "no_tmdb_match"
+            });
+        }
       }
       return enhancedShows;
     }
@@ -109,29 +119,25 @@ async function fetchPlatformData(platform, seriesType) {
 
 // --- 主函数 ---
 async function main() {
-  console.log('🚀 开始更新猫眼数据...');
+  console.log('🚀 开始更新猫眼数据 (对齐原作者格式)...');
   
   const result = {
+    // 格式化时间戳
     last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
     tv: {},
     show: {}
   };
 
-  // 串行执行，避免请求过快被封 IP
   for (const p of PLATFORMS) {
-    result.tv[p.title] = await fetchPlatformData(p, '');    // 剧集
-    result.show[p.title] = await fetchPlatformData(p, '2'); // 综艺
+    result.tv[p.title] = await fetchPlatformData(p, '');    
+    result.show[p.title] = await fetchPlatformData(p, '2'); 
   }
 
-  // 确保目录存在
   const dir = path.dirname(OUTPUT_PATH);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-  // 保存数据
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(result, null, 2));
-  console.log(`✅ 数据更新成功！文件大小: ${(fs.statSync(OUTPUT_PATH).size / 1024).toFixed(2)} KB`);
+  console.log(`✅ 格式对齐成功！文件已存至: ${OUTPUT_PATH}`);
 }
 
 main().catch(error => {
