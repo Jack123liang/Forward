@@ -6,20 +6,18 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// --- 配置项 ---
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const OUTPUT_PATH = path.join(process.cwd(), 'data', 'doulist-data.json');
 
-// 你可以替换为你喜欢的豆瓣豆列 ID
+// --- 这里的 ID 必须是你要抓取的豆瓣豆列 ID ---
 const DOULISTS = [
-  { title: "豆瓣高分剧集", id: "1253915" },
-  { title: "近期热门电影", id: "3763172" }
+  { id: "526461", name: "惊悚恐怖片" },
+  { id: "1253915", name: "豆瓣高分剧集" } 
 ];
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-// --- TMDB 搜索 (对齐格式) ---
 async function searchTMDB(title) {
   if (!TMDB_API_KEY) return null;
   try {
@@ -37,7 +35,7 @@ async function searchTMDB(title) {
         posterPath: bestMatch.poster_path ? `https://image.tmdb.org/t/p/w500${bestMatch.poster_path}` : null,
         backdropPath: bestMatch.backdrop_path ? `https://image.tmdb.org/t/p/w500${bestMatch.backdrop_path}` : null,
         releaseDate: bestMatch.first_air_date || bestMatch.release_date,
-        rating: Math.round(bestMatch.vote_average),
+        rating: bestMatch.vote_average, // 保持原作者的小数格式
         mediaType: bestMatch.media_type || (bestMatch.name ? "tv" : "movie")
       };
     }
@@ -45,54 +43,57 @@ async function searchTMDB(title) {
   } catch (e) { return null; }
 }
 
-// --- 抓取豆瓣豆列 ---
-async function fetchDoulist(doulist) {
-  console.log(`正在抓取豆列: ${doulist.title}...`);
+async function fetchDoulist(dlInfo) {
+  console.log(`正在抓取豆列: ${dlInfo.name} (${dlInfo.id})...`);
   try {
-    const url = `https://www.douban.com/doulist/${doulist.id}/`;
+    const url = `https://www.douban.com/doulist/${dlInfo.id}/`;
     const response = await axios.get(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1',
-        'Host': 'www.douban.com'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
       }
     });
 
-    // 简单的正则匹配豆瓣页面中的电影标题
+    // 匹配豆瓣标题
     const titles = [...response.data.matchAll(/class="title">[\s\S]*?target="_blank">([\s\S]*?)<\/a>/g)]
       .map(m => m[1].trim())
-      .slice(0, 12); // 每个豆列取前12个
+      .slice(0, 15); 
 
-    const results = [];
+    const shows = [];
     for (const title of titles) {
-      console.log(`  🔍 搜索详情: ${title}`);
-      await delay(1000); // 豆瓣搜索要慢，否则会 403
+      console.log(`  🔍 匹配 TMDB: ${title}`);
+      await delay(1000); 
       const tmdb = await searchTMDB(title);
-      results.push(tmdb || { title, description: "豆瓣精选内容", type: "douban" });
+      if (tmdb) {
+        shows.push(tmdb);
+      }
     }
-    return results;
+    return {
+      name: dlInfo.name,
+      shows: shows
+    };
   } catch (e) {
-    console.error(`❌ 豆列 ${doulist.title} 抓取失败: ${e.message}`);
-    return [];
+    console.error(`❌ 抓取失败: ${e.message}`);
+    return null;
   }
 }
 
-// --- 主函数 ---
 async function main() {
-  const result = {
-    last_updated: new Date(Date.now() + 8 * 3600 * 1000).toISOString().replace('Z', '+08:00'),
-    lists: {}
-  };
+  const finalData = {};
 
   for (const dl of DOULISTS) {
-    result.lists[dl.title] = await fetchDoulist(dl);
-    await delay(2000); // 豆列之间增加停顿
+    const data = await fetchDoulist(dl);
+    if (data) {
+      // 按照原作者格式：以 ID 为 Key
+      finalData[dl.id] = data;
+    }
+    await delay(3000); 
   }
 
   const dir = path.dirname(OUTPUT_PATH);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(result, null, 2));
-  console.log(`✅ 豆瓣数据更新成功: ${OUTPUT_PATH}`);
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(finalData, null, 2));
+  console.log(`✅ 豆瓣数据对齐成功！`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
