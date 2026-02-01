@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-01T00:21:10.627+08:00",
+  "last_updated": "2026-02-02T00:22:56.781+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -8,9 +8,9 @@
       "originalTitle": "Greenland 2: Migration",
       "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
       "posterPath": "https://image.tmdb.org/t/p/w500/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/27MIBdzUkPzBC1PAYLpRtbyq7bq.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.59,
+      "rating": 6.527,
       "mediaType": "movie"
     },
     {
@@ -20,9 +20,9 @@
       "originalTitle": "Anaconda",
       "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/wdFQ1wTDX3mYjv3TX6OLLfrLqS9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.976,
+      "rating": 5.9,
       "mediaType": "movie"
     },
     {
@@ -32,9 +32,9 @@
       "originalTitle": "The SpongeBob Movie: Search for SquarePants",
       "description": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gbjK8p5S1aLXWCwOoXqr9aWZvqG.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
       "releaseDate": "2026-01-01",
-      "rating": 6.742,
+      "rating": 6.735,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dy8IFyfuaZoL5vWEXCoj0Uqafro.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 7.667,
+      "rating": 7.111,
       "mediaType": "movie"
     },
     {
@@ -58,19 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.667,
-      "mediaType": "movie"
-    },
-    {
-      "id": 680493,
-      "type": "tmdb",
-      "title": "重返寂静岭",
-      "originalTitle": "Return to Silent Hill",
-      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 5.169,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -82,7 +70,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 7.2,
+      "rating": 7.6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 680493,
+      "type": "tmdb",
+      "title": "重返寂静岭",
+      "originalTitle": "Return to Silent Hill",
+      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 5.191,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
       "releaseDate": "2025-12-24",
-      "rating": 6.7,
+      "rating": 6.677,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
       "releaseDate": "2025-12-24",
-      "rating": 7.055,
+      "rating": 7.046,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1305715,
-      "type": "tmdb",
-      "title": "过家家",
-      "originalTitle": "过家家",
-      "description": "在小城市长大的单亲男孩钟不凡一直想去北京闯荡一番，却因为家庭原因一直没能实现在一次与亲生父亲的争执中失手伤人，以为自己闯下大祸，仓皇逃匿，被命运捉弄阴错阳差地逃到了北京。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jTuu8wLW2RUg1IzX4IC7wqpsjIo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/dT3mUfkXKzUbDu4qlldRGXxePLj.jpg",
-      "releaseDate": "2026-01-01",
-      "rating": 7.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 804370,
       "type": "tmdb",
       "title": "时空奇旅",
@@ -154,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2026-01-17",
-      "rating": 7.9,
+      "rating": 7.841,
       "mediaType": "movie"
     },
     {
@@ -170,27 +158,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1537690,
+      "id": 1305715,
       "type": "tmdb",
-      "title": "爆水管",
-      "originalTitle": "爆水管",
-      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 604865,
-      "type": "tmdb",
-      "title": "星际变种",
-      "originalTitle": "星际变种",
-      "description": "　　2050年，地球上的迪希生物公司重金雇佣雷公号太空船，前往外太空搜捕外星生物——巴力。返回地球途中，船长儿子杰米无意将巴力释放，将雷公号上的人全部杀死。唯有杰米和船员寇克逃过一劫。\r 　　20年后，异形生物不断杀入地球重伤人类。迪希生物公司博士乔伊，在一次行动中认出了杰米并将他带回实验室。寇克在实验室出现，向杰米残忍的说明了20年前在空间站，自己利用他的好奇心把巴力放出来，杀死船员的故事。此时怪兽巴力脱离掌控，在实验室基地大肆杀戮。杰米如梦初醒，痛苦不已，决心报仇。\r 　　一场关乎人类命运的生死搏斗就此开始！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/28gSNOFVuO3FCSqdu00Z5AC6Dqh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3WIVpgMilWN5z8U3FzScKBebser.jpg",
-      "releaseDate": "2025-12-31",
-      "rating": 0,
+      "title": "过家家",
+      "originalTitle": "过家家",
+      "description": "在小城市长大的单亲男孩钟不凡一直想去北京闯荡一番，却因为家庭原因一直没能实现在一次与亲生父亲的争执中失手伤人，以为自己闯下大祸，仓皇逃匿，被命运捉弄阴错阳差地逃到了北京。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jTuu8wLW2RUg1IzX4IC7wqpsjIo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dT3mUfkXKzUbDu4qlldRGXxePLj.jpg",
+      "releaseDate": "2026-01-01",
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -206,6 +182,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 604865,
+      "type": "tmdb",
+      "title": "星际变种",
+      "originalTitle": "星际变种",
+      "description": "　　2050年，地球上的迪希生物公司重金雇佣雷公号太空船，前往外太空搜捕外星生物——巴力。返回地球途中，船长儿子杰米无意将巴力释放，将雷公号上的人全部杀死。唯有杰米和船员寇克逃过一劫。\r 　　20年后，异形生物不断杀入地球重伤人类。迪希生物公司博士乔伊，在一次行动中认出了杰米并将他带回实验室。寇克在实验室出现，向杰米残忍的说明了20年前在空间站，自己利用他的好奇心把巴力放出来，杀死船员的故事。此时怪兽巴力脱离掌控，在实验室基地大肆杀戮。杰米如梦初醒，痛苦不已，决心报仇。\r 　　一场关乎人类命运的生死搏斗就此开始！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/28gSNOFVuO3FCSqdu00Z5AC6Dqh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3WIVpgMilWN5z8U3FzScKBebser.jpg",
+      "releaseDate": "2025-12-31",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1537690,
+      "type": "tmdb",
+      "title": "爆水管",
+      "originalTitle": "爆水管",
+      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1537396,
       "type": "tmdb",
       "title": "情圣3",
@@ -218,18 +218,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1443959,
-      "type": "tmdb",
-      "title": "马腾你别走",
-      "originalTitle": "马腾你别走",
-      "description": "行动不便的钢厂退休骨干老林（李幼斌 饰）虽衣食无忧却整日郁郁寡欢，在一场乌龙护工面试中，与空有满脑子 “无用知识”、做事总半途而废的闲人马腾（林更新 饰）相遇。初逢闹剧，二人从误解频出到相互扶持，在一段特殊的旅程中，两人打破年龄与身份隔阂，成为彼此的依靠与慰藉，共同演绎出一场跨越生死的“忘年交”，也在彼此身上找到了直面病痛与死亡、继续勇敢生活的力量。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4JMf7bSHXxK4b3g5KW4BBLZMlOa.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/aXrDbwKv8t7oBO7CumI66rFbtfo.jpg",
-      "releaseDate": "2026-01-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1249173,
       "type": "tmdb",
       "title": "我的朋友安德烈",
@@ -238,6 +226,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
       "releaseDate": "2026-01-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1443959,
+      "type": "tmdb",
+      "title": "马腾你别走",
+      "originalTitle": "马腾你别走",
+      "description": "行动不便的钢厂退休骨干老林（李幼斌 饰）虽衣食无忧却整日郁郁寡欢，在一场乌龙护工面试中，与空有满脑子 “无用知识”、做事总半途而废的闲人马腾（林更新 饰）相遇。初逢闹剧，二人从误解频出到相互扶持，在一段特殊的旅程中，两人打破年龄与身份隔阂，成为彼此的依靠与慰藉，共同演绎出一场跨越生死的“忘年交”，也在彼此身上找到了直面病痛与死亡、继续勇敢生活的力量。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4JMf7bSHXxK4b3g5KW4BBLZMlOa.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/aXrDbwKv8t7oBO7CumI66rFbtfo.jpg",
+      "releaseDate": "2026-01-01",
       "rating": 0,
       "mediaType": "movie"
     }
