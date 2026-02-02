@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T00:22:56.781+08:00",
+  "last_updated": "2026-02-03T00:33:00.008+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -7,10 +7,10 @@
       "title": "末日逃生2：迁移",
       "originalTitle": "Greenland 2: Migration",
       "description": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/AnwAqaPQyM4ugJ5V5vtdqylFW4J.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/27MIBdzUkPzBC1PAYLpRtbyq7bq.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.527,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -20,9 +20,21 @@
       "originalTitle": "Anaconda",
       "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/wdFQ1wTDX3mYjv3TX6OLLfrLqS9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
       "rating": 5.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1271895,
+      "type": "tmdb",
+      "title": "96分钟：列车爆炸案",
+      "originalTitle": "96分鐘",
+      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
+      "releaseDate": "2026-01-10",
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -34,31 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
       "releaseDate": "2026-01-01",
-      "rating": 6.735,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1271895,
-      "type": "tmdb",
-      "title": "96分钟：列车爆炸案",
-      "originalTitle": "96分鐘",
-      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/dy8IFyfuaZoL5vWEXCoj0Uqafro.jpg",
-      "releaseDate": "2026-01-10",
-      "rating": 7.111,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1236153,
-      "type": "tmdb",
-      "title": "极限审判",
-      "originalTitle": "Mercy",
-      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
-      "releaseDate": "2026-01-20",
-      "rating": 6.5,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -70,7 +58,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 7.6,
+      "rating": 7.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1236153,
+      "type": "tmdb",
+      "title": "极限审判",
+      "originalTitle": "Mercy",
+      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
+      "releaseDate": "2026-01-20",
+      "rating": 6.598,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mHEtettQs3qwX3IGT7KTwbxgaOL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zWe8ynGlGH3KP896jHCemxnOvCo.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.191,
+      "rating": 5.238,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
       "releaseDate": "2025-12-24",
-      "rating": 6.677,
+      "rating": 6.682,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
       "releaseDate": "2025-12-24",
-      "rating": 7.046,
+      "rating": 7.002,
       "mediaType": "movie"
     },
     {
@@ -142,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2026-01-17",
-      "rating": 7.841,
+      "rating": 7.821,
       "mediaType": "movie"
     },
     {
@@ -154,7 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
       "releaseDate": "2024-06-08",
-      "rating": 7.973,
+      "rating": 7.975,
       "mediaType": "movie"
     },
     {
@@ -214,7 +214,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p3sdbpDWYdOkrSkAnNydcwH7cvJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a0ua4gW6Znjt11r2DQTapV5VaEz.jpg",
       "releaseDate": "2025-12-20",
-      "rating": 4.25,
+      "rating": 3.8,
       "mediaType": "movie"
     },
     {
@@ -230,15 +230,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1443959,
+      "id": 1530787,
       "type": "tmdb",
-      "title": "马腾你别走",
-      "originalTitle": "马腾你别走",
-      "description": "行动不便的钢厂退休骨干老林（李幼斌 饰）虽衣食无忧却整日郁郁寡欢，在一场乌龙护工面试中，与空有满脑子 “无用知识”、做事总半途而废的闲人马腾（林更新 饰）相遇。初逢闹剧，二人从误解频出到相互扶持，在一段特殊的旅程中，两人打破年龄与身份隔阂，成为彼此的依靠与慰藉，共同演绎出一场跨越生死的“忘年交”，也在彼此身上找到了直面病痛与死亡、继续勇敢生活的力量。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4JMf7bSHXxK4b3g5KW4BBLZMlOa.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/aXrDbwKv8t7oBO7CumI66rFbtfo.jpg",
-      "releaseDate": "2026-01-01",
-      "rating": 0,
+      "title": "匿杀",
+      "originalTitle": "匿杀",
+      "description": "　　地狱空荡荡，恶魔在人间。十五年前，一群身份各异的罪恶权贵将都马市染黑成一座“地狱岛”，高中生晓笛惨遭权贵凌辱致死；十五年后，这些背后操盘者接连惨死，死状惨烈。曾目睹十五年前命案的方天阳与警官方正楠深入调查，惊觉这桩匿名杀人案不只是单纯的复仇，更是一场迟到的控诉。桩桩命案，层层黑幕，那张权力、金钱、欲望织就的黑色秘网背后究竟藏着多少不为人知的罪孽？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wz7DchRv3sXIH87LyjhhxJdrVGk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/CZUyZdTBeOhr29KFjcsVjexEFE.jpg",
+      "releaseDate": "2025-12-27",
+      "rating": 6,
       "mediaType": "movie"
     }
   ],
@@ -268,18 +268,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "originalTitle": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fULsIKIX0F47Fzh759lOjqGOu68.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划之部落奇遇记",
@@ -287,6 +275,18 @@
       "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
       "posterPath": "https://image.tmdb.org/t/p/w500/uESXCRJ5WPmys6S4ivY6lO8MAKh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359005,
+      "type": "tmdb",
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fULsIKIX0F47Fzh759lOjqGOu68.jpg",
+      "backdropPath": null,
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -352,18 +352,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1607088,
-      "type": "tmdb",
-      "title": "熊出没·年年有熊",
-      "originalTitle": "熊出没·年年有熊",
-      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1614368,
       "type": "tmdb",
       "title": "喜欢上“欠欠”的你",
@@ -384,6 +372,30 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
       "backdropPath": null,
       "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 485289,
+      "type": "tmdb",
+      "title": "重返·狼群",
+      "originalTitle": "重返·狼群",
+      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
+      "releaseDate": "2017-06-16",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1607088,
+      "type": "tmdb",
+      "title": "熊出没·年年有熊",
+      "originalTitle": "熊出没·年年有熊",
+      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5CQwamd3nlDkAvGAopJU4qvdHLm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
+      "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
     },
