@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://api.themoviedb.org/$1?api_key=6358fd374e1372bd48effd9e21521917" }
+    { 
+      "source": "/api/tmdb/(.*)", 
+      "destination": "https://api.themoviedb.org/$1?api_key=6358fd374e1372bd48effd9e21521917" 
+    }
   ]
 }
