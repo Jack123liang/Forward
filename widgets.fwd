@@ -4,13 +4,13 @@
   "icon": "https://raw.githubusercontent.com/Jack123liang/Forward/main/icon.png",
   "widgets": [
     {
-      "id": "forward.combined.media.lists",
-      "title": "影视榜单",
-      "description": "影视动画榜单。",
+      "id": "Move_lists_unlocked",
+      "title": "影视榜单 (2.0全功能版)",
+      "description": "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
       "requiredVersion": "0.0.2",
       "version": "1.5.1",
-      "author": "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_list.js"
+      "author": "Modified",
+      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_lists.js"
     },
     {
       "id": "trakt_personal_key",
@@ -20,6 +20,15 @@
       "version": "1.0.7",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/traktkey.js"
+    },
+    {
+      "id": "forward.combined.media.lists",
+      "title": "影视榜单",
+      "description": "影视动画榜单。",
+      "requiredVersion": "0.0.2",
+      "version": "1.5.1",
+      "author": "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
+      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_list.js"
     },
     {
       "id": "trakt_personal_mixed",
