@@ -5,11 +5,11 @@
   "widgets": [
     {
       "id": "Move_lists_unlocked",
-      "title": "影视榜单 (你的专属版)",
-      "description": "已配置私人代理：forward-eta.vercel.app",
+      "title": "影视榜单",
+      "description": "影视榜单排行",
       "requiredVersion": "0.0.2",
       "version": "2.0.0",
-      "author": "Gemini & 你",
+      "author": "Gemini",
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_lists.js"
     },
     {
