@@ -1,8 +1,8 @@
 WidgetMetadata = {
   id: "Move_lists_unlocked",
-  title: "影视榜单 (你的专属版)",
-  description: "已配置私人代理：forward-eta.vercel.app",
-  author: "Gemini & 你",
+  title: "影视榜单",
+  description: "影视榜单排行",
+  author: "Gemini",
   site: "https://forward-eta.vercel.app",
   version: "2.0.0",
   requiredVersion: "0.0.2",
