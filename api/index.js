@@ -1,6 +1,7 @@
 export default async function handler(req, res) {
   const { path = '/3/trending/all/day' } = req.query;
-  const apiKey = process.env.TMDB_API_KEY; // 自动读取你刚才设置的变量
+  // 直接写死 Key，不再依赖环境变量，排除所有干扰因素
+  const apiKey = '6358fd374e1372bd48effd9e21521917'; 
   const url = `https://api.themoviedb.org${path}${path.includes('?') ? '&' : '?'}api_key=${apiKey}&language=zh-CN`;
   
   try {
@@ -8,6 +9,7 @@ export default async function handler(req, res) {
     const data = await response.json();
     res.status(200).json(data);
   } catch (error) {
-    res.status(500).json({ error: "Failed to fetch data from TMDB" });
+    res.status(500).json({ error: "Connect to TMDB failed" });
   }
 }
+
