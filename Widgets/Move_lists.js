@@ -1,145 +1,106 @@
 WidgetMetadata = {
-  id: "Move_lists",
-  title: "影视榜单",
-  description: "白名单用户独享模块",
-  author: "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
+  id: "Move_lists_unlocked",
+  title: "影视榜单 (2.0全功能版)",
+  description: "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
+  author: "Modified",
   site: "https://for-ward.vercel.app",
   version: "2.0.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
-  modules: [    
-export default = [
-  // ======================
-  // 今日热门电影
-  // ======================
-const TMDB_API_KEY = "6358fd374e1372bd48effd9e21521917";
-const TMDB_BASE_URL = "https://api.themoviedb.org/3";
-const DEFAULT_LANGUAGE = "zh-CN";
-
-// 通用请求函数
-async function fetchTMDB(endpoint, params = {}) {
-    const url = new URL(`${TMDB_BASE_URL}${endpoint}`);
-    params.api_key = TMDB_API_KEY;
-    params.language = params.language || DEFAULT_LANGUAGE;
-
-    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
-
-    try {
-        const response = await fetch(url.toString());
-        const data = await response.json();
-        return data;
-    } catch (err) {
-        console.error("TMDB请求失败:", err);
-        return null;
+  modules: [
+    // --- 热门模块 ---
+    {
+      title: "TMDB 热门剧集",
+      description: "今日热门电视剧",
+      requiresWebView: false,
+      functionName: "loadTodayHotTV",
+      cacheDuration: 3600,
+      params: [
+        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        { 
+          name: "sort_by", title: "地区", type: "enumeration", 
+          enumOptions: [
+            { title: "全部", value: "" }, { title: "中国", value: "CN" }, { title: "美国", value: "US" },
+            { title: "韩国", value: "KR" }, { title: "日本", value: "JP" }, { title: "中国香港", value: "HK" }, { title: "中国台湾", value: "TW" }
+          ], value: "" 
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
+    {
+      title: "TMDB 热门电影",
+      description: "今日热门电影",
+      requiresWebView: false,
+      functionName: "loadTodayHotMovies",
+      cacheDuration: 3600,
+      params: [
+        { name: "language", title: "语言", type: "language", value: "zh-CN" },
+        { 
+          name: "sort_by", title: "地区", type: "enumeration", 
+          enumOptions: [
+            { title: "全部", value: "" }, { title: "中国", value: "CN" }, { title: "美国", value: "US" },
+            { title: "中国香港", value: "HK" }, { title: "中国台湾", value: "TW" }, { title: "韩国", value: "KR" }
+          ], value: "" 
+        },
+        { name: "page", title: "页码", type: "page" }
+      ]
+    },
+    // --- 2.0.0 特色：播出平台模块 ---
+    {
+        title: "TMDB 播出平台",
+        description: "按播出平台筛选剧集内容",
+        requiresWebView: false,
+        functionName: "tmdbDiscoverByNetwork",
+        cacheDuration: 3600,
+        params: [
+            {
+                name: "with_networks", title: "播出平台", type: "enumeration", value: "",
+                enumOptions: [
+                    { title: "Netflix", value: "213" }, { title: "Disney+", value: "2739" }, { title: "HBO", value: "49" },
+                    { title: "Tencent", value: "2007" }, { title: "iQiyi", value: "1330" }, { title: "Youku", value: "1419" },
+                    { title: "Bilibili", value: "1605" }, { title: "Apple TV+", value: "2552" }
+                ]
+            },
+            { name: "page", title: "页码", type: "page" }
+        ]
     }
+  ]
+};
+
+/**
+ * 后端逻辑函数 (移除了所有 userId 校验)
+ */
+
+async function loadTodayHotTV(params) {
+    const { language, sort_by, page } = params;
+    // 使用 forward 官方中转 API 以确保稳定性
+    const url = `https://for-ward.vercel.app/api/tmdb/trending/tv/day?language=${language}&page=${page}&region=${sort_by}`;
+    const res = await Widget.http.get(url);
+    return formatTMDBData(res.data.results);
 }
 
-// 数据映射
-function mapMoviesToForward(movies) {
-    return movies.map(movie => ({
-        title: movie.title || movie.name,
-        description: movie.overview,
-        poster: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : "",
-        movieId: movie.id,
-        type: "movie"
+async function loadTodayHotMovies(params) {
+    const { language, sort_by, page } = params;
+    const url = `https://for-ward.vercel.app/api/tmdb/trending/movie/day?language=${language}&page=${page}&region=${sort_by}`;
+    const res = await Widget.http.get(url);
+    return formatTMDBData(res.data.results);
+}
+
+async function tmdbDiscoverByNetwork(params) {
+    const { with_networks, page, language = "zh-CN" } = params;
+    const url = `https://for-ward.vercel.app/api/tmdb/discover/tv?with_networks=${with_networks}&page=${page}&language=${language}`;
+    const res = await Widget.http.get(url);
+    return formatTMDBData(res.data.results);
+}
+
+// 辅助函数：统一数据格式
+function formatTMDBData(items) {
+    return items.map(item => ({
+        title: item.title || item.name,
+        image: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
+        description: item.overview,
+        rating: item.vote_average,
+        id: item.id,
+        type: item.media_type || (item.title ? "movie" : "tv")
     }));
 }
-
-// 热门电影
-async function loadTodayHotMovies(region = "", page = 1) {
-    const data = await fetchTMDB("/trending/movie/day", { region, page });
-    if (!data || !data.results) return [];
-    return mapMoviesToForward(data.results);
-}
-
-// 排行榜
-async function loadTopRatedMovies(region = "", page = 1) {
-    const data = await fetchTMDB("/movie/top_rated", { region, page });
-    if (!data || !data.results) return [];
-    return mapMoviesToForward(data.results);
-}
-
-// 分类
-const GENRES = {
-    comedy: 35,
-    action: 28,
-    drama: 18,
-    romance: 10749
-};
-
-const LANGUAGES = {
-    korea: "ko",
-    japan: "ja",
-    china: "zh",
-    usa: "en"
-};
-
-async function loadMoviesByType(genre, language = "", page = 1) {
-    const params = { page };
-    if (GENRES[genre]) params.with_genres = GENRES[genre];
-    if (LANGUAGES[language]) params.with_original_language = LANGUAGES[language];
-
-    const data = await fetchTMDB("/discover/movie", params);
-    if (!data || !data.results) return [];
-    return mapMoviesToForward(data.results);
-}
-
-// Forward UI 配置
-const forwardUI = [
-    {
-        title: "TMDB 热门电影",
-        description: "今日热门电影",
-        requiresWebView: false,
-        functionName: "loadTodayHotMovies",
-        cacheDuration: 3600,
-        params: [
-            { name: "region", title: "地区", type: "enumeration", enumOptions: [
-                { title: "全部地区", value: "" },
-                { title: "中国", value: "CN" },
-                { title: "美国", value: "US" },
-                { title: "韩国", value: "KR" },
-                { title: "日本", value: "JP" }
-            ], value: "" },
-            { name: "page", title: "页码", type: "page" }
-        ]
-    },
-    {
-        title: "TMDB 排行榜",
-        description: "高评分电影",
-        requiresWebView: false,
-        functionName: "loadTopRatedMovies",
-        cacheDuration: 3600,
-        params: [
-            { name: "region", title: "地区", type: "enumeration", enumOptions: [
-                { title: "全部地区", value: "" },
-                { title: "中国", value: "CN" },
-                { title: "美国", value: "US" },
-                { title: "韩国", value: "KR" },
-                { title: "日本", value: "JP" }
-            ], value: "" },
-            { name: "page", title: "页码", type: "page" }
-        ]
-    },
-    {
-        title: "按类型分类",
-        description: "喜剧、动作、韩剧、日剧等",
-        requiresWebView: false,
-        functionName: "loadMoviesByType",
-        cacheDuration: 3600,
-        params: [
-            { name: "genre", title: "类型", type: "enumeration", enumOptions: [
-                { title: "喜剧", value: "comedy" },
-                { title: "动作", value: "action" },
-                { title: "剧情", value: "drama" },
-                { title: "爱情", value: "romance" }
-            ], value: "comedy" },
-            { name: "language", title: "语言", type: "enumeration", enumOptions: [
-                { title: "韩国", value: "korea" },
-                { title: "日本", value: "japan" },
-                { title: "中国", value: "china" },
-                { title: "美国", value: "usa" }
-            ], value: "korea" },
-            { name: "page", title: "页码", type: "page" }
-        ]
-    }
-];
