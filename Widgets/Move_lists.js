@@ -3,7 +3,7 @@ WidgetMetadata = {
   title: "影视榜单 (2.0全功能版)",
   description: "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
   author: "Modified",
-  site: "https://forward-381iux63r-liang-jackies-projects.vercel.app/api?path=",
+  site: "https://forward-eta.vercel.app/api?path=",
   version: "2.0.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
