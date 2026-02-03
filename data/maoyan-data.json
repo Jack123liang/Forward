@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03T14:45:50.034+08:00",
+  "last_updated": "2026-02-03T20:53:16.889+08:00",
   "tv": {
     "全网": [
       {
@@ -271,6 +271,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 261676,
+        "type": "tmdb",
+        "title": "风过留痕",
+        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+        "releaseDate": "2026-02-03",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 279136,
         "type": "tmdb",
         "title": "轧戏",
@@ -323,17 +334,6 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/bbSaCxOIew0PfkG2kie7h1Gf3gf.jpg",
         "releaseDate": "2025-12-12",
         "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 312002,
-        "type": "tmdb",
-        "title": "唐朝诡事录之长安",
-        "description": "先天二年夏秋之交，天子虽已登基，但大长公主势力更盛，长安局势阴晴难定。卢凌风（杨旭文 饰）和苏无名（杨志刚 饰），奉命带着由裴喜君、费鸡师、樱桃和薛环组成的探案小队，以护送康国所献金桃的名义重返长安。繁华的长安，卢凌风复职雍州司法参军，苏无名则被授予一个特殊的官职，同时叫费鸡师出任酥山店掌柜，并将店铺设置成全长安的暗探情报中心。卢苏二人推出新政，开启环城探案模式，深入长安各坊，接触到了更广泛的百姓和民生，也借此避开了天子与大长公主的争斗。在历经康国的金桃、成佛寺的哭声、白泽的踪迹、食尾蛇、解忧店等多宗疑案后，最终长安的风云汇聚到事关朝堂的盛世马球案。卢凌风和苏无名，不得不直面这个刀光剑影的秋天以及各自的命运，并为此付出了沉重的代价。即使历经风雨，但他们终究在万年长安大观盛唐，护佑百姓的初心始终没有改变。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tarDJfifT8bvxKd4QHlMF1XfIAG.jpg",
-        "backdropPath": null,
-        "releaseDate": "2025-11-08",
-        "rating": 0,
         "mediaType": "tv"
       }
     ],
@@ -405,6 +405,17 @@
         "mediaType": "tv"
       },
       {
+        "id": 261676,
+        "type": "tmdb",
+        "title": "风过留痕",
+        "description": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+        "releaseDate": "2026-02-03",
+        "rating": 9,
+        "mediaType": "tv"
+      },
+      {
         "id": 124595,
         "type": "tmdb",
         "title": "御赐小仵作",
@@ -434,17 +445,6 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/eSQZNHm6dz3sd4kdZHFWQOcS6S0.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/eAaqNJWPxxzPyJdsKwhIcYp7aHG.jpg",
         "releaseDate": "2025-12-15",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 309609,
-        "type": "tmdb",
-        "title": "长河落日",
-        "description": "1942年3月19日傍晚， 一架载有笃信者的盟军飞机飞抵仰光机场，降落之时发现机场已被日军占领，奋起复飞，不料第二天最高当局却收到了飞机被击落的AAAA级电报，引起了当局极大恐慌，笃信者此次的使命是向中国战区最高当局送达一份绝密的行动方案及联络密码，当局命令军事情报部门不惜一切代价，查到失踪飞机和笃信者的下落。笃信者此次携带的便是行动的全部计划、与太平洋上的航母编队以及与执行轰炸任务的轰炸机编队的联系密码， 一旦这份文件落入日军手中，不但轰炸东京计划将失败，还会使得整个护送舰队沦为日军嘴里的待宰羔羊！笃信者受伤跳伞，降落到了日军海军第六航空基地驻守的三灶岛，被当地岛民营救并藏匿。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/hE7hiQ8c4MSNuSYp3mSfcZ1Qm5o.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/9aludN1SsftAqpw73f7zrpKTB83.jpg",
-        "releaseDate": "2026-01-01",
         "rating": 8,
         "mediaType": "tv"
       }
@@ -539,17 +539,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 310963,
-        "type": "tmdb",
-        "title": "看得见风景的窗",
-        "description": "“横漂”失败的剧组统筹林笠为照顾外婆，回到浙江海岛接手濒临倒闭的“望海民宿”。在机缘巧合下，她接下了为文艺片导演顾远堪景的向导工作。两人从最初的理念不合到相互理解，最终携手共同创作，也在诗意的海岛风景中重拾了对生活和事业的热情，在返乡过程中重新发现家乡之美、实现人生价值。海浪裹挟着心底的悸动，一次次漫过礁石，也漫过两颗逐渐靠近的心，一场关于海岛、梦想与心动的浪漫之旅正式开启。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/gwiBbMkEhMk1Lfu0S2gsWsJgUp.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/q26tcczglYxOMBOXerA4gaOjAm5.jpg",
-        "releaseDate": "2026-01-15",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 240686,
         "type": "tmdb",
         "title": "锦月如歌",
@@ -558,6 +547,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/mwiG510fVcOrzWUSDSV7B5tRMrb.jpg",
         "releaseDate": "2025-08-06",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 310963,
+        "type": "tmdb",
+        "title": "看得见风景的窗",
+        "description": "“横漂”失败的剧组统筹林笠为照顾外婆，回到浙江海岛接手濒临倒闭的“望海民宿”。在机缘巧合下，她接下了为文艺片导演顾远堪景的向导工作。两人从最初的理念不合到相互理解，最终携手共同创作，也在诗意的海岛风景中重拾了对生活和事业的热情，在返乡过程中重新发现家乡之美、实现人生价值。海浪裹挟着心底的悸动，一次次漫过礁石，也漫过两颗逐渐靠近的心，一场关于海岛、梦想与心动的浪漫之旅正式开启。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/gwiBbMkEhMk1Lfu0S2gsWsJgUp.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/q26tcczglYxOMBOXerA4gaOjAm5.jpg",
+        "releaseDate": "2026-01-15",
+        "rating": 0,
         "mediaType": "tv"
       }
     ]
@@ -631,24 +631,7 @@
         "mediaType": "tv"
       },
       {
-        "id": 114473,
-        "type": "tmdb",
-        "title": "名侦探学院",
-        "description": "《名侦探学院》作为《明星大侦探》第五季的衍生节目，是由芒果TV推出的选拔侦探助理参与《明星大侦探》节目录制的明星推理综艺秀。明星嘉宾在棋格上通过掷骰子决定前进步数，触发游戏时需要完成相应游戏，率先达到终点的嘉宾成为当期No.1，节目结合团队战与个人战的竞赛形式，激发明星嘉宾的智商与逻辑能力的较量。节目中抉择出的No.1将出现在《明星大侦探》第五季的现场。《名侦探学院》由蒲熠星、周峻纬、唐九洲、齐思钧、石凯、郭文韬、邵明明等组成首发阵容，于2019年11月3日首播。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wuUvhZ2WLqX1z0b1NXkapWoov9j.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hHTfyEC8WWB8XZUkqFNidYDL8MP.jpg",
-        "releaseDate": "2019-11-03",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
         "title": "快乐老友·有风季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "有你的恋歌Ⅱ",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -663,6 +646,23 @@
         "releaseDate": "2025-10-18",
         "rating": 0,
         "mediaType": "tv"
+      },
+      {
+        "id": 257161,
+        "type": "tmdb",
+        "title": "喜人奇妙夜",
+        "description": "《喜人奇妙夜》是由腾讯视频、米未联合出品的一档原创新喜剧综艺，黄渤、秦昊、贾冰、高圆圆、马东、金靖、宋木子将作为观众代表，除此之外，每期还有一位神秘观众代表，陪伴大家度过一个又一个的喜剧奇妙夜晚！节目秉持“只要大声笑，烦恼都丢掉”的宗旨，喜剧小队们将围绕最具热点和最有共鸣的情绪主题演绎喜剧作品，用喜剧解构一切！",
+        "posterPath": "https://image.tmdb.org/t/p/w500/nQFCp0Tlfqq3NhF2kiNAGwXLfnX.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/2l2KlVJAmGrnnhURaMfESslMVh3.jpg",
+        "releaseDate": "2024-06-28",
+        "rating": 6,
+        "mediaType": "tv"
+      },
+      {
+        "title": "音乐缘计划2",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
       }
     ],
     "优酷": [
@@ -689,17 +689,6 @@
         "mediaType": "tv"
       },
       {
-        "id": 301245,
-        "type": "tmdb",
-        "title": "快乐趣吹风",
-        "description": "6个半熟男人组成吹风团奔赴海岛体验一场奇特的生活实验。在每天不同的“人生减法”冲击里，开启爆笑的成长与蜕变，丢掉生活里的桎梏，找到生活中的宝贵。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
-        "releaseDate": "2025-10-03",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 155660,
         "type": "tmdb",
         "title": "最强大脑",
@@ -708,6 +697,17 @@
         "backdropPath": "https://image.tmdb.org/t/p/w500/7J7h3wvRJd92ELg9uaWbf7W1t8L.jpg",
         "releaseDate": "2014-01-03",
         "rating": 8,
+        "mediaType": "tv"
+      },
+      {
+        "id": 301245,
+        "type": "tmdb",
+        "title": "快乐趣吹风",
+        "description": "6个半熟男人组成吹风团奔赴海岛体验一场奇特的生活实验。在每天不同的“人生减法”冲击里，开启爆笑的成长与蜕变，丢掉生活里的桎梏，找到生活中的宝贵。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/vcvEdgfO9k4mnNOjzk63HNPuTIh.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/uPDdUEWDreG4fmSwfQBUqH3nEVT.jpg",
+        "releaseDate": "2025-10-03",
+        "rating": 0,
         "mediaType": "tv"
       },
       {
@@ -1027,17 +1027,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "id": 307202,
-        "type": "tmdb",
-        "title": "老板是新人",
-        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
-        "releaseDate": "2025-11-29",
-        "rating": 0,
-        "mediaType": "tv"
-      },
-      {
         "id": 300172,
         "type": "tmdb",
         "title": "声鸣远扬2025",
@@ -1045,6 +1034,17 @@
         "posterPath": "https://image.tmdb.org/t/p/w500/rssDsf0K9X6qjI9eCFw7kw07q21.jpg",
         "backdropPath": "https://image.tmdb.org/t/p/w500/hYwGacBAVQHPGhqFRkQpvELRBpL.jpg",
         "releaseDate": "2025-11-09",
+        "rating": 0,
+        "mediaType": "tv"
+      },
+      {
+        "id": 307202,
+        "type": "tmdb",
+        "title": "老板是新人",
+        "description": "一档以青年企业家成长为主线的纪实类真人秀。节目将邀请六组来自不同行业的青年代表。他们将在真实企业环境中直面任务：处理前辈的期待与现实的压力，寻找市场的突破，用新的经营逻辑应对机制升级。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/rTbUcYjWpyvVujgibv72RXHyu9r.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/kAAAO9uceKEtrwazkFOmv2VYdcN.jpg",
+        "releaseDate": "2025-11-29",
         "rating": 0,
         "mediaType": "tv"
       },
@@ -1081,13 +1081,13 @@
         "mediaType": "tv"
       },
       {
-        "id": 307946,
+        "id": 306823,
         "type": "tmdb",
-        "title": "源来是你·青春季",
-        "description": "本节目是一档乡村文旅探索真人秀，以“文旅、美食、文创促进县域振兴”为主线。以广东省河源市东源县为拍摄地，聚焦在乡村挖掘当地宝藏特产、将地方特色农产品转化为潮流饮品、小吃。六位青年艺人受邀深入乡村，联合本地村民，以东源新产业“餐车”为载体，通过创意饮品开发、产品打样、文旅推广等手段，发展当地的村咖餐车产业、推广当地特产，通过体验农事劳作、入户走访、与村民共创产品、搭建销售平台，并在最后以“东源推介会”的形式向全国媒体推介东源特色农品，完成一次“青春版”的文创美食产品孵化全过程。该节目的所有行动路径和创业任务，皆以当地真实资源与条件为基础，联合当地政府、村民共同策划与执行，具有较强的纪实与可复制性。同时通过在东源展开的乡村之旅，挖掘乡村文旅的潜力、绘就乡村振兴的“诗画卷”。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/nPLJ5DPTmeJW7FSpeFg958ln3vT.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fv4T3hjfySPSX1tCkw8NBT1f1Sm.jpg",
-        "releaseDate": "2025-12-10",
+        "title": "在恋爱开始之前",
+        "description": "一场呈现全新“恋综101”格局的大型相亲社交实验真人秀。每位女嘉宾需要跟随内心在9个男嘉宾中找到唯一的答案。",
+        "posterPath": "https://image.tmdb.org/t/p/w500/kzLYvsyP40ZqGrSb9yPm8APV941.jpg",
+        "backdropPath": "https://image.tmdb.org/t/p/w500/7OAAtBUL4TL0VLDdYBSB8CfQOsd.jpg",
+        "releaseDate": "2025-11-25",
         "rating": 0,
         "mediaType": "tv"
       }
