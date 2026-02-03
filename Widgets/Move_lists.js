@@ -1,14 +1,13 @@
 WidgetMetadata = {
   id: "Move_lists_unlocked",
-  title: "影视榜单 (2.0全功能版)",
-  description: "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
-  author: "Modified",
+  title: "影视榜单 (你的专属版)",
+  description: "已配置私人代理：forward-eta.vercel.app",
+  author: "Gemini & 你",
   site: "https://forward-eta.vercel.app",
   version: "2.0.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
   modules: [
-    // --- 热门模块 ---
     {
       title: "TMDB 热门剧集",
       description: "今日热门电视剧",
@@ -45,7 +44,6 @@ WidgetMetadata = {
         { name: "page", title: "页码", type: "page" }
       ]
     },
-    // --- 2.0.0 特色：播出平台模块 ---
     {
         title: "TMDB 播出平台",
         description: "按播出平台筛选剧集内容",
@@ -68,33 +66,33 @@ WidgetMetadata = {
 };
 
 /**
- * 后端逻辑函数 (移除了所有 userId 校验)
+ * 后端逻辑函数 - 已指向你的私人域名 forward-eta
  */
 
 async function loadTodayHotTV(params) {
     const { language, sort_by, page } = params;
-    // 使用 forward 官方中转 API 以确保稳定性
-    const url = `https://for-ward.vercel.app/api/tmdb/trending/tv/day?language=${language}&page=${page}&region=${sort_by}`;
+    const url = `https://forward-eta.vercel.app/api/tmdb/trending/tv/day?language=${language}&page=${page}&region=${sort_by}`;
     const res = await Widget.http.get(url);
     return formatTMDBData(res.data.results);
 }
 
 async function loadTodayHotMovies(params) {
     const { language, sort_by, page } = params;
-    const url = `https://for-ward.vercel.app/api/tmdb/trending/movie/day?language=${language}&page=${page}&region=${sort_by}`;
+    const url = `https://forward-eta.vercel.app/api/tmdb/trending/movie/day?language=${language}&page=${page}&region=${sort_by}`;
     const res = await Widget.http.get(url);
     return formatTMDBData(res.data.results);
 }
 
 async function tmdbDiscoverByNetwork(params) {
     const { with_networks, page, language = "zh-CN" } = params;
-    const url = `https://for-ward.vercel.app/api/tmdb/discover/tv?with_networks=${with_networks}&page=${page}&language=${language}`;
+    const url = `https://forward-eta.vercel.app/api/tmdb/discover/tv?with_networks=${with_networks}&page=${page}&language=${language}`;
     const res = await Widget.http.get(url);
     return formatTMDBData(res.data.results);
 }
 
 // 辅助函数：统一数据格式
 function formatTMDBData(items) {
+    if (!items) return [];
     return items.map(item => ({
         title: item.title || item.name,
         image: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
