@@ -1,7 +1,7 @@
 WidgetMetadata = {
-  id: "Move_lists_Pro",
-  title: "影视榜单 (Pro 解锁版)",
-  description: "整合2.0新功能 + 1.5旧版榜单 | 移除白名单限制",
+  id: "Move_lists_unlocked",
+  title: "影视榜单 (2.0全功能版)",
+  description: "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
   author: "Modified",
   site: "https://for-ward.vercel.app",
   version: "2.0.0",
