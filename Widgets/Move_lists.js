@@ -4,7 +4,7 @@ WidgetMetadata = {
   description: "整合2.0新功能 + 1.5旧版榜单 | 移除白名单限制",
   author: "Modified",
   site: "https://for-ward.vercel.app",
-  version: "2.1.0",
+  version: "2.0.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
   modules: [
