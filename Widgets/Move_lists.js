@@ -1,20 +1,17 @@
 WidgetMetadata = {
-  id: "Move_lists_unlocked",
-  title: "影视榜单 (2.0全功能版)",
-  description: "解锁白名单限制，保留播出平台筛选及港台地区等新功能",
+  id: "Move_lists_Pro",
+  title: "影视榜单 (Pro 解锁版)",
+  description: "整合2.0新功能 + 1.5旧版榜单 | 移除白名单限制",
   author: "Modified",
   site: "https://for-ward.vercel.app",
-  version: "2.0.0",
+  version: "2.1.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
   modules: [
-    // --- 热门模块 ---
+    // --- 热门模块 (2.0 增强版) ---
     {
       title: "TMDB 热门剧集",
-      description: "今日热门电视剧",
-      requiresWebView: false,
       functionName: "loadTodayHotTV",
-      cacheDuration: 3600,
       params: [
         { name: "language", title: "语言", type: "language", value: "zh-CN" },
         { 
@@ -27,80 +24,76 @@ WidgetMetadata = {
         { name: "page", title: "页码", type: "page" }
       ]
     },
+    // --- 2.0 新增：播出平台筛选 ---
     {
-      title: "TMDB 热门电影",
-      description: "今日热门电影",
-      requiresWebView: false,
-      functionName: "loadTodayHotMovies",
-      cacheDuration: 3600,
+      title: "TMDB 播出平台",
+      functionName: "tmdbDiscoverByNetwork",
       params: [
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        { 
-          name: "sort_by", title: "地区", type: "enumeration", 
+        {
+          name: "with_networks", title: "平台", type: "enumeration",
           enumOptions: [
-            { title: "全部", value: "" }, { title: "中国", value: "CN" }, { title: "美国", value: "US" },
-            { title: "中国香港", value: "HK" }, { title: "中国台湾", value: "TW" }, { title: "韩国", value: "KR" }
-          ], value: "" 
+            { title: "Netflix", value: "213" }, { title: "Disney+", value: "2739" }, { title: "HBO", value: "49" },
+            { title: "Apple TV+", value: "2552" }, { title: "Tencent", value: "2007" }, { title: "iQiyi", value: "1330" }
+          ], value: "213"
         },
         { name: "page", title: "页码", type: "page" }
       ]
     },
-    // --- 2.0.0 特色：播出平台模块 ---
+    // --- 1.5 经典：豆瓣模块 ---
     {
-        title: "TMDB 播出平台",
-        description: "按播出平台筛选剧集内容",
-        requiresWebView: false,
-        functionName: "tmdbDiscoverByNetwork",
-        cacheDuration: 3600,
-        params: [
-            {
-                name: "with_networks", title: "播出平台", type: "enumeration", value: "",
-                enumOptions: [
-                    { title: "Netflix", value: "213" }, { title: "Disney+", value: "2739" }, { title: "HBO", value: "49" },
-                    { title: "Tencent", value: "2007" }, { title: "iQiyi", value: "1330" }, { title: "Youku", value: "1419" },
-                    { title: "Bilibili", value: "1605" }, { title: "Apple TV+", value: "2552" }
-                ]
-            },
-            { name: "page", title: "页码", type: "page" }
-        ]
+      title: "豆瓣 热门电影",
+      functionName: "loadEnhancedItemsFromApi",
+      params: [{ name: "url", type: "string", value: "https://frodo.douban.com/api/v2/subject_collection/movie_hotgauss/items" }]
+    },
+    {
+      title: "豆瓣 热门剧集",
+      functionName: "loadEnhancedItemsFromApi",
+      params: [{ name: "url", type: "string", value: "https://frodo.douban.com/api/v2/subject_collection/tv_hot/items" }]
     }
   ]
 };
 
-/**
- * 后端逻辑函数 (移除了所有 userId 校验)
- */
+/**************** 后端处理逻辑 ****************/
 
-async function loadTodayHotTV(params) {
-    const { language, sort_by, page } = params;
-    // 使用 forward 官方中转 API 以确保稳定性
-    const url = `https://for-ward.vercel.app/api/tmdb/trending/tv/day?language=${language}&page=${page}&region=${sort_by}`;
+// 统一 API 请求封装
+async function request(path, query = {}) {
+    const queryString = Object.entries(query).map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join('&');
+    const url = `https://for-ward.vercel.app/api/tmdb${path}?${queryString}`;
     const res = await Widget.http.get(url);
-    return formatTMDBData(res.data.results);
+    if (!res.data || !res.data.results) return [];
+    return res.data.results.map(item => ({
+        title: item.title || item.name,
+        image: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
+        description: item.overview || `评分: ${item.vote_average}`,
+        rating: item.vote_average,
+        id: item.id,
+        type: item.title ? "movie" : "tv"
+    }));
+}
+
+// 对应 Metadata 中的各函数
+async function loadTodayHotTV(params) {
+    return await request("/trending/tv/day", { language: params.language, page: params.page, region: params.sort_by });
 }
 
 async function loadTodayHotMovies(params) {
-    const { language, sort_by, page } = params;
-    const url = `https://for-ward.vercel.app/api/tmdb/trending/movie/day?language=${language}&page=${page}&region=${sort_by}`;
-    const res = await Widget.http.get(url);
-    return formatTMDBData(res.data.results);
+    return await request("/trending/movie/day", { language: params.language, page: params.page, region: params.sort_by });
 }
 
 async function tmdbDiscoverByNetwork(params) {
-    const { with_networks, page, language = "zh-CN" } = params;
-    const url = `https://for-ward.vercel.app/api/tmdb/discover/tv?with_networks=${with_networks}&page=${page}&language=${language}`;
-    const res = await Widget.http.get(url);
-    return formatTMDBData(res.data.results);
+    return await request("/discover/tv", { with_networks: params.with_networks, page: params.page, language: "zh-CN" });
 }
 
-// 辅助函数：统一数据格式
-function formatTMDBData(items) {
-    return items.map(item => ({
-        title: item.title || item.name,
-        image: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
-        description: item.overview,
-        rating: item.vote_average,
-        id: item.id,
-        type: item.media_type || (item.title ? "movie" : "tv")
+// 豆瓣 API 处理逻辑
+async function loadEnhancedItemsFromApi(params) {
+    const res = await Widget.http.get(params.url, {
+        headers: { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15" }
+    });
+    return res.data.subject_collection_items.map(item => ({
+        title: item.title,
+        image: item.cover.url,
+        description: item.card_subtitle,
+        rating: item.rating ? item.rating.value : "N/A",
+        type: "multi"
     }));
 }
