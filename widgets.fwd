@@ -8,9 +8,9 @@
       "title": "影视榜单",
       "description": "影视动画榜单。",
       "requiredVersion": "0.0.2",
-      "version": "1.5.1",
+      "version": "2.0.0",
       "author": "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_list.js"
+      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_lists.js"
     },
     {
       "id": "trakt_personal_key",
