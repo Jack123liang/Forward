@@ -2,9 +2,8 @@ name: Update TMDB Data Daily
 
 on:
   schedule:
-    # 每天北京时间早上 8 点运行 (UTC 0点)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 允许你手动点击按钮运行
+    - cron: '0 0 * * *' # 每天早上 8 点运行
+  workflow_dispatch: # 支持手动运行
 
 jobs:
   update-data:
@@ -21,43 +20,48 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch and Process Data
+      - name: Fetch Official TMDB Data
         run: |
           python - <<EOF
           import requests
           import json
           import os
 
-          # 创建保存目录
-          os.makedirs('public/data', exist_ok=True)
+          API_KEY = "6358fd374e1372bd48effd9e21521917"
+          BASE_URL = "https://api.themoviedb.org/3"
+          SAVE_PATH = "public/data"
+          os.makedirs(SAVE_PATH, exist_ok=True)
 
-          # 数据源（这是原作者最稳的一个源，我们把它“借”过来）
-          urls = {
-              "TMDB_Trending.json": "https://for-ward.vercel.app/data/TMDB_Trending.json",
-              "TMDB_Movie.json": "https://for-ward.vercel.app/data/TMDB_Movie.json",
-              "TMDB_TV.json": "https://for-ward.vercel.app/data/TMDB_TV.json"
-          }
+          configs = [
+              {"file": "TMDB_Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": None},
+              {"file": "TMDB_Movie.json", "url": f"{BASE_URL}/movie/popular", "type": "movie"},
+              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"}
+          ]
 
-          for filename, url in urls.items():
+          for config in configs:
               try:
-                  resp = requests.get(url, timeout=10)
+                  params = {"api_key": API_KEY, "language": "zh-CN", "page": 1}
+                  resp = requests.get(config["url"], params=params)
                   data = resp.json()
-                  
-                  # 核心修复逻辑：确保 results 里的每一项都有正确的 media_type
+
+                  # 关键修复：补全 media_type 逻辑，解决“全部地区”无数据问题
                   if "results" in data:
                       for item in data["results"]:
-                          if "TMDB_Movie" in filename:
+                          # 如果是 Movie 文件，强制标记为 movie
+                          if config["type"] == "movie":
                               item["media_type"] = "movie"
-                          elif "TMDB_TV" in filename:
+                          # 如果是 TV 文件，强制标记为 tv
+                          elif config["type"] == "tv":
                               item["media_type"] = "tv"
-                          # Trending 保持原样，通常它自带 media_type
-                  
-                  # 写入文件
-                  with open(f'public/data/{filename}', 'w', encoding='utf-8') as f:
+                          # Trending 文件通常自带 media_type，不确定的补个兜底
+                          elif "media_type" not in item:
+                              item["media_type"] = "movie"
+
+                  with open(f"{SAVE_PATH}/{config['file']}", 'w', encoding='utf-8') as f:
                       json.dump(data, f, ensure_ascii=False, indent=2)
-                  print(f"Successfully updated {filename}")
+                  print(f"Successfully updated {config['file']}")
               except Exception as e:
-                  print(f"Failed to update {filename}: {e}")
+                  print(f"Error updating {config['file']}: {e}")
           EOF
 
       - name: Commit and Push
@@ -65,5 +69,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Update TMDB data with media_type fix" || exit 0
+          git commit -m "Update data from official TMDB API" || exit 0
           git push
