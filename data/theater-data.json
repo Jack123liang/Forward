@@ -1,242 +1,27 @@
 {
-  "last_updated": "2026-02-04T00:44:17.873+08:00",
+  "last_updated": "2026-02-05T00:38:42.280+08:00",
   "迷雾剧场": {
-    "aired": [
-      {
-        "id": 289723,
-        "type": "tmdb",
-        "title": "有罪之身",
-        "description": "该剧由一桩绑架案展开，讲述了警方在探案过程中发现了证物留声机里记录的一起尘封十年的凶杀案，随着警方对这起杀人案的调查，竟发现了隐藏在案件背后更为惊人的秘密。剧集并未拘泥于探究案件本身，而是以情感为扣，着力展现三位本该前程似锦的年轻人在命运的裹挟下相互守护的真挚情感 。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/b9ejm0VCKt4kNc0vNvg9tfEDb9X.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6Vr1InH5TksuRSvEGjP2e1oV5ea.jpg",
-        "releaseDate": "2026-01-28",
-        "rating": 9.5,
-        "mediaType": "tv"
-      },
-      {
-        "id": 263151,
-        "type": "tmdb",
-        "title": "树影迷宫",
-        "description": "当老民警冉曦（廖凡 饰）遇上公安大赵赶鹅（尹昉 饰），从“互不顺眼”到携手并肩。横跨18年的胡同悬案为何让师徒二人从联手破案到“反目成仇”？井底下的红色高跟鞋、抓不住的胡同杀手……小片警碰上大案子，他们能否成功破局？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/2ilIbodMYijMA0XnyfH852mth10.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/cunN5mAX79YuJbvlckRftcoIe62.jpg",
-        "releaseDate": "2025-11-01",
-        "rating": 8,
-        "mediaType": "tv"
-      },
-      {
-        "id": 104960,
-        "type": "tmdb",
-        "title": "隐秘的角落",
-        "description": "该剧改编自紫金陈推理小说《坏小孩》 ，讲述了沿海小城的三个孩子在景区游玩时无意拍摄记录了一次谋杀，他们的冒险也由此展开。扑朔迷离的案情，将几个家庭裹挟其中，带向不可预知的未来......",
-        "posterPath": "https://image.tmdb.org/t/p/w500/zlaml7IKAIPa3NJE9LhRveELD0v.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/22DU3JT5EJ6fCkCUB8iYgwI8stO.jpg",
-        "releaseDate": "2020-06-16",
-        "rating": 8.403,
-        "mediaType": "tv"
-      },
-      {
-        "id": 105053,
-        "type": "tmdb",
-        "title": "沉默的真相",
-        "description": "一起看似简单的自杀案，背后隐藏着一个不可告人的巨大秘密；为了揭开这个秘密， 一群人历经七载，付出无数代价，甚至赌上性命…一个曾有大好前途，四平八稳的检察官江阳，但因受贿贪污，坐牢三年，再次出现在公众视野里竟是他出现在行李箱里的蜷缩的尸体；运送他尸体的当地著名律师张超。此案引发全市关注，刑警严良介入负责此案，与张超正面交锋。张超承认犯罪，却在接受法院宣判时当场翻供，并拿出不在场证据，案件陷入死局。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/wU5L7mZA0Yy764D1WPP2403d0MG.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/hA0gKb3Fx33mnEBVO6uJtbmfg0r.jpg",
-        "releaseDate": "2020-09-16",
-        "rating": 8.508,
-        "mediaType": "tv"
-      },
-      {
-        "id": 136444,
-        "type": "tmdb",
-        "title": "回来的女儿",
-        "description": "故事发生在上世纪90年代的潭岭小镇，孤女陈佑希（张子枫 饰）为了寻找失踪的好姐妹小秀，以李家多年前走丢的女儿“李文文”的身份闯入李家。陈佑希被家庭温暖包围，渐渐放下猜疑，却发现“温暖”的背后，藏着谎言、阴谋、犯罪还有死亡，不知不觉中陈佑希已踏入险境...",
-        "posterPath": "https://image.tmdb.org/t/p/w500/vWWVuT4gRR7YkGqba48WdIXb71v.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zFwWz18YITYvyxreic8wHyjkxCL.jpg",
-        "releaseDate": "2022-12-21",
-        "rating": 6.875,
-        "mediaType": "tv"
-      },
-      {
-        "id": 211927,
-        "type": "tmdb",
-        "title": "尘封十三载",
-        "description": "1997年未能侦破的特殊杀人案件在13年后重现，当年一直没有追查到真凶的刑警卫峥嵘（陈建斌 饰）备受打击离开一线，而曾经初出茅庐的新警陆行知（陈晓 饰）褪去稚嫩青涩，已成为缜密细致的刑侦能手，案件的重重巧合让师徒二人再次走到了一起，合力追缉真凶。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/uPGPeWo7v65HePODxE9vQQd1Z94.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/n7F79xjSkhJJp7IIXGEtmqBFdcS.jpg",
-        "releaseDate": "2023-04-06",
-        "rating": 7.632,
-        "mediaType": "tv"
-      }
-    ],
-    "upcoming": [
-      {
-        "id": 263078,
-        "type": "tmdb",
-        "title": "二十一天",
-        "description": "新年将至，海舟市的老字号罗百百货大楼突然发生整体坍塌下陷，十三名顾客与员工被深埋于百米废墟之下。在随后漫长而绝望的二十一天救援等待中，有限的食物、水源与氧气成为了最残酷的生存考验。\n\n被困者中，何小光（欧豪 饰）凭借消防知识组织自救，但其私下分配物资的行为和隐藏的秘密引发了猜忌。废墟之外，警察叶萧（王志文 饰）在全力营救的同时，发现这起灾难背后可能牵扯多年前的旧案，并非单纯意外。废墟之内，随着时间推移，人性在极端环境下暴露无遗——自私、算计、背叛与仅存的善良和牺牲交织。\n\n更令人不安的是，被困者之一周乙（姜武 饰）看似无害，却总在关键时刻做出令人费解的决定，仿佛在操控一场黑暗游戏。当救援临近成功，废墟下的局势却因深藏的人性秘密与外部真相的逼近而彻底失控。这不仅仅是一场与时间的赛跑，更是一场关乎道德、信仰与人性的终极博弈。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aspujSYHZa15665On6aXRzv8HE2.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/n61RGMZSpx2XDMrwI9PqcaYOo5.jpg",
-        "releaseDate": "2024-09-26",
-        "rating": 7,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252579,
-        "type": "tmdb",
-        "title": "正当防卫",
-        "description": "市检察院资深检察官段鸿山在办理“被家暴女性杀夫”案件时，省检察院青年检察官方灵渊被任派协助办案。两人办案过程中，发现案件与十四年前段鸿山办理的李沐风、梅筝、江婷经历的“校园防卫过当案”息息相关，二人以事实为根据，以法律为准绳，综合考量“天理、人情、国法”，最终给予案件准确定性的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/aN5zvCICkWb8YaC8Se4db3ULN4n.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/8gs6DdpOVVs8v4zWUdnI6mGJERQ.jpg",
-        "releaseDate": "2025-07-09",
-        "rating": 6.7,
-        "mediaType": "tv"
-      }
-    ],
-    "totalItems": 8,
+    "aired": [],
+    "upcoming": [],
+    "totalItems": 0,
     "totalPages": 1
   },
   "白夜剧场": {
-    "aired": [
-      {
-        "id": 73982,
-        "type": "tmdb",
-        "title": "白夜追凶",
-        "description": "一场灭门惨案，让原本逍遥浪荡的关宏宇成了在逃的通缉嫌犯。身为刑侦支队队长的双胞胎哥哥关宏峰，誓要查出真相，但出于亲属回避的原则，警队禁止关宏峰参与灭门案的调查工作，关宏峰义愤辞职。调任了代支队长的周巡处于破案压力，也为了追寻关宏宇的下落，他设计让离职的关宏峰以“编外顾问”的身份继续参与各大重案要案的调查，而警队所有人都被隐瞒了。由于罹患“黑暗恐惧症”，白天和黑夜出现在警队的“顾问关宏峰”，其实是由孪生兄弟二人白夜分饰，性格迥异的兄弟两人在警队中马脚不断，背负着随时被周巡及各路人马发现的危险，一路侦破了各种大案要案，目的只是想伺机调阅灭门案的案卷查出真相，以还清白。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cMUymzvJL0MeXR7OuuBmR0KGaxZ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fBClDP2SLBn4NlqYSMkZwky3VEp.jpg",
-        "releaseDate": "2017-08-30",
-        "rating": 8.315,
-        "mediaType": "tv"
-      },
-      {
-        "id": 200737,
-        "type": "tmdb",
-        "title": "重生之门",
-        "description": "　　该剧讲述了出身“盗贼世家”的天才大学生庄文杰（王俊凯饰）意外卷入“睡莲”案，结识了精明能干的警官罗坚（张译饰），之后二人合作共同破获多起离奇大案，并让尘封多年的“洛神失窃案”谜底得以揭开，成功捉住真凶、捍卫正义的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/rEMW6pqHtNbeylN4Rf2PFF27A2K.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/QqSXYsmlyFY33oAtgdlcu5OFIp.jpg",
-        "releaseDate": "2022-04-27",
-        "rating": 6.714,
-        "mediaType": "tv"
-      },
-      {
-        "id": 252636,
-        "type": "tmdb",
-        "title": "边水往事",
-        "description": "三边坡，一处鱼龙混杂的热带异域，一个繁茂与衰败并生的斑驳之地。意外流落三边坡的打工小白沈星遇到在多方势力间游走的三边坡和事佬猜叔，一场冒险，一段善良微光指引下的回归，在留与逃的挣扎中将如何上演。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/z8xHvQu17vjNHPVI4O9vqnqQDhi.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/zWZJV304xSYKa2KRs73jyhnlz1c.jpg",
-        "releaseDate": "2024-08-16",
-        "rating": 7.6,
-        "mediaType": "tv"
-      },
-      {
-        "id": 253649,
-        "type": "tmdb",
-        "title": "雪迷宫",
-        "description": "九七年，禁毒局尚未成立，面对突然爆发的毒品危机，东北哈岚市临时组建了一支精英队伍，他们各有所长，但都对新型毒品一无所知……年轻刑警们不仅要面对穷凶极恶的贩毒集团、狡诈离奇的运毒手段，更要经受情与法的抉择、正义与人性的考验。他们肝胆相照、披荆斩棘，铸就了一段惩奸除恶的热血传奇。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/pcJQmbSk5xwXYTj4M9A8xa5vm9p.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/w63L1IOedvSv19Oq61ohJlrPDTJ.jpg",
-        "releaseDate": "2024-09-03",
-        "rating": 8.571,
-        "mediaType": "tv"
-      }
-    ],
-    "upcoming": [
-      {
-        "id": 73982,
-        "type": "tmdb",
-        "title": "白夜追凶",
-        "description": "一场灭门惨案，让原本逍遥浪荡的关宏宇成了在逃的通缉嫌犯。身为刑侦支队队长的双胞胎哥哥关宏峰，誓要查出真相，但出于亲属回避的原则，警队禁止关宏峰参与灭门案的调查工作，关宏峰义愤辞职。调任了代支队长的周巡处于破案压力，也为了追寻关宏宇的下落，他设计让离职的关宏峰以“编外顾问”的身份继续参与各大重案要案的调查，而警队所有人都被隐瞒了。由于罹患“黑暗恐惧症”，白天和黑夜出现在警队的“顾问关宏峰”，其实是由孪生兄弟二人白夜分饰，性格迥异的兄弟两人在警队中马脚不断，背负着随时被周巡及各路人马发现的危险，一路侦破了各种大案要案，目的只是想伺机调阅灭门案的案卷查出真相，以还清白。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/cMUymzvJL0MeXR7OuuBmR0KGaxZ.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/fBClDP2SLBn4NlqYSMkZwky3VEp.jpg",
-        "releaseDate": "2017-08-30",
-        "rating": 8.315,
-        "mediaType": "tv"
-      }
-    ],
-    "totalItems": 5,
+    "aired": [],
+    "upcoming": [],
+    "totalItems": 0,
     "totalPages": 1
   },
   "季风剧场": {
-    "aired": [
-      {
-        "id": 139797,
-        "type": "tmdb",
-        "title": "猎罪图鉴",
-        "description": "该剧讲述了因一起尘封旧案而结怨的模拟画像师沈翊和刑警队长杜城，在机缘巧合下被迫搭档，两人联手侦破多起离奇疑案，共同追踪谜底真相的故事。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/k2n41i7V8OQiGXWKtZ8iTPlSiQH.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/a1i5HA9BX330DZ7FGALSXuDe7Ky.jpg",
-        "releaseDate": "2022-03-06",
-        "rating": 7.4,
-        "mediaType": "tv"
-      },
-      {
-        "id": 129417,
-        "type": "tmdb",
-        "title": "我在他乡挺好的",
-        "description": "《我在他乡挺好的》迁徙的大雁如同每一个在大都会中的异乡人，在呼啸的地铁与拥挤的楼宇为梦想而奔赴，这是属于她们的故事，也是属于我们每一个人的现实。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/s3n3f1FGqsuztzanZm2PFi9ZZvI.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/qGr5a2KVIpmNfI0h2DKAIET7QeI.jpg",
-        "releaseDate": "2021-07-19",
-        "rating": 7.9,
-        "mediaType": "tv"
-      },
-      {
-        "id": 209133,
-        "type": "tmdb",
-        "title": "消失的孩子",
-        "description": "冬至清晨，杨远九岁的儿子在楼梯间消失无踪。民警发现他曾在失踪前一刻潜入邻居家中。可疑的邻居有着牢固的不在场证明，仿佛遥控一般操纵着一场密室逃脱的魔术。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/ghAbcO9KWmWiq0AcoTxR0IYQbIv.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/6tI2j3atrBK4cL7OrtTJgsOyaUU.jpg",
-        "releaseDate": "2022-08-29",
-        "rating": 7.4,
-        "mediaType": "tv"
-      }
-    ],
+    "aired": [],
     "upcoming": [],
-    "totalItems": 3,
+    "totalItems": 0,
     "totalPages": 1
   },
   "X剧场": {
-    "aired": [
-      {
-        "id": 225008,
-        "type": "tmdb",
-        "title": "漫长的季节",
-        "description": "小城桦林，此时，出租司机王响做梦也没想到，他还有机会遇到一个他此生最想遇到，又最怕遇到的人。是仇人还是故人？遇到了，就得有交代，给自己，也给儿子。 小城桦林，彼时，火车司机王响意气风发，开的了二十挂的钢铁巨兽却管不好鸡毛蒜皮的三口小家，工厂摇摇欲坠，危机处处紧逼。 一包身份未明的碎尸像一块石头砸在桦林的水面上，也砸在王响的头脑里，这片涟漪一荡就是20年，荡到秋叶泛黄，从未停歇。 迷失的父亲，死亡的恋人、重逢的老友，因一个未解的谜题被困在三个不同的时代里，只为追寻一个跨越了过去、现在、未来的真相，当谜底揭开时，时空融为一体，在漫长的季节里只剩命运的挽歌。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/tJLiKDYdfMskFkJXV1HnaQAdpGf.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/rCm6BJkkPukfHYWNNx7WkGpCdZH.jpg",
-        "releaseDate": "2023-04-22",
-        "rating": 8.858,
-        "mediaType": "tv"
-      },
-      {
-        "id": 502466,
-        "type": "tmdb",
-        "title": "欢颜",
-        "description": "　　齐盈（胡慧中 饰）从小就爱唱歌，拥有一副甜美动人的嗓音。她的恋人王恕（周绍栋 饰）将成为一名教师当做是毕生的志愿，因而前往山区支教，却在一场意外中不幸丧生。得知了爱人的死讯，齐盈陷入了悲伤和痛苦之中无法自拔。\r 　　齐盈常常会在歌厅献唱，青年企业家黄执中（张国柱 饰）是她的忠实歌迷，随着时间的推移，黄执中渐渐爱上了善良温柔的齐盈。在黄执中的陪伴下，齐盈渐渐走出了往事的阴影，重新找回了笑容，然而，就在这个节骨眼上，齐盈发现自己腹中竟然怀有王恕的骨肉。黄执中希望齐盈能够流产，但齐盈却旨意要生下这仿佛命中注定属于她的孩子。",
-        "posterPath": "https://image.tmdb.org/t/p/w500/m3eWCLV0TG6QUBiaOn8l2XNBGg0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/i7dw4lsodXsT2DZIBUTOOsIRzEL.jpg",
-        "releaseDate": "1979-05-25",
-        "rating": 7,
-        "mediaType": "movie"
-      },
-      {
-        "id": 233959,
-        "type": "tmdb",
-        "title": "繁城之下",
-        "description": "明朝万历三十七年，江南蠹县县城，接连发生凶案，死者身份各异，彼此毫无关联，尸体被布置成离奇的姿势，每个案发现场都留有一句话。作为第一个受害者的徒弟，小捕快曲三更协同小伙伴展开调查......随着调查的深入，三教九流、士农工商各色人等纷纷登场，迷雾重重之中，二十年前的一宗旧案浮上水面。究竟凶手会是何人，又有怎样的目的？",
-        "posterPath": "https://image.tmdb.org/t/p/w500/jFVJw7uh9e6z2q0dH6TMxtvJMI0.jpg",
-        "backdropPath": "https://image.tmdb.org/t/p/w500/kckjepMGxE71c72w1FirvQNfHCD.jpg",
-        "releaseDate": "2023-10-12",
-        "rating": 7.9,
-        "mediaType": "tv"
-      }
-    ],
+    "aired": [],
     "upcoming": [],
-    "totalItems": 3,
+    "totalItems": 0,
     "totalPages": 1
   }
 }
