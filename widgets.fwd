@@ -13,15 +13,6 @@
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_lists.js"
     },
     {
-      "id": "forward.combined.media.lists",
-      "title": "影视榜单",
-      "description": "聚合豆瓣、TMDB、IMDB和Bangumi的影视动画榜单",
-      "requiredVersion": "0.0.1",
-      "version": "1.3.1",
-      "author": "阿米诺斯",
-      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/combined.js"
-    },
-    {
       "id": "trakt_personal_key",
       "title": "Trak 追剧日历 免key版",
       "description": "内置 Key 版：只需填写用户名即可使用。显示追剧日历、待看、收藏及历史记录",
@@ -128,6 +119,15 @@
       "version": "1.2.1",
       "author": "两块",
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/HotPicks.js"
+    },
+    {
+      "id": "forward.combined.media.lists",
+      "title": "影视榜单",
+      "description": "聚合豆瓣、TMDB、IMDB和Bangumi的影视动画榜单",
+      "requiredVersion": "0.0.1",
+      "version": "1.3.1",
+      "author": "阿米诺斯",
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/combined.js"
     },
     {
       "id": "baranwang.danmu.universe",
