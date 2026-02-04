@@ -44,18 +44,28 @@ jobs:
                   resp = requests.get(config["url"], params=params)
                   data = resp.json()
 
-                  # 关键修复：补全 media_type 逻辑，解决“全部地区”无数据问题
                   if "results" in data:
                       for item in data["results"]:
-                          # 如果是 Movie 文件，强制标记为 movie
+                          # --- 核心兼容性修复开始 ---
+                          
+                          # 1. 统一标题字段：确保无论电影还是剧集，都有 title
+                          if "title" not in item or not item["title"]:
+                              item["title"] = item.get("name")
+                          
+                          # 2. 统一日期字段：确保无论电影还是剧集，都有 release_date
+                          if "release_date" not in item or not item["release_date"]:
+                              item["release_date"] = item.get("first_air_date")
+                          
+                          # 3. 补全 media_type
                           if config["type"] == "movie":
                               item["media_type"] = "movie"
-                          # 如果是 TV 文件，强制标记为 tv
                           elif config["type"] == "tv":
                               item["media_type"] = "tv"
-                          # Trending 文件通常自带 media_type，不确定的补个兜底
                           elif "media_type" not in item:
-                              item["media_type"] = "movie"
+                              # Trending 接口如果没返回，根据是否有 name 猜一个
+                              item["media_type"] = "tv" if "name" in item else "movie"
+                          
+                          # --- 核心兼容性修复结束 ---
 
                   with open(f"{SAVE_PATH}/{config['file']}", 'w', encoding='utf-8') as f:
                       json.dump(data, f, ensure_ascii=False, indent=2)
@@ -69,5 +79,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Update data from official TMDB API" || exit 0
+          git commit -m "Update TMDB data with compatibility fix" || exit 0
           git push
