@@ -62,7 +62,7 @@ WidgetMetadata = {
 // ==========================================
 
 // 修改点：内置 Client ID
-const TRAKT_CLIENT_ID = "95b59922670c84040db3632c7aac6f33704f6ffe5cbf3113a056e37cb45cb482";
+const TRAKT_CLIENT_ID = "8e3ef2a3a889724abe329a12b5c6e9a4d38f3a43f8861773a14bcccfebc0005d";
 
 function formatShortDate(dateStr) {
     if (!dateStr) return "待定";
