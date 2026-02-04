@@ -20,71 +20,103 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Official TMDB Data
+      - name: Fetch and Transform TMDB Data
         run: |
           python - <<EOF
           import requests
           import json
           import os
-          from datetime import datetime
 
           API_KEY = "6358fd374e1372bd48effd9e21521917"
           BASE_URL = "https://api.themoviedb.org/3"
           SAVE_PATH = "public/data"
           os.makedirs(SAVE_PATH, exist_ok=True)
 
-          configs = [
-              {"file": "TMDB_Trending.json", "url": f"{BASE_URL}/trending/all/week", "type": "movie"},
-              {"file": "Trending.json", "url": f"{BASE_URL}/trending/all/week", "type": "movie"},
-              {"file": "TMDB_Movie.json", "url": f"{BASE_URL}/movie/now_playing", "type": "movie"},
-              {"file": "Movie.json", "url": f"{BASE_URL}/movie/now_playing", "type": "movie"},
-              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/on_the_air", "type": "tv"},
-              {"file": "TV.json", "url": f"{BASE_URL}/tv/on_the_air", "type": "tv"}
-          ]
+          def fetch_genres():
+              """获取类型映射"""
+              movie_genres = requests.get(
+                  f"{BASE_URL}/genre/movie/list",
+                  params={"api_key": API_KEY, "language": "zh-CN"}
+              ).json().get("genres", [])
+              
+              tv_genres = requests.get(
+                  f"{BASE_URL}/genre/tv/list",
+                  params={"api_key": API_KEY, "language": "zh-CN"}
+              ).json().get("genres", [])
+              
+              return {g["id"]: g["name"] for g in movie_genres + tv_genres}
 
-          for config in configs:
-              try:
-                  params = {"api_key": API_KEY, "language": "zh-CN", "page": 1}
-                  resp = requests.get(config["url"], params=params)
-                  data = resp.json()
+          def get_genre_title(genre_ids, genre_map):
+              """获取类型标题（前3个）"""
+              if not genre_ids:
+                  return ""
+              return "•".join([genre_map.get(gid, "") for gid in genre_ids[:3] if gid in genre_map])
 
-                  if "results" in data:
-                      cleaned_results = []
-                      for item in data["results"]:
-                          title = item.get("title") or item.get("name") or "未知"
-                          date_str = item.get("release_date") or item.get("first_air_date") or "1900-01-01"
-                          
-                          # --- 强力过滤逻辑 ---
-                          try:
-                              # 只保留 2024 年以后的片子，防止老片刷屏
-                              year = int(date_str.split("-")[0])
-                              if year < 2024: 
-                                  continue
-                          except:
-                              continue
-                          
-                          clean_item = {
-                              "id": item.get("id"),
-                              "title": title,
-                              "name": title,
-                              "poster_path": item.get("poster_path"),
-                              "backdrop_path": item.get("backdrop_path"),
-                              "release_date": date_str,
-                              "media_type": config["type"],
-                              "vote_average": item.get("vote_average", 0)
-                          }
-                          cleaned_results.append(clean_item)
-                      
-                      # 只取过滤后的前 10 条
-                      data["results"] = cleaned_results[:10]
-                      data.pop("total_pages", None)
-                      data.pop("total_results", None)
+          # 获取类型映射
+          genre_map = fetch_genres()
 
-                  with open(f"{SAVE_PATH}/{config['file']}", 'w', encoding='utf-8') as f:
-                      json.dump(data, f, ensure_ascii=False, indent=2)
-                  print(f"Successfully updated {config['file']}")
-              except Exception as e:
-                  print(f"Error: {e}")
+          # 获取热门电视剧
+          tv_response = requests.get(
+              f"{BASE_URL}/trending/tv/day",
+              params={"api_key": API_KEY, "language": "zh-CN", "page": 1}
+          ).json()
+
+          # 获取热门电影
+          movie_response = requests.get(
+              f"{BASE_URL}/trending/movie/day",
+              params={"api_key": API_KEY, "language": "zh-CN", "page": 1}
+          ).json()
+
+          # 转换为代码期望的格式
+          today_tv = []
+          for item in tv_response.get("results", [])[:20]:
+              # 只保留有海报和类型的项目
+              if not item.get("poster_path") or not item.get("genre_ids"):
+                  continue
+                  
+              today_tv.append({
+                  "id": item.get("id"),
+                  "type": "tv",
+                  "title": item.get("name", ""),
+                  "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
+                  "rating": item.get("vote_average", 0),
+                  "overview": item.get("overview", ""),
+                  "release_date": item.get("first_air_date", ""),
+                  "poster_url": item.get("poster_path", ""),
+                  "title_backdrop": item.get("backdrop_path", ""),
+                  "genre_ids": item.get("genre_ids", [])
+              })
+
+          today_movies = []
+          for item in movie_response.get("results", [])[:20]:
+              # 只保留有海报和类型的项目
+              if not item.get("poster_path") or not item.get("genre_ids"):
+                  continue
+                  
+              today_movies.append({
+                  "id": item.get("id"),
+                  "type": "movie",
+                  "title": item.get("title", ""),
+                  "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
+                  "rating": item.get("vote_average", 0),
+                  "overview": item.get("overview", ""),
+                  "release_date": item.get("release_date", ""),
+                  "poster_url": item.get("poster_path", ""),
+                  "title_backdrop": item.get("backdrop_path", ""),
+                  "genre_ids": item.get("genre_ids", [])
+              })
+
+          # 保存为代码期望的格式
+          output_data = {
+              "today_tv": today_tv,
+              "today_movies": today_movies
+          }
+
+          with open(f"{SAVE_PATH}/TMDB_Trending.json", 'w', encoding='utf-8') as f:
+              json.dump(output_data, f, ensure_ascii=False, indent=2)
+          
+          print(f"Successfully updated TMDB_Trending.json")
+          print(f"TV shows: {len(today_tv)}, Movies: {len(today_movies)}")
           EOF
 
       - name: Commit and Push
@@ -92,5 +124,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Force filter old movies and update" || exit 0
+          git commit -m "Update TMDB trending data" || exit 0
           git push
