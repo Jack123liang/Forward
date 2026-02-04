@@ -20,40 +20,30 @@ WidgetMetadata = {
   ]
 };
 
-// 你的 Vercel 代理地址
-const MY_PROXY = "https://forward-eta.vercel.app/3";
-
+// 这里的 functionName 对应官方文档推荐的调用方式
 async function loadTodayHotTV(params) {
-    const url = `${MY_PROXY}/trending/tv/day?language=${params.language}&page=${params.page}`;
-    const res = await Widget.http.get(url);
-    return formatData(res.data.results, "tv");
+    // 使用内置函数，它会自动读取你在设置里填写的 API 地址和 Key
+    const res = await Widget.tmdb("trending/tv/day", params);
+    return formatData(res.results, "tv");
 }
 
 async function loadTodayHotMovies(params) {
-    const url = `${MY_PROXY}/trending/movie/day?language=${params.language}&page=${params.page}`;
-    const res = await Widget.http.get(url);
-    return formatData(res.data.results, "movie");
+    const res = await Widget.tmdb("trending/movie/day", params);
+    return formatData(res.results, "movie");
 }
 
 function formatData(items, type) {
     if (!items) return [];
-    
-    // 关键点：使用你的 Vercel 作为图片代理，解决国内不显图的问题
+    // 图片仍然走你的代理以确保显示
     const IMG_BASE = "https://forward-eta.vercel.app/t/p/w500";
-
-    return items.map(item => {
-        return {
-            id: `${type}.${item.id}`, // 官方要求的 ID 格式
-            title: item.title || item.name,
-            // 开发者文档要求的字段名
-            posterPath: item.poster_path ? `${IMG_BASE}${item.poster_path}` : "", 
-            backdropPath: item.backdrop_path ? `${IMG_BASE}${item.backdrop_path}` : "",
-            rating: item.vote_average ? item.vote_average.toString() : "0",
-            releaseDate: item.release_date || item.first_air_date,
-            description: item.overview,
-            mediaType: type,
-            type: "tmdb" 
-        };
-    });
+    
+    return items.map(item => ({
+        id: `${type}.${item.id}`, // 官方规范 ID
+        title: item.title || item.name,
+        posterPath: item.poster_path ? `${IMG_BASE}${item.poster_path}` : "",
+        backdropPath: item.backdrop_path ? `${IMG_BASE}${item.backdrop_path}` : "",
+        rating: item.vote_average ? item.vote_average.toString() : "0",
+        mediaType: type,
+        type: "tmdb" // 标记为原生 TMDB 类型
+    }));
 }
-
