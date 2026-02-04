@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T00:45:51.104+08:00",
+  "last_updated": "2026-02-05T00:40:25.549+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.493,
+      "rating": 6.474,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 6,
+      "rating": 5.851,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 6.125,
+      "rating": 6.381,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
       "releaseDate": "2026-01-01",
-      "rating": 6.713,
+      "rating": 6.709,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 7.8,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.6,
+      "rating": 6.617,
       "mediaType": "movie"
     },
     {
@@ -83,30 +83,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
       "rating": 5.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 967941,
-      "type": "tmdb",
-      "title": "魔法坏女巫2",
-      "originalTitle": "Wicked: For Good",
-      "description": "已被妖魔化为「西方坏女巫」的艾芙芭隐居森林，持续为受压迫的动物抗争，并试图揭穿巫师的谎言；而格琳达则成为奥兹国的善良象征，在翡翠城享受荣耀。格琳达准备与费耶罗王子结婚，然而她与艾芙芭的关系每况愈下，试图调解却失败导致最终决裂，牵连甚广。此时一位来自堪萨斯州的少女意外闯入，引发连串风暴，迫使这对昔日挚友在暴民围剿下最后一次联手，她们必须真诚面对彼此，才能改写奥兹国的命运。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/czz4MOzBOsLxFL8G40eIvRKE2Sp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cGbPBHKSFO7hSIjxkb3KOaGdOep.jpg",
-      "releaseDate": "2025-12-24",
-      "rating": 6.679,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1259102,
-      "type": "tmdb",
-      "title": "永恒站",
-      "originalTitle": "Eternity",
-      "description": "　　琼安与赖瑞伉俪相伴六十余载，儿孙满堂幸福安康。在金孙的派对上，赖瑞却意外被蝴蝶饼噎死，醒来后发现自己不仅容貌回春，更来到连接今生与无数个永恒世界的交界车站，赖瑞必须在一周内决定去往哪里。几天后，癌末的琼安撒手人寰，刚抵达车站与赖瑞重聚，一转身却见到在战争中阵亡的前夫卢克迎面走来。一边是笑闹到白头的枕边人；一边是苦等67年的痴情种，望着车站大厅里琳琅满目的人生可能，琼安该与谁携手共赴永恒？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sRSttgj0rd1ZuWtaOB1ErqKsCsI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-      "releaseDate": "2025-12-24",
-      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -142,19 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2026-01-17",
-      "rating": 7.8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 838240,
-      "type": "tmdb",
-      "title": "机器人之梦",
-      "originalTitle": "Robot Dreams",
-      "description": "一只狗住在曼哈顿，它厌倦了独处。某日，它决定为自己制造一个机器人作伴。它们的友谊日益深厚，随着80年代纽约的节奏，终成彼此不可或缺的存在。一个夏夜，狗怀着巨大的悲伤，被迫将机器人遗弃在海滩。它们还能再相见吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wb2zm2m71l8Wg7eDPo9t9e8ySjB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-      "releaseDate": "2024-06-08",
-      "rating": 7.978,
+      "rating": 7.809,
       "mediaType": "movie"
     },
     {
@@ -167,6 +131,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/dT3mUfkXKzUbDu4qlldRGXxePLj.jpg",
       "releaseDate": "2026-01-01",
       "rating": 7.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 51731,
+      "type": "tmdb",
+      "title": "鹿鼎记II神龙教",
+      "originalTitle": "鹿鼎記 II : 神龍敎",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1djbwZxkovIVONz6x4nSPA7VMGE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.108,
       "mediaType": "movie"
     },
     {
@@ -218,18 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1537396,
-      "type": "tmdb",
-      "title": "情圣3",
-      "originalTitle": "情圣3",
-      "description": "　　一场信任危机，让田绍基（肖央 饰）和邵美珍（谭卓 饰）本就平淡的婚姻生活再次雪上加霜，阴差阳错下两人整活儿不断，花招不停，好兄弟甘火旺（乔杉 饰）也来神助攻，“爱情三十六计”轮番登场！一连串好戏接连上演，情场大战大爆笑！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/p3sdbpDWYdOkrSkAnNydcwH7cvJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/a0ua4gW6Znjt11r2DQTapV5VaEz.jpg",
-      "releaseDate": "2025-12-20",
-      "rating": 3.8,
-      "mediaType": "movie"
-    },
-    {
       "id": 1368535,
       "type": "tmdb",
       "title": "他年她日",
@@ -239,6 +203,42 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/n3mqsvKiqElRQ4KjDQ0NADQPVP5.jpg",
       "releaseDate": "2025-12-31",
       "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1530787,
+      "type": "tmdb",
+      "title": "匿杀",
+      "originalTitle": "匿杀",
+      "description": "　　地狱空荡荡，恶魔在人间。十五年前，一群身份各异的罪恶权贵将都马市染黑成一座“地狱岛”，高中生晓笛惨遭权贵凌辱致死；十五年后，这些背后操盘者接连惨死，死状惨烈。曾目睹十五年前命案的方天阳与警官方正楠深入调查，惊觉这桩匿名杀人案不只是单纯的复仇，更是一场迟到的控诉。桩桩命案，层层黑幕，那张权力、金钱、欲望织就的黑色秘网背后究竟藏着多少不为人知的罪孽？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wz7DchRv3sXIH87LyjhhxJdrVGk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/CZUyZdTBeOhr29KFjcsVjexEFE.jpg",
+      "releaseDate": "2025-12-27",
+      "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1572735,
+      "type": "tmdb",
+      "title": "非传统浪漫关系",
+      "originalTitle": "非传统浪漫关系",
+      "description": "情感博主祝君好与婚姻登记员龚玺两个爱情专家以离婚收场。祝君好决定与龚玺互相介绍对象，在这场荒诞的实验中，他们得以重新看待婚姻与爱情：从以自我为中心到求同存异，从我要幸福成长到我们要幸福。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mszLDElSdPjJamDBwrpeD92KHEq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eVDn4nuqxITr0akk3pJpi7VbGUv.jpg",
+      "releaseDate": "2026-01-31",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1443959,
+      "type": "tmdb",
+      "title": "马腾你别走",
+      "originalTitle": "马腾你别走",
+      "description": "行动不便的钢厂退休骨干老林（李幼斌 饰）虽衣食无忧却整日郁郁寡欢，在一场乌龙护工面试中，与空有满脑子 “无用知识”、做事总半途而废的闲人马腾（林更新 饰）相遇。初逢闹剧，二人从误解频出到相互扶持，在一段特殊的旅程中，两人打破年龄与身份隔阂，成为彼此的依靠与慰藉，共同演绎出一场跨越生死的“忘年交”，也在彼此身上找到了直面病痛与死亡、继续勇敢生活的力量。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4JMf7bSHXxK4b3g5KW4BBLZMlOa.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/aXrDbwKv8t7oBO7CumI66rFbtfo.jpg",
+      "releaseDate": "2026-01-01",
+      "rating": 0,
       "mediaType": "movie"
     }
   ],
@@ -273,8 +273,20 @@
       "title": "熊猫计划之部落奇遇记",
       "originalTitle": "熊猫计划之部落奇遇记",
       "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uESXCRJ5WPmys6S4ivY6lO8MAKh.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nDrwkgnNBAu4ytWRvinTQLHiqgh.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1447971,
+      "type": "tmdb",
+      "title": "惊蛰无声",
+      "originalTitle": "惊蛰无声",
+      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/pyFSBUKCFGuE2KF8me2hz8EMkAk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -292,37 +304,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 1447971,
-      "type": "tmdb",
-      "title": "惊蛰无声",
-      "originalTitle": "惊蛰无声",
-      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1djbwZxkovIVONz6x4nSPA7VMGE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.108,
-      "mediaType": "movie"
-    },
-    {
       "id": 1462229,
       "type": "tmdb",
       "title": "飞驰人生3",
       "originalTitle": "飞驰人生3",
       "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
       "posterPath": "https://image.tmdb.org/t/p/w500/4AHYWDA0HQQNT65pCpr7mLaZ6et.jpg",
-      "backdropPath": null,
+      "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -352,30 +340,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1614368,
-      "type": "tmdb",
-      "title": "喜欢上“欠欠”的你",
-      "originalTitle": "喜欢上“欠欠”的你",
-      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
-      "releaseDate": "2026-02-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 871900,
-      "type": "tmdb",
-      "title": "藏地情书",
-      "originalTitle": "藏地情书",
-      "description": "影片讲述毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 485289,
       "type": "tmdb",
       "title": "重返·狼群",
@@ -400,14 +364,26 @@
       "mediaType": "movie"
     },
     {
-      "id": 1604938,
+      "id": 871900,
       "type": "tmdb",
-      "title": "六六大顺",
-      "originalTitle": "六六大顺",
-      "description": "　　濒临破产的老板李大顺（李孟武 饰）为逆转绝境，与死磕项目的技术宅李谱（肖轶 饰）踏上寻“小分子水”之路，临时搭挡的组合囧况百出，还没发车就透露着热闹，并偶遇了身世可怜的少年六六……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/eHkhTwKHpHL2h77wwfJ5CPGgstO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/iFVmttz2mnWnz1twTmEpZAPwapt.jpg",
-      "releaseDate": "2026-02-06",
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "影片讲述毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1614368,
+      "type": "tmdb",
+      "title": "喜欢上“欠欠”的你",
+      "originalTitle": "喜欢上“欠欠”的你",
+      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
       "rating": 0,
       "mediaType": "movie"
     },
