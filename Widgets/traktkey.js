@@ -204,10 +204,10 @@ ${d.verification_url}
         PENDING_TRAKT_DEVICE = null;
 
         return [{
-            id: "success",
-            type: "text",
-            title: "✅ OAuth 授权完成",
-            description:
+    id: "success",
+    type: "text",
+    title: "✅ OAuth 授权完成",
+    description:
 `🎉 OAuth 授权成功！
 
 Access Token：
@@ -219,6 +219,22 @@ ${t.refresh_token}
 有效期：
 ${Math.floor(t.expires_in / 86400)} 天
 
+⚠️ 点击下面按钮可直接复制 Token 方便保存`,
+    coverUrl: "https://trakt.tv/assets/logos/logo.png",
+    posterPath: "https://trakt.tv/assets/logos/logo.png",
+    buttons: [
+        {
+            title: "📋 复制 Access Token",
+            action: "copy",
+            value: t.access_token
+        },
+        {
+            title: "📋 复制 Refresh Token",
+            action: "copy",
+            value: t.refresh_token
+        }
+    ]
+}];
 ⚠️ 请将 Token 保存到代码中以便长期使用`,
             coverUrl: "https://trakt.tv/assets/logos/logo.png",
             posterPath: "https://trakt.tv/assets/logos/logo.png"
