@@ -152,25 +152,25 @@ async function oauthLogin() {
             };
 
             return [{
-                id: "step1",
-                type: "text",
-                title: "🔑 TRAKT OAuth 授权",
-                description:
-`请在浏览器中完成授权：
+    id: "step1",
+    type: "text",
+    title: "🔑 TRAKT OAuth 授权",
+    description: `请在浏览器中完成授权：
 
 🌐 授权地址：
 ${d.verification_url}
 
 🔢 验证码：
-【${d.user_code}】
+${d.user_code}
 
-⚠️ 有些环境无法自动打开浏览器，请手动访问。
-
-完成授权后返回 Forward，重新点击按钮获取 Token。`,
-                coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png"
-            }];
-        }
+完成后返回 Forward 点击按钮获取 Token。`,
+    coverUrl: "https://trakt.tv/assets/logos/logo.png",
+    posterPath: "https://trakt.tv/assets/logos/logo.png",
+    buttons: [
+        { title: "🌐 打开浏览器", action: "open_url", value: d.verification_url },
+        { title: "📋 复制验证码", action: "copy", value: d.user_code }
+    ]
+}];
 
         // 3️⃣ 第二次点击 → 尝试获取 Token
         if (Date.now() > PENDING_TRAKT_DEVICE.expiresAt) {
