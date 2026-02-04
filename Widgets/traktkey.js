@@ -1,11 +1,11 @@
 WidgetMetadata = {
-id: “trakt_sam_666”,
-title: “Trakt 追剧日历”,
-author: “Jackie”,
-description: “追剧日历、待看、收藏及历史记录”,
-version: “1.0.0”, // 重大更新 - 双模式支持
-requiredVersion: “0.0.1”,
-site: “https://trakt.tv”,
+  id: “trakt_sam_666”,
+  title: “Trakt 追剧日历”,
+  author: “Jackie”,
+  description: “追剧日历、待看、收藏及历史记录”,
+  version: “1.0.0”, // 重大更新 - 双模式支持
+  requiredVersion: “0.0.1”,
+  site: “https://trakt.tv”,
 
 ```
 globalParams: [
