@@ -2,26 +2,27 @@
   "page": 1,
   "results": [
     {
-      "id": 101,
-      "title": "我的独立电影榜",
-      "name": "我的独立剧集榜",
-      "overview": "这是测试数据，如果看到就说明成功了",
+      "id": 1,
+      "title": "测试-美国电影",
+      "name": "测试-美国电影",
+      "overview": "全部地区显示需要 media_type 字段",
       "poster_path": "/xvx4H9OEnSwayZ7Y0O6uH6997jO.jpg",
-      "media_type": "tv",
-      "vote_average": 9.8,
-      "release_date": "2024-01-01"
+      "media_type": "movie",
+      "origin_country": ["US"],
+      "vote_average": 8.5
     },
     {
-      "id": 102,
-      "title": "功夫熊猫 4",
-      "name": "功夫熊猫 4",
-      "overview": "阿宝回归",
+      "id": 2,
+      "title": "测试-韩国剧集",
+      "name": "测试-韩国剧集",
+      "overview": "确保 media_type 为 tv 且地区为 KR",
       "poster_path": "/kS6Yp79YAn9Y34vU79p7Y9Y.jpg",
-      "media_type": "movie",
-      "vote_average": 8.2,
-      "release_date": "2024-03-08"
+      "media_type": "tv",
+      "origin_country": ["KR"],
+      "vote_average": 9.0
     }
   ]
 }
+
 
 
