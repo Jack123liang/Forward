@@ -6,7 +6,9 @@ WidgetMetadata = {
     version: "1.0.0", // 修复 Widget.showToast 问题
     requiredVersion: "0.0.1",
     site: "https://trakt.tv",
-
+    
+    // OAuth 授权中间态（Forward 内存态）
+    let PENDING_TRAKT_DEVICE = null;
     globalParams: [
         { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" },
 
@@ -119,71 +121,131 @@ const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
  * OAuth 自动授权入口
  * 用户点击「🔑 OAuth 授权」按钮后调用
  */
-async function oauthLogin(params = {}) {
+async function oauthLogin() {
     try {
-        // Step 1: 检查 Client Secret
+        // === 安全检查 ===
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
             return [{
-                id: "error",
+                id: "no_secret",
                 type: "text",
-                title: "❌ 配置错误",
-                description: "请先在代码中填写 FORWARD_OAUTH_CONFIG.clientSecret\n\n获取方式：\n1. 访问 https://trakt.tv/oauth/applications\n2. 创建应用并获取 Client Secret\n3. 填写到代码第 78 行"
+                title: "❌ 缺少 Client Secret",
+                description: "请先在代码中填写 Trakt Client Secret"
             }];
         }
 
-        // Step 2: 生成设备码
-        const deviceCodeResponse = await Widget.http.post(
-            "https://api.trakt.tv/oauth/device/code",
-            {
-                client_id: TRAKT_CLIENT_ID
-            },
-            {
-                headers: {
-                    "Content-Type": "application/json"
-                }
-            }
-        );
+        // =====================================================
+        // Step 1：尚未生成 device code → 生成并提示用户
+        // =====================================================
+        if (!PENDING_TRAKT_DEVICE) {
+            const res = await Widget.http.post(
+                "https://api.trakt.tv/oauth/device/code",
+                { client_id: TRAKT_CLIENT_ID },
+                { headers: { "Content-Type": "application/json" } }
+            );
 
-        const deviceData = deviceCodeResponse.data;
-        const userCode = deviceData.user_code;
-        const deviceCode = deviceData.device_code;
-        const verificationUrl = deviceData.verification_url;
-        const expiresIn = deviceData.expires_in;
-        const interval = deviceData.interval || 5;
-        
-        // Step 4: 返回验证码信息（不使用 showToast）
-        console.log(`验证码: ${userCode}`);
-        console.log(`授权链接: ${verificationUrl}`);
-        console.log("等待用户授权...");
+            const d = res.data;
 
-        // Step 5: 轮询检查授权
-        const tokens = await pollForToken(deviceCode, interval, expiresIn, userCode);
-
-        if (tokens) {
-            // Step 6: 自动保存到 Forward 配置
-            FORWARD_OAUTH_CONFIG.useOAuth = true;
-            FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
-            FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
-
-            console.log("✅ OAuth 授权成功！Token 已自动保存到内存");
+            PENDING_TRAKT_DEVICE = {
+                deviceCode: d.device_code,
+                expiresAt: Date.now() + d.expires_in * 1000
+            };
 
             return [{
-                id: "success",
+                id: "step1",
                 type: "text",
-                title: "✅ 授权成功",
-                description: `🎉 验证码已使用: ${userCode}\n\n📝 Access Token:\n${tokens.access_token}\n\n🔄 Refresh Token:\n${tokens.refresh_token}\n\n⏰ 有效期: ${Math.floor(tokens.expires_in / 86400)} 天\n\n⚠️ 重要：请复制下面的配置到代码第 73-78 行永久保存：\n\nFORWARD_OAUTH_CONFIG = {\n  useOAuth: true,\n  accessToken: "${tokens.access_token}",\n  refreshToken: "${tokens.refresh_token}",\n  clientSecret: "${FORWARD_OAUTH_CONFIG.clientSecret}"\n}`
+                title: "🔑 Trakt OAuth 授权",
+                description:
+`请在浏览器中完成授权：
+
+🌐 授权地址：
+${d.verification_url}
+
+🔢 验证码：
+【${d.user_code}】
+
+完成授权后，请返回 Forward，
+再次点击「🔑 OAuth 授权」
+
+⏳ 有效期：${Math.floor(d.expires_in / 60)} 分钟`
             }];
-        } else {
-            throw new Error("授权超时或被拒绝");
         }
 
-    } catch (error) {
-        console.error("OAuth 授权失败:", error);
+        // =====================================================
+        // Step 2：已生成 device code → 尝试换取 token
+        // =====================================================
+        if (Date.now() > PENDING_TRAKT_DEVICE.expiresAt) {
+            PENDING_TRAKT_DEVICE = null;
+            return [{
+                id: "expired",
+                type: "text",
+                title: "⌛ 授权已过期",
+                description: "验证码已失效，请重新点击授权"
+            }];
+        }
+
+        const tokenRes = await Widget.http.post(
+            "https://api.trakt.tv/oauth/device/token",
+            {
+                code: PENDING_TRAKT_DEVICE.deviceCode,
+                client_id: TRAKT_CLIENT_ID,
+                client_secret: FORWARD_OAUTH_CONFIG.clientSecret
+            },
+            { headers: { "Content-Type": "application/json" } }
+        );
+
+        const t = tokenRes.data;
+
+        // 保存 Token
+        FORWARD_OAUTH_CONFIG.useOAuth = true;
+        FORWARD_OAUTH_CONFIG.accessToken = t.access_token;
+        FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
+
+        PENDING_TRAKT_DEVICE = null;
+
+        return [{
+            id: "success",
+            type: "text",
+            title: "✅ 授权成功",
+            description:
+`OAuth 授权完成 🎉
+
+Access Token：
+${t.access_token}
+
+有效期：
+${Math.floor(t.expires_in / 86400)} 天
+
+⚠️ 请将 token 保存到代码中以便长期使用`
+        }];
+
+    } catch (err) {
+        console.error("OAuth 授权失败", err);
+
+        // 常见 Trakt 状态处理
+        if (err.response?.data?.error === "authorization_pending") {
+            return [{
+                id: "pending",
+                type: "text",
+                title: "⏳ 尚未授权",
+                description: "请先在浏览器完成授权，然后再次点击按钮"
+            }];
+        }
+
+        if (err.response?.data?.error === "access_denied") {
+            PENDING_TRAKT_DEVICE = null;
+            return [{
+                id: "denied",
+                type: "text",
+                title: "❌ 用户拒绝授权",
+                description: "请重新点击授权"
+            }];
+        }
+
         return [{
             id: "error",
             type: "text",
             title: "❌ 授权失败",
-            description: `错误信息: ${error.message}\n\n请检查：\n1. 网络连接是否正常\n2. Client Secret 是否正确填写\n3. 是否在浏览器中完成授权\n4. 验证码是否输入正确\n\n提示：可以在控制台查看详细错误日志`
+            description: `错误信息：${err.message || "未知错误"}`
         }];
     }
 }
