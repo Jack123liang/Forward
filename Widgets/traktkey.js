@@ -1,3 +1,6 @@
+// OAuth 授权中间态（Forward 内存态）
+let PENDING_TRAKT_DEVICE = null;
+
 WidgetMetadata = {
     id: "trakt_sam_666",
     title: "Trakt 追剧日历",
@@ -7,8 +10,7 @@ WidgetMetadata = {
     requiredVersion: "0.0.1",
     site: "https://trakt.tv",
     
-    // OAuth 授权中间态（Forward 内存态）
-    let PENDING_TRAKT_DEVICE = null;
+    
     globalParams: [
         { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" },
 
