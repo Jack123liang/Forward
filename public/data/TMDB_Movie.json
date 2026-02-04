@@ -1,0 +1,25 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "id": 1,
+      "title": "测试电影",
+      "name": "测试电影",
+      "overview": "选【热门电影】+【全部地区】时，必须有 media_type: movie",
+      "poster_path": "/xvx4H9OEnSwayZ7Y0O6uH6997jO.jpg",
+      "media_type": "movie",
+      "origin_country": ["US"],
+      "vote_average": 8.5
+    },
+    {
+      "id": 2,
+      "title": "测试剧集",
+      "name": "测试剧集",
+      "overview": "选【热门剧集】+【全部地区】时，必须有 media_type: tv",
+      "poster_path": "/kS6Yp79YAn9Y34vU79p7Y9Y.jpg",
+      "media_type": "tv",
+      "origin_country": ["KR"],
+      "vote_average": 9.0
+    }
+  ]
+}
