@@ -9,6 +9,7 @@ WidgetMetadata = {
 
     globalParams: [
         { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" },
+
         {
             name: "authMode",
             title: "认证模式",
@@ -19,6 +20,7 @@ WidgetMetadata = {
                 { title: "🔐 OAuth 登录", value: "oauth" }
             ]
         },
+
         {
             name: "accessToken",
             title: "OAuth Access Token（仅 OAuth 模式）",
@@ -33,7 +35,7 @@ WidgetMetadata = {
             title: "🔑 OAuth 授权",
             functionName: "oauthLogin",
             type: "action",
-            description: "获取验证码并在浏览器完成授权"
+            description: "点击开始自动授权（浏览器打开 → 输入验证码 → 自动保存）"
         },
         {
             title: "我的片单",
@@ -79,164 +81,398 @@ WidgetMetadata = {
     ]
 };
 
+// ==========================================
+// 🎛️ Forward 手动开关配置区
+// ==========================================
+
+/**
+ * 在 Forward 中编辑这个对象来手动控制 OAuth
+ * 
+ * 使用场景：
+ * 1. 默认模式：useOAuth = false（只读，无需登录）
+ * 2. 手动填 Token：useOAuth = true + 填写 accessToken
+ * 3. 自动授权：点击「🔑 OAuth 授权」按钮，自动保存到这里
+ */
 const FORWARD_OAUTH_CONFIG = {
+    // 👉 手动开关：true = 使用 OAuth，false = 只读模式
     useOAuth: false,
-    accessToken: "",
-    refreshToken: "",
+    
+    // 👉 手动填写（或自动授权后自动保存）
+    accessToken: "",  // Access Token
+    refreshToken: "", // Refresh Token（用于自动续期）
+    
+    // 👉 Client Secret（用于刷新 token，必填）
     clientSecret: "c1898d0393c991cb67317a38ada2f6a74efdb8dd67c389006652a14476b5a660"
 };
 
+// ==========================================
+// 0. 全局配置
+// ==========================================
 const TRAKT_CLIENT_ID = "4af702a58a691dccecdfe85fd4b3592048a8a71c5f168f395ae6a70dcd2bb94c";
+const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
 
 // ==========================================
-// 修复：兼容性授权逻辑
+// 🔐 OAuth 自动授权功能
+// ==========================================
+
+/**
+ * OAuth 自动授权入口
+ * 用户点击「🔑 OAuth 授权」按钮后调用
+ */
+// ... 前面 Metadata 部分保持不变 ...
+
+// ==========================================
+// 🔐 OAuth 自动授权功能 (修复版)
 // ==========================================
 
 async function oauthLogin(params = {}) {
     try {
-        const res = await Widget.http.post("https://api.trakt.tv/oauth/device/code", { client_id: TRAKT_CLIENT_ID });
-        const { user_code, device_code, verification_url, expires_in, interval = 5 } = res.data;
+        if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+            return [{
+                id: "error", type: "text", title: "❌ 配置错误",
+                description: "请先在代码第 78 行左右填写 clientSecret"
+            }];
+        }
 
-        // 核心修复点：不再因为 openUrl 缺失而崩溃
+        // 生成设备码
+        const deviceCodeResponse = await Widget.http.post(
+            "https://api.trakt.tv/oauth/device/code",
+            { client_id: TRAKT_CLIENT_ID },
+            { headers: { "Content-Type": "application/json" } }
+        );
+
+        const { user_code, device_code, verification_url, expires_in, interval = 5 } = deviceCodeResponse.data;
+
+        // 【关键修复】：尝试打开 URL，失败则跳过
         try {
             if (typeof Widget.openUrl === "function") {
                 Widget.openUrl(verification_url);
             }
-        } catch (e) { console.log("Environment does not support openUrl"); }
-
-        // 启动轮询
-        pollForToken(device_code, interval, expires_in, user_code);
-
-        return [{
+        } catch (e) {
+            console.log("环境不支持自动打开网页，请手动操作");
+        }
+        
+        // 即使跳转失败，也将信息通过列表项返回给用户
+        const instructionItem = {
             id: "auth_info",
             type: "text",
             title: "🔑 请手动完成授权",
-            description: `1. 访问: ${verification_url}\n2. 输入验证码: ${user_code}\n\n完成后请返回刷新片单。`
-        }];
+            description: `1. 访问链接: ${verification_url}\n2. 输入验证码: ${user_code}\n\n等待您在浏览器操作中... (验证码有效期 5 分钟)`
+        };
+
+        // 开始异步轮询 (不阻塞返回结果)
+        pollForToken(device_code, interval, expires_in, user_code);
+
+        return [instructionItem];
+
     } catch (error) {
-        return [{ id: "err", type: "text", title: "❌ 启动失败", description: error.message }];
+        return [{
+            id: "error", type: "text", title: "❌ 启动授权失败",
+            description: `错误: ${error.message}`
+        }];
     }
 }
 
-// 轮询逻辑 (保持原版功能)
+/**
+ * 轮询检查授权状态 (增加成功后的 Toast 提示)
+ */
 async function pollForToken(deviceCode, interval, expiresIn, userCode) {
-    const max = Math.floor(expiresIn / interval);
-    for (let i = 0; i < max; i++) {
-        await new Promise(r => setTimeout(r, interval * 1000));
+    const maxAttempts = Math.floor(expiresIn / interval);
+    let attempts = 0;
+
+    while (attempts < maxAttempts) {
+        await sleep(interval * 1000);
+        attempts++;
+
         try {
-            const res = await Widget.http.post("https://api.trakt.tv/oauth/device/token", {
-                code: deviceCode,
-                client_id: TRAKT_CLIENT_ID,
-                client_secret: FORWARD_OAUTH_CONFIG.clientSecret
-            });
-            if (res.data.access_token) {
-                FORWARD_OAUTH_CONFIG.accessToken = res.data.access_token;
-                FORWARD_OAUTH_CONFIG.refreshToken = res.data.refresh_token;
-                FORWARD_OAUTH_CONFIG.useOAuth = true;
-                console.log("✅ 授权成功");
-                return;
+            const tokenResponse = await Widget.http.post(
+                "https://api.trakt.tv/oauth/device/token",
+                {
+                    code: deviceCode,
+                    client_id: TRAKT_CLIENT_ID,
+                    client_secret: FORWARD_OAUTH_CONFIG.clientSecret
+                },
+                { headers: { "Content-Type": "application/json" } }
+            );
+
+            const tokens = tokenResponse.data;
+            // 保存到内存（注：由于 Vercel/Forward 环境限制，这可能不是永久保存）
+            FORWARD_OAUTH_CONFIG.useOAuth = true;
+            FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+            FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+            console.log("✅ 授权成功！Token:", tokens.access_token);
+            // 如果环境支持弹窗提醒
+            if (typeof Widget.showToast === "function") {
+                Widget.showToast("✅ Trakt 授权成功！");
             }
-        } catch (e) { if (e.response?.status !== 400) break; }
+            return tokens;
+
+        } catch (error) {
+            if (error.response?.status === 400) {
+                const errorData = error.response.data;
+                if (errorData.error === "authorization_pending") continue;
+                break;
+            }
+            continue;
+        }
     }
+    return null;
+}
+
+// ... 后续 loadTraktProfile 等函数保持不变 ...
+
+
+/**
+ * 自动刷新 Access Token
+ */
+async function autoRefreshTokenIfNeeded() {
+    if (!FORWARD_OAUTH_CONFIG.useOAuth) return true;
+    
+    // 如果 Access Token 为空但有 Refresh Token，尝试刷新
+    if (!FORWARD_OAUTH_CONFIG.accessToken && FORWARD_OAUTH_CONFIG.refreshToken) {
+        console.log("🔄 Access Token 为空，尝试刷新...");
+        const newToken = await refreshAccessToken(FORWARD_OAUTH_CONFIG.refreshToken);
+        if (newToken) {
+            FORWARD_OAUTH_CONFIG.accessToken = newToken;
+            console.log("✅ Token 刷新成功");
+            return true;
+        } else {
+            console.error("❌ Token 刷新失败，请重新授权");
+            return false;
+        }
+    }
+    return true;
+}
+
+async function refreshAccessToken(refreshToken) {
+    if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+        console.error("❌ 缺少 Client Secret，无法刷新 token");
+        return null;
+    }
+
+    try {
+        const response = await Widget.http.post(
+            "https://api.trakt.tv/oauth/token",
+            {
+                refresh_token: refreshToken,
+                client_id: TRAKT_CLIENT_ID,
+                client_secret: FORWARD_OAUTH_CONFIG.clientSecret,
+                grant_type: "refresh_token"
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }
+        );
+
+        const tokens = response.data;
+        
+        // 更新配置
+        FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+        FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+        console.log("✅ Token 已刷新，新 Token:", tokens.access_token.substring(0, 20) + "...");
+
+        return tokens.access_token;
+    } catch (error) {
+        console.error("刷新 token 失败:", error);
+        return null;
+    }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 // ==========================================
-// 完整业务逻辑 (还原原版所有功能)
+// 🔧 工具函数
+// ==========================================
+
+function buildTraktHeaders(params) {
+    const headers = {
+        "Content-Type": "application/json",
+        "trakt-api-version": "2"
+    };
+
+    // 优先使用 Forward 配置的 OAuth
+    if (FORWARD_OAUTH_CONFIG.useOAuth && FORWARD_OAUTH_CONFIG.accessToken) {
+        headers["Authorization"] = `Bearer ${FORWARD_OAUTH_CONFIG.accessToken}`;
+        console.log("🔐 使用 OAuth 模式");
+    } else {
+        headers["trakt-api-key"] = TRAKT_CLIENT_ID;
+        console.log("🔓 使用只读模式");
+    }
+
+    return headers;
+}
+
+function formatShortDate(dateStr) {
+    if (!dateStr) return "待定";
+    const date = new Date(dateStr);
+    const m = (date.getMonth() + 1).toString().padStart(2, '0');
+    const d = date.getDate().toString().padStart(2, '0');
+    return `${m}-${d}`;
+}
+
+// ==========================================
+// 📋 主逻辑（保持原有功能）
 // ==========================================
 
 async function loadTraktProfile(params = {}) {
     const { traktUser, section, updateSort = "future_first", type = "all", page = 1 } = params;
-    if (!traktUser) return [{ id: "err", type: "text", title: "请填写用户名" }];
 
-    // 自动刷新逻辑
-    if (FORWARD_OAUTH_CONFIG.useOAuth && !FORWARD_OAUTH_CONFIG.accessToken && FORWARD_OAUTH_CONFIG.refreshToken) {
-        await refreshAccessToken(FORWARD_OAUTH_CONFIG.refreshToken);
-    }
+    if (!traktUser) return [{ id: "err", type: "text", title: "请填写 Trakt 用户名" }];
 
+    // 自动刷新 token（如果需要）
+    await autoRefreshTokenIfNeeded();
+
+    // === A. 追剧日历 (Updates) ===
     if (section === "updates") {
         return await loadUpdatesLogic(traktUser, params, updateSort, page);
     }
 
+    // === B. 常规列表 ===
     let rawItems = [];
+    const sortType = "added,desc";
+    
     if (type === "all") {
-        const [m, s] = await Promise.all([
-            fetchTraktList(section, "movies", "added,desc", page, traktUser, params),
-            fetchTraktList(section, "shows", "added,desc", page, traktUser, params)
+        const [movies, shows] = await Promise.all([
+            fetchTraktList(section, "movies", sortType, page, traktUser, params),
+            fetchTraktList(section, "shows", sortType, page, traktUser, params)
         ]);
-        rawItems = [...m, ...s];
+        rawItems = [...movies, ...shows];
     } else {
-        rawItems = await fetchTraktList(section, type, "added,desc", page, traktUser, params);
+        rawItems = await fetchTraktList(section, type, sortType, page, traktUser, params);
     }
-
+    
     rawItems.sort((a, b) => new Date(getItemTime(b, section)) - new Date(getItemTime(a, section)));
     
+    if (!rawItems || rawItems.length === 0) return page === 1 ? [{ id: "empty", type: "text", title: "列表为空" }] : [];
+
     const promises = rawItems.map(async (item) => {
         const subject = item.show || item.movie || item;
         if (!subject?.ids?.tmdb) return null;
-        const subInfo = (getItemTime(item, section) || "").split('T')[0];
+        let subInfo = "";
+        const timeStr = getItemTime(item, section);
+        if (timeStr) subInfo = timeStr.split('T')[0];
+        if (type === "all") subInfo = `[${item.show ? "剧" : "影"}] ${subInfo}`;
         return await fetchTmdbDetail(subject.ids.tmdb, item.show ? "tv" : "movie", subInfo, subject.title);
     });
     return (await Promise.all(promises)).filter(Boolean);
 }
 
-// 还原追剧日历的复杂排序逻辑
+// ==========================================
+// 📅 追剧日历逻辑
+// ==========================================
+
 async function loadUpdatesLogic(user, params, sort, page) {
     const url = `https://api.trakt.tv/users/${user}/watched/shows?extended=noseasons&limit=100`;
     try {
-        const res = await Widget.http.get(url, { headers: buildHeaders(params) });
+        const res = await Widget.http.get(url, {
+            headers: buildTraktHeaders(params)
+        });
         const data = res.data || [];
-        const enriched = await Promise.all(data.slice(0, 50).map(async (item) => {
+        if (data.length === 0) return [{ id: "empty", type: "text", title: "无观看记录" }];
+
+        const enrichedShows = await Promise.all(data.slice(0, 60).map(async (item) => {
+            if (!item.show?.ids?.tmdb) return null;
             const tmdb = await fetchTmdbShowDetails(item.show.ids.tmdb);
             if (!tmdb) return null;
-            const sortDate = tmdb.next_episode_to_air?.air_date || tmdb.last_episode_to_air?.air_date || "1970-01-01";
-            return { trakt: item, tmdb: tmdb, sortDate, isFuture: sortDate >= new Date().toISOString().split('T')[0] };
+            
+            const nextAir = tmdb.next_episode_to_air?.air_date;
+            const lastAir = tmdb.last_episode_to_air?.air_date;
+            const sortDate = nextAir || lastAir || "1970-01-01";
+            const today = new Date().toISOString().split('T')[0];
+            const isFuture = sortDate >= today;
+
+            return {
+                trakt: item, tmdb: tmdb,
+                sortDate: sortDate,
+                isFuture: isFuture,
+                watchedDate: item.last_watched_at
+            };
         }));
 
-        const valid = enriched.filter(Boolean);
+        const valid = enrichedShows.filter(Boolean);
+        
         if (sort === "future_first") {
-            const f = valid.filter(s => s.isFuture).sort((a,b) => new Date(a.sortDate) - new Date(b.sortDate));
-            const p = valid.filter(s => !s.isFuture).sort((a,b) => new Date(b.sortDate) - new Date(a.sortDate));
-            valid.splice(0, valid.length, ...f, ...p);
+            const futureShows = valid.filter(s => s.isFuture && s.tmdb.next_episode_to_air);
+            const pastShows = valid.filter(s => !s.isFuture || !s.tmdb.next_episode_to_air);
+            futureShows.sort((a, b) => new Date(a.sortDate) - new Date(b.sortDate));
+            pastShows.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+            valid.length = 0; 
+            valid.push(...futureShows, ...pastShows);
         } else if (sort === "air_date_desc") {
-            valid.sort((a,b) => new Date(b.sortDate) - new Date(a.sortDate));
+            valid.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+        } else {
+            valid.sort((a, b) => new Date(b.watchedDate) - new Date(a.watchedDate));
         }
 
-        return valid.slice((page-1)*15, page*15).map(item => {
+        const start = (page - 1) * 15;
+        return valid.slice(start, start + 15).map(item => {
             const d = item.tmdb;
-            const ep = d.next_episode_to_air || d.last_episode_to_air;
-            const info = ep ? `${d.next_episode_to_air?'🔜':'📅'} ${ep.air_date.slice(5)} S${ep.season_number}E${ep.episode_number}` : "暂无排期";
+            
+            let displayStr = "暂无排期";
+            let icon = "📅";
+            let epData = null;
+
+            if (d.next_episode_to_air) {
+                icon = "🔜";
+                epData = d.next_episode_to_air;
+            } else if (d.last_episode_to_air) {
+                icon = "📅";
+                epData = d.last_episode_to_air;
+            }
+
+            if (epData) {
+                const shortDate = formatShortDate(epData.air_date);
+                displayStr = `${icon} ${shortDate} 📺 S${epData.season_number}E${epData.episode_number}`;
+            }
+            
             return {
-                id: String(d.id), type: "tmdb", mediaType: "tv",
-                title: d.name, genreTitle: info, subTitle: info,
+                id: String(d.id), 
+                tmdbId: d.id, 
+                type: "tmdb", 
+                mediaType: "tv",
+                title: d.name, 
+                genreTitle: displayStr, 
+                subTitle: displayStr,
                 posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : "",
-                description: d.overview
+                description: `上次观看: ${item.watchedDate.split("T")[0]}\n${d.overview}`
             };
         });
-    } catch (e) { return []; }
+    } catch (e) { 
+        console.error("加载追剧日历失败:", e);
+        return []; 
+    }
 }
 
-// 辅助函数们
-function buildHeaders(params) {
-    const h = { "Content-Type": "application/json", "trakt-api-version": "2" };
-    if (FORWARD_OAUTH_CONFIG.useOAuth && FORWARD_OAUTH_CONFIG.accessToken) {
-        h["Authorization"] = `Bearer ${FORWARD_OAUTH_CONFIG.accessToken}`;
-    } else { h["trakt-api-key"] = TRAKT_CLIENT_ID; }
-    return h;
-}
-
-async function fetchTraktList(s, t, sort, p, u, params) {
+async function fetchTraktList(section, type, sort, page, user, params) {
+    const limit = 20; 
+    const url = `https://api.trakt.tv/users/${user}/${section}/${type}?extended=full&page=${page}&limit=${limit}`;
     try {
-        const res = await Widget.http.get(`https://api.trakt.tv/users/${u}/${s}/${t}?extended=full&page=${p}&limit=20`, { headers: buildHeaders(params) });
-        return res.data || [];
-    } catch (e) { return []; }
+        const res = await Widget.http.get(url, {
+            headers: buildTraktHeaders(params)
+        });
+        return Array.isArray(res.data) ? res.data : [];
+    } catch (e) { 
+        console.error("获取列表失败:", e);
+        return []; 
+    }
 }
 
-async function fetchTmdbDetail(id, type, sub, title) {
+async function fetchTmdbDetail(id, type, subInfo, originalTitle) {
     try {
         const d = await Widget.tmdb.get(`/${type}/${id}`, { params: { language: "zh-CN" } });
-        return { id: String(d.id), type: "tmdb", mediaType: type, title: d.name || d.title || title,
-                 genreTitle: (d.first_air_date || d.release_date || "").slice(0,4), subTitle: sub,
-                 posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : "", description: d.overview };
+        const year = (d.first_air_date || d.release_date || "").substring(0, 4);
+        return {
+            id: String(d.id), tmdbId: d.id, type: "tmdb", mediaType: type,
+            title: d.name || d.title || originalTitle,
+            genreTitle: year, subTitle: subInfo, description: d.overview,
+            posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : ""
+        };
     } catch (e) { return null; }
 }
 
@@ -245,5 +481,8 @@ async function fetchTmdbShowDetails(id) {
 }
 
 function getItemTime(item, section) {
-    return item.listed_at || item.watched_at || item.collected_at || item.created_at;
+    if (section === "watchlist") return item.listed_at;
+    if (section === "history") return item.watched_at;
+    if (section === "collection") return item.collected_at;
+    return item.created_at || "1970-01-01";
 }
