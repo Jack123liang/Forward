@@ -1,7 +1,7 @@
 {
   "dates": {
-    "maximum": "2026-02-04",
-    "minimum": "2025-12-24"
+    "maximum": "2026-02-11",
+    "minimum": "2025-12-31"
   },
   "page": 1,
   "results": [
@@ -10,11 +10,10 @@
       "title": "特工迷阵",
       "name": "特工迷阵",
       "poster_path": "/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "backdrop_path": "/e4OnHU8HNAhdS6C4Ypk6NA26kPQ.jpg",
+      "backdrop_path": "/zm5KTTutG2oN06BehOa8uD1SVhy.jpg",
       "release_date": "2026-01-28",
       "media_type": "movie",
-      "vote_average": 6.599,
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。"
+      "vote_average": 6.724
     },
     {
       "id": 840464,
@@ -24,8 +23,7 @@
       "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "release_date": "2026-01-07",
       "media_type": "movie",
-      "vote_average": 6.505,
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……"
+      "vote_average": 6.446
     },
     {
       "id": 1419406,
@@ -35,8 +33,7 @@
       "backdrop_path": "/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
       "release_date": "2025-08-16",
       "media_type": "movie",
-      "vote_average": 7.186,
-      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕……"
+      "vote_average": 7.171
     },
     {
       "id": 1234731,
@@ -46,8 +43,7 @@
       "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "release_date": "2025-12-24",
       "media_type": "movie",
-      "vote_average": 5.957,
-      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。"
+      "vote_average": 5.877
     },
     {
       "id": 1271895,
@@ -57,8 +53,7 @@
       "backdrop_path": "/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "release_date": "2025-09-05",
       "media_type": "movie",
-      "vote_average": 6.1,
-      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。"
+      "vote_average": 6.114
     },
     {
       "id": 1584215,
@@ -68,8 +63,7 @@
       "backdrop_path": "/eUERZRVjCTNdgnESlQxyaOJ2d4K.jpg",
       "release_date": "2026-01-13",
       "media_type": "movie",
-      "vote_average": 6.2,
-      "overview": "一名冷酷且训练有素的杀手，自幼被培养于一个名为 The Internship 的 CIA 最高机密项目中。多年后，她决定摧毁这个夺走自己青春的机构。她召集昔日的“实习生”同伴，发动了一场血腥的反抗行动——迫使 CIA 动用同样致命的力量来镇压他们。"
+      "vote_average": 6.162
     },
     {
       "id": 1601243,
@@ -79,8 +73,17 @@
       "backdrop_path": "/6D6M5z4reppUxo2cnBEKI02Csp1.jpg",
       "release_date": "2026-01-09",
       "media_type": "movie",
-      "vote_average": 5.833,
-      "overview": ""
+      "vote_average": 5.833
+    },
+    {
+      "id": 1368166,
+      "title": "家弑服务",
+      "name": "家弑服务",
+      "poster_path": "/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
+      "backdrop_path": "/gEHDCtR9PNZvLG70sFBYJCFznRY.jpg",
+      "release_date": "2025-12-18",
+      "media_type": "movie",
+      "vote_average": 7.064
     },
     {
       "id": 83533,
@@ -90,8 +93,7 @@
       "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
       "release_date": "2025-12-17",
       "media_type": "movie",
-      "vote_average": 7.295,
-      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。"
+      "vote_average": 7.3
     },
     {
       "id": 1306368,
@@ -101,19 +103,7 @@
       "backdrop_path": "/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
       "release_date": "2026-01-13",
       "media_type": "movie",
-      "vote_average": 7.023,
-      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？"
-    },
-    {
-      "id": 1167307,
-      "title": "大卫",
-      "name": "大卫",
-      "poster_path": "/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
-      "backdrop_path": "/oN4TQ1TxchynXlFiXFBL3NHLT54.jpg",
-      "release_date": "2025-12-14",
-      "media_type": "movie",
-      "vote_average": 8.167,
-      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。"
+      "vote_average": 7.025
     }
   ]
 }

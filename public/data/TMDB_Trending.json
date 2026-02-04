@@ -9,41 +9,7 @@
       "backdrop_path": "/gEHDCtR9PNZvLG70sFBYJCFznRY.jpg",
       "release_date": "2025-12-18",
       "media_type": "movie",
-      "vote_average": 7.069,
-      "overview": "为生计挣扎的女子米莉（西德尼·斯维尼 饰）找到了一个新的开始，在一对看似完美且富有的夫妻妮娜（阿曼达·塞弗里德 饰）和安德鲁（布兰登·斯克莱纳 饰）的家中做家政。然而，米莉很快发现一家人的秘密比自己的要危险得多，这座豪宅背后上演着充满秘辛、丑闻、权力诱惑的游戏。"
-    },
-    {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "name": "哈姆奈特",
-      "poster_path": "/wKGcgF3KS0luee7HjlzZF6hHKRH.jpg",
-      "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
-      "release_date": "2025-11-26",
-      "media_type": "movie",
-      "vote_average": 7.764,
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。"
-    },
-    {
-      "id": 106379,
-      "title": "辐射",
-      "name": "辐射",
-      "poster_path": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
-      "release_date": "2024-04-10",
-      "media_type": "movie",
-      "vote_average": 8.14,
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。"
-    },
-    {
-      "id": 1198984,
-      "title": "我们埋葬死者",
-      "name": "我们埋葬死者",
-      "poster_path": "/d6FwKyt8xR9SF93iYzOawN2HTaD.jpg",
-      "backdrop_path": "/vbkW4KerpshPZnP84w9qwSfYrhu.jpg",
-      "release_date": "2026-01-01",
-      "media_type": "movie",
-      "vote_average": 6.3,
-      "overview": "当丈夫在一场灾难性军事实验的余波中失踪后，艾娃加入了一支 “遗体回收小队”，希望能找到活着的他。但她的搜寻却迎来了令人毛骨悚然的转折 —— 她正在安葬的遗体，竟开始显现出生命迹象。"
+      "vote_average": 7.064
     },
     {
       "id": 1168190,
@@ -53,19 +19,17 @@
       "backdrop_path": "/zm5KTTutG2oN06BehOa8uD1SVhy.jpg",
       "release_date": "2026-01-28",
       "media_type": "movie",
-      "vote_average": 6.724,
-      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。"
+      "vote_average": 6.724
     },
     {
-      "id": 1370814,
-      "title": "瘟疫",
-      "name": "瘟疫",
-      "poster_path": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
-      "backdrop_path": "/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
-      "release_date": "2025-12-24",
+      "id": 858024,
+      "title": "哈姆奈特",
+      "name": "哈姆奈特",
+      "poster_path": "/wKGcgF3KS0luee7HjlzZF6hHKRH.jpg",
+      "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+      "release_date": "2025-11-26",
       "media_type": "movie",
-      "vote_average": 7.708,
-      "overview": ""
+      "vote_average": 7.8
     },
     {
       "id": 1084242,
@@ -75,19 +39,7 @@
       "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
       "release_date": "2025-11-26",
       "media_type": "movie",
-      "vote_average": 7.637,
-      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……"
-    },
-    {
-      "id": 1180417,
-      "title": "荷兰人",
-      "name": "荷兰人",
-      "poster_path": "/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
-      "backdrop_path": "/bUktSJyiZIs4qPpMopjz2NMY0s9.jpg",
-      "release_date": "2026-01-02",
-      "media_type": "movie",
-      "vote_average": 4.286,
-      "overview": ""
+      "vote_average": 7.637
     },
     {
       "id": 198178,
@@ -97,19 +49,57 @@
       "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
       "release_date": "2026-01-27",
       "media_type": "movie",
-      "vote_average": 7.042,
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。"
+      "vote_average": 7.062
     },
     {
-      "id": 1466115,
-      "title": "今夜，就算这份爱恋从世界上消失",
-      "name": "今夜，就算这份爱恋从世界上消失",
-      "poster_path": "/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
-      "backdrop_path": "/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
+      "id": 1234731,
+      "title": "新狂蟒之灾",
+      "name": "新狂蟒之灾",
+      "poster_path": "/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "release_date": "2025-12-24",
       "media_type": "movie",
-      "vote_average": 7.0,
-      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。"
+      "vote_average": 5.877
+    },
+    {
+      "id": 106379,
+      "title": "辐射",
+      "name": "辐射",
+      "poster_path": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
+      "release_date": "2024-04-10",
+      "media_type": "movie",
+      "vote_average": 8.14
+    },
+    {
+      "id": 840464,
+      "title": "末日逃生2：迁移",
+      "name": "末日逃生2：迁移",
+      "poster_path": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "release_date": "2026-01-07",
+      "media_type": "movie",
+      "vote_average": 6.446
+    },
+    {
+      "id": 1198994,
+      "title": "请求救援",
+      "name": "请求救援",
+      "poster_path": "/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "backdrop_path": "/hO2jx1H3XafR7Y8QbFgVH1sHTY9.jpg",
+      "release_date": "2026-01-22",
+      "media_type": "movie",
+      "vote_average": 7.057
+    },
+    {
+      "id": 1116201,
+      "title": "铁肺",
+      "name": "铁肺",
+      "poster_path": "/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "backdrop_path": "/gqGQ0zADV5FIcgMWtWX8FcGQjFp.jpg",
+      "release_date": "2026-01-29",
+      "media_type": "movie",
+      "vote_average": 7.7
     }
   ]
 }
