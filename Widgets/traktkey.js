@@ -119,7 +119,8 @@ const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
 /**
  * OAuth 自动授权入口
  * 用户点击「🔑 OAuth 授权」按钮后调用
- */// Forward 内存中保存中间状态
+ */
+// Forward 内存中保存中间状态
 let PENDING_TRAKT_DEVICE = null;
 
 async function oauthLogin() {
