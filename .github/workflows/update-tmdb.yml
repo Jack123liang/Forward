@@ -21,17 +21,16 @@ jobs:
         run: pip install requests
 
       - name: Fetch and Transform TMDB Data
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           python - <<EOF
           import requests
           import json
           import os
-          from datetime import datetime, timedelta
 
-          API_KEY = "6358fd374e1372bd48effd9e21521917"
+          API_KEY = os.environ.get("TMDB_API_KEY")  # 从环境变量读取
           BASE_URL = "https://api.themoviedb.org/3"
-          SAVE_PATH = "public/data"
-          os.makedirs(SAVE_PATH, exist_ok=True)
 
           def fetch_genres():
               """获取类型映射"""
