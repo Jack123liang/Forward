@@ -8,9 +8,27 @@ WidgetMetadata = {
     site: "https://trakt.tv",
 
     globalParams: [
-        // 修改点：只保留了用户名输入，移除了 Client ID 输入
-        { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" }
-    ],
+    { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" },
+
+    {
+        name: "authMode",
+        title: "认证模式",
+        type: "enumeration",
+        value: "public",
+        enumOptions: [
+            { title: "🔓 只读（无需登录）", value: "public" },
+            { title: "🔐 OAuth 登录", value: "oauth" }
+        ]
+    },
+
+    {
+        name: "accessToken",
+        title: "OAuth Access Token（仅 OAuth 模式）",
+        type: "input",
+        value: "",
+        belongTo: { paramName: "authMode", value: ["oauth"] }
+    }
+],
 
     modules: [
         {
@@ -60,6 +78,20 @@ WidgetMetadata = {
 // ==========================================
 // 0. 全局配置 & 工具函数
 // ==========================================
+function buildTraktHeaders(params) {
+    const headers = {
+        "Content-Type": "application/json",
+        "trakt-api-version": "2"
+    };
+
+    if (params.authMode === "oauth" && params.accessToken) {
+        headers["Authorization"] = `Bearer ${params.accessToken}`;
+    } else {
+        headers["trakt-api-key"] = TRAKT_CLIENT_ID;
+    }
+
+    return headers;
+}
 
 // 修改点：内置 Client ID
 const TRAKT_CLIENT_ID = "8e3ef2a3a889724abe329a12b5c6e9a4d38f3a43f8861773a14bcccfebc0005d";
@@ -84,7 +116,7 @@ async function loadTraktProfile(params = {}) {
 
     // === A. 追剧日历 (Updates) ===
     if (section === "updates") {
-        return await loadUpdatesLogic(traktUser, TRAKT_CLIENT_ID, updateSort, page);
+        return await loadUpdatesLogic(traktUser, params, updateSort, page);
     }
 
     // === B. 常规列表 ===
@@ -122,12 +154,12 @@ async function loadTraktProfile(params = {}) {
 // 2. 追剧日历逻辑 (保持 UI 不变)
 // ==========================================
 
-async function loadUpdatesLogic(user, id, sort, page) {
+async function loadUpdatesLogic(user, params, sort, page) {
     const url = `https://api.trakt.tv/users/${user}/watched/shows?extended=noseasons&limit=100`;
     try {
         const res = await Widget.http.get(url, {
-            headers: { "Content-Type": "application/json", "trakt-api-version": "2", "trakt-api-key": id }
-        });
+    headers: buildTraktHeaders(params)
+});
         const data = res.data || [];
         if (data.length === 0) return [{ id: "empty", type: "text", title: "无观看记录" }];
 
@@ -206,12 +238,12 @@ async function loadUpdatesLogic(user, id, sort, page) {
     } catch (e) { return []; }
 }
 
-async function fetchTraktList(section, type, sort, page, user, id) {
+async function fetchTraktList(section, type, sort, page, user, params) {
     const limit = 20; 
     const url = `https://api.trakt.tv/users/${user}/${section}/${type}?extended=full&page=${page}&limit=${limit}`;
     try {
         const res = await Widget.http.get(url, {
-            headers: { "Content-Type": "application/json", "trakt-api-version": "2", "trakt-api-key": id }
+            headers: buildTraktHeaders(params)
         });
         return Array.isArray(res.data) ? res.data : [];
     } catch (e) { return []; }
