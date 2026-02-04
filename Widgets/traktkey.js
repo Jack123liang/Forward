@@ -125,21 +125,17 @@ const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
  */
 async function oauthLogin() {
     try {
-        // === 安全检查 ===
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
             return [{
                 id: "no_secret",
                 type: "text",
                 title: "❌ 缺少 Client Secret",
-                description: "请先在代码中填写 Trakt Client Secret",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png"
+                description: "请在代码中填写 Client Secret",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
-        // =====================================================
-        // Step 1：尚未生成 device code → 生成并提示用户
-        // =====================================================
+        // 第一次生成 device code
         if (!PENDING_TRAKT_DEVICE) {
             const res = await Widget.http.post(
                 "https://api.trakt.tv/oauth/device/code",
@@ -151,43 +147,32 @@ async function oauthLogin() {
 
             PENDING_TRAKT_DEVICE = {
                 deviceCode: d.device_code,
-                expiresAt: Date.now() + d.expires_in * 1000,
                 userCode: d.user_code,
                 verificationUrl: d.verification_url,
-                expiresIn: d.expires_in
+                expiresAt: Date.now() + d.expires_in * 1000
             };
 
-            // 自动打开浏览器
-            try { Widget.openUrl(d.verification_url); } catch (e) {
-                console.log("无法自动打开浏览器，请手动访问:", d.verification_url);
-            }
-
+            // Forward 环境下可能无法自动弹出浏览器，提示用户手动打开
             return [{
                 id: "step1",
                 type: "text",
-                title: "🔑 TRAKT OAUTH 授权",
+                title: "🔑 TRAKT OAuth 授权",
                 description:
-`请在浏览器中完成授权：
-
-🌐 授权地址：
+`1️⃣ 请在浏览器中打开：
 ${d.verification_url}
 
-🔢 验证码：
+2️⃣ 输入验证码：
 【${d.user_code}】
 
-已尝试自动打开浏览器，如果没有弹出，请手动访问。
+⚠️ 有些环境下无法自动打开浏览器，请手动访问。
 
-完成授权后，请返回 Forward，再次点击「🔑 OAuth 授权」
-
-⏳ 有效期：${Math.floor(d.expires_in / 60)} 分钟`,
+完成授权后返回 Forward，重新点击授权按钮以获取 Token。`,
                 coverUrl: "https://trakt.tv/assets/logos/logo.png",
                 posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
-        // =====================================================
-        // Step 2：已生成 device code → 尝试换取 token
-        // =====================================================
+        // 第二次点击尝试获取 Token
         if (Date.now() > PENDING_TRAKT_DEVICE.expiresAt) {
             PENDING_TRAKT_DEVICE = null;
             return [{
@@ -195,8 +180,7 @@ ${d.verification_url}
                 type: "text",
                 title: "⌛ 授权已过期",
                 description: "验证码已失效，请重新点击授权",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png"
+                coverUrl: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -212,7 +196,7 @@ ${d.verification_url}
 
         const t = tokenRes.data;
 
-        // 保存 Token 到内存
+        // 保存 Token
         FORWARD_OAUTH_CONFIG.useOAuth = true;
         FORWARD_OAUTH_CONFIG.accessToken = t.access_token;
         FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
@@ -222,7 +206,7 @@ ${d.verification_url}
         return [{
             id: "success",
             type: "text",
-            title: "✅ TRAKT OAUTH 授权完成",
+            title: "✅ OAuth 授权完成",
             description:
 `🎉 OAuth 授权成功！
 
@@ -242,38 +226,12 @@ ${Math.floor(t.expires_in / 86400)} 天
 
     } catch (err) {
         console.error("OAuth 授权失败", err);
-
-        // 处理中间状态
-        if (err.response?.data?.error === "authorization_pending") {
-            return [{
-                id: "pending",
-                type: "text",
-                title: "⏳ 尚未授权",
-                description: "请先在浏览器完成授权，然后再次点击按钮",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png"
-            }];
-        }
-
-        if (err.response?.data?.error === "access_denied") {
-            PENDING_TRAKT_DEVICE = null;
-            return [{
-                id: "denied",
-                type: "text",
-                title: "❌ 用户拒绝授权",
-                description: "请重新点击授权",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png"
-            }];
-        }
-
         return [{
             id: "error",
             type: "text",
             title: "❌ 授权失败",
             description: `错误信息：${err.message || "未知错误"}`,
-            coverUrl: "https://trakt.tv/assets/logos/logo.png",
-            posterPath: "https://trakt.tv/assets/logos/logo.png"
+            coverUrl: "https://trakt.tv/assets/logos/logo.png"
         }];
     }
 }
