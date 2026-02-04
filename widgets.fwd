@@ -4,15 +4,6 @@
   "icon": "https://raw.githubusercontent.com/Jack123liang/Forward/main/icon.png",
   "widgets": [
     {
-      "id": "Move_lists_unlocked",
-      "title": "影视榜单",
-      "description": "影视榜单排行",
-      "requiredVersion": "0.0.2",
-      "version": "2.0.0",
-      "author": "Gemini",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_lists.js"
-    },
-    {
       "id": "trakt_personal_key",
       "title": "Trak 追剧日历 免key版",
       "description": "内置 Key 版：只需填写用户名即可使用。显示追剧日历、待看、收藏及历史记录",
