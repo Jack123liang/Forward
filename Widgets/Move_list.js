@@ -2,7 +2,7 @@ WidgetMetadata = {
   id: "Move_list",
   title: "影视榜单",
   description: "影视排行榜单",
-  author:Jackie",
+  author:"Jackie",
   site: "https://forward-eta.vercel.app",
   version: "1.5.1",
   requiredVersion: "0.0.2",
