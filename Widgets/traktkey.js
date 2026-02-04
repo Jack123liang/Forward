@@ -125,7 +125,7 @@ let PENDING_TRAKT_DEVICE = null;
 
 async function oauthLogin() {
     try {
-        // 1️⃣ 安全检查
+        // 安全检查
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
             return [{
                 id: "no_secret",
@@ -136,7 +136,7 @@ async function oauthLogin() {
             }];
         }
 
-        // 2️⃣ 第一次生成 device_code → 显示验证码 + 授权链接
+        // 第一次生成 device_code → 显示验证码 + 授权链接
         if (!PENDING_TRAKT_DEVICE) {
             const res = await Widget.http.post(
                 "https://api.trakt.tv/oauth/device/code",
@@ -153,27 +153,23 @@ async function oauthLogin() {
             };
 
             return [{
-    id: "step1",
-    type: "text",
-    title: "🔑 TRAKT OAuth 授权",
-    description: `请在浏览器中完成授权：
+                id: "step1",
+                type: "text",
+                title: "🔑 TRAKT OAuth 授权",
+                description: "请在浏览器中完成授权：\n\n" +
+                             "🌐 授权地址：\n" + d.verification_url + "\n\n" +
+                             "🔢 验证码：\n" + d.user_code + "\n\n" +
+                             "完成后返回 Forward 点击按钮获取 Token。",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png",
+                buttons: [
+                    { title: "🌐 打开浏览器", action: "open_url", value: d.verification_url },
+                    { title: "📋 复制验证码", action: "copy", value: d.user_code }
+                ]
+            }];
+        }
 
-🌐 授权地址：
-${d.verification_url}
-
-🔢 验证码：
-${d.user_code}
-
-完成后返回 Forward 点击按钮获取 Token。`,
-    coverUrl: "https://trakt.tv/assets/logos/logo.png",
-    posterPath: "https://trakt.tv/assets/logos/logo.png",
-    buttons: [
-        { title: "🌐 打开浏览器", action: "open_url", value: d.verification_url },
-        { title: "📋 复制验证码", action: "copy", value: d.user_code }
-    ]
-}];
-
-        // 3️⃣ 第二次点击 → 尝试获取 Token
+        // 第二次点击 → 尝试获取 Token
         if (Date.now() > PENDING_TRAKT_DEVICE.expiresAt) {
             PENDING_TRAKT_DEVICE = null;
             return [{
@@ -201,27 +197,18 @@ ${d.user_code}
         FORWARD_OAUTH_CONFIG.useOAuth = true;
         FORWARD_OAUTH_CONFIG.accessToken = t.access_token;
         FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
-
         PENDING_TRAKT_DEVICE = null;
 
-        // 4️⃣ 返回成功信息 + 复制按钮
+        // 返回成功信息
         return [{
             id: "success",
             type: "text",
             title: "✅ OAuth 授权完成",
-            description:
-`🎉 OAuth 授权成功！
-
-Access Token：
-${t.access_token}
-
-Refresh Token：
-${t.refresh_token}
-
-有效期：
-${Math.floor(t.expires_in / 86400)} 天
-
-⚠️ 点击按钮可复制 Token 以便长期保存`,
+            description: "🎉 OAuth 授权成功！\n\n" +
+                         "Access Token：\n" + t.access_token + "\n\n" +
+                         "Refresh Token：\n" + t.refresh_token + "\n\n" +
+                         "有效期：" + Math.floor(t.expires_in / 86400) + " 天\n\n" +
+                         "⚠️ 点击下面按钮可直接复制 Token 方便保存",
             coverUrl: "https://trakt.tv/assets/logos/logo.png",
             posterPath: "https://trakt.tv/assets/logos/logo.png",
             buttons: [
@@ -233,7 +220,7 @@ ${Math.floor(t.expires_in / 86400)} 天
     } catch (err) {
         console.error("OAuth 授权失败", err);
 
-        // 用户还没授权
+        // 尚未授权
         if (err.response?.data?.error === "authorization_pending") {
             return [{
                 id: "pending",
@@ -260,7 +247,7 @@ ${Math.floor(t.expires_in / 86400)} 天
             id: "error",
             type: "text",
             title: "❌ 授权失败",
-            description: `错误信息：${err.message || "未知错误"}`,
+            description: "错误信息：" + (err.message || "未知错误"),
             coverUrl: "https://trakt.tv/assets/logos/logo.png"
         }];
     }
