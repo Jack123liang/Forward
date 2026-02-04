@@ -2,11 +2,22 @@
   "page": 1,
   "results": [
     {
-      "title": "测试数据-如果你看到这个说明成功了",
-      "overview": "独立化部署测试",
-      "poster_path": "",
-      "vote_average": 9.9
+      "id": 1,
+      "title": "我的独立榜单已上线",
+      "overview": "这是我自己托管的数据，不再依赖原作者！",
+      "poster_path": "/xvx4H9OEnSwayZ7Y0O6uH6997jO.jpg",
+      "vote_average": 9.9,
+      "release_date": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "title": "功夫熊猫 4",
+      "overview": "经典动画回归。",
+      "poster_path": "/kS6Yp79YAn9Y34vU79p7Y9Y.jpg",
+      "vote_average": 8.0,
+      "release_date": "2024-03-08"
     }
   ]
 }
+
 
