@@ -7,7 +7,7 @@ WidgetMetadata = {
   requiredVersion: “0.0.1”,
   site: “https://trakt.tv”,
 
-```
+     ```
 globalParams: [
     { name: "traktUser", title: "Trakt 用户名 (必填)", type: "input", value: "" }
 ],
