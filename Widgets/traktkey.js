@@ -150,9 +150,6 @@ async function oauthLogin(params = {}) {
         const verificationUrl = deviceData.verification_url;
         const expiresIn = deviceData.expires_in;
         const interval = deviceData.interval || 5;
-
-        // Step 3: 打开浏览器
-        Widget.openUrl(verificationUrl);
         
         // Step 4: 返回验证码信息（不使用 showToast）
         console.log(`验证码: ${userCode}`);
