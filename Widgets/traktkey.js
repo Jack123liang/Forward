@@ -126,8 +126,8 @@ async function loadTraktProfile(params = {}) {
     // 使用内置 ID 调用
     if (type === "all") {
         const [movies, shows] = await Promise.all([
-            fetchTraktList(section, "movies", sortType, page, traktUser, TRAKT_CLIENT_ID),
-            fetchTraktList(section, "shows", sortType, page, traktUser, TRAKT_CLIENT_ID)
+            fetchTraktList(section, "movies", sortType, page, traktUser, params),
+            fetchTraktList(section, "shows", sortType, page, traktUser, params)
         ]);
         rawItems = [...movies, ...shows];
     } else {
