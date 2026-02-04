@@ -1,18 +1,9 @@
 {
   "version": 2,
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS" }
-      ]
-    }
-  ],
   "rewrites": [
     {
-      "source": "/api/tmdb/:path*",
-      "destination": "https://api.themoviedb.org/:path*?api_key=6358fd374e1372bd48effd9e21521917"
+      "source": "/api/tmdb/(.*)",
+      "destination": "https://api.themoviedb.org/$1?api_key=6358fd374e1372bd48effd9e21521917"
     }
   ]
 }
