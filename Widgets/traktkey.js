@@ -157,6 +157,11 @@ async function oauthLogin() {
                 expiresIn: d.expires_in
             };
 
+            // 自动打开浏览器
+            try { Widget.openUrl(d.verification_url); } catch (e) {
+                console.log("无法自动打开浏览器，请手动访问:", d.verification_url);
+            }
+
             return [{
                 id: "step1",
                 type: "text",
@@ -169,6 +174,8 @@ ${d.verification_url}
 
 🔢 验证码：
 【${d.user_code}】
+
+已尝试自动打开浏览器，如果没有弹出，请手动访问。
 
 完成授权后，请返回 Forward，再次点击「🔑 OAuth 授权」
 
