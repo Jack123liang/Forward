@@ -22,15 +22,24 @@ jobs:
 
       - name: Fetch and Transform TMDB Data
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}  # 🔑 从 GitHub Secrets 读取
         run: |
           python - <<EOF
           import requests
           import json
           import os
+          from datetime import datetime, timedelta
 
-          API_KEY = os.environ.get("TMDB_API_KEY")  # 从环境变量读取
+          # 🔑 从环境变量获取 API Key
+          API_KEY = os.environ.get("TMDB_API_KEY")
+          
+          if not API_KEY:
+              print("ERROR: TMDB_API_KEY not found in environment variables!")
+              exit(1)
+          
           BASE_URL = "https://api.themoviedb.org/3"
+          SAVE_PATH = "public/data"
+          os.makedirs(SAVE_PATH, exist_ok=True)
 
           def fetch_genres():
               """获取类型映射"""
@@ -117,51 +126,4 @@ jobs:
                       is_recent(item.get("release_date", ""), years=2)):
                       
                       movie_items.append({
-                          "id": item.get("id"),
-                          "type": "movie",
-                          "title": item.get("title", ""),
-                          "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
-                          "rating": item.get("vote_average", 0),
-                          "overview": item.get("overview", ""),
-                          "release_date": item.get("release_date", ""),
-                          "poster_url": item.get("poster_path", ""),
-                          "title_backdrop": item.get("backdrop_path", ""),
-                          "genre_ids": item.get("genre_ids", []),
-                          "popularity": item.get("popularity", 0)
-                      })
-              
-              if len(movie_items) >= 20:
-                  break
-
-          # 按人气排序，取前20个
-          movie_items.sort(key=lambda x: x["popularity"], reverse=True)
-          today_movies = movie_items[:20]
-
-          # 保存为代码期望的格式
-          output_data = {
-              "today_tv": today_tv,
-              "today_movies": today_movies
-          }
-
-          with open(f"{SAVE_PATH}/TMDB_Trending.json", 'w', encoding='utf-8') as f:
-              json.dump(output_data, f, ensure_ascii=False, indent=2)
-          
-          print(f"Successfully updated TMDB_Trending.json")
-          print(f"TV shows: {len(today_tv)}, Movies: {len(today_movies)}")
-          
-          # 输出最旧的内容日期供参考
-          if today_tv:
-              oldest_tv = min(today_tv, key=lambda x: x["release_date"])
-              print(f"Oldest TV show: {oldest_tv['title']} ({oldest_tv['release_date']})")
-          if today_movies:
-              oldest_movie = min(today_movies, key=lambda x: x["release_date"])
-              print(f"Oldest movie: {oldest_movie['title']} ({oldest_movie['release_date']})")
-          EOF
-
-      - name: Commit and Push
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add public/data/*.json
-          git commit -m "Update TMDB trending data (recent 2 years only)" || exit 0
-          git push
+                          "id": item.get("id​​​​​​​​​​​​​​​​
