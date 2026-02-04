@@ -1,5 +1,14 @@
 {
   "version": 2,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS" }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/tmdb/:path*",
@@ -7,4 +16,3 @@
     }
   ]
 }
-
