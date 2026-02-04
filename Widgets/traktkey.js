@@ -170,14 +170,11 @@ async function oauthLogin() {
         FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
         PENDING_TRAKT_DEVICE = null;
 
-        return [{
-            id: "success",
-            type: "text",
-            title: "✅ OAuth 授权完成",
-            description: `🎉 授权成功！
-Access Token: ${t.access_token}
-Refresh Token: ${t.refresh_token}
-有效期: ${Math.floor(t.expires_in / 86400)} 天`,
+        description: "🎉 OAuth 授权成功！\n" +
+             "Access Token：\n" + t.access_token + "\n" +
+             "Refresh Token：\n" + t.refresh_token + "\n" +
+             "有效期：" + Math.floor(t.expires_in / 86400) + " 天\n" +
+             "⚠️ 点击下面按钮可直接复制 Token 方便保存",
             coverUrl: "https://trakt.tv/assets/logos/logo.png",
             buttons: [
                 { title: "📋 复制 Access Token", action: "copy", value: t.access_token },
