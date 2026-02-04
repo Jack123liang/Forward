@@ -1,5 +1,427 @@
 {
-  "error": "Forbidden",
-  "message": "Access restricted to authorized applications only",
-  "code": "UNAUTHORIZED_ACCESS"
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/zm5KTTutG2oN06BehOa8uD1SVhy.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80
+      ],
+      "id": 1168190,
+      "original_language": "en",
+      "original_title": "The Wrecking Crew",
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "popularity": 761.4033,
+      "poster_path": "/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "release_date": "2026-01-28",
+      "title": "特工迷阵",
+      "video": false,
+      "vote_average": 6.677,
+      "vote_count": 288,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ],
+      "id": 840464,
+      "original_language": "en",
+      "original_title": "Greenland 2: Migration",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "popularity": 677.7898,
+      "poster_path": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "release_date": "2026-01-07",
+      "title": "末日逃生2：迁移",
+      "video": false,
+      "vote_average": 6.462,
+      "vote_count": 279,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12,
+        10751,
+        9648
+      ],
+      "id": 1084242,
+      "original_language": "en",
+      "original_title": "Zootopia 2",
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "popularity": 428.3987,
+      "poster_path": "/lFdyMUKjxoKb8vdjQXQHLvPYDXm.jpg",
+      "release_date": "2025-11-26",
+      "title": "疯狂动物城2",
+      "video": false,
+      "vote_average": 7.64,
+      "vote_count": 1474,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ],
+      "id": 1419406,
+      "original_language": "zh",
+      "original_title": "捕风追影",
+      "overview": "一伙天才盗匪劫走数亿资产，却凭借超强反侦察能力全身而退，戏耍警方“天眼”系统。一筹莫展之际，澳门司警局请回了隐退多年的跟踪专家黄德忠（成龙 饰），他培养年轻司警何秋果（张子枫 饰）等人，重组“神秘跟踪队”，最终锁定了盗匪团的幕后狼王傅隆生（梁家辉 饰）。当警方布下天罗地网之时，盗匪团也设下局中局，斗智斗勇斗心眼，一场高端猫鼠局拉开帷幕……",
+      "popularity": 405.1294,
+      "poster_path": "/o0D5KROIPGtjO7eQgmk3cRslR6p.jpg",
+      "release_date": "2025-08-16",
+      "title": "捕风追影",
+      "video": false,
+      "vote_average": 7.186,
+      "vote_count": 385,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "genre_ids": [
+        12,
+        35,
+        27
+      ],
+      "id": 1234731,
+      "original_language": "en",
+      "original_title": "Anaconda",
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "popularity": 247.4222,
+      "poster_path": "/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "release_date": "2025-12-24",
+      "title": "新狂蟒之灾",
+      "video": false,
+      "vote_average": 5.941,
+      "vote_count": 417,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
+      "genre_ids": [
+        28,
+        80,
+        10749
+      ],
+      "id": 1271895,
+      "original_language": "zh",
+      "original_title": "96分鐘",
+      "overview": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
+      "popularity": 238.0953,
+      "poster_path": "/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
+      "release_date": "2025-09-05",
+      "title": "96分钟：列车爆炸案",
+      "video": false,
+      "vote_average": 6.119,
+      "vote_count": 21,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eUERZRVjCTNdgnESlQxyaOJ2d4K.jpg",
+      "genre_ids": [
+        28
+      ],
+      "id": 1584215,
+      "original_language": "en",
+      "original_title": "The Internship",
+      "overview": "一名冷酷且训练有素的杀手，自幼被培养于一个名为 The Internship 的 CIA 最高机密项目中。多年后，她决定摧毁这个夺走自己青春的机构。她召集昔日的“实习生”同伴，发动了一场血腥的反抗行动——迫使 CIA 动用同样致命的力量来镇压他们。",
+      "popularity": 218.4812,
+      "poster_path": "/p28DqqaN4dOP1OECjaWYVrBRMqP.jpg",
+      "release_date": "2026-01-13",
+      "title": "反叛行动",
+      "video": false,
+      "vote_average": 6.162,
+      "vote_count": 37,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6D6M5z4reppUxo2cnBEKI02Csp1.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "id": 1601243,
+      "original_language": "en",
+      "original_title": "Oscar Shaw",
+      "overview": "",
+      "popularity": 228.086,
+      "poster_path": "/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
+      "release_date": "2026-01-09",
+      "title": "孤警追凶",
+      "video": false,
+      "vote_average": 5.833,
+      "vote_count": 12,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gLXibzLQ4qegvjdqDC0f8yTij2P.jpg",
+      "genre_ids": [
+        9648,
+        53,
+        28
+      ],
+      "id": 1310568,
+      "original_language": "en",
+      "original_title": "Murder at the Embassy",
+      "overview": "1934年，私家侦探米兰达·格林调查英国驻开罗大使馆发生的一起谋杀案，而谋杀案中一份绝密文件的被盗，将危及白金汉宫，震惊世界。",
+      "popularity": 226.4926,
+      "poster_path": "/3DBmBItPdy0A2ol59jgHhS54Lua.jpg",
+      "release_date": "2025-11-14",
+      "title": "大使馆谋杀案",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 30,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "id": 1242898,
+      "original_language": "en",
+      "original_title": "Predator: Badlands",
+      "overview": "一名外星猎手被所属部族驱逐后，意外与一台受损的机器人结为盟友，随后踏上险象环生的旅程，寻找自己的终极宿敌。",
+      "popularity": 165.6074,
+      "poster_path": "/oDFIBAT9HLXx95HMT6kjbOw7Ge7.jpg",
+      "release_date": "2025-11-05",
+      "title": "铁血战士：杀戮之地",
+      "video": false,
+      "vote_average": 7.755,
+      "vote_count": 1781,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ],
+      "id": 83533,
+      "original_language": "en",
+      "original_title": "Avatar: Fire and Ash",
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "popularity": 178.6639,
+      "poster_path": "/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
+      "release_date": "2025-12-17",
+      "title": "阿凡达：火与烬",
+      "video": false,
+      "vote_average": 7.295,
+      "vote_count": 1679,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 1306368,
+      "original_language": "en",
+      "original_title": "The Rip",
+      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
+      "popularity": 168.6813,
+      "poster_path": "/s3yLyVISgyrDalMyBE7LbGrsjk5.jpg",
+      "release_date": "2026-01-13",
+      "title": "全信没收",
+      "video": false,
+      "vote_average": 7.022,
+      "vote_count": 1018,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oN4TQ1TxchynXlFiXFBL3NHLT54.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        18
+      ],
+      "id": 1167307,
+      "original_language": "en",
+      "original_title": "David",
+      "overview": "　　在一个被恐惧统治的王国里，一位年轻的牧羊人勇敢地面对巨人以及其背后的黑暗势力。他的勇气将唤醒一个民族，并证明真正的力量来自信任，而非权力。",
+      "popularity": 146.6882,
+      "poster_path": "/lVyK4nBoUGgLAH6iBnUdEZAfHvM.jpg",
+      "release_date": "2025-12-14",
+      "title": "大卫",
+      "video": false,
+      "vote_average": 8.167,
+      "vote_count": 63,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hO2jx1H3XafR7Y8QbFgVH1sHTY9.jpg",
+      "genre_ids": [
+        27,
+        53,
+        35
+      ],
+      "id": 1198994,
+      "original_language": "en",
+      "original_title": "Send Help",
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "popularity": 125.0082,
+      "poster_path": "/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "release_date": "2026-01-22",
+      "title": "请求救援",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 130,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AecGG1XVCmkk7fT10ko3FC0dLIP.jpg",
+      "genre_ids": [
+        28,
+        14,
+        53
+      ],
+      "id": 1043197,
+      "original_language": "en",
+      "original_title": "Dust Bunny",
+      "overview": "小女孩奥萝拉深信，家中的地板下潜伏着一只吃掉她全家的神秘怪物。 她决定向隔壁冷峻的邻居求助，因为她发现这位看似平凡的男人竟是一名职业杀手！",
+      "popularity": 110.3252,
+      "poster_path": "/iZl0DTHJIQQhLyh53CYQOX12l6O.jpg",
+      "release_date": "2025-12-11",
+      "title": "尘兔",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 142,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+      "genre_ids": [
+        878,
+        53
+      ],
+      "id": 755898,
+      "original_language": "en",
+      "original_title": "War of the Worlds",
+      "overview": "威尔·拉德福德是国土安全部的顶级网络安全分析师，他通过大规模监控项目追踪国家安全的潜在威胁。直到有一天，一个不明实体的攻击让他开始怀疑政府是否对他……以及世界其他地方隐瞒了什么。",
+      "popularity": 118.4287,
+      "poster_path": "/9RLZ48UeVpICPWa7jK2pZPOp2Ve.jpg",
+      "release_date": "2025-07-29",
+      "title": "世界大战",
+      "video": false,
+      "vote_average": 4.215,
+      "vote_count": 874,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gEHDCtR9PNZvLG70sFBYJCFznRY.jpg",
+      "genre_ids": [
+        9648,
+        53
+      ],
+      "id": 1368166,
+      "original_language": "en",
+      "original_title": "The Housemaid",
+      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
+      "popularity": 226.366,
+      "poster_path": "/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
+      "release_date": "2025-12-18",
+      "title": "家弑服务",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 608,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14
+      ],
+      "id": 991494,
+      "original_language": "en",
+      "original_title": "The SpongeBob Movie: Search for SquarePants",
+      "overview": "海绵宝宝和他的朋友们派大星、章鱼哥、珊迪以及蟹老板前往海洋深处面对飞翔的荷兰人幽灵，遭遇挑战并揭开海洋奥秘。",
+      "popularity": 106.8769,
+      "poster_path": "/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
+      "release_date": "2025-12-16",
+      "title": "海绵宝宝：深海大冒险",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 162,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xGbNoh7aWmU81oYuxJoFI07Rz5I.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 1326878,
+      "original_language": "en",
+      "original_title": "Strangers",
+      "overview": "",
+      "popularity": 87.3379,
+      "poster_path": "/v6hYeC1asK2ZRU7Ygukn4tV1zlS.jpg",
+      "release_date": "2024-08-16",
+      "title": "陌生人",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 29,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kv8kCuvfhSQ50YxjowqpVn1QqhJ.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 801937,
+      "original_language": "en",
+      "original_title": "Silent Night, Deadly Night",
+      "overview": "Cineverse制作新版《平安夜，杀人夜》，计划于2025年底上院线。",
+      "popularity": 88.5697,
+      "poster_path": "/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "release_date": "2025-12-11",
+      "title": "平安夜，杀人夜",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 61,
+      "media_type": "movie"
+    }
+  ],
+  "total_pages": 55026,
+  "total_results": 1100518
 }
