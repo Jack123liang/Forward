@@ -102,7 +102,7 @@ const FORWARD_OAUTH_CONFIG = {
     refreshToken: "", // Refresh Token（用于自动续期）
     
     // 👉 Client Secret（用于刷新 token，必填）
-    clientSecret: ""  // 从 https://trakt.tv/oauth/applications 获取
+    clientSecret: "c1898d0393c991cb67317a38ada2f6a74efdb8dd67c389006652a14476b5a660"
 };
 
 // ==========================================
