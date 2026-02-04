@@ -1,9 +1,9 @@
 WidgetMetadata = {
-    id: "trakt_personal_key",
-    title: "Trakt 追剧日历 免key版",
-    author: "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+    id: "trakt_sam_666",
+    title: "Trakt 追剧日历",
+    author: "Jackie",
     description: "内置 API Key 版：只需填写用户名即可使用。显示追剧日历、待看、收藏及历史记录。",
-    version: "1.0.7", // 版本号微升
+    version: "1.0.0", // 版本号微升
     requiredVersion: "0.0.1",
     site: "https://trakt.tv",
 
