@@ -31,101 +31,75 @@ WidgetMetadata = {
         }
     ],
 
-    modules: [
+    // ==========================
+// WidgetMetadata.modules 修改
+// ==========================
+modules: [
     {
         title: "🔑 OAuth 授权",
         functionName: "oauthLogin",
         type: "action",
-        description: "点击开始授权，按提示在浏览器完成登录"
+        description: "点击开始授权，按提示在浏览器完成登录",
+        // 默认显示一条提示文字，防止灰色方块
+        defaultItems: [
+            {
+                id: "init",
+                type: "text",
+                title: "请点击按钮进行 OAuth 授权",
+                description: "OAuth 模块默认未授权状态",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png"
+            }
+        ]
     },
-   {
-            title: "我的片单",
-            functionName: "loadTraktProfile",
-            type: "list",
-            cacheDuration: 300,
-            params: [
-                {
-                    name: "section",
-                    title: "浏览区域",
-                    type: "enumeration",
-                    value: "updates",
-                    enumOptions: [
-                        { title: "📅 追剧日历", value: "updates" },
-                        { title: "📜 待看列表", value: "watchlist" },
-                        { title: "📦 收藏列表", value: "collection" },
-                        { title: "🕒 观看历史", value: "history" }
-                    ]
-                },
-                {
-                    name: "type",
-                    title: "内容筛选",
-                    type: "enumeration",
-                    value: "all",
-                    belongTo: { paramName: "section", value: ["watchlist", "collection", "history"] },
-                    enumOptions: [ { title: "全部", value: "all" }, { title: "剧集", value: "shows" }, { title: "电影", value: "movies" } ]
-                },
-                {
-                    name: "updateSort",
-                    title: "追剧模式",
-                    type: "enumeration",
-                    value: "future_first",
-                    belongTo: { paramName: "section", value: ["updates"] },
-                    enumOptions: [
-                        { title: "🔜 从今天往后", value: "future_first" },
-                        { title: "🔄 按更新倒序", value: "air_date_desc" },
-                        { title: "👁️ 按观看倒序", value: "watched_at" }
-                    ]
-                },
-                { name: "page", title: "页码", type: "page" }
-            ]
-        }
-    ]
-};
+    {
+        title: "我的片单",
+        functionName: "loadTraktProfile",
+        type: "list",
+        cacheDuration: 300,
+        params: [
+            {
+                name: "section",
+                title: "浏览区域",
+                type: "enumeration",
+                value: "updates",
+                enumOptions: [
+                    { title: "📅 追剧日历", value: "updates" },
+                    { title: "📜 待看列表", value: "watchlist" },
+                    { title: "📦 收藏列表", value: "collection" },
+                    { title: "🕒 观看历史", value: "history" }
+                ]
+            },
+            {
+                name: "type",
+                title: "内容筛选",
+                type: "enumeration",
+                value: "all",
+                belongTo: { paramName: "section", value: ["watchlist", "collection", "history"] },
+                enumOptions: [ { title: "全部", value: "all" }, { title: "剧集", value: "shows" }, { title: "电影", value: "movies" } ]
+            },
+            {
+                name: "updateSort",
+                title: "追剧模式",
+                type: "enumeration",
+                value: "future_first",
+                belongTo: { paramName: "section", value: ["updates"] },
+                enumOptions: [
+                    { title: "🔜 从今天往后", value: "future_first" },
+                    { title: "🔄 按更新倒序", value: "air_date_desc" },
+                    { title: "👁️ 按观看倒序", value: "watched_at" }
+                ]
+            },
+            { name: "page", title: "页码", type: "page" }
+        ]
+    }
+]
 
-// ==========================================
-// 🎛️ Forward 手动开关配置区
-// ==========================================
-
-/**
- * 在 Forward 中编辑这个对象来手动控制 OAuth
- * 
- * 使用场景：
- * 1. 默认模式：useOAuth = false（只读，无需登录）
- * 2. 手动填 Token：useOAuth = true + 填写 accessToken
- * 3. 自动授权：点击「🔑 OAuth 授权」按钮，自动保存到这里
- */
-const FORWARD_OAUTH_CONFIG = {
-    // 👉 手动开关：true = 使用 OAuth，false = 只读模式
-    useOAuth: false,
-    
-    // 👉 手动填写（或自动授权后自动保存）
-    accessToken: "",  // Access Token
-    refreshToken: "", // Refresh Token（用于自动续期）
-    
-    // 👉 Client Secret（用于刷新 token，必填）
-    clientSecret: "c1898d0393c991cb67317a38ada2f6a74efdb8dd67c389006652a14476b5a660"
-};
-
-// ==========================================
-// 0. 全局配置
-// ==========================================
-const TRAKT_CLIENT_ID = "4af702a58a691dccecdfe85fd4b3592048a8a71c5f168f395ae6a70dcd2bb94c";
-const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
-
-// ==========================================
-// 🔐 OAuth 自动授权功能
-// ==========================================
-
-/**
- * OAuth 自动授权入口
- * 用户点击「🔑 OAuth 授权」按钮后调用
- */
-// Forward 内存中保存中间状态
-let PENDING_TRAKT_DEVICE = null;
-
+// ==========================
+// oauthLogin 修改
+// ==========================
 async function oauthLogin() {
+    console.log("oauthLogin 被调用"); // 调试用
     try {
-        // 安全检查
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
             return [{
                 id: "no_secret",
@@ -136,8 +110,8 @@ async function oauthLogin() {
             }];
         }
 
-        // 第一次生成 device_code → 显示验证码 + 授权链接
         if (!PENDING_TRAKT_DEVICE) {
+            // 第一次生成 device code
             const res = await Widget.http.post(
                 "https://api.trakt.tv/oauth/device/code",
                 { client_id: TRAKT_CLIENT_ID },
@@ -156,12 +130,11 @@ async function oauthLogin() {
                 id: "step1",
                 type: "text",
                 title: "🔑 TRAKT OAuth 授权",
-                description: "请在浏览器中完成授权：\n\n" +
-                             "🌐 授权地址：\n" + d.verification_url + "\n\n" +
-                             "🔢 验证码：\n" + d.user_code + "\n\n" +
-                             "完成后返回 Forward 点击按钮获取 Token。",
+                description: `请在浏览器完成授权：
+
+🌐 地址: ${d.verification_url}
+🔢 验证码: ${d.user_code}`,
                 coverUrl: "https://trakt.tv/assets/logos/logo.png",
-                posterPath: "https://trakt.tv/assets/logos/logo.png",
                 buttons: [
                     { title: "🌐 打开浏览器", action: "open_url", value: d.verification_url },
                     { title: "📋 复制验证码", action: "copy", value: d.user_code }
@@ -169,7 +142,7 @@ async function oauthLogin() {
             }];
         }
 
-        // 第二次点击 → 尝试获取 Token
+        // 第二次点击获取 Token
         if (Date.now() > PENDING_TRAKT_DEVICE.expiresAt) {
             PENDING_TRAKT_DEVICE = null;
             return [{
@@ -192,25 +165,20 @@ async function oauthLogin() {
         );
 
         const t = tokenRes.data;
-
-        // 保存到 Forward 配置
         FORWARD_OAUTH_CONFIG.useOAuth = true;
         FORWARD_OAUTH_CONFIG.accessToken = t.access_token;
         FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
         PENDING_TRAKT_DEVICE = null;
 
-        // 返回成功信息
         return [{
             id: "success",
             type: "text",
             title: "✅ OAuth 授权完成",
-            description: "🎉 OAuth 授权成功！\n\n" +
-                         "Access Token：\n" + t.access_token + "\n\n" +
-                         "Refresh Token：\n" + t.refresh_token + "\n\n" +
-                         "有效期：" + Math.floor(t.expires_in / 86400) + " 天\n\n" +
-                         "⚠️ 点击下面按钮可直接复制 Token 方便保存",
+            description: `🎉 授权成功！
+Access Token: ${t.access_token}
+Refresh Token: ${t.refresh_token}
+有效期: ${Math.floor(t.expires_in / 86400)} 天`,
             coverUrl: "https://trakt.tv/assets/logos/logo.png",
-            posterPath: "https://trakt.tv/assets/logos/logo.png",
             buttons: [
                 { title: "📋 复制 Access Token", action: "copy", value: t.access_token },
                 { title: "📋 复制 Refresh Token", action: "copy", value: t.refresh_token }
@@ -219,35 +187,11 @@ async function oauthLogin() {
 
     } catch (err) {
         console.error("OAuth 授权失败", err);
-
-        // 尚未授权
-        if (err.response?.data?.error === "authorization_pending") {
-            return [{
-                id: "pending",
-                type: "text",
-                title: "⏳ 尚未授权",
-                description: "请先在浏览器完成授权，然后再次点击按钮",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png"
-            }];
-        }
-
-        // 用户拒绝
-        if (err.response?.data?.error === "access_denied") {
-            PENDING_TRAKT_DEVICE = null;
-            return [{
-                id: "denied",
-                type: "text",
-                title: "❌ 用户拒绝授权",
-                description: "请重新点击授权",
-                coverUrl: "https://trakt.tv/assets/logos/logo.png"
-            }];
-        }
-
         return [{
             id: "error",
             type: "text",
             title: "❌ 授权失败",
-            description: "错误信息：" + (err.message || "未知错误"),
+            description: err.message || "未知错误",
             coverUrl: "https://trakt.tv/assets/logos/logo.png"
         }];
     }
