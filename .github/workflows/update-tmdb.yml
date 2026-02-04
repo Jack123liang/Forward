@@ -32,14 +32,17 @@ jobs:
           SAVE_PATH = "public/data"
           os.makedirs(SAVE_PATH, exist_ok=True)
 
-          # 同时生成带前缀和不带前缀的文件，彻底解决脚本路径匹配问题
+          # 配置说明：
+          # 1. Trending 使用 trending 接口，强行标记为 movie 解决“全部地区”显示问题
+          # 2. Movie 使用 now_playing 接口，解决日期太老的问题
+          # 3. TV 使用 on_the_air 接口，确保显示近期播出的剧
           configs = [
-              {"file": "TMDB_Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": None},
-              {"file": "TMDB_Movie.json", "url": f"{BASE_URL}/movie/popular", "type": "movie"},
-              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"},
-              {"file": "Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": None},
-              {"file": "Movie.json", "url": f"{BASE_URL}/movie/popular", "type": "movie"},
-              {"file": "TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"}
+              {"file": "TMDB_Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": "movie"},
+              {"file": "Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": "movie"},
+              {"file": "TMDB_Movie.json", "url": f"{BASE_URL}/movie/now_playing", "type": "movie"},
+              {"file": "Movie.json", "url": f"{BASE_URL}/movie/now_playing", "type": "movie"},
+              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/on_the_air", "type": "tv"},
+              {"file": "TV.json", "url": f"{BASE_URL}/tv/on_the_air", "type": "tv"}
           ]
 
           for config in configs:
@@ -49,22 +52,32 @@ jobs:
                   data = resp.json()
 
                   if "results" in data:
-                      for item in data["results"]:
-                          # 1. 强制兼容性：确保 title 字段存在（即使是 TV）
-                          if "title" not in item or not item["title"]:
-                              item["title"] = item.get("name")
+                      # 只取前 10 条最相关的，减少脚本加载压力
+                      raw_results = data["results"][:10]
+                      cleaned_results = []
+                      
+                      for item in raw_results:
+                          # 字段兼容性转换
+                          title = item.get("title") or item.get("name") or "未知名称"
+                          date = item.get("release_date") or item.get("first_air_date") or "2026-01-01"
                           
-                          # 2. 强制兼容性：确保 release_date 字段存在
-                          if "release_date" not in item or not item["release_date"]:
-                              item["release_date"] = item.get("first_air_date")
-                          
-                          # 3. 补全 media_type，这是 Scriptable 过滤的关键
-                          if config["type"] == "movie":
-                              item["media_type"] = "movie"
-                          elif config["type"] == "tv":
-                              item["media_type"] = "tv"
-                          elif "media_type" not in item:
-                              item["media_type"] = "tv" if "name" in item else "movie"
+                          clean_item = {
+                              "id": item.get("id"),
+                              "title": title,
+                              "name": title,
+                              "poster_path": item.get("poster_path"),
+                              "backdrop_path": item.get("backdrop_path"),
+                              "release_date": date,
+                              "media_type": config["type"], # 强制使用配置中的类型
+                              "vote_average": item.get("vote_average", 0),
+                              "overview": item.get("overview", "")
+                          }
+                          cleaned_results.append(clean_item)
+                      
+                      data["results"] = cleaned_results
+                      # 移除不必要的元数据
+                      data.pop("total_pages", None)
+                      data.pop("total_results", None)
 
                   with open(f"{SAVE_PATH}/{config['file']}", 'w', encoding='utf-8') as f:
                       json.dump(data, f, ensure_ascii=False, indent=2)
@@ -78,5 +91,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Update all TMDB data variants" || exit 0
+          git commit -m "Fix: All regions display and date freshness" || exit 0
           git push
