@@ -1,5 +1,5 @@
 WidgetMetadata = {
-  id: "forward.combined.media.lists",
+  id: "Move_list",
   title: "影视榜单",
   description: "影视排行榜单",
   author:Jackie",
