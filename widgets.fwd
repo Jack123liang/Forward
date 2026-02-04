@@ -22,9 +22,9 @@
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/traktkey.js"
     },
     {
-      "id": "forward.combined.media.lists",
+      "id": "Move_list",
       "title": "影视榜单",
-      "description": "影视榜单",
+      "description": "影视排行榜单",
       "requiredVersion": "0.0.2",
       "version": "1.5.1",
       "author": "Jackie",
