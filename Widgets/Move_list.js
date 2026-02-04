@@ -3,7 +3,7 @@ WidgetMetadata = {
   title: "影视榜单",
   description: "影视动画榜单",
   author: "𝓑𝓾𝓽𝓽𝓮𝓻𝓯𝓵𝔂",
-  site: "https://for-ward.vercel.app",
+  site: "https://forward-eta.vercel.app",
   version: "1.5.1",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
@@ -1047,7 +1047,7 @@ async function fetchTmdbData(api, params) {
 
 async function loadTmdbTrendingData() {
     try {
-        const response = await Widget.http.get("https://for-ward.vercel.app/data/TMDB_Trending.json", {
+        const response = await Widget.http.get("https://forward-eta.vercel.app/data/TMDB_Trending.json", {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15'
             }
@@ -1055,7 +1055,7 @@ async function loadTmdbTrendingData() {
         return response.data;
     } catch (error) {
         try {
-            const fallbackResponse = await Widget.http.get("https://for-ward.vercel.app/data/TMDB_Trending.json");
+            const fallbackResponse = await Widget.http.get("https://forward-eta.vercel.app/data/TMDB_Trending.json");
             return fallbackResponse.data;
         } catch (fallbackError) {
             throw fallbackError;
