@@ -287,10 +287,13 @@ function buildTraktHeaders(params) {
         "trakt-api-version": "2"
     };
 
-    if (params.authMode === "oauth" && params.accessToken) {
-        headers["Authorization"] = `Bearer ${params.accessToken}`;
+    // 优先使用 Forward 配置的 OAuth
+    if (FORWARD_OAUTH_CONFIG.useOAuth && FORWARD_OAUTH_CONFIG.accessToken) {
+        headers["Authorization"] = `Bearer ${FORWARD_OAUTH_CONFIG.accessToken}`;
+        console.log("🔐 使用 OAuth 模式");
     } else {
         headers["trakt-api-key"] = TRAKT_CLIENT_ID;
+        console.log("🔓 使用只读模式");
     }
 
     return headers;
