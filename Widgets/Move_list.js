@@ -10,43 +10,70 @@ WidgetMetadata = {
   modules: [
     // -------------TMDB模块-------------
     // --- 热门模块 ---
-    {
-      title: "TMDB 热门剧集",
-      description: "今日热门电视剧",
-      requiresWebView: false,
-      functionName: "loadTodayHotTV",
-      cacheDuration: 3600,
-      params: [
-        { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        { 
-          name: "sort_by", 
-          title: "地区", 
-          type: "enumeration", 
-          enumOptions: [
-            { title: "全部地区", value: "" },
-            { title: "中国", value: "CN" },
-            { title: "美国", value: "US" },
-            { title: "韩国", value: "KR" },
-            { title: "日本", value: "JP" },
-            { title: "英国", value: "GB" },
-            { title: "泰国", value: "TH" },
-            { title: "意大利", value: "IT" },
-            { title: "德国", value: "DE" },
-            { title: "西班牙", value: "ES" },
-            { title: "俄罗斯", value: "RU" },
-            { title: "瑞典", value: "SE" },
-            { title: "巴西", value: "BR" },
-            { title: "丹麦", value: "DK" },
-            { title: "印度", value: "IN" },
-            { title: "加拿大", value: "CA" },
-            { title: "爱尔兰", value: "IE" },
-            { title: "澳大利亚", value: "AU" }
-          ], 
-          value: "" 
-        },
-        { name: "page", title: "页码", type: "page" }
-      ]
+{
+  title: "TMDB 热门剧集",
+  description: "今日热门电视剧",
+  requiresWebView: false,
+  functionName: "loadTodayHotTV",
+  cacheDuration: 3600,
+  params: [
+    { name: "language", title: "语言", type: "language", value: "zh-CN" },
+    { 
+      name: "sort_by", 
+      title: "地区", 
+      type: "enumeration", 
+      enumOptions: [
+        { title: "全部地区", value: "" },
+        { title: "中国", value: "CN" },
+        { title: "美国", value: "US" },
+        { title: "韩国", value: "KR" },
+        { title: "日本", value: "JP" },
+        { title: "英国", value: "GB" },
+        { title: "泰国", value: "TH" },
+        { title: "意大利", value: "IT" },
+        { title: "德国", value: "DE" },
+        { title: "西班牙", value: "ES" },
+        { title: "俄罗斯", value: "RU" },
+        { title: "瑞典", value: "SE" },
+        { title: "巴西", value: "BR" },
+        { title: "丹麦", value: "DK" },
+        { title: "印度", value: "IN" },
+        { title: "加拿大", value: "CA" },
+        { title: "爱尔兰", value: "IE" },
+        { title: "澳大利亚", value: "AU" }
+      ], 
+      value: "" 
     },
+    { 
+      name: "sort_method", 
+      title: "🔢 排序方式", 
+      type: "enumeration", 
+      enumOptions: [
+        { title: "人气最高", value: "popularity.desc" },
+        { title: "上映时间↓", value: "first_air_date.desc" },
+        { title: "上映时间↑", value: "first_air_date.asc" },
+        { title: "评分最高", value: "vote_average.desc" }
+      ], 
+      value: "popularity.desc" 
+    },
+    { 
+      name: "year_filter", 
+      title: "📅 年份筛选", 
+      type: "enumeration", 
+      enumOptions: [
+        { title: "全部年份", value: "" },
+        { title: "2025", value: "2025" },
+        { title: "2024", value: "2024" },
+        { title: "2023", value: "2023" },
+        { title: "近3年", value: "recent_3" },
+        { title: "近5年", value: "recent_5" }
+      ], 
+      value: "recent_3"
+    },
+    { name: "page", title: "页码", type: "page" }
+  ]
+},
+
     {
       title: "TMDB 热门电影",
       description: "今日热门电影",
