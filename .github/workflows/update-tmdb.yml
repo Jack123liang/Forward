@@ -26,6 +26,7 @@ jobs:
           import requests
           import json
           import os
+          from datetime import datetime, timedelta
 
           API_KEY = "6358fd374e1372bd48effd9e21521917"
           BASE_URL = "https://api.themoviedb.org/3"
@@ -52,59 +53,90 @@ jobs:
                   return ""
               return "•".join([genre_map.get(gid, "") for gid in genre_ids[:3] if gid in genre_map])
 
+          def is_recent(date_str, years=2):
+              """判断是否为近期内容（默认2年内）"""
+              if not date_str:
+                  return False
+              try:
+                  release_date = datetime.strptime(date_str, "%Y-%m-%d")
+                  cutoff_date = datetime.now() - timedelta(days=365 * years)
+                  return release_date >= cutoff_date
+              except:
+                  return False
+
           # 获取类型映射
           genre_map = fetch_genres()
 
-          # 获取热门电视剧
-          tv_response = requests.get(
-              f"{BASE_URL}/trending/tv/day",
-              params={"api_key": API_KEY, "language": "zh-CN", "page": 1}
-          ).json()
+          # 获取热门电视剧（多页以确保有足够新内容）
+          tv_items = []
+          for page in range(1, 4):  # 获取前3页
+              tv_response = requests.get(
+                  f"{BASE_URL}/trending/tv/day",
+                  params={"api_key": API_KEY, "language": "zh-CN", "page": page}
+              ).json()
+              
+              for item in tv_response.get("results", []):
+                  # 过滤条件：必须有海报、类型，且是近2年内容
+                  if (item.get("poster_path") and 
+                      item.get("genre_ids") and 
+                      is_recent(item.get("first_air_date", ""), years=2)):
+                      
+                      tv_items.append({
+                          "id": item.get("id"),
+                          "type": "tv",
+                          "title": item.get("name", ""),
+                          "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
+                          "rating": item.get("vote_average", 0),
+                          "overview": item.get("overview", ""),
+                          "release_date": item.get("first_air_date", ""),
+                          "poster_url": item.get("poster_path", ""),
+                          "title_backdrop": item.get("backdrop_path", ""),
+                          "genre_ids": item.get("genre_ids", []),
+                          "popularity": item.get("popularity", 0)
+                      })
+              
+              # 如果已经收集够20个，就停止
+              if len(tv_items) >= 20:
+                  break
+
+          # 按人气排序，取前20个
+          tv_items.sort(key=lambda x: x["popularity"], reverse=True)
+          today_tv = tv_items[:20]
 
           # 获取热门电影
-          movie_response = requests.get(
-              f"{BASE_URL}/trending/movie/day",
-              params={"api_key": API_KEY, "language": "zh-CN", "page": 1}
-          ).json()
+          movie_items = []
+          for page in range(1, 4):  # 获取前3页
+              movie_response = requests.get(
+                  f"{BASE_URL}/trending/movie/day",
+                  params={"api_key": API_KEY, "language": "zh-CN", "page": page}
+              ).json()
+              
+              for item in movie_response.get("results", []):
+                  # 过滤条件：必须有海报、类型，且是近2年内容
+                  if (item.get("poster_path") and 
+                      item.get("genre_ids") and 
+                      is_recent(item.get("release_date", ""), years=2)):
+                      
+                      movie_items.append({
+                          "id": item.get("id"),
+                          "type": "movie",
+                          "title": item.get("title", ""),
+                          "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
+                          "rating": item.get("vote_average", 0),
+                          "overview": item.get("overview", ""),
+                          "release_date": item.get("release_date", ""),
+                          "poster_url": item.get("poster_path", ""),
+                          "title_backdrop": item.get("backdrop_path", ""),
+                          "genre_ids": item.get("genre_ids", []),
+                          "popularity": item.get("popularity", 0)
+                      })
+              
+              if len(movie_items) >= 20:
+                  break
 
-          # 转换为代码期望的格式
-          today_tv = []
-          for item in tv_response.get("results", [])[:20]:
-              # 只保留有海报和类型的项目
-              if not item.get("poster_path") or not item.get("genre_ids"):
-                  continue
-                  
-              today_tv.append({
-                  "id": item.get("id"),
-                  "type": "tv",
-                  "title": item.get("name", ""),
-                  "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
-                  "rating": item.get("vote_average", 0),
-                  "overview": item.get("overview", ""),
-                  "release_date": item.get("first_air_date", ""),
-                  "poster_url": item.get("poster_path", ""),
-                  "title_backdrop": item.get("backdrop_path", ""),
-                  "genre_ids": item.get("genre_ids", [])
-              })
-
-          today_movies = []
-          for item in movie_response.get("results", [])[:20]:
-              # 只保留有海报和类型的项目
-              if not item.get("poster_path") or not item.get("genre_ids"):
-                  continue
-                  
-              today_movies.append({
-                  "id": item.get("id"),
-                  "type": "movie",
-                  "title": item.get("title", ""),
-                  "genreTitle": get_genre_title(item.get("genre_ids", []), genre_map),
-                  "rating": item.get("vote_average", 0),
-                  "overview": item.get("overview", ""),
-                  "release_date": item.get("release_date", ""),
-                  "poster_url": item.get("poster_path", ""),
-                  "title_backdrop": item.get("backdrop_path", ""),
-                  "genre_ids": item.get("genre_ids", [])
-              })
+          # 按人气排序，取前20个
+          movie_items.sort(key=lambda x: x["popularity"], reverse=True)
+          today_movies = movie_items[:20]
 
           # 保存为代码期望的格式
           output_data = {
@@ -117,6 +149,14 @@ jobs:
           
           print(f"Successfully updated TMDB_Trending.json")
           print(f"TV shows: {len(today_tv)}, Movies: {len(today_movies)}")
+          
+          # 输出最旧的内容日期供参考
+          if today_tv:
+              oldest_tv = min(today_tv, key=lambda x: x["release_date"])
+              print(f"Oldest TV show: {oldest_tv['title']} ({oldest_tv['release_date']})")
+          if today_movies:
+              oldest_movie = min(today_movies, key=lambda x: x["release_date"])
+              print(f"Oldest movie: {oldest_movie['title']} ({oldest_movie['release_date']})")
           EOF
 
       - name: Commit and Push
@@ -124,5 +164,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Update TMDB trending data" || exit 0
+          git commit -m "Update TMDB trending data (recent 2 years only)" || exit 0
           git push
