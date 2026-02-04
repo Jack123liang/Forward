@@ -32,10 +32,14 @@ jobs:
           SAVE_PATH = "public/data"
           os.makedirs(SAVE_PATH, exist_ok=True)
 
+          # 同时生成带前缀和不带前缀的文件，彻底解决脚本路径匹配问题
           configs = [
               {"file": "TMDB_Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": None},
               {"file": "TMDB_Movie.json", "url": f"{BASE_URL}/movie/popular", "type": "movie"},
-              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"}
+              {"file": "TMDB_TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"},
+              {"file": "Trending.json", "url": f"{BASE_URL}/trending/all/day", "type": None},
+              {"file": "Movie.json", "url": f"{BASE_URL}/movie/popular", "type": "movie"},
+              {"file": "TV.json", "url": f"{BASE_URL}/tv/popular", "type": "tv"}
           ]
 
           for config in configs:
@@ -46,26 +50,21 @@ jobs:
 
                   if "results" in data:
                       for item in data["results"]:
-                          # --- 核心兼容性修复开始 ---
-                          
-                          # 1. 统一标题字段：确保无论电影还是剧集，都有 title
+                          # 1. 强制兼容性：确保 title 字段存在（即使是 TV）
                           if "title" not in item or not item["title"]:
                               item["title"] = item.get("name")
                           
-                          # 2. 统一日期字段：确保无论电影还是剧集，都有 release_date
+                          # 2. 强制兼容性：确保 release_date 字段存在
                           if "release_date" not in item or not item["release_date"]:
                               item["release_date"] = item.get("first_air_date")
                           
-                          # 3. 补全 media_type
+                          # 3. 补全 media_type，这是 Scriptable 过滤的关键
                           if config["type"] == "movie":
                               item["media_type"] = "movie"
                           elif config["type"] == "tv":
                               item["media_type"] = "tv"
                           elif "media_type" not in item:
-                              # Trending 接口如果没返回，根据是否有 name 猜一个
                               item["media_type"] = "tv" if "name" in item else "movie"
-                          
-                          # --- 核心兼容性修复结束 ---
 
                   with open(f"{SAVE_PATH}/{config['file']}", 'w', encoding='utf-8') as f:
                       json.dump(data, f, ensure_ascii=False, indent=2)
@@ -79,5 +78,5 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/data/*.json
-          git commit -m "Update TMDB data with compatibility fix" || exit 0
+          git commit -m "Update all TMDB data variants" || exit 0
           git push
