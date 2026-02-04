@@ -4,12 +4,12 @@
   "icon": "https://raw.githubusercontent.com/Jack123liang/Forward/main/icon.png",
   "widgets": [
     {
-      "id": "trakt_personal_key",
-      "title": "Trak 追剧日历 免key版",
-      "description": "内置 Key 版：只需填写用户名即可使用。显示追剧日历、待看、收藏及历史记录",
+      "id": "trakt_sam_666",
+      "title": "Trakt 追剧日历",
+      "description": "追剧日历、待看、收藏及历史记录",
       "requiredVersion": "0.0.1",
-      "version": "1.0.7",
-      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "version": "1.0.0",
+      "author": "Jackie",
       "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/traktkey.js"
     },
     {
