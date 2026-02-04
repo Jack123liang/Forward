@@ -161,6 +161,123 @@ async function oauthLogin(params = {}) {
         }];
     }
 }
+/**
+ * 轮询检查授权状态
+ */
+async function pollForToken(deviceCode, interval, expiresIn, userCode) {
+    const maxAttempts = Math.floor(expiresIn / interval);
+    let attempts = 0;
+
+    while (attempts < maxAttempts) {
+        await sleep(interval * 1000);
+        attempts++;
+
+        // 显示进度
+        if (attempts % 3 === 0) {
+            Widget.showToast(`等待授权中... (${attempts}/${maxAttempts})\n验证码: ${userCode}`, {
+                duration: 3000
+            });
+        }
+
+        try {
+            const tokenResponse = await Widget.http.post(
+                "https://api.trakt.tv/oauth/device/token",
+                {
+                    code: deviceCode,
+                    client_id: TRAKT_CLIENT_ID,
+                    client_secret: FORWARD_OAUTH_CONFIG.clientSecret
+                },
+                {
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                }
+            );
+
+            // 成功获取 token
+            return tokenResponse.data;
+
+        } catch (error) {
+            if (error.response?.status === 400) {
+                const errorData = error.response.data;
+                if (errorData.error === "authorization_pending") {
+                    // 继续等待
+                    continue;
+                } else if (errorData.error === "expired_token") {
+                    throw new Error("授权码已过期，请重新授权");
+                } else if (errorData.error === "access_denied") {
+                    throw new Error("用户拒绝了授权");
+                }
+            }
+            // 其他错误继续重试
+            continue;
+        }
+    }
+
+    return null; // 超时
+}
+/**
+ * 自动刷新 Access Token
+ */
+async function autoRefreshTokenIfNeeded() {
+    if (!FORWARD_OAUTH_CONFIG.useOAuth) return true;
+    
+    // 如果 Access Token 为空但有 Refresh Token，尝试刷新
+    if (!FORWARD_OAUTH_CONFIG.accessToken && FORWARD_OAUTH_CONFIG.refreshToken) {
+        console.log("🔄 Access Token 为空，尝试刷新...");
+        const newToken = await refreshAccessToken(FORWARD_OAUTH_CONFIG.refreshToken);
+        if (newToken) {
+            FORWARD_OAUTH_CONFIG.accessToken = newToken;
+            console.log("✅ Token 刷新成功");
+            return true;
+        } else {
+            console.error("❌ Token 刷新失败，请重新授权");
+            return false;
+        }
+    }
+    return true;
+}
+
+async function refreshAccessToken(refreshToken) {
+    if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+        console.error("❌ 缺少 Client Secret，无法刷新 token");
+        return null;
+    }
+
+    try {
+        const response = await Widget.http.post(
+            "https://api.trakt.tv/oauth/token",
+            {
+                refresh_token: refreshToken,
+                client_id: TRAKT_CLIENT_ID,
+                client_secret: FORWARD_OAUTH_CONFIG.clientSecret,
+                grant_type: "refresh_token"
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }
+        );
+
+        const tokens = response.data;
+        
+        // 更新配置
+        FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+        FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+        console.log("✅ Token 已刷新，新 Token:", tokens.access_token.substring(0, 20) + "...");
+
+        return tokens.access_token;
+    } catch (error) {
+        console.error("刷新 token 失败:", error);
+        return null;
+    }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 // ==========================================
 // 0. 全局配置 & 工具函数
 // ==========================================
