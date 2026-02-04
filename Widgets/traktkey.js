@@ -31,13 +31,13 @@ WidgetMetadata = {
     ],
 
     modules: [
-        {
-            title: "🔑 OAuth 授权",
-            functionName: "oauthLogin",
-            type: "action",
-            description: "点击开始自动授权（浏览器打开 → 输入验证码 → 自动保存）"
-        },
-        {
+    {
+        title: "🔑 OAuth 授权",
+        functionName: "oauthLogin",
+        type: "action",
+        description: "点击开始授权，按提示在浏览器完成登录"
+    },
+   {
             title: "我的片单",
             functionName: "loadTraktProfile",
             type: "list",
