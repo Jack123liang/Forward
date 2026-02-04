@@ -3,7 +3,7 @@ WidgetMetadata = {
     title: "Trakt 追剧日历",
     author: "Jackie",
     description: "追剧日历、待看、收藏及历史记录",
-    version: "2.0.1", // 修复 Widget.showToast 问题
+    version: "1.0.0", // 修复 Widget.showToast 问题
     requiredVersion: "0.0.1",
     site: "https://trakt.tv",
 
