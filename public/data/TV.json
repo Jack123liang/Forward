@@ -2,499 +2,114 @@
   "page": 1,
   "results": [
     {
-      "adult": false,
-      "backdrop_path": "/8zbAoryWbtH0DKdev8abFAjdufy.jpg",
-      "genre_ids": [
-        10765,
-        9648,
-        10759
-      ],
-      "id": 66732,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Stranger Things",
-      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
-      "popularity": 326.8269,
-      "poster_path": "/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
-      "first_air_date": "2016-07-15",
-      "name": "怪奇物语",
-      "vote_average": 8.581,
-      "vote_count": 20513,
-      "title": "怪奇物语",
-      "release_date": "2016-07-15",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/6umsRLI7t0ydFwCl0JNEIO0q2LH.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 91239,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Bridgerton",
-      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
-      "popularity": 242.4,
-      "poster_path": "/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
-      "first_air_date": "2020-12-25",
-      "name": "布里杰顿家族",
-      "vote_average": 8.065,
-      "vote_count": 3125,
-      "title": "布里杰顿家族",
-      "release_date": "2020-12-25",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
-      "genre_ids": [
-        18,
-        10765,
-        10759
-      ],
       "id": 224372,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "A Knight of the Seven Kingdoms",
-      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
-      "popularity": 236.7662,
-      "poster_path": "/seQEW2jIAWK4gfCcUL83NFiLjk7.jpg",
-      "first_air_date": "2026-01-18",
-      "name": "七王国的骑士",
-      "vote_average": 8.086,
-      "vote_count": 168,
       "title": "七王国的骑士",
+      "name": "七王国的骑士",
+      "poster_path": "/seQEW2jIAWK4gfCcUL83NFiLjk7.jpg",
+      "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
       "release_date": "2026-01-18",
-      "media_type": "tv"
+      "media_type": "tv",
+      "vote_average": 8.086,
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/ro0tlgnsco4SwbdAgmscLkSlMSL.jpg",
-      "genre_ids": [
-        18,
-        9648,
-        10765
-      ],
-      "id": 1622,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Supernatural",
-      "overview": "迪恩和萨姆是两兄弟，生在温切斯特家族的他们，血统里便带着与生俱来的责任——成为“猎人”，专门对付危害人类的恶魔与超自然力量。22年前，他们的母亲遭遇恶魔毒手，因此父亲约翰多年来一面试图追杀恶魔，一面训导两兄弟成为优秀猎人。不过，相比哥哥迪恩对“捕猎”的热衷，弟弟萨姆显然更爱普通生活，他进了斯坦福大学，有了美丽女友，一心要与古怪家庭脱离关系。怎料一次捕猎活动中父亲失踪，迪恩只能召来弟弟协助，萨姆先是勉为其难，但随着调查深入，他发现命中注定的事根本无法凭他个人力量改变。",
-      "popularity": 223.5834,
-      "poster_path": "/3abGbUKSrLk3VyPzVsPMOKRg1c3.jpg",
-      "first_air_date": "2005-09-13",
-      "name": "邪恶力量",
-      "vote_average": 8.305,
-      "vote_count": 8203,
-      "title": "邪恶力量",
-      "release_date": "2005-09-13",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
-      "genre_ids": [
-        80,
-        18,
-        35
-      ],
       "id": 79744,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "The Rookie",
-      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
-      "popularity": 220.7765,
-      "poster_path": "/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
-      "first_air_date": "2018-10-16",
-      "name": "菜鸟老警",
-      "vote_average": 8.529,
-      "vote_count": 2930,
       "title": "菜鸟老警",
+      "name": "菜鸟老警",
+      "poster_path": "/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "backdrop_path": "/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
       "release_date": "2018-10-16",
-      "media_type": "tv"
+      "media_type": "tv",
+      "vote_average": 8.529,
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
-      "genre_ids": [
-        18
-      ],
-      "id": 1416,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Grey's Anatomy",
-      "overview": "西雅图格雷斯医院迎来新一批实习生，梅雷迪斯·格雷、克里斯蒂娜·杨、伊泽贝尔·斯蒂文、乔治·梅利 、亚里克斯·卡莱，五个医学院好友同期毕业，需要以良好表现争夺住院医师正式席位。进入医院伊始，梅雷迪斯崩溃地发现前晚在酒吧和她发生一夜情的男人，竟然是神经外科医生德立克·舍伯，两人纠葛就此开始；克里斯蒂娜吸引了胸外科医师普雷斯顿·伯克的注意，因为他们同样高傲和野心勃勃；乔治悄悄爱着梅雷迪斯；美丽的伊泽贝尔第一时间掀起流言，一年的实习期注定充满高密度的压力竞争与荷尔蒙……",
-      "popularity": 204.4976,
-      "poster_path": "/3kI8vHDly1RVE5FrWDozY2Km8fI.jpg",
-      "first_air_date": "2005-03-27",
-      "name": "实习医生格蕾",
-      "vote_average": 8.211,
-      "vote_count": 10759,
-      "title": "实习医生格蕾",
-      "release_date": "2005-03-27",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
-      "genre_ids": [
-        80,
-        18,
-        9648
-      ],
-      "id": 2734,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Law & Order: Special Victims Unit",
-      "overview": "被残忍杀害的年轻女子、被虐的婴儿、被近亲性侵害的女童、家暴阴影下手足无措的妇女、失调扭曲的家庭关系、很想用心但每每力有未迨的父母、杵在社会家庭人际边缘人性的灰色地带。SVU每回总是触动那块让人无从防备的柔软地带，可爱的孩童，无辜的弱势个体（受性侵害者、同性恋、精神病患），每个人都多少有些经验感触的亲子、家庭关系。不见得得是多复杂的剧情，像今天，忙于工作单亲母亲剧烈摇晃死自己的一岁多幼女(Shake Syndrome)，幼小无辜的女孩在母亲一时的暴怒下被辗压击碎，但另一方面你多了解那种拉扯在工作亲子关系中的心力交瘁，可爱时像天使哭闹起来却像恶魔一样让你抓狂的孩子，要怎么以审判指控那、为了不舍得看到无恢复希望的孩子继续受到病痛折磨而毅然决定停止呼吸器，哪怕这将使自己已因杀罪被起诉的母亲？是以就算这是再滥情的一种搬演、操控，每每总还是让观众溃不成军...",
-      "popularity": 210.03,
-      "poster_path": "/aRsqepBpM6QcwiAhOE1fWkpAnO5.jpg",
-      "first_air_date": "1999-09-20",
-      "name": "法律与秩序：特殊受害者",
-      "vote_average": 7.938,
-      "vote_count": 4112,
-      "title": "法律与秩序：特殊受害者",
-      "release_date": "1999-09-20",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
-      "genre_ids": [
-        35,
-        18
-      ],
-      "id": 198178,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Wonder Man",
-      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
-      "popularity": 169.6453,
-      "poster_path": "/iCWuZ0GSpMvQfoC3Hdw9ENd2sbJ.jpg",
-      "first_air_date": "2026-01-27",
-      "name": "奇迹人",
-      "vote_average": 7.0,
-      "vote_count": 143,
-      "title": "奇迹人",
-      "release_date": "2026-01-27",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jvTeRgjFsp66xj8SWxhr7O2J4ud.jpg",
-      "genre_ids": [
-        10751,
-        16,
-        35
-      ],
-      "id": 456,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "The Simpsons",
-      "overview": "辛普森一家是来自美国普通的五口之家，荷马是春田镇核能工厂的安全检查员，母亲马芝曾经是一个很有思想的女性，自从嫁给荷马后渐渐地适应了主妇生活的定式。巴特是家中的长子，天性顽皮的巴特经常爱玩一些恶作剧，以至于经常惹麻烦。妹妹丽莎是一个很聪明的孩子，同时还是素食主义者，佛教徒，爵士乐。小女马姬是一个永远长不大的孩子。故事设定于虚构小镇春田镇，从许多角度对美国的文化与社会、人的条件和电视本身进行了幽默的嘲讽，经久不衰。",
-      "popularity": 194.0992,
-      "poster_path": "/szB3HjMtaStIWL7ofx4ggysRfM8.jpg",
-      "first_air_date": "1989-12-17",
-      "name": "辛普森一家",
-      "vote_average": 8.013,
-      "vote_count": 10561,
-      "title": "辛普森一家",
-      "release_date": "1989-12-17",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
-      "genre_ids": [
-        16,
-        10759,
-        10765
-      ],
       "id": 95479,
-      "origin_country": [
-        "JP"
-      ],
-      "original_language": "ja",
-      "original_name": "呪術廻戦",
-      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
-      "popularity": 180.5073,
-      "poster_path": "/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
-      "first_air_date": "2020-10-03",
-      "name": "咒术回战",
-      "vote_average": 8.566,
-      "vote_count": 4160,
       "title": "咒术回战",
+      "name": "咒术回战",
+      "poster_path": "/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
       "release_date": "2020-10-03",
-      "media_type": "tv"
+      "media_type": "tv",
+      "vote_average": 8.566,
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——"
     },
     {
-      "adult": false,
-      "backdrop_path": "/luUTaPpTBM8BjP4wgCLxNIPkx6k.jpg",
-      "genre_ids": [
-        10759,
-        18
-      ],
-      "id": 19530,
-      "origin_country": [
-        "TW",
-        "CN"
-      ],
-      "original_language": "zh",
-      "original_name": "霹靂布袋戲",
-      "overview": "《霹雳布袋戏》是台湾在1980年代开始新发展出的一种电视布袋戏，隶属霹雳国际多媒体；由黄强华及黄文择所领导制作，采长篇单元剧方式演出，以每出剧集名称前皆冠以“霹雳”两字而得名。 由‘霹雳金光’到2020年9月播毕之‘霹雳天越’为止，共计播出了2531集。",
-      "popularity": 165.5808,
-      "poster_path": "/sBVfyRYPmKSARRTodsTbwHqgcRA.jpg",
-      "first_air_date": "1988-06-01",
-      "name": "霹雳布袋戏",
-      "vote_average": 6.9,
-      "vote_count": 7,
-      "title": "霹雳布袋戏",
-      "release_date": "1988-06-01",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/nn3SuLTO4hum8yAxaY4ql8h6kRk.jpg",
-      "genre_ids": [
-        80,
-        18,
-        10759
-      ],
-      "id": 4614,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "NCIS",
-      "overview": "NCIS（海军犯罪调查机构）是一部关于一支特工小组的动作剧集，这支小组隶属五角大楼的特别部门，肩负着调查任何有一丝证据证明与海军及海军陆战队人员有关的犯罪，且不论其级别或职位的高低。领导这支小组并独立于海军指挥系统的是NCIS特工Leroy Jethro Gibbs，这名经验丰富的调查员与审问员是个机智、强硬并且为了完成任务愿意打破常规的人。直接受Gibbs领导的是Anthony DiNozzo特工，作为一名前重案组探员，其出色的本能来自于大量的调查经验。之后加入他们俩的是Kate Todd，一个美丽而又坚强的前特勤处特工，曾与Gibbs短兵相接。还有从事技术分析工作的Abby Sciuto，是一名天才科学家，她那黑色幽默与哥特风格的装扮相得益彰。新加入小队的是Timothy McGee，麻省理工学院（MIT，剧中经常会提到）的毕业生，他对电脑的精通使他在Gibbs率领的小组中成为一名见习特工。在小组背后默默支持的是法医Donald \\\"Ducky\\\" Mallard，他见多识广。从谋杀、间谍活动到恐怖活动、盗窃潜艇，这些特工们为了调查所有与海军及海军陆战队相关的犯罪活动，足迹遍布全世界。",
-      "popularity": 164.9459,
-      "poster_path": "/eNvZwtRpfdCFRECiaRfuC1DrVIu.jpg",
-      "first_air_date": "2003-09-23",
-      "name": "海军罪案调查处",
-      "vote_average": 7.622,
-      "vote_count": 2447,
-      "title": "海军罪案调查处",
-      "release_date": "2003-09-23",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
-      "genre_ids": [
-        10765,
-        10759,
-        10751,
-        18
-      ],
       "id": 235685,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "The Pendragon Cycle: Rise of the Merlin",
-      "overview": "　　这部系列作品讲述了吟游诗人塔利埃辛与亚特兰蒂斯公主查里斯之子——不朽者梅林的故事。剧情围绕他悲惨的成长经历、逐渐陷入癫狂的过程以及震惊世人的神秘失踪展开，正是这些事件造就了围绕他的传奇。故事发生在亚瑟王诞生之前，当世人皆以为梅林早已亡故或仅存于神话中时，他于后罗马时代的不列颠重现人间，在撒克逊入侵者的威胁下，致力于统一这片四分五裂的土地。",
-      "popularity": 149.9232,
-      "poster_path": "/jJfk8NXauN4UgFQ1qn9lFzEk7ib.jpg",
-      "first_air_date": "2026-01-22",
-      "name": "潘德拉贡：梅林的崛起",
-      "vote_average": 8.3,
-      "vote_count": 20,
       "title": "潘德拉贡：梅林的崛起",
+      "name": "潘德拉贡：梅林的崛起",
+      "poster_path": "/jJfk8NXauN4UgFQ1qn9lFzEk7ib.jpg",
+      "backdrop_path": "/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
       "release_date": "2026-01-22",
-      "media_type": "tv"
+      "media_type": "tv",
+      "vote_average": 8.3,
+      "overview": "　　这部系列作品讲述了吟游诗人塔利埃辛与亚特兰蒂斯公主查里斯之子——不朽者梅林的故事。剧情围绕他悲惨的成长经历、逐渐陷入癫狂的过程以及震惊世人的神秘失踪展开，正是这些事件造就了围绕他的传奇。故事发生在亚瑟王诞生之前，当世人皆以为梅林早已亡故或仅存于神话中时，他于后罗马时代的不列颠重现人间，在撒克逊入侵者的威胁下，致力于统一这片四分五裂的土地。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
-      "genre_ids": [
-        16,
-        35
-      ],
-      "id": 1434,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Family Guy",
-      "overview": "本剧集讲述了格里芬一家的冒险故事。无知得可爱的皮特及其家庭主妇妻子路易丝居住在罗得岛圆蛤市，他们有三个孩子。最大的孩子梅根与周围人格格不入，而青少年克里斯在面对异性时笨拙而无知。最小的孩子斯图尔特是个天才宝宝，一心想要杀死妈妈并毁灭世界。会说话的狗布莱恩在喝着马提尼酒和解决自己生活问题的同时，控制着斯图尔特。",
-      "popularity": 144.1635,
-      "poster_path": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
-      "first_air_date": "1999-01-31",
-      "name": "恶搞之家",
-      "vote_average": 7.39,
-      "vote_count": 4782,
-      "title": "恶搞之家",
-      "release_date": "1999-01-31",
-      "media_type": "tv"
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
-      "genre_ids": [
-        10759,
-        10765
-      ],
       "id": 106379,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Fallout",
-      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
-      "popularity": 146.9776,
-      "poster_path": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "first_air_date": "2024-04-10",
-      "name": "辐射",
-      "vote_average": 8.14,
-      "vote_count": 2484,
       "title": "辐射",
+      "name": "辐射",
+      "poster_path": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
       "release_date": "2024-04-10",
-      "media_type": "tv"
+      "media_type": "tv",
+      "vote_average": 8.14,
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
-      "genre_ids": [
-        10765,
-        18,
-        10759
-      ],
-      "id": 1399,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Game of Thrones",
-      "overview": "维斯特洛大陆边境处发现远古传说中早已灭绝的生物，危险也渐渐靠近这里。危情一触即发，整个王国看似平和的表面下却是波涛暗涌。权高位重的拜拉席恩家族、勇敢善良的史塔克家族、企图谋取王位的坦格利安家族、有着不可告人秘密的兰尼斯特家族。这些家族各怀鬼胎，这个国家将会陷入一场混战.....",
-      "popularity": 139.3267,
-      "poster_path": "/6fJ7Gql9rD4C3X1uW2zinlkNwvw.jpg",
-      "first_air_date": "2011-04-17",
-      "name": "权力的游戏",
-      "vote_average": 8.459,
-      "vote_count": 26192,
-      "title": "权力的游戏",
-      "release_date": "2011-04-17",
-      "media_type": "tv"
+      "id": 240459,
+      "title": "斯巴达克斯：亚述家族",
+      "name": "斯巴达克斯：亚述家族",
+      "poster_path": "/uYlq9Ii0CCWXGAzTRvHR99lyvwh.jpg",
+      "backdrop_path": "/wIysQFRoro0DsNRMjFUoiTxbt5.jpg",
+      "release_date": "2025-12-05",
+      "media_type": "tv",
+      "vote_average": 6.371,
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/qVmgq1KXBp6BF2EqYPPaUG9iUGy.jpg",
-      "genre_ids": [
-        80,
-        18,
-        9648
-      ],
-      "id": 764,
-      "origin_country": [
-        "GB"
-      ],
-      "original_language": "en",
-      "original_name": "Midsomer Murders",
-      "overview": "《杀机四伏》是英国独立电视台制作的一部长青推理电影集，取材于英国当代推理小说家Caroline Graham的作品，截至2010年为止共拍摄十三季81集。该剧以总督察Tom Barnaby以及他的年轻拍档Troy为主干，讲述二人凭借机智抽丝剥茧，悉破复杂凶案的故事 ，此外这两个人在查案过程中所不时表现出的幽默机智、亦庄亦谐也是此片受欢迎的原因之一。全剧在英国南部白金汉郡取景拍摄，漂亮的小村庄充满了浓浓的英伦风味，与命案本身的骇人听闻形成强烈反衬，为英式推理迷以及克里斯蒂小说爱好者们的必看之作。",
-      "popularity": 148.5878,
-      "poster_path": "/lAFBd4y5aTPj9GskvvO4osloSsR.jpg",
-      "first_air_date": "1997-03-23",
-      "name": "杀机四伏",
-      "vote_average": 7.503,
-      "vote_count": 339,
-      "title": "杀机四伏",
-      "release_date": "1997-03-23",
-      "media_type": "tv"
+      "id": 22980,
+      "title": "安迪·科恩的现场观察",
+      "name": "安迪·科恩的现场观察",
+      "poster_path": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "backdrop_path": "/butPVWgcbtAjL9Z7jU7Xj1KA8KD.jpg",
+      "release_date": "2009-07-16",
+      "media_type": "tv",
+      "vote_average": 5.0,
+      "overview": "布拉沃电视台的高管安迪·科恩与名人和真人秀明星一起畅聊流行文化议题。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/r0Q6eeN9L1ORL9QsV0Sg8ZV3vnv.jpg",
-      "genre_ids": [
-        18,
-        35,
-        9648
-      ],
-      "id": 1408,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "House",
-      "overview": "普林斯顿大学附属医院有一位大名鼎鼎的内科医师——格雷戈·豪斯，他穿着邋遢随便，手拄拐杖，刚愎自用，锋芒毕露，全然没有人们印象中那类谦和严谨的专业医师的影子。可是令人咋舌的外表下却藏着高超医术和丰富学识，令同行和病患佩服得五体投地。豪斯医生治病的手法也独树一帜：他不当面问诊，也绝对不相信病患的道白感受，而完全凭借自己卓越的学识和高超的推理能力解决了诸多疑难杂症。他和团队绽放出耀眼夺目的光芒，创造了一个又一个医学奇迹……",
-      "popularity": 134.1171,
-      "poster_path": "/1osVoXuIdWRMMwGJ8rU3UItBkTy.jpg",
-      "first_air_date": "2004-11-16",
-      "name": "豪斯医生",
-      "vote_average": 8.578,
-      "vote_count": 7310,
-      "title": "豪斯医生",
-      "release_date": "2004-11-16",
-      "media_type": "tv"
+      "id": 2661,
+      "title": "假面骑士",
+      "name": "假面骑士",
+      "poster_path": "/fIJNVBa6MJStPiOvhLV69nAdu0e.jpg",
+      "backdrop_path": "/usLRh1bcbL0Q9X8zf6rL4OV1qrA.jpg",
+      "release_date": "1971-04-03",
+      "media_type": "tv",
+      "vote_average": 6.5,
+      "overview": "《假面骑士》系列是由石森章太郎原作、东映株式会社制作的日本特摄系列英雄故事。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
-      "genre_ids": [
-        80,
-        18
-      ],
-      "id": 549,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Law & Order",
-      "overview": "本片融警匪与法庭于一体的电视剧，片中讲述的犯罪基本原于真实生活，往往是近期报纸上的头条新闻。节目分为两部分，上半部分介绍警察研究现场，征询证人，提审嫌疑犯等一系列的侦破活动，后半部分详尽记录了案件侦破的后期工作，案件转交到检查官手里，检查官衡量案情，起诉，直到庭审，节奏紧凑，扣人心弦。由于最终坏人不一定被绳之于法，所以观众看的时候往往暗自捏一把汗。",
-      "popularity": 270.0253,
-      "poster_path": "/lI6PP0ct9PV87MQweejpBIPzWOU.jpg",
-      "first_air_date": "1990-09-13",
-      "name": "法律与秩序",
-      "vote_average": 7.355,
-      "vote_count": 662,
-      "title": "法律与秩序",
-      "release_date": "1990-09-13",
-      "media_type": "tv"
+      "id": 283123,
+      "title": "艾什雷夫之梦",
+      "name": "艾什雷夫之梦",
+      "poster_path": "/eeFYLgiRFaG3bKx1qLyC7YOdHJz.jpg",
+      "backdrop_path": "/opxjwbFSadDgVmZtrLTlWJsUxrB.jpg",
+      "release_date": "2025-03-19",
+      "media_type": "tv",
+      "vote_average": 7.174,
+      "overview": "　　童年时期，艾什雷夫曾远远地爱上了一位他称之为“如雅”（Rüya，意为“梦”）的女孩，并为此追寻了多年。然而在寻梦途中，他却逐渐蜕变为一名权势滔天的黑帮头目。与此同时，理想主义的女音乐人尼桑因在艾什雷夫所拥有的酒店举行的一场婚礼上表演，意外陷入致命危机。艾什雷夫对尼桑一见倾心，却浑然不知——她正是他多年来苦苦寻觅的“如雅”，更是警方安插在他身边的卧底。\n\n　　在爱情、背叛与权力斗争的漩涡中，艾什雷夫被迫面对一场残酷的清算：不仅要直面自己一手建立的犯罪帝国的崩塌，更要在真相与情感之间做出撕心裂肺的抉择。"
     },
     {
-      "adult": false,
-      "backdrop_path": "/hBSSm06lrxjhbCKhCUiRN8AGBQG.jpg",
-      "genre_ids": [
-        10765,
-        10759,
-        18
-      ],
-      "id": 4604,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Smallville",
-      "overview": "1989年10月Smallville发生的一场流星雨，彻底改变了这个平凡小镇的命运。超人降落在这里并由肯特夫妇收养。10多年后，年轻的超人克拉克肯特，在成长过程中，渐渐认识到了自己的宿命。超人不再无坚不摧，而只是一个情窦初开的高中生。 ",
-      "popularity": 123.4638,
-      "poster_path": "/wCItxfWmiLRNcAINP1P1ikhQS6w.jpg",
-      "first_air_date": "2001-10-16",
-      "name": "超人前传",
-      "vote_average": 8.185,
-      "vote_count": 4338,
-      "title": "超人前传",
-      "release_date": "2001-10-16",
-      "media_type": "tv"
+      "id": 2224,
+      "title": "每日秀",
+      "name": "每日秀",
+      "poster_path": "/friVBwYyvAscEMF8N7JTcDiR1xV.jpg",
+      "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "release_date": "1996-07-22",
+      "media_type": "tv",
+      "vote_average": 6.398,
+      "overview": "“世界上最假新闻团队”针砭时弊，探讨新闻、政治和流行文化领域中的重大事件。"
     }
-  ],
-  "total_pages": 10717,
-  "total_results": 214334
+  ]
 }
