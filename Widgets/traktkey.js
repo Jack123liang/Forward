@@ -32,6 +32,12 @@ WidgetMetadata = {
 
     modules: [
         {
+            title: "🔑 OAuth 授权",
+            functionName: "oauthLogin",
+            type: "action",
+            description: "点击开始自动授权（浏览器打开 → 输入验证码 → 自动保存）"
+        },
+        {
             title: "我的片单",
             functionName: "loadTraktProfile",
             type: "list",
@@ -74,7 +80,204 @@ WidgetMetadata = {
         }
     ]
 };
+// ==========================================
+// 🔐 OAuth 自动授权功能
+// ==========================================
 
+/**
+ * OAuth 自动授权入口
+ * 用户点击「🔑 OAuth 授权」按钮后调用
+ */
+async function oauthLogin(params = {}) {
+    try {
+        // Step 1: 检查 Client Secret
+        if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+            return [{
+                id: "error",
+                type: "text",
+                title: "❌ 配置错误",
+                description: "请先在代码中填写 FORWARD_OAUTH_CONFIG.clientSecret\n\n获取方式：\n1. 访问 https://trakt.tv/oauth/applications\n2. 创建应用并获取 Client Secret\n3. 填写到代码第 78 行"
+            }];
+        }
+
+        // Step 2: 生成设备码
+        Widget.showToast("正在生成授权码...", { duration: 2000 });
+        
+        const deviceCodeResponse = await Widget.http.post(
+            "https://api.trakt.tv/oauth/device/code",
+            {
+                client_id: TRAKT_CLIENT_ID
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }
+        );
+
+        const deviceData = deviceCodeResponse.data;
+        const userCode = deviceData.user_code;
+        const deviceCode = deviceData.device_code;
+        const verificationUrl = deviceData.verification_url;
+        const expiresIn = deviceData.expires_in;
+        const interval = deviceData.interval || 5;
+
+        // Step 3: 打开浏览器
+        Widget.openUrl(verificationUrl);
+        
+        // Step 4: 显示验证码
+        Widget.showToast(`验证码: ${userCode}\n\n已打开浏览器，请输入验证码\n等待授权中...`, {
+            duration: 10000
+        });
+
+        // Step 5: 轮询检查授权
+        const tokens = await pollForToken(deviceCode, interval, expiresIn, userCode);
+
+        if (tokens) {
+            // Step 6: 自动保存到 Forward 配置
+            FORWARD_OAUTH_CONFIG.useOAuth = true;
+            FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+            FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+            Widget.showToast("✅ OAuth 授权成功！Token 已自动保存", { duration: 3000 });
+
+            return [{
+                id: "success",
+                type: "text",
+                title: "✅ 授权成功",
+                description: `Access Token: ${tokens.access_token.substring(0, 20)}...\n\nRefresh Token: ${tokens.refresh_token.substring(0, 20)}...\n\n有效期: ${Math.floor(tokens.expires_in / 86400)} 天\n\n⚠️ 请复制上面的 Token 到代码中保存：\n\nFORWARD_OAUTH_CONFIG = {\n  useOAuth: true,\n  accessToken: "${tokens.access_token}",\n  refreshToken: "${tokens.refresh_token}",\n  clientSecret: "${FORWARD_OAUTH_CONFIG.clientSecret}"\n}`
+            }];
+        } else {
+            throw new Error("授权超时或被拒绝");
+        }
+
+    } catch (error) {
+        Widget.showToast(`❌ 授权失败: ${error.message}`, { duration: 5000 });
+        return [{
+            id: "error",
+            type: "text",
+            title: "❌ 授权失败",
+            description: `错误信息: ${error.message}\n\n请检查：\n1. 网络连接是否正常\n2. Client Secret 是否正确\n3. 是否在浏览器中完成授权`
+        }];
+    }
+}
+/**
+ * 轮询检查授权状态
+ */
+async function pollForToken(deviceCode, interval, expiresIn, userCode) {
+    const maxAttempts = Math.floor(expiresIn / interval);
+    let attempts = 0;
+
+    while (attempts < maxAttempts) {
+        await sleep(interval * 1000);
+        attempts++;
+
+        // 显示进度
+        if (attempts % 3 === 0) {
+            Widget.showToast(`等待授权中... (${attempts}/${maxAttempts})\n验证码: ${userCode}`, {
+                duration: 3000
+            });
+        }
+
+        try {
+            const tokenResponse = await Widget.http.post(
+                "https://api.trakt.tv/oauth/device/token",
+                {
+                    code: deviceCode,
+                    client_id: TRAKT_CLIENT_ID,
+                    client_secret: FORWARD_OAUTH_CONFIG.clientSecret
+                },
+                {
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                }
+            );
+
+            // 成功获取 token
+            return tokenResponse.data;
+
+        } catch (error) {
+            if (error.response?.status === 400) {
+                const errorData = error.response.data;
+                if (errorData.error === "authorization_pending") {
+                    // 继续等待
+                    continue;
+                } else if (errorData.error === "expired_token") {
+                    throw new Error("授权码已过期，请重新授权");
+                } else if (errorData.error === "access_denied") {
+                    throw new Error("用户拒绝了授权");
+                }
+            }
+            // 其他错误继续重试
+            continue;
+        }
+    }
+
+    return null; // 超时
+}
+/**
+ * 自动刷新 Access Token
+ */
+async function autoRefreshTokenIfNeeded() {
+    if (!FORWARD_OAUTH_CONFIG.useOAuth) return true;
+    
+    // 如果 Access Token 为空但有 Refresh Token，尝试刷新
+    if (!FORWARD_OAUTH_CONFIG.accessToken && FORWARD_OAUTH_CONFIG.refreshToken) {
+        console.log("🔄 Access Token 为空，尝试刷新...");
+        const newToken = await refreshAccessToken(FORWARD_OAUTH_CONFIG.refreshToken);
+        if (newToken) {
+            FORWARD_OAUTH_CONFIG.accessToken = newToken;
+            console.log("✅ Token 刷新成功");
+            return true;
+        } else {
+            console.error("❌ Token 刷新失败，请重新授权");
+            return false;
+        }
+    }
+    return true;
+}
+
+async function refreshAccessToken(refreshToken) {
+    if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+        console.error("❌ 缺少 Client Secret，无法刷新 token");
+        return null;
+    }
+
+    try {
+        const response = await Widget.http.post(
+            "https://api.trakt.tv/oauth/token",
+            {
+                refresh_token: refreshToken,
+                client_id: TRAKT_CLIENT_ID,
+                client_secret: FORWARD_OAUTH_CONFIG.clientSecret,
+                grant_type: "refresh_token"
+            },
+            {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }
+        );
+
+        const tokens = response.data;
+        
+        // 更新配置
+        FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+        FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+        console.log("✅ Token 已刷新，新 Token:", tokens.access_token.substring(0, 20) + "...");
+
+        return tokens.access_token;
+    } catch (error) {
+        console.error("刷新 token 失败:", error);
+        return null;
+    }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 // ==========================================
 // 0. 全局配置 & 工具函数
 // ==========================================
@@ -84,10 +287,13 @@ function buildTraktHeaders(params) {
         "trakt-api-version": "2"
     };
 
-    if (params.authMode === "oauth" && params.accessToken) {
-        headers["Authorization"] = `Bearer ${params.accessToken}`;
+    // 优先使用 Forward 配置的 OAuth
+    if (FORWARD_OAUTH_CONFIG.useOAuth && FORWARD_OAUTH_CONFIG.accessToken) {
+        headers["Authorization"] = `Bearer ${FORWARD_OAUTH_CONFIG.accessToken}`;
+        console.log("🔐 使用 OAuth 模式");
     } else {
         headers["trakt-api-key"] = TRAKT_CLIENT_ID;
+        console.log("🔓 使用只读模式");
     }
 
     return headers;
