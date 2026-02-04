@@ -1119,6 +1119,8 @@ async function loadTmdbTrendingData() {
 async function loadTodayHotTV(params) {
   const page = parseInt(params.page) || 1;
   const region = params.sort_by || '';
+  const sortMethod = params.sort_method || 'popularity.desc';
+  const yearFilter = params.year_filter || '';
   
   let remoteData;
   try {
@@ -1127,23 +1129,47 @@ async function loadTodayHotTV(params) {
     return [];
   }
 
-  const sortBy = 'popularity.desc';
   const isPopularitySort = (s) => s === 'popularity.desc';
   const isDomesticCN = (r) => r === 'CN';
 
-  if (region) {
-    const std = isDomesticCN(region) && isPopularitySort(sortBy)
+  // 计算年份筛选范围
+  let yearGte = null;
+  let yearLte = null;
+  const currentYear = new Date().getFullYear();
+  
+  if (yearFilter === 'recent_3') {
+    yearGte = `${currentYear - 3}-01-01`;
+  } else if (yearFilter === 'recent_5') {
+    yearGte = `${currentYear - 5}-01-01`;
+  } else if (yearFilter && yearFilter.match(/^\d{4}$/)) {
+    yearGte = `${yearFilter}-01-01`;
+    yearLte = `${yearFilter}-12-31`;
+  }
+
+  // 如果有任何筛选/排序参数，走 API
+  if (region || page > 1 || sortMethod !== 'popularity.desc' || yearFilter) {
+    const std = isDomesticCN(region) && isPopularitySort(sortMethod)
       ? DOMESTIC_PLATFORM_STANDARDS.tv
       : POPULARITY_QUALITY_STANDARDS.tv;
 
     const discoverParams = {
       language: params.language || 'zh-CN',
       page: page,
-      with_origin_country: region,
-      sort_by: sortBy,
+      sort_by: sortMethod,
       'vote_count.gte': std.minVoteCount,
       'vote_average.gte': std.minVoteAverage
     };
+    
+    if (region) {
+      discoverParams.with_origin_country = region;
+    }
+    
+    if (yearGte) {
+      discoverParams['first_air_date.gte'] = yearGte;
+    }
+    if (yearLte) {
+      discoverParams['first_air_date.lte'] = yearLte;
+    }
 
     const [data, genres] = await Promise.all([
       Widget.tmdb.get('/discover/tv', { params: discoverParams }),
@@ -1169,6 +1195,7 @@ async function loadTodayHotTV(params) {
     return filterBlockedItemsEnhanced(items);
   }
 
+  // 第一页且无任何筛选：使用 JSON 文件数据
   if (page === 1) {
     const allTv = remoteData.today_tv || [];
     const tvItems = [];
@@ -1193,11 +1220,12 @@ async function loadTodayHotTV(params) {
     return filterBlockedItemsEnhanced(tvItems);
   }
 
+  // Fallback（理论上不会走到这里）
   const std = POPULARITY_QUALITY_STANDARDS.tv;
   const fallbackParams = {
     language: params.language || 'zh-CN',
     page: page,
-    sort_by: sortBy,
+    sort_by: sortMethod,
     'vote_count.gte': std.minVoteCount,
     'vote_average.gte': std.minVoteAverage
   };
