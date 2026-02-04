@@ -13,13 +13,6 @@ WidgetMetadata = {
       functionName: "loadTodayHotTV",
       params: [
         { name: "language", title: "语言", type: "language", value: "zh-CN" },
-        { 
-          name: "region", title: "地区", type: "enumeration", 
-          enumOptions: [
-            { title: "全部", value: "" }, { title: "中国", value: "CN" }, { title: "美国", value: "US" },
-            { title: "韩国", value: "KR" }, { title: "日本", value: "JP" }, { title: "港台", value: "HK,TW" }
-          ], value: "" 
-        },
         { name: "page", title: "页码", type: "page" }
       ]
     },
@@ -30,57 +23,28 @@ WidgetMetadata = {
         { name: "language", title: "语言", type: "language", value: "zh-CN" },
         { name: "page", title: "页码", type: "page" }
       ]
-    },
-    {
-        title: "播出平台筛选",
-        functionName: "tmdbDiscoverByNetwork",
-        params: [
-            {
-                name: "with_networks", title: "平台", type: "enumeration", value: "213",
-                enumOptions: [
-                    { title: "Netflix", value: "213" }, { title: "Disney+", value: "2739" }, { title: "HBO", value: "49" },
-                    { title: "Apple TV+", value: "2552" }, { title: "腾讯视频", value: "2007" }, { title: "爱奇艺", value: "1330" }
-                ]
-            },
-            { name: "page", title: "页码", type: "page" }
-        ]
     }
   ]
 };
 
-/**
- * 核心逻辑：这里优先使用播放器内置的 tmdb 接口
- * 如果你想强制使用你自己的 Vercel，请把下面的 USE_VERCEL 改为 true
- */
-const USE_VERCEL = false; 
-const MY_PROXY = "https://forward-eta.vercel.app/api/tmdb";
-
-async function fetchData(apiPath, params) {
-    if (USE_VERCEL) {
-        // 方案 A: 走你的 Vercel 代理
-        const url = `${MY_PROXY}/${apiPath}?${serialize(params)}`;
-        const res = await Widget.http.get(url);
-        return formatTMDBData(res.data.results || res.data);
-    } else {
-        // 方案 B: 走播放器原生接口 (根据你的日志，这是最稳的)
-        const res = await Widget.tmdb(apiPath, params);
-        return formatTMDBData(res.results || res);
-    }
-}
+// 基础配置
+const PROXY_BASE = "https://forward-eta.vercel.app/api/tmdb";
 
 async function loadTodayHotTV(params) {
-    return await fetchData("trending/tv/day", params);
+    const url = `${PROXY_BASE}/trending/tv/day?language=${params.language}&page=${params.page}`;
+    const res = await Widget.http.get(url);
+    // 这里增加一个容错检查
+    const data = res.data.results || res.data;
+    return formatTMDBData(data);
 }
 
 async function loadTodayHotMovies(params) {
-    return await fetchData("trending/movie/day", params);
+    const url = `${PROXY_BASE}/trending/movie/day?language=${params.language}&page=${params.page}`;
+    const res = await Widget.http.get(url);
+    const data = res.data.results || res.data;
+    return formatTMDBData(data);
 }
 
-async function tmdbDiscoverByNetwork(params) {
-    return await fetchData("discover/tv", params);
-}
-
-// 辅助函数：格式化
 function formatTMDBData(items) {
     if (!items || !Array.isArray(items)) return [];
     return items.map(item => ({
@@ -91,8 +55,4 @@ function formatTMDBData(items) {
         id: item.id,
         type: item.title ? "movie" : "tv"
     }));
-}
-
-function serialize(obj) {
-    return Object.keys(obj).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(obj[k])}`).join('&');
 }
