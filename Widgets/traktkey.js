@@ -131,7 +131,9 @@ async function oauthLogin() {
                 id: "no_secret",
                 type: "text",
                 title: "❌ 缺少 Client Secret",
-                description: "请先在代码中填写 Trakt Client Secret"
+                description: "请先在代码中填写 Trakt Client Secret",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -149,13 +151,16 @@ async function oauthLogin() {
 
             PENDING_TRAKT_DEVICE = {
                 deviceCode: d.device_code,
-                expiresAt: Date.now() + d.expires_in * 1000
+                expiresAt: Date.now() + d.expires_in * 1000,
+                userCode: d.user_code,
+                verificationUrl: d.verification_url,
+                expiresIn: d.expires_in
             };
 
             return [{
                 id: "step1",
                 type: "text",
-                title: "🔑 Trakt OAuth 授权",
+                title: "🔑 TRAKT OAUTH 授权",
                 description:
 `请在浏览器中完成授权：
 
@@ -165,10 +170,11 @@ ${d.verification_url}
 🔢 验证码：
 【${d.user_code}】
 
-完成授权后，请返回 Forward，
-再次点击「🔑 OAuth 授权」
+完成授权后，请返回 Forward，再次点击「🔑 OAuth 授权」
 
-⏳ 有效期：${Math.floor(d.expires_in / 60)} 分钟`
+⏳ 有效期：${Math.floor(d.expires_in / 60)} 分钟`,
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -181,7 +187,9 @@ ${d.verification_url}
                 id: "expired",
                 type: "text",
                 title: "⌛ 授权已过期",
-                description: "验证码已失效，请重新点击授权"
+                description: "验证码已失效，请重新点击授权",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -197,7 +205,7 @@ ${d.verification_url}
 
         const t = tokenRes.data;
 
-        // 保存 Token
+        // 保存 Token 到内存
         FORWARD_OAUTH_CONFIG.useOAuth = true;
         FORWARD_OAUTH_CONFIG.accessToken = t.access_token;
         FORWARD_OAUTH_CONFIG.refreshToken = t.refresh_token;
@@ -207,29 +215,36 @@ ${d.verification_url}
         return [{
             id: "success",
             type: "text",
-            title: "✅ 授权成功",
+            title: "✅ TRAKT OAUTH 授权完成",
             description:
-`OAuth 授权完成 🎉
+`🎉 OAuth 授权成功！
 
 Access Token：
 ${t.access_token}
 
+Refresh Token：
+${t.refresh_token}
+
 有效期：
 ${Math.floor(t.expires_in / 86400)} 天
 
-⚠️ 请将 token 保存到代码中以便长期使用`
+⚠️ 请将 Token 保存到代码中以便长期使用`,
+            coverUrl: "https://trakt.tv/assets/logos/logo.png",
+            posterPath: "https://trakt.tv/assets/logos/logo.png"
         }];
 
     } catch (err) {
         console.error("OAuth 授权失败", err);
 
-        // 常见 Trakt 状态处理
+        // 处理中间状态
         if (err.response?.data?.error === "authorization_pending") {
             return [{
                 id: "pending",
                 type: "text",
                 title: "⏳ 尚未授权",
-                description: "请先在浏览器完成授权，然后再次点击按钮"
+                description: "请先在浏览器完成授权，然后再次点击按钮",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -239,7 +254,9 @@ ${Math.floor(t.expires_in / 86400)} 天
                 id: "denied",
                 type: "text",
                 title: "❌ 用户拒绝授权",
-                description: "请重新点击授权"
+                description: "请重新点击授权",
+                coverUrl: "https://trakt.tv/assets/logos/logo.png",
+                posterPath: "https://trakt.tv/assets/logos/logo.png"
             }];
         }
 
@@ -247,7 +264,9 @@ ${Math.floor(t.expires_in / 86400)} 天
             id: "error",
             type: "text",
             title: "❌ 授权失败",
-            description: `错误信息：${err.message || "未知错误"}`
+            description: `错误信息：${err.message || "未知错误"}`,
+            coverUrl: "https://trakt.tv/assets/logos/logo.png",
+            posterPath: "https://trakt.tv/assets/logos/logo.png"
         }];
     }
 }
