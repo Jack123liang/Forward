@@ -1,6 +1,3 @@
-// OAuth 授权中间态（Forward 内存态）
-let PENDING_TRAKT_DEVICE = null;
-
 WidgetMetadata = {
     id: "trakt_sam_666",
     title: "Trakt 追剧日历",
