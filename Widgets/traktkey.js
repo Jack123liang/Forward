@@ -119,95 +119,70 @@ const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
  * OAuth 自动授权入口
  * 用户点击「🔑 OAuth 授权」按钮后调用
  */
+// ... 前面 Metadata 部分保持不变 ...
+
+// ==========================================
+// 🔐 OAuth 自动授权功能 (修复版)
+// ==========================================
+
 async function oauthLogin(params = {}) {
     try {
-        // Step 1: 检查 Client Secret
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
             return [{
-                id: "error",
-                type: "text",
-                title: "❌ 配置错误",
-                description: "请先在代码中填写 FORWARD_OAUTH_CONFIG.clientSecret\n\n获取方式：\n1. 访问 https://trakt.tv/oauth/applications\n2. 创建应用并获取 Client Secret\n3. 填写到代码第 78 行"
+                id: "error", type: "text", title: "❌ 配置错误",
+                description: "请先在代码第 78 行左右填写 clientSecret"
             }];
         }
 
-        // Step 2: 生成设备码
+        // 生成设备码
         const deviceCodeResponse = await Widget.http.post(
             "https://api.trakt.tv/oauth/device/code",
-            {
-                client_id: TRAKT_CLIENT_ID
-            },
-            {
-                headers: {
-                    "Content-Type": "application/json"
-                }
-            }
+            { client_id: TRAKT_CLIENT_ID },
+            { headers: { "Content-Type": "application/json" } }
         );
 
-        const deviceData = deviceCodeResponse.data;
-        const userCode = deviceData.user_code;
-        const deviceCode = deviceData.device_code;
-        const verificationUrl = deviceData.verification_url;
-        const expiresIn = deviceData.expires_in;
-        const interval = deviceData.interval || 5;
+        const { user_code, device_code, verification_url, expires_in, interval = 5 } = deviceCodeResponse.data;
 
-        // Step 3: 打开浏览器
-        Widget.openUrl(verificationUrl);
-        
-        // Step 4: 返回验证码信息（不使用 showToast）
-        console.log(`验证码: ${userCode}`);
-        console.log(`授权链接: ${verificationUrl}`);
-        console.log("等待用户授权...");
-
-        // Step 5: 轮询检查授权
-        const tokens = await pollForToken(deviceCode, interval, expiresIn, userCode);
-
-        if (tokens) {
-            // Step 6: 自动保存到 Forward 配置
-            FORWARD_OAUTH_CONFIG.useOAuth = true;
-            FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
-            FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
-
-            console.log("✅ OAuth 授权成功！Token 已自动保存到内存");
-
-            return [{
-                id: "success",
-                type: "text",
-                title: "✅ 授权成功",
-                description: `🎉 验证码已使用: ${userCode}\n\n📝 Access Token:\n${tokens.access_token}\n\n🔄 Refresh Token:\n${tokens.refresh_token}\n\n⏰ 有效期: ${Math.floor(tokens.expires_in / 86400)} 天\n\n⚠️ 重要：请复制下面的配置到代码第 73-78 行永久保存：\n\nFORWARD_OAUTH_CONFIG = {\n  useOAuth: true,\n  accessToken: "${tokens.access_token}",\n  refreshToken: "${tokens.refresh_token}",\n  clientSecret: "${FORWARD_OAUTH_CONFIG.clientSecret}"\n}`
-            }];
-        } else {
-            throw new Error("授权超时或被拒绝");
+        // 【关键修复】：尝试打开 URL，失败则跳过
+        try {
+            if (typeof Widget.openUrl === "function") {
+                Widget.openUrl(verification_url);
+            }
+        } catch (e) {
+            console.log("环境不支持自动打开网页，请手动操作");
         }
+        
+        // 即使跳转失败，也将信息通过列表项返回给用户
+        const instructionItem = {
+            id: "auth_info",
+            type: "text",
+            title: "🔑 请手动完成授权",
+            description: `1. 访问链接: ${verification_url}\n2. 输入验证码: ${user_code}\n\n等待您在浏览器操作中... (验证码有效期 5 分钟)`
+        };
+
+        // 开始异步轮询 (不阻塞返回结果)
+        pollForToken(device_code, interval, expires_in, user_code);
+
+        return [instructionItem];
 
     } catch (error) {
-        console.error("OAuth 授权失败:", error);
         return [{
-            id: "error",
-            type: "text",
-            title: "❌ 授权失败",
-            description: `错误信息: ${error.message}\n\n请检查：\n1. 网络连接是否正常\n2. Client Secret 是否正确填写\n3. 是否在浏览器中完成授权\n4. 验证码是否输入正确\n\n提示：可以在控制台查看详细错误日志`
+            id: "error", type: "text", title: "❌ 启动授权失败",
+            description: `错误: ${error.message}`
         }];
     }
 }
 
 /**
- * 轮询检查授权状态
+ * 轮询检查授权状态 (增加成功后的 Toast 提示)
  */
 async function pollForToken(deviceCode, interval, expiresIn, userCode) {
     const maxAttempts = Math.floor(expiresIn / interval);
     let attempts = 0;
 
-    console.log(`开始轮询，最多尝试 ${maxAttempts} 次，间隔 ${interval} 秒`);
-
     while (attempts < maxAttempts) {
         await sleep(interval * 1000);
         attempts++;
-
-        // 显示进度
-        if (attempts % 3 === 0) {
-            console.log(`等待授权中... (${attempts}/${maxAttempts})，验证码: ${userCode}`);
-        }
 
         try {
             const tokenResponse = await Widget.http.post(
@@ -217,40 +192,36 @@ async function pollForToken(deviceCode, interval, expiresIn, userCode) {
                     client_id: TRAKT_CLIENT_ID,
                     client_secret: FORWARD_OAUTH_CONFIG.clientSecret
                 },
-                {
-                    headers: {
-                        "Content-Type": "application/json"
-                    }
-                }
+                { headers: { "Content-Type": "application/json" } }
             );
 
-            // 成功获取 token
-            console.log("✅ 成功获取 Token");
-            return tokenResponse.data;
+            const tokens = tokenResponse.data;
+            // 保存到内存（注：由于 Vercel/Forward 环境限制，这可能不是永久保存）
+            FORWARD_OAUTH_CONFIG.useOAuth = true;
+            FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
+            FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
+
+            console.log("✅ 授权成功！Token:", tokens.access_token);
+            // 如果环境支持弹窗提醒
+            if (typeof Widget.showToast === "function") {
+                Widget.showToast("✅ Trakt 授权成功！");
+            }
+            return tokens;
 
         } catch (error) {
             if (error.response?.status === 400) {
                 const errorData = error.response.data;
-                if (errorData.error === "authorization_pending") {
-                    // 继续等待
-                    continue;
-                } else if (errorData.error === "expired_token") {
-                    console.error("授权码已过期");
-                    throw new Error("授权码已过期，请重新授权");
-                } else if (errorData.error === "access_denied") {
-                    console.error("用户拒绝了授权");
-                    throw new Error("用户拒绝了授权");
-                }
+                if (errorData.error === "authorization_pending") continue;
+                break;
             }
-            // 其他错误继续重试
-            console.log(`尝试 ${attempts}/${maxAttempts} 失败，继续...`);
             continue;
         }
     }
-
-    console.error("授权超时");
-    return null; // 超时
+    return null;
 }
+
+// ... 后续 loadTraktProfile 等函数保持不变 ...
+
 
 /**
  * 自动刷新 Access Token
