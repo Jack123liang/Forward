@@ -82,7 +82,29 @@
       "vote_count": 2484,
       "origin_country": [
         "US"
-      ]
+      ],
+      "title": "辐射",
+      "release_date": "2024-04-10"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
+      "id": 1370814,
+      "title": "瘟疫",
+      "original_title": "The Plague",
+      "overview": "",
+      "poster_path": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "popularity": 19.602,
+      "release_date": "2025-12-24",
+      "video": false,
+      "vote_average": 7.708,
+      "vote_count": 12
     },
     {
       "adult": false,
@@ -104,26 +126,6 @@
       "video": false,
       "vote_average": 6.713,
       "vote_count": 298
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
-      "id": 1370814,
-      "title": "瘟疫",
-      "original_title": "The Plague",
-      "overview": "",
-      "poster_path": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        18,
-        53
-      ],
-      "popularity": 19.602,
-      "release_date": "2025-12-24",
-      "video": false,
-      "vote_average": 7.708,
-      "vote_count": 12
     },
     {
       "adult": false,
@@ -165,7 +167,9 @@
       "vote_count": 144,
       "origin_country": [
         "US"
-      ]
+      ],
+      "title": "奇迹人",
+      "release_date": "2026-01-27"
     },
     {
       "adult": false,
@@ -192,6 +196,26 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
+      "id": 1466115,
+      "title": "今夜，就算这份爱恋从世界上消失",
+      "original_title": "오늘 밤, 세계에서 이 사랑이 사라진다 해도",
+      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
+      "poster_path": "/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
+      "media_type": "movie",
+      "original_language": "ko",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "popularity": 10.0817,
+      "release_date": "2025-12-24",
+      "video": false,
+      "vote_average": 7.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
       "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "id": 1234731,
       "title": "新狂蟒之灾",
@@ -210,26 +234,6 @@
       "video": false,
       "vote_average": 5.877,
       "vote_count": 428
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
-      "id": 1466115,
-      "title": "今夜，就算这份爱恋从世界上消失",
-      "original_title": "오늘 밤, 세계에서 이 사랑이 사라진다 해도",
-      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
-      "poster_path": "/bMA6E5cu1QUMehjBZOjWjqQjhey.jpg",
-      "media_type": "movie",
-      "original_language": "ko",
-      "genre_ids": [
-        10749,
-        18
-      ],
-      "popularity": 10.0817,
-      "release_date": "2025-12-24",
-      "video": false,
-      "vote_average": 7.0,
-      "vote_count": 1
     },
     {
       "adult": false,
@@ -294,7 +298,9 @@
       "vote_count": 1202,
       "origin_country": [
         "GB"
-      ]
+      ],
+      "title": "夜班经理",
+      "release_date": "2016-02-21"
     },
     {
       "adult": false,
@@ -319,6 +325,27 @@
     },
     {
       "adult": false,
+      "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "id": 840464,
+      "title": "末日逃生2：迁移",
+      "original_title": "Greenland 2: Migration",
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "poster_path": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "media_type": "movie",
+      "original_language": "en",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ],
+      "popularity": 677.7898,
+      "release_date": "2026-01-07",
+      "video": false,
+      "vote_average": 6.447,
+      "vote_count": 284
+    },
+    {
+      "adult": false,
       "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
       "id": 224372,
       "name": "七王国的骑士",
@@ -338,7 +365,9 @@
       "vote_count": 168,
       "origin_country": [
         "US"
-      ]
+      ],
+      "title": "七王国的骑士",
+      "release_date": "2026-01-18"
     },
     {
       "adult": false,
@@ -361,28 +390,9 @@
       "vote_count": 20513,
       "origin_country": [
         "US"
-      ]
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "original_title": "Greenland 2: Migration",
-      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
-      "poster_path": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "media_type": "movie",
-      "original_language": "en",
-      "genre_ids": [
-        12,
-        53,
-        878
       ],
-      "popularity": 677.7898,
-      "release_date": "2026-01-07",
-      "video": false,
-      "vote_average": 6.444,
-      "vote_count": 284
+      "title": "怪奇物语",
+      "release_date": "2016-07-15"
     },
     {
       "adult": false,
@@ -425,7 +435,9 @@
       "vote_count": 661,
       "origin_country": [
         "JP"
-      ]
+      ],
+      "title": "葬送的芙莉莲",
+      "release_date": "2023-09-29"
     }
   ],
   "total_pages": 500,

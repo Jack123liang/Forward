@@ -22,6 +22,8 @@
       "name": "怪奇物语",
       "vote_average": 8.581,
       "vote_count": 20513,
+      "title": "怪奇物语",
+      "release_date": "2016-07-15",
       "media_type": "tv"
     },
     {
@@ -43,6 +45,8 @@
       "name": "布里杰顿家族",
       "vote_average": 8.065,
       "vote_count": 3125,
+      "title": "布里杰顿家族",
+      "release_date": "2020-12-25",
       "media_type": "tv"
     },
     {
@@ -66,6 +70,8 @@
       "name": "七王国的骑士",
       "vote_average": 8.086,
       "vote_count": 168,
+      "title": "七王国的骑士",
+      "release_date": "2026-01-18",
       "media_type": "tv"
     },
     {
@@ -89,6 +95,8 @@
       "name": "邪恶力量",
       "vote_average": 8.305,
       "vote_count": 8203,
+      "title": "邪恶力量",
+      "release_date": "2005-09-13",
       "media_type": "tv"
     },
     {
@@ -112,6 +120,8 @@
       "name": "菜鸟老警",
       "vote_average": 8.529,
       "vote_count": 2930,
+      "title": "菜鸟老警",
+      "release_date": "2018-10-16",
       "media_type": "tv"
     },
     {
@@ -133,6 +143,8 @@
       "name": "实习医生格蕾",
       "vote_average": 8.211,
       "vote_count": 10759,
+      "title": "实习医生格蕾",
+      "release_date": "2005-03-27",
       "media_type": "tv"
     },
     {
@@ -156,6 +168,8 @@
       "name": "法律与秩序：特殊受害者",
       "vote_average": 7.938,
       "vote_count": 4112,
+      "title": "法律与秩序：特殊受害者",
+      "release_date": "1999-09-20",
       "media_type": "tv"
     },
     {
@@ -178,6 +192,8 @@
       "name": "奇迹人",
       "vote_average": 7.0,
       "vote_count": 143,
+      "title": "奇迹人",
+      "release_date": "2026-01-27",
       "media_type": "tv"
     },
     {
@@ -201,6 +217,8 @@
       "name": "辛普森一家",
       "vote_average": 8.013,
       "vote_count": 10561,
+      "title": "辛普森一家",
+      "release_date": "1989-12-17",
       "media_type": "tv"
     },
     {
@@ -224,6 +242,8 @@
       "name": "咒术回战",
       "vote_average": 8.566,
       "vote_count": 4160,
+      "title": "咒术回战",
+      "release_date": "2020-10-03",
       "media_type": "tv"
     },
     {
@@ -247,6 +267,8 @@
       "name": "霹雳布袋戏",
       "vote_average": 6.9,
       "vote_count": 7,
+      "title": "霹雳布袋戏",
+      "release_date": "1988-06-01",
       "media_type": "tv"
     },
     {
@@ -270,6 +292,8 @@
       "name": "海军罪案调查处",
       "vote_average": 7.622,
       "vote_count": 2447,
+      "title": "海军罪案调查处",
+      "release_date": "2003-09-23",
       "media_type": "tv"
     },
     {
@@ -294,6 +318,8 @@
       "name": "潘德拉贡：梅林的崛起",
       "vote_average": 8.3,
       "vote_count": 20,
+      "title": "潘德拉贡：梅林的崛起",
+      "release_date": "2026-01-22",
       "media_type": "tv"
     },
     {
@@ -316,6 +342,8 @@
       "name": "恶搞之家",
       "vote_average": 7.39,
       "vote_count": 4782,
+      "title": "恶搞之家",
+      "release_date": "1999-01-31",
       "media_type": "tv"
     },
     {
@@ -338,6 +366,8 @@
       "name": "辐射",
       "vote_average": 8.14,
       "vote_count": 2484,
+      "title": "辐射",
+      "release_date": "2024-04-10",
       "media_type": "tv"
     },
     {
@@ -361,6 +391,8 @@
       "name": "权力的游戏",
       "vote_average": 8.459,
       "vote_count": 26192,
+      "title": "权力的游戏",
+      "release_date": "2011-04-17",
       "media_type": "tv"
     },
     {
@@ -384,6 +416,8 @@
       "name": "杀机四伏",
       "vote_average": 7.503,
       "vote_count": 339,
+      "title": "杀机四伏",
+      "release_date": "1997-03-23",
       "media_type": "tv"
     },
     {
@@ -407,6 +441,8 @@
       "name": "豪斯医生",
       "vote_average": 8.578,
       "vote_count": 7310,
+      "title": "豪斯医生",
+      "release_date": "2004-11-16",
       "media_type": "tv"
     },
     {
@@ -429,6 +465,8 @@
       "name": "法律与秩序",
       "vote_average": 7.355,
       "vote_count": 662,
+      "title": "法律与秩序",
+      "release_date": "1990-09-13",
       "media_type": "tv"
     },
     {
@@ -452,6 +490,8 @@
       "name": "超人前传",
       "vote_average": 8.185,
       "vote_count": 4338,
+      "title": "超人前传",
+      "release_date": "2001-10-16",
       "media_type": "tv"
     }
   ],
