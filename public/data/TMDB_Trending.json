@@ -1,105 +1,628 @@
 {
-  "page": 1,
-  "results": [
+  "today_tv": [
     {
-      "id": 1368166,
-      "title": "家弑服务",
-      "name": "家弑服务",
-      "poster_path": "/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
-      "backdrop_path": "/gEHDCtR9PNZvLG70sFBYJCFznRY.jpg",
-      "release_date": "2025-12-18",
-      "media_type": "movie",
-      "vote_average": 7.064
-    },
-    {
-      "id": 1168190,
-      "title": "特工迷阵",
-      "name": "特工迷阵",
-      "poster_path": "/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
-      "backdrop_path": "/zm5KTTutG2oN06BehOa8uD1SVhy.jpg",
-      "release_date": "2026-01-28",
-      "media_type": "movie",
-      "vote_average": 6.724
-    },
-    {
-      "id": 858024,
-      "title": "哈姆奈特",
-      "name": "哈姆奈特",
-      "poster_path": "/wKGcgF3KS0luee7HjlzZF6hHKRH.jpg",
-      "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
-      "release_date": "2025-11-26",
-      "media_type": "movie",
-      "vote_average": 7.8
-    },
-    {
-      "id": 1084242,
-      "title": "疯狂动物城2",
-      "name": "疯狂动物城2",
-      "poster_path": "/lFdyMUKjxoKb8vdjQXQHLvPYDXm.jpg",
-      "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
-      "release_date": "2025-11-26",
-      "media_type": "movie",
-      "vote_average": 7.637
+      "id": 106379,
+      "type": "tv",
+      "title": "辐射",
+      "genreTitle": "动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.14,
+      "overview": "本剧根据史上最伟大的游戏之一改编，《辐射》讲述了一群富人和贫民在荒芜世界中奋力求生的故事。核弹爆炸200年后，一位生活在舒适的辐射避难所中的和平居民，不得不重返地表世界，并被废土的景象深深震撼。",
+      "release_date": "2024-04-10",
+      "poster_url": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
+      "title_backdrop": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
+      "genre_ids": [
+        10759,
+        10765
+      ]
     },
     {
       "id": 198178,
+      "type": "tv",
       "title": "奇迹人",
-      "name": "奇迹人",
-      "poster_path": "/iCWuZ0GSpMvQfoC3Hdw9ENd2sbJ.jpg",
-      "backdrop_path": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
+      "genreTitle": "喜剧•剧情",
+      "rating": 7.082,
+      "overview": "该剧改编自漫威漫画，主要讲述了好莱坞演员西蒙·威廉姆斯进入超级英雄世界，获得超能力，成为新超级英雄“奇迹人”的故事。",
       "release_date": "2026-01-27",
-      "media_type": "movie",
-      "vote_average": 7.062
+      "poster_url": "/iCWuZ0GSpMvQfoC3Hdw9ENd2sbJ.jpg",
+      "title_backdrop": "/los8S8iCRn5Q7irl0LNAp6C6Gmz.jpg",
+      "genre_ids": [
+        35,
+        18
+      ]
     },
     {
-      "id": 1234731,
-      "title": "新狂蟒之灾",
-      "name": "新狂蟒之灾",
-      "poster_path": "/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "id": 61859,
+      "type": "tv",
+      "title": "夜班经理",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 7.7,
+      "overview": "乔纳森曾是一名在伊拉克前线拼杀的士兵，退伍后，他来到了一间富丽堂皇的酒店之中，在此担任夜班经理的职务。某日，乔纳森在酒店里偶遇了名为索菲的美丽女子，对其一见钟情，然而，索菲是某军火走私贩的情妇，她将一份涉及到英国军火黑市大佬理查德的机密文件偷偷交给乔纳森，随后便死于非命。  之后，乔纳森来到了位于瑞士采尔马特的酒店中工作，在那里，他结识了英国情报官安吉拉，安吉拉向乔纳森抛出了橄榄枝，希望他能够协助自己调查黑市内的军火交易和秘密情报。",
+      "release_date": "2016-02-21",
+      "poster_url": "/6kDXxP31JQaZQQjUqyQNa1wlNCe.jpg",
+      "title_backdrop": "/2vAOdruqvx9GojXxKi3xVsZZvKU.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        80
+      ]
+    },
+    {
+      "id": 66732,
+      "type": "tv",
+      "title": "怪奇物语",
+      "genreTitle": "Sci-Fi & Fantasy•悬疑•动作冒险",
+      "rating": 8.6,
+      "overview": "1983 年，当一个小男孩莫名其妙地失踪后，他的朋友、家人和当地警察开始寻找答案时，他们都被卷入一个非同寻常的谜团，揭开了涉及秘密实验、恐怖的超自然力量以及一个奇怪的小女孩的谜团。",
+      "release_date": "2016-07-15",
+      "poster_url": "/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+      "title_backdrop": "/8zbAoryWbtH0DKdev8abFAjdufy.jpg",
+      "genre_ids": [
+        10765,
+        9648,
+        10759
+      ]
+    },
+    {
+      "id": 209867,
+      "type": "tv",
+      "title": "葬送的芙莉莲",
+      "genreTitle": "动画•动作冒险•剧情",
+      "rating": 8.761,
+      "overview": "打倒了魔王的勇者一行人的后日谈——在“那之后”的故事。身为魔法使的芙莉莲是一位精灵，她和另外三人有着不一样的地方。对于生活在“之后”的世界、感受到的事情有着不一样的看法……残存世间的人们所编织的，葬送与祈祷相伴的故事——从“冒险的结束”开始了。",
+      "release_date": "2023-09-29",
+      "poster_url": "/1TtrtRIwXz5BB0gXEl8zgBypl9c.jpg",
+      "title_backdrop": "/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        18,
+        10765
+      ]
+    },
+    {
+      "id": 224372,
+      "type": "tv",
+      "title": "七王国的骑士",
+      "genreTitle": "剧情•Sci-Fi & Fantasy•动作冒险",
+      "rating": 8.1,
+      "overview": "在《权力的游戏》故事发生的一百年前，两位不太可能成为英雄的人物闯入了维斯特洛：高个骑士邓肯和他的侍从伊戈。",
+      "release_date": "2026-01-18",
+      "poster_url": "/seQEW2jIAWK4gfCcUL83NFiLjk7.jpg",
+      "title_backdrop": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+      "genre_ids": [
+        18,
+        10765,
+        10759
+      ]
+    },
+    {
+      "id": 287231,
+      "type": "tv",
+      "title": "消失之人",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.3,
+      "overview": "",
+      "release_date": "2026-02-01",
+      "poster_url": "/KVyfJoW4nO1CATxHrD7oR8rRJH.jpg",
+      "title_backdrop": "/qI2pX6IWQojvh2kaLv6M233Iwqb.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ]
+    },
+    {
+      "id": 95479,
+      "type": "tv",
+      "title": "咒术回战",
+      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
+      "rating": 8.566,
+      "overview": "少年战斗着——「为寻求正确的死亡」。辛酸·后悔·耻辱人类产生的负面情感，化为诅咒，潜入日常生活诅咒是蔓延于世界的祸源，最糟糕的情况下，会让人类踏入死亡，并且诅咒只能以诅咒祓除。虎杖悠仁是一位体育万能的高中生，某天他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合而为一。在最强咒术师五条悟的指引下，进入对诅咒专门机关「东京都立咒术高等专门学校」，并遇到了伏黑惠与钉崎野蔷薇这两位同学。某日，突然出现“特级咒物”，他们三人就奉命到现场支援。为了实现爷爷要他“助人”的遗言，虎杖将会继续与“诅咒”奋斗下去。为了祓除诅咒而成为诅咒的少年，无法回头的壮阔故事开始了——",
+      "release_date": "2020-10-03",
+      "poster_url": "/kdE1ALF5G6DFMyDU67AyyUklEtn.jpg",
+      "title_backdrop": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765
+      ]
+    },
+    {
+      "id": 278882,
+      "type": "tv",
+      "title": "年少有为",
+      "genreTitle": "喜剧•剧情•Sci-Fi & Fantasy",
+      "rating": 9.0,
+      "overview": "大厂打工人裴谦惨遭辞退之际，意外获得神秘大佬的邀请，创办了一家必须以亏损为目标的公司，于是他故意集齐各种不靠谱的虾兵蟹将，绞尽脑汁地给员工加薪放假发福利，又投资了一个个奇葩项目，不料竟一次次意外反转，屡战屡赚。裴谦有苦难言，却成为了员工心中的良心老板，业界公认的商业奇才，不得不带领公司继续逆风翻盘，终成当地第一集团。",
+      "release_date": "2026-01-31",
+      "poster_url": "/nXDZlqN7K5F3RuJRZmzVVOlKZ4p.jpg",
+      "title_backdrop": "/s78UEFOxRRFlM7B0cP0JVkJKW7s.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10765
+      ]
+    },
+    {
+      "id": 91239,
+      "type": "tv",
+      "title": "布里杰顿家族",
+      "genreTitle": "剧情",
+      "rating": 8.065,
+      "overview": "布里杰顿家族的八名关系亲密的兄弟姐妹在伦敦上流社会寻找爱情和幸福。",
+      "release_date": "2020-12-25",
+      "poster_url": "/jfA1G3guanPOFhwUzJsargpmB7F.jpg",
+      "title_backdrop": "/6umsRLI7t0ydFwCl0JNEIO0q2LH.jpg",
+      "genre_ids": [
+        18
+      ]
+    },
+    {
+      "id": 279446,
+      "type": "tv",
+      "title": "太平年",
+      "genreTitle": "剧情",
+      "rating": 8.5,
+      "overview": "公元941年，吴越国王钱元瓘离世，新主少年继位，吴越王室陷入内外交困。五年后，王弟钱弘俶自请随使臣北上汴梁朝贺正旦，然而汴梁的局面竟是契丹兵临城下，天子石重贵称臣契丹，宰相冯道在风雨飘摇中权衡各方。此行，钱弘俶经历了北方家国破碎、人伦失序的惨淡，在危难中与郭荣和赵匡胤结下深厚的情谊。回到吴越国，钱弘俶一改往日自由散漫的个性，在朝廷大展拳脚，内除奸臣、外打豪强，又于政权动乱之时扛起国主的重任。另一方面，北方的赵匡胤，继承了郭荣未竟的事业，建立北宋政权，兴兵南下。最终，在北宋统一的大势和天下黎庶的福祉面前，赵匡胤、钱弘俶摒弃兵戈，于太平兴国三年（公元978年）完成了“纳土归宋”和平统一的历史创举。",
+      "release_date": "2026-01-23",
+      "poster_url": "/76gwCVQG1MoItK25o48opYP7TmG.jpg",
+      "title_backdrop": "/c5mwcq4lvp96cHPgAWE1uxdwxkR.jpg",
+      "genre_ids": [
+        18
+      ]
+    },
+    {
+      "id": 79744,
+      "type": "tv",
+      "title": "菜鸟老警",
+      "genreTitle": "犯罪•剧情•喜剧",
+      "rating": 8.529,
+      "overview": "　　Alexi Hawley执笔﹑Liz Friedlander导演的ABC警察剧《菜鸟老警 The Rookie》过去被直接预订成剧，由《灵书妙探 Castle》男主Nathan Fillion主演。《菜鸟老警》根据真人真事改编，Nathan Fillion饰演主角John Nolan，他是洛杉矶警局里最老的菜鸟警察。John离开了舒适的小城镇，来到洛杉矶追求自己的警察梦；此刻他身边的其他菜鸟都是二十出头，被上司认为只是遇上中年危机的主角，得跟年轻的同伴一样应付这个危险﹑滑稽﹑不可预测的世界。《黑暗物质 Dark Matter》主演Melissa O’Neil饰演女主 - 洛杉矶菜鸟警察Lucy Chen，将会与John有感情发展。Afton Williamson饰演刚被提升为训练警官的Talia Bishop，第一个被指派给她训练的就是菜鸟John﹑ Eric Winter饰演咄咄逼人的训练警官Tim Bradford﹑Richard T. Jones饰演警长Wade Grey，身为警局监管警官的他与John成了死对头。Titus Makin饰演热心的菜鸟Jackson West警官，他父亲是洛杉矶警局的高层指挥官。Alyssa Diaz饰演希望当上警探的训练警官Angela，不过当Jackson West被指派给她时倒成了麻烦，因为他的父亲可是对警局有发言权。Mercedes Mason饰演警监Zoe Andersen，主角那自信无礼的指挥警官。",
+      "release_date": "2018-10-16",
+      "poster_url": "/8Q7RFUOxaZzJMXc5MZExfaUm22y.jpg",
+      "title_backdrop": "/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
+      "genre_ids": [
+        80,
+        18,
+        35
+      ]
+    },
+    {
+      "id": 152401,
+      "type": "tv",
+      "title": "多娜·贝贾",
+      "genreTitle": "剧情•肥皂剧",
+      "rating": 3.5,
+      "overview": "本剧改编自安娜·哈辛塔·德·圣何塞（Ana Jacinta de São José）的真实传奇故事以及 1986 年的经典同名剧集。故事背景设定在 19 世纪的巴西米纳斯吉拉斯州。\n\n安娜·哈辛塔（格拉齐·马萨费拉 饰）本是一位拥有惊世美貌的少女，却不幸被皇室高官强行掳走并囚禁为情妇。当她历经磨难回到家乡阿拉沙（Araxá）时，却发现曾经的爱人安东尼奥（大卫·朱尼尔 饰）已另娶他人，而虚伪保守的当地社会也将她视为“不洁”的女人加以排挤。\n\n为了报复这个虚伪的社会并夺回命运的主动权，她化名为“贝贾夫人”（Dona Beja），建立了一座奢华的庄园妓院“Chácara do Jatobá”。她利用自己的美貌与智慧，周旋于权贵之间，从一个受害者蜕变为一位掌控男人与权力的女王，同时也开启了一段关于复仇、欲望与女性觉醒的传奇人生。",
+      "release_date": "2026-02-02",
+      "poster_url": "/eN3jw7AEOwNtTQTsGVHlEPvs6OC.jpg",
+      "title_backdrop": "/rPcLf4OA3UaiquWJtEejRjRWckM.jpg",
+      "genre_ids": [
+        18,
+        10766
+      ]
+    },
+    {
+      "id": 261676,
+      "type": "tv",
+      "title": "风过留痕",
+      "genreTitle": "犯罪•悬疑",
+      "rating": 9.0,
+      "overview": "云汐市公安局刑事技术科是当地要案、奇案的汇聚之地。由队长冷启明领衔，叶谦、司元龙、焦磊、张子芜等人组建而成的调查小组，是一支年轻、专业的刑侦精英团队。他们或是精于推理、善析人性的法场心灵捕手，或是玩转各种侦查仪器的技术控，更有老谋深算，指点迷津的老派警察和让人忍俊不已的圆滑青年。秉承着“破解死亡密码，守护生命尊严”的宗旨，他们各怀绝技、各司其职、屡破奇案，在一桩桩匪夷所思的案件中，见心见性、匡扶正义。天外有天，案中有案，真相渐显，始露人性。",
+      "release_date": "2026-02-03",
+      "poster_url": "/1IxxLvd9cVpOdUVaUe0A1mxktrj.jpg",
+      "title_backdrop": "/iVXqPMJ1RQovrxqDDauLpCSVPBO.jpg",
+      "genre_ids": [
+        80,
+        9648
+      ]
+    },
+    {
+      "id": 240459,
+      "type": "tv",
+      "title": "斯巴达克斯：亚述家族",
+      "genreTitle": "剧情•动作冒险",
+      "rating": 6.371,
+      "overview": "该剧为《斯巴达克斯》系列的首部衍生剧 。设定在《斯巴达克斯：复仇》第二季的结尾，亚述没有死在维苏威山，他因协助罗马人击杀斯巴达克斯、镇压奴隶起义，获得原属巴蒂亚塔斯的角斗士学院后，在权力与阴谋中建立亚述家族的故事。",
+      "release_date": "2025-12-05",
+      "poster_url": "/uYlq9Ii0CCWXGAzTRvHR99lyvwh.jpg",
+      "title_backdrop": "/wIysQFRoro0DsNRMjFUoiTxbt5.jpg",
+      "genre_ids": [
+        18,
+        10759
+      ]
+    },
+    {
+      "id": 250307,
+      "type": "tv",
+      "title": "匹兹堡医护前线",
+      "genreTitle": "剧情",
+      "rating": 8.713,
+      "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
+      "release_date": "2025-01-09",
+      "poster_url": "/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
+      "title_backdrop": "/6uPBHw488MUW6x51zZ2OCJo6Dgp.jpg",
+      "genre_ids": [
+        18
+      ]
+    },
+    {
+      "id": 139798,
+      "type": "tv",
+      "title": "单身即地狱",
+      "genreTitle": "真人秀•喜剧•脱口秀",
+      "rating": 7.652,
+      "overview": "魅力十足的单身男女来到荒岛上寻觅对象，唯有顺利成为一对，才能离开这座岛，在天堂度过浪漫约会夜。",
+      "release_date": "2021-12-18",
+      "poster_url": "/9DFSAW2HUgoEyQDByGcyGyCOgQM.jpg",
+      "title_backdrop": "/bkz7rStamWJxC3lp9TUpU9GR18S.jpg",
+      "genre_ids": [
+        10764,
+        35,
+        10767
+      ]
+    },
+    {
+      "id": 287346,
+      "type": "tv",
+      "title": "荣耀：她们的法庭",
+      "genreTitle": "悬疑•犯罪•剧情",
+      "rating": 10.0,
+      "overview": "故事围绕她们在律师事务所L&J一同处理案件，特别是女性受害者的权益案件。随着一桩牵涉二十年秘密的丑闻浮上台面，她们不仅要在法庭上奋战，也需正视过去深埋的伤痕与真相。",
+      "release_date": "2026-02-02",
+      "poster_url": "/pCacDC7WQDLCd7ywayulb9GxSPB.jpg",
+      "title_backdrop": "/Wg1TfgQJ8ngiWhPY37vZ9Y1J0D.jpg",
+      "genre_ids": [
+        9648,
+        80,
+        18
+      ]
+    },
+    {
+      "id": 37854,
+      "type": "tv",
+      "title": "航海王",
+      "genreTitle": "动作冒险•喜剧•动画",
+      "rating": 8.722,
+      "overview": "拥有财富、名声、势力，拥有整个世界的海贼王 – 哥尔·D·罗杰，他在临刑前的一句话，让人们趋之若鹜奔向大海。“想要我的财宝吗？想要的话可以全部给你，去找吧！我把所有财宝都放在那里。”于是所有男子汉航向伟大的航路追逐梦想，世界开始迎接“大海贼时代”。",
+      "release_date": "1999-10-20",
+      "poster_url": "/f9AFdxegmmWOghgw9E6ebICkstl.jpg",
+      "title_backdrop": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+      "genre_ids": [
+        10759,
+        35,
+        16
+      ]
+    },
+    {
+      "id": 130464,
+      "type": "tv",
+      "title": "爱入歧途",
+      "genreTitle": "剧情•悬疑",
+      "rating": 7.482,
+      "overview": "《爱入歧途》讲述了一段跌宕起伏，缠绵悱恻的爱情故事。这段感情持续了8年时间。露西·奥尔布赖特（格蕾丝·范·帕滕饰）和斯蒂芬·德马科（杰克逊·怀特饰）在大学里相遇。二人当时正处于成长阶段，一些看似平平无奇的选择却导致了不可挽回的后果。就像所有的校园恋情一样，他们很快深陷感情纠葛无法自拔。二人的关系不仅永远改变了他们的生活，而且还影响了周围所有人的生活。",
+      "release_date": "2022-09-07",
+      "poster_url": "/trQEXGDjbduHrAMVivFRN7wx8MW.jpg",
+      "title_backdrop": "/16aXE8Zg30qQo4qfio6qbeUoR8v.jpg",
+      "genre_ids": [
+        18,
+        9648
+      ]
+    }
+  ],
+  "today_movies": [
+    {
+      "id": 1368166,
+      "type": "movie",
+      "title": "家弑服务",
+      "genreTitle": "悬疑•惊悚",
+      "rating": 7.063,
+      "overview": "为生计挣扎的女子米莉（西德尼·斯维尼 饰）找到了一个新的开始，在一对看似完美且富有的夫妻妮娜（阿曼达·塞弗里德 饰）和安德鲁（布兰登·斯克莱纳 饰）的家中做家政。然而，米莉很快发现一家人的秘密比自己的要危险得多，这座豪宅背后上演着充满秘辛、丑闻、权力诱惑的游戏。",
+      "release_date": "2025-12-18",
+      "poster_url": "/p7R6ddRrTdEwjZ7gXLFnyYuULrM.jpg",
+      "title_backdrop": "/gEHDCtR9PNZvLG70sFBYJCFznRY.jpg",
+      "genre_ids": [
+        9648,
+        53
+      ]
+    },
+    {
+      "id": 858024,
+      "type": "movie",
+      "title": "哈姆奈特",
+      "genreTitle": "剧情•爱情•历史",
+      "rating": 7.8,
+      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
+      "release_date": "2025-11-26",
+      "poster_url": "/wKGcgF3KS0luee7HjlzZF6hHKRH.jpg",
+      "title_backdrop": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        36
+      ]
+    },
+    {
+      "id": 1198984,
+      "type": "movie",
+      "title": "我们埋葬死者",
+      "genreTitle": "恐怖•惊悚",
+      "rating": 6.3,
+      "overview": "当丈夫在一场灾难性军事实验的余波中失踪后，艾娃加入了一支 “遗体回收小队”，希望能找到活着的他。但她的搜寻却迎来了令人毛骨悚然的转折 —— 她正在安葬的遗体，竟开始显现出生命迹象。",
+      "release_date": "2026-01-01",
+      "poster_url": "/d6FwKyt8xR9SF93iYzOawN2HTaD.jpg",
+      "title_backdrop": "/vbkW4KerpshPZnP84w9qwSfYrhu.jpg",
+      "genre_ids": [
+        27,
+        53
+      ]
+    },
+    {
+      "id": 1466115,
+      "type": "movie",
+      "title": "今夜，就算这份爱恋从世界上消失",
+      "genreTitle": "爱情•剧情",
+      "rating": 7.0,
+      "overview": "一个患有先行性遗忘症——每天醒来记忆都会重置的女学生，与一个过着平淡生活的普通男学生之间纯真而又怅然的爱情故事。",
       "release_date": "2025-12-24",
-      "media_type": "movie",
-      "vote_average": 5.877
+      "poster_url": "/kNqF9yVNStSsMRN9cshKwHnn8Ec.jpg",
+      "title_backdrop": "/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ]
     },
     {
-      "id": 106379,
-      "title": "辐射",
-      "name": "辐射",
-      "poster_path": "/b056vciDjYJ3pthEvaFpPcZNT3i.jpg",
-      "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
-      "release_date": "2024-04-10",
-      "media_type": "movie",
-      "vote_average": 8.14
+      "id": 1168190,
+      "type": "movie",
+      "title": "特工迷阵",
+      "genreTitle": "动作•喜剧•犯罪",
+      "rating": 6.735,
+      "overview": "　　讲述一对性格迥异的同父异母兄弟——哥哥是行事冲动的侦探，弟弟是纪律严明的海军海豹突击队员——因父亲在夏威夷遇害而被迫联手，踏上一场危机四伏的追寻之路，誓要揭开背后隐藏的惊天阴谋。",
+      "release_date": "2026-01-28",
+      "poster_url": "/1C01VWRbHOzj8qzHMUaeaInXQyq.jpg",
+      "title_backdrop": "/zm5KTTutG2oN06BehOa8uD1SVhy.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80
+      ]
     },
     {
-      "id": 840464,
-      "title": "末日逃生2：迁移",
-      "name": "末日逃生2：迁移",
-      "poster_path": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
-      "backdrop_path": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
-      "release_date": "2026-01-07",
-      "media_type": "movie",
-      "vote_average": 6.446
+      "id": 1370814,
+      "type": "movie",
+      "title": "瘟疫",
+      "genreTitle": "剧情•惊悚",
+      "rating": 7.708,
+      "overview": "",
+      "release_date": "2025-12-24",
+      "poster_url": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
+      "title_backdrop": "/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
+      "genre_ids": [
+        18,
+        53
+      ]
     },
     {
-      "id": 1198994,
-      "title": "请求救援",
-      "name": "请求救援",
-      "poster_path": "/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
-      "backdrop_path": "/hO2jx1H3XafR7Y8QbFgVH1sHTY9.jpg",
-      "release_date": "2026-01-22",
-      "media_type": "movie",
-      "vote_average": 7.057
+      "id": 1180417,
+      "type": "movie",
+      "title": "荷兰人",
+      "genreTitle": "剧情•惊悚",
+      "rating": 4.286,
+      "overview": "",
+      "release_date": "2026-01-02",
+      "poster_url": "/v7CCosgX9LcSpt7bXmqw5OzTFTV.jpg",
+      "title_backdrop": "/bUktSJyiZIs4qPpMopjz2NMY0s9.jpg",
+      "genre_ids": [
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1084242,
+      "type": "movie",
+      "title": "疯狂动物城2",
+      "genreTitle": "动画•喜剧•冒险",
+      "rating": 7.639,
+      "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
+      "release_date": "2025-11-26",
+      "poster_url": "/lFdyMUKjxoKb8vdjQXQHLvPYDXm.jpg",
+      "title_backdrop": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12,
+        10751,
+        9648
+      ]
     },
     {
       "id": 1116201,
+      "type": "movie",
       "title": "铁肺",
-      "name": "铁肺",
-      "poster_path": "/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "backdrop_path": "/gqGQ0zADV5FIcgMWtWX8FcGQjFp.jpg",
+      "genreTitle": "恐怖•悬疑•科幻",
+      "rating": 7.74,
+      "overview": "　　在“寂静狂喜”事件后的末世未来，一名囚犯驾驶名为“铁肺号”的潜艇，在一颗荒芜卫星的血色海洋中探索，寻找消失的星辰与行星。该片由同名游戏改编。",
       "release_date": "2026-01-29",
-      "media_type": "movie",
-      "vote_average": 7.7
+      "poster_url": "/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "title_backdrop": "/gqGQ0zADV5FIcgMWtWX8FcGQjFp.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        878
+      ]
+    },
+    {
+      "id": 1220564,
+      "type": "movie",
+      "title": "密探",
+      "genreTitle": "犯罪•剧情•惊悚",
+      "rating": 7.657,
+      "overview": "1977年，在被军事独裁统治折磨的巴西，四十多岁的马塞洛（瓦格纳·马拉 饰）逃离了他混乱的过去，来到累西腓，希望在这里建立新的生活并与家人重修旧好。然而，他并未料到死亡威胁如影随形，笼罩在他的头顶。",
+      "release_date": "2025-07-23",
+      "poster_url": "/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
+      "title_backdrop": "/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ]
+    },
+    {
+      "id": 1234731,
+      "type": "movie",
+      "title": "新狂蟒之灾",
+      "genreTitle": "冒险•喜剧•恐怖",
+      "rating": 5.877,
+      "overview": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "release_date": "2025-12-24",
+      "poster_url": "/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "title_backdrop": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "genre_ids": [
+        12,
+        35,
+        27
+      ]
+    },
+    {
+      "id": 1198994,
+      "type": "movie",
+      "title": "请求救援",
+      "genreTitle": "恐怖•惊悚•喜剧",
+      "rating": 7.056,
+      "overview": "当求生变成猎杀，谁会是最终的幸存者？ 一架飞机失事后，作为同事的两名幸存者被困在荒岛上。他们必须放下过往恩怨、共同求生，但最终演变成一场不安又黑色幽默的意志与智慧对决……",
+      "release_date": "2026-01-22",
+      "poster_url": "/9TgYDfNZPRVWDzp7ayYPpo9yV0u.jpg",
+      "title_backdrop": "/hO2jx1H3XafR7Y8QbFgVH1sHTY9.jpg",
+      "genre_ids": [
+        27,
+        53,
+        35
+      ]
+    },
+    {
+      "id": 840464,
+      "type": "movie",
+      "title": "末日逃生2：迁移",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.458,
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "release_date": "2026-01-07",
+      "poster_url": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
+      "genre_ids": [
+        12,
+        53,
+        878
+      ]
+    },
+    {
+      "id": 1317288,
+      "type": "movie",
+      "title": "至尊马蒂",
+      "genreTitle": "剧情",
+      "rating": 7.8,
+      "overview": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "release_date": "2025-12-19",
+      "poster_url": "/sGaiYUhrGWCCBMawmr3rRtq92O4.jpg",
+      "title_backdrop": "/6h7w8R4BA7vubEmEEW5vYEjuoz6.jpg",
+      "genre_ids": [
+        18
+      ]
+    },
+    {
+      "id": 1290821,
+      "type": "movie",
+      "title": "庇护之地",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.7,
+      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "release_date": "2026-01-28",
+      "poster_url": "/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
+      "title_backdrop": "/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ]
+    },
+    {
+      "id": 1316092,
+      "type": "movie",
+      "title": "呼啸山庄",
+      "genreTitle": "剧情•爱情",
+      "rating": 0.0,
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "release_date": "2026-02-11",
+      "poster_url": "/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "title_backdrop": "/oGAYQOhfuXMh9Cpp4LNfzI5uDS3.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ]
+    },
+    {
+      "id": 1159559,
+      "type": "movie",
+      "title": "惊声尖叫7",
+      "genreTitle": "恐怖•悬疑•犯罪",
+      "rating": 0.0,
+      "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
+      "release_date": "2026-02-25",
+      "poster_url": "/vhCUlEsfshjLcOzKpg6EbvyLJQT.jpg",
+      "title_backdrop": "/xXFtetuwZkI3Byl7qmQ8DZXQqY.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        80
+      ]
+    },
+    {
+      "id": 83533,
+      "type": "movie",
+      "title": "阿凡达：火与烬",
+      "genreTitle": "科幻•冒险•奇幻",
+      "rating": 7.3,
+      "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
+      "release_date": "2025-12-17",
+      "poster_url": "/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
+      "title_backdrop": "/u8DU5fkLoM5tTRukzPC31oGPxaQ.jpg",
+      "genre_ids": [
+        878,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 701387,
+      "type": "movie",
+      "title": "拯救地球",
+      "genreTitle": "科幻•惊悚•喜剧",
+      "rating": 7.369,
+      "overview": "两名痴迷阴谋论的年轻男子绑架了某大公司位高权重的首席执行官，他们坚信对方是一名蓄意毁灭地球的外星人。",
+      "release_date": "2025-10-23",
+      "poster_url": "/b5BInTXQHEMF3AxlJb9yCcMXTr6.jpg",
+      "title_backdrop": "/tN3pTxkQoP96wtaEahYuRVdUWb2.jpg",
+      "genre_ids": [
+        878,
+        53,
+        35
+      ]
+    },
+    {
+      "id": 1306368,
+      "type": "movie",
+      "title": "全信没收",
+      "genreTitle": "动作•惊悚•犯罪",
+      "rating": 7.025,
+      "overview": "一群迈阿密警察在一间废弃的藏身屋发现数百万现钞，彼此之间的信任开始瓦解。随着外部人士得知充公金额如此可观，一切变得疑点重重，到底还剩下什么可以相信？又有谁依然值得信赖？",
+      "release_date": "2026-01-13",
+      "poster_url": "/s3yLyVISgyrDalMyBE7LbGrsjk5.jpg",
+      "title_backdrop": "/3F2EXWF1thX0BdrVaKvnm6mAhqh.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ]
     }
   ]
 }
