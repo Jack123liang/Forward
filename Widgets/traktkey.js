@@ -108,7 +108,7 @@ const FORWARD_OAUTH_CONFIG = {
 // ==========================================
 // 0. 全局配置
 // ==========================================
-const TRAKT_CLIENT_ID = "8e3ef2a3a889724abe329a12b5c6e9a4d38f3a43f8861773a14bcccfebc0005d";
+const TRAKT_CLIENT_ID = "4af702a58a691dccecdfe85fd4b3592048a8a71c5f168f395ae6a70dcd2bb94c";
 const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
 
 // ==========================================
