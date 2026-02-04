@@ -5,6 +5,8 @@ WidgetMetadata = {
   author: "Gemini",
   site: "https://forward-eta.vercel.app",
   version: "2.0.0",
+  requiredVersion: "0.0.2",
+  detailCacheDuration: 60,
   modules: [
     {
       title: "TMDB 热门剧集",
