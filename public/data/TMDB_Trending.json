@@ -3,9 +3,9 @@
   "results": [
     {
       "id": 1,
-      "title": "测试-美国电影",
-      "name": "测试-美国电影",
-      "overview": "全部地区显示需要 media_type 字段",
+      "title": "测试电影",
+      "name": "测试电影",
+      "overview": "选【热门电影】+【全部地区】时，必须有 media_type: movie",
       "poster_path": "/xvx4H9OEnSwayZ7Y0O6uH6997jO.jpg",
       "media_type": "movie",
       "origin_country": ["US"],
@@ -13,9 +13,9 @@
     },
     {
       "id": 2,
-      "title": "测试-韩国剧集",
-      "name": "测试-韩国剧集",
-      "overview": "确保 media_type 为 tv 且地区为 KR",
+      "title": "测试剧集",
+      "name": "测试剧集",
+      "overview": "选【热门剧集】+【全部地区】时，必须有 media_type: tv",
       "poster_path": "/kS6Yp79YAn9Y34vU79p7Y9Y.jpg",
       "media_type": "tv",
       "origin_country": ["KR"],
@@ -23,6 +23,3 @@
     }
   ]
 }
-
-
-
