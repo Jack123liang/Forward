@@ -221,7 +221,7 @@ async function pollForToken(deviceCode, interval, expiresIn, userCode) {
 }
 
 // ==========================================
-// 自动刷新 Token 等后续函数（保持不变）
+// 自动刷新 Token
 // ==========================================
 
 async function autoRefreshTokenIfNeeded() {
@@ -272,6 +272,10 @@ async function refreshAccessToken(refreshToken) {
     }
 }
 
+// ==========================================
+// 🔧 工具函数
+// ==========================================
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -301,13 +305,173 @@ function formatShortDate(dateStr) {
     return `${m}-${d}`;
 }
 
-// loadTraktProfile、loadUpdatesLogic 等主逻辑函数保持不变（省略以节省篇幅）
-// 请从你原来的代码中保留以下部分：
-// - loadTraktProfile
-// - loadUpdatesLogic
-// - fetchTraktList
-// - fetchTmdbDetail
-// - fetchTmdbShowDetails
-// - getItemTime
+// ==========================================
+// 📋 主逻辑
+// ==========================================
 
-// 如果你需要我把完整版（包含所有函数）再贴一次，请告诉我，我可以补全。
+async function loadTraktProfile(params = {}) {
+    const { traktUser, section, updateSort = "future_first", type = "all", page = 1 } = params;
+
+    if (!traktUser) return [{ id: "err", type: "text", title: "请填写 Trakt 用户名" }];
+
+    // 自动刷新 token（如果需要）
+    await autoRefreshTokenIfNeeded();
+
+    // === A. 追剧日历 (Updates) ===
+    if (section === "updates") {
+        return await loadUpdatesLogic(traktUser, params, updateSort, page);
+    }
+
+    // === B. 常规列表 ===
+    let rawItems = [];
+    const sortType = "added,desc";
+    
+    if (type === "all") {
+        const [movies, shows] = await Promise.all([
+            fetchTraktList(section, "movies", sortType, page, traktUser, params),
+            fetchTraktList(section, "shows", sortType, page, traktUser, params)
+        ]);
+        rawItems = [...movies, ...shows];
+    } else {
+        rawItems = await fetchTraktList(section, type, sortType, page, traktUser, params);
+    }
+    
+    rawItems.sort((a, b) => new Date(getItemTime(b, section)) - new Date(getItemTime(a, section)));
+    
+    if (!rawItems || rawItems.length === 0) return page === 1 ? [{ id: "empty", type: "text", title: "列表为空" }] : [];
+
+    const promises = rawItems.map(async (item) => {
+        const subject = item.show || item.movie || item;
+        if (!subject?.ids?.tmdb) return null;
+        let subInfo = "";
+        const timeStr = getItemTime(item, section);
+        if (timeStr) subInfo = timeStr.split('T')[0];
+        if (type === "all") subInfo = `[${item.show ? "剧" : "影"}] ${subInfo}`;
+        return await fetchTmdbDetail(subject.ids.tmdb, item.show ? "tv" : "movie", subInfo, subject.title);
+    });
+    return (await Promise.all(promises)).filter(Boolean);
+}
+
+// ==========================================
+// 📅 追剧日历逻辑
+// ==========================================
+
+async function loadUpdatesLogic(user, params, sort, page) {
+    const url = `https://api.trakt.tv/users/${user}/watched/shows?extended=noseasons&limit=100`;
+    try {
+        const res = await Widget.http.get(url, {
+            headers: buildTraktHeaders(params)
+        });
+        const data = res.data || [];
+        if (data.length === 0) return [{ id: "empty", type: "text", title: "无观看记录" }];
+
+        const enrichedShows = await Promise.all(data.slice(0, 60).map(async (item) => {
+            if (!item.show?.ids?.tmdb) return null;
+            const tmdb = await fetchTmdbShowDetails(item.show.ids.tmdb);
+            if (!tmdb) return null;
+            
+            const nextAir = tmdb.next_episode_to_air?.air_date;
+            const lastAir = tmdb.last_episode_to_air?.air_date;
+            const sortDate = nextAir || lastAir || "1970-01-01";
+            const today = new Date().toISOString().split('T')[0];
+            const isFuture = sortDate >= today;
+
+            return {
+                trakt: item, tmdb: tmdb,
+                sortDate: sortDate,
+                isFuture: isFuture,
+                watchedDate: item.last_watched_at
+            };
+        }));
+
+        const valid = enrichedShows.filter(Boolean);
+        
+        if (sort === "future_first") {
+            const futureShows = valid.filter(s => s.isFuture && s.tmdb.next_episode_to_air);
+            const pastShows = valid.filter(s => !s.isFuture || !s.tmdb.next_episode_to_air);
+            futureShows.sort((a, b) => new Date(a.sortDate) - new Date(b.sortDate));
+            pastShows.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+            valid.length = 0; 
+            valid.push(...futureShows, ...pastShows);
+        } else if (sort === "air_date_desc") {
+            valid.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+        } else {
+            valid.sort((a, b) => new Date(b.watchedDate) - new Date(a.watchedDate));
+        }
+
+        const start = (page - 1) * 15;
+        return valid.slice(start, start + 15).map(item => {
+            const d = item.tmdb;
+            
+            let displayStr = "暂无排期";
+            let icon = "📅";
+            let epData = null;
+
+            if (d.next_episode_to_air) {
+                icon = "🔜";
+                epData = d.next_episode_to_air;
+            } else if (d.last_episode_to_air) {
+                icon = "📅";
+                epData = d.last_episode_to_air;
+            }
+
+            if (epData) {
+                const shortDate = formatShortDate(epData.air_date);
+                displayStr = `${icon} ${shortDate} 📺 S${epData.season_number}E${epData.episode_number}`;
+            }
+            
+            return {
+                id: String(d.id), 
+                tmdbId: d.id, 
+                type: "tmdb", 
+                mediaType: "tv",
+                title: d.name, 
+                genreTitle: displayStr, 
+                subTitle: displayStr,
+                posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : "",
+                description: `上次观看: ${item.watchedDate.split("T")[0]}\n${d.overview}`
+            };
+        });
+    } catch (e) { 
+        console.error("加载追剧日历失败:", e);
+        return []; 
+    }
+}
+
+async function fetchTraktList(section, type, sort, page, user, params) {
+    const limit = 20; 
+    const url = `https://api.trakt.tv/users/${user}/${section}/${type}?extended=full&page=${page}&limit=${limit}`;
+    try {
+        const res = await Widget.http.get(url, {
+            headers: buildTraktHeaders(params)
+        });
+        return Array.isArray(res.data) ? res.data : [];
+    } catch (e) { 
+        console.error("获取列表失败:", e);
+        return []; 
+    }
+}
+
+async function fetchTmdbDetail(id, type, subInfo, originalTitle) {
+    try {
+        const d = await Widget.tmdb.get(`/${type}/${id}`, { params: { language: "zh-CN" } });
+        const year = (d.first_air_date || d.release_date || "").substring(0, 4);
+        return {
+            id: String(d.id), tmdbId: d.id, type: "tmdb", mediaType: type,
+            title: d.name || d.title || originalTitle,
+            genreTitle: year, subTitle: subInfo, description: d.overview,
+            posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : ""
+        };
+    } catch (e) { return null; }
+}
+
+async function fetchTmdbShowDetails(id) {
+    try { return await Widget.tmdb.get(`/tv/${id}`, { params: { language: "zh-CN" } }); } catch (e) { return null; }
+}
+
+function getItemTime(item, section) {
+    if (section === "watchlist") return item.listed_at;
+    if (section === "history") return item.watched_at;
+    if (section === "collection") return item.collected_at;
+    return item.created_at || "1970-01-01";
+}
