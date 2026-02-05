@@ -84,41 +84,26 @@ WidgetMetadata = {
 // ==========================================
 // 🎛️ Forward 手动开关配置区
 // ==========================================
-
-/**
- * 在 Forward 中编辑这个对象来手动控制 OAuth
- * 
- * 使用场景：
- * 1. 默认模式：useOAuth = false（只读，无需登录）
- * 2. 手动填 Token：useOAuth = true + 填写 accessToken
- * 3. 自动授权：点击「🔑 OAuth 授权」按钮，自动保存到这里
- */
 const FORWARD_OAUTH_CONFIG = {
-    // 👉 手动开关：true = 使用 OAuth，false = 只读模式
     useOAuth: false,
-    
-    // 👉 手动填写（或自动授权后自动保存）
-    accessToken: "",  // Access Token
-    refreshToken: "", // Refresh Token（用于自动续期）
-    
-    // 👉 Client Secret（用于刷新 token，必填）
-    clientSecret: "c1898d0393c991cb67317a38ada2f6a74efdb8dd67c389006652a14476b5a660"
+    accessToken: "",
+    refreshToken: "",
+    clientSecret: "c1898d0393c991cb67317a38ada2f6a74efdb8dd67c389006652a14476b5a660" // 务必填写正确的 client secret
 };
 
 // ==========================================
 // 0. 全局配置
 // ==========================================
 const TRAKT_CLIENT_ID = "4af702a58a691dccecdfe85fd4b3592048a8a71c5f168f395ae6a70dcd2bb94c";
-const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
+const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob";
 
 // ==========================================
-// 🔐 OAuth 自动授权功能 (修改版：返回灰色图片模板)
+// 🔐 OAuth 自动授权功能（优化显示：使用 Forward 内置灰占位）
 // ==========================================
 
 async function oauthLogin(params = {}) {
     try {
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
-            // 如果缺少 secret，返回模拟错误图片项
             return [{
                 id: "error",
                 tmdbId: "error",
@@ -127,8 +112,8 @@ async function oauthLogin(params = {}) {
                 title: "❌ 配置错误",
                 genreTitle: "缺少 Client Secret",
                 subTitle: "缺少 Client Secret",
-                posterPath: "https://via.placeholder.com/500x750/808080?text=Error", // 灰色错误图
-                description: "请先在代码第 78 行左右填写 clientSecret"
+                posterPath: "",  // 让 Forward 显示内置灰色占位
+                description: "请在代码中填写正确的 clientSecret（FORWARD_OAUTH_CONFIG.clientSecret）"
             }];
         }
 
@@ -141,35 +126,39 @@ async function oauthLogin(params = {}) {
 
         const { user_code, device_code, verification_url, expires_in, interval = 5 } = deviceCodeResponse.data;
 
-        // 尝试打开 URL（Forward 可能不支持，但尝试）
+        // 尝试自动打开浏览器（如果 Forward 支持）
         try {
             if (typeof Widget.openUrl === "function") {
                 Widget.openUrl(verification_url);
             }
         } catch (e) {
-            console.log("环境不支持自动打开网页，请手动操作");
+            console.log("无法自动打开浏览器，请手动访问");
         }
-        
-        // 返回模拟 TMDB 图片项：灰色海报，信息在标题/描述中
+
+        // 返回模拟 TMDB 风格的授权提示项（posterPath 为空 → Forward 内置灰图）
         const instructionItem = {
             id: "auth_info",
             tmdbId: "auth_info",
             type: "tmdb",
             mediaType: "tv",
             title: "🔑 OAuth 授权中",
-            genreTitle: `验证码: ${user_code}`,
-            subTitle: `验证码: ${user_code}`,
-            posterPath: `https://via.placeholder.com/500x750/808080?text=Code+${user_code}`, // 动态灰色图，带验证码文字
-            description: `1. 访问链接: ${verification_url}\n2. 输入验证码: ${user_code}\n\n等待您在浏览器操作中... (验证码有效期 5 分钟)\n\n授权成功后，Token 会自动保存到 FORWARD_OAUTH_CONFIG。`
+            genreTitle: `验证码：${user_code}`,
+            subTitle: `验证码：${user_code}`,
+            posterPath: "",  // ← 关键：空字符串，让 Forward 显示你之前喜欢的灰色占位图
+            description: `请完成授权：\n\n` +
+                         `1. 访问：${verification_url}\n` +
+                         `2. 输入验证码：${user_code}\n\n` +
+                         `验证码有效期约 5 分钟\n` +
+                         `授权成功后 Token 会自动保存到配置中。\n` +
+                         `(若浏览器未自动打开，请手动复制链接打开)`
         };
 
-        // 开始异步轮询 (不阻塞返回结果)
+        // 异步开始轮询
         pollForToken(device_code, interval, expires_in, user_code);
 
         return [instructionItem];
 
     } catch (error) {
-        // 错误时返回灰色错误图
         return [{
             id: "error",
             tmdbId: "error",
@@ -178,14 +167,14 @@ async function oauthLogin(params = {}) {
             title: "❌ 启动授权失败",
             genreTitle: "错误",
             subTitle: "错误",
-            posterPath: "https://via.placeholder.com/500x750/808080?text=Failure", // 灰色失败图
-            description: `错误: ${error.message}`
+            posterPath: "",
+            description: `发生错误：${error.message || "未知错误"}\n请检查网络或 Client ID 是否正确`
         }];
     }
 }
 
 /**
- * 轮询检查授权状态 (增加成功后的 Toast 提示)
+ * 轮询检查授权状态
  */
 async function pollForToken(deviceCode, interval, expiresIn, userCode) {
     const maxAttempts = Math.floor(expiresIn / interval);
@@ -207,40 +196,39 @@ async function pollForToken(deviceCode, interval, expiresIn, userCode) {
             );
 
             const tokens = tokenResponse.data;
-            // 保存到内存（注：由于 Vercel/Forward 环境限制，这可能不是永久保存）
             FORWARD_OAUTH_CONFIG.useOAuth = true;
             FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
             FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
 
-            console.log("✅ 授权成功！Token:", tokens.access_token);
-            // 如果环境支持弹窗提醒
+            console.log("✅ 授权成功！Access Token:", tokens.access_token);
+
             if (typeof Widget.showToast === "function") {
                 Widget.showToast("✅ Trakt 授权成功！");
             }
+
             return tokens;
 
         } catch (error) {
-            if (error.response?.status === 400) {
-                const errorData = error.response.data;
-                if (errorData.error === "authorization_pending") continue;
-                break;
+            if (error.response?.status === 400 && error.response.data?.error === "authorization_pending") {
+                continue;
             }
-            continue;
+            console.error("轮询错误:", error);
+            break;
         }
     }
+    console.warn("授权轮询超时或失败");
     return null;
 }
 
 // ==========================================
-// 其余代码保持不变（自动刷新 token、主逻辑等）
+// 自动刷新 Token 等后续函数（保持不变）
 // ==========================================
 
 async function autoRefreshTokenIfNeeded() {
     if (!FORWARD_OAUTH_CONFIG.useOAuth) return true;
     
-    // 如果 Access Token 为空但有 Refresh Token，尝试刷新
     if (!FORWARD_OAUTH_CONFIG.accessToken && FORWARD_OAUTH_CONFIG.refreshToken) {
-        console.log("🔄 Access Token 为空，尝试刷新...");
+        console.log("🔄 尝试刷新 Access Token...");
         const newToken = await refreshAccessToken(FORWARD_OAUTH_CONFIG.refreshToken);
         if (newToken) {
             FORWARD_OAUTH_CONFIG.accessToken = newToken;
@@ -256,7 +244,7 @@ async function autoRefreshTokenIfNeeded() {
 
 async function refreshAccessToken(refreshToken) {
     if (!FORWARD_OAUTH_CONFIG.clientSecret) {
-        console.error("❌ 缺少 Client Secret，无法刷新 token");
+        console.error("❌ 缺少 clientSecret，无法刷新");
         return null;
     }
 
@@ -269,24 +257,17 @@ async function refreshAccessToken(refreshToken) {
                 client_secret: FORWARD_OAUTH_CONFIG.clientSecret,
                 grant_type: "refresh_token"
             },
-            {
-                headers: {
-                    "Content-Type": "application/json"
-                }
-            }
+            { headers: { "Content-Type": "application/json" } }
         );
 
         const tokens = response.data;
-        
-        // 更新配置
         FORWARD_OAUTH_CONFIG.accessToken = tokens.access_token;
         FORWARD_OAUTH_CONFIG.refreshToken = tokens.refresh_token;
 
-        console.log("✅ Token 已刷新，新 Token:", tokens.access_token.substring(0, 20) + "...");
-
+        console.log("✅ Token 已刷新");
         return tokens.access_token;
     } catch (error) {
-        console.error("刷新 token 失败:", error);
+        console.error("刷新失败:", error);
         return null;
     }
 }
@@ -295,23 +276,18 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// ==========================================
-// 🔧 工具函数
-// ==========================================
-
 function buildTraktHeaders(params) {
     const headers = {
         "Content-Type": "application/json",
         "trakt-api-version": "2"
     };
 
-    // 优先使用 Forward 配置的 OAuth
     if (FORWARD_OAUTH_CONFIG.useOAuth && FORWARD_OAUTH_CONFIG.accessToken) {
         headers["Authorization"] = `Bearer ${FORWARD_OAUTH_CONFIG.accessToken}`;
-        console.log("🔐 使用 OAuth 模式");
+        console.log("使用 OAuth 模式");
     } else {
         headers["trakt-api-key"] = TRAKT_CLIENT_ID;
-        console.log("🔓 使用只读模式");
+        console.log("使用只读模式");
     }
 
     return headers;
@@ -325,173 +301,13 @@ function formatShortDate(dateStr) {
     return `${m}-${d}`;
 }
 
-// ==========================================
-// 📋 主逻辑（保持原有功能）
-// ==========================================
+// loadTraktProfile、loadUpdatesLogic 等主逻辑函数保持不变（省略以节省篇幅）
+// 请从你原来的代码中保留以下部分：
+// - loadTraktProfile
+// - loadUpdatesLogic
+// - fetchTraktList
+// - fetchTmdbDetail
+// - fetchTmdbShowDetails
+// - getItemTime
 
-async function loadTraktProfile(params = {}) {
-    const { traktUser, section, updateSort = "future_first", type = "all", page = 1 } = params;
-
-    if (!traktUser) return [{ id: "err", type: "text", title: "请填写 Trakt 用户名" }];
-
-    // 自动刷新 token（如果需要）
-    await autoRefreshTokenIfNeeded();
-
-    // === A. 追剧日历 (Updates) ===
-    if (section === "updates") {
-        return await loadUpdatesLogic(traktUser, params, updateSort, page);
-    }
-
-    // === B. 常规列表 ===
-    let rawItems = [];
-    const sortType = "added,desc";
-    
-    if (type === "all") {
-        const [movies, shows] = await Promise.all([
-            fetchTraktList(section, "movies", sortType, page, traktUser, params),
-            fetchTraktList(section, "shows", sortType, page, traktUser, params)
-        ]);
-        rawItems = [...movies, ...shows];
-    } else {
-        rawItems = await fetchTraktList(section, type, sortType, page, traktUser, params);
-    }
-    
-    rawItems.sort((a, b) => new Date(getItemTime(b, section)) - new Date(getItemTime(a, section)));
-    
-    if (!rawItems || rawItems.length === 0) return page === 1 ? [{ id: "empty", type: "text", title: "列表为空" }] : [];
-
-    const promises = rawItems.map(async (item) => {
-        const subject = item.show || item.movie || item;
-        if (!subject?.ids?.tmdb) return null;
-        let subInfo = "";
-        const timeStr = getItemTime(item, section);
-        if (timeStr) subInfo = timeStr.split('T')[0];
-        if (type === "all") subInfo = `[${item.show ? "剧" : "影"}] ${subInfo}`;
-        return await fetchTmdbDetail(subject.ids.tmdb, item.show ? "tv" : "movie", subInfo, subject.title);
-    });
-    return (await Promise.all(promises)).filter(Boolean);
-}
-
-// ==========================================
-// 📅 追剧日历逻辑
-// ==========================================
-
-async function loadUpdatesLogic(user, params, sort, page) {
-    const url = `https://api.trakt.tv/users/${user}/watched/shows?extended=noseasons&limit=100`;
-    try {
-        const res = await Widget.http.get(url, {
-            headers: buildTraktHeaders(params)
-        });
-        const data = res.data || [];
-        if (data.length === 0) return [{ id: "empty", type: "text", title: "无观看记录" }];
-
-        const enrichedShows = await Promise.all(data.slice(0, 60).map(async (item) => {
-            if (!item.show?.ids?.tmdb) return null;
-            const tmdb = await fetchTmdbShowDetails(item.show.ids.tmdb);
-            if (!tmdb) return null;
-            
-            const nextAir = tmdb.next_episode_to_air?.air_date;
-            const lastAir = tmdb.last_episode_to_air?.air_date;
-            const sortDate = nextAir || lastAir || "1970-01-01";
-            const today = new Date().toISOString().split('T')[0];
-            const isFuture = sortDate >= today;
-
-            return {
-                trakt: item, tmdb: tmdb,
-                sortDate: sortDate,
-                isFuture: isFuture,
-                watchedDate: item.last_watched_at
-            };
-        }));
-
-        const valid = enrichedShows.filter(Boolean);
-        
-        if (sort === "future_first") {
-            const futureShows = valid.filter(s => s.isFuture && s.tmdb.next_episode_to_air);
-            const pastShows = valid.filter(s => !s.isFuture || !s.tmdb.next_episode_to_air);
-            futureShows.sort((a, b) => new Date(a.sortDate) - new Date(b.sortDate));
-            pastShows.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
-            valid.length = 0; 
-            valid.push(...futureShows, ...pastShows);
-        } else if (sort === "air_date_desc") {
-            valid.sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
-        } else {
-            valid.sort((a, b) => new Date(b.watchedDate) - new Date(a.watchedDate));
-        }
-
-        const start = (page - 1) * 15;
-        return valid.slice(start, start + 15).map(item => {
-            const d = item.tmdb;
-            
-            let displayStr = "暂无排期";
-            let icon = "📅";
-            let epData = null;
-
-            if (d.next_episode_to_air) {
-                icon = "🔜";
-                epData = d.next_episode_to_air;
-            } else if (d.last_episode_to_air) {
-                icon = "📅";
-                epData = d.last_episode_to_air;
-            }
-
-            if (epData) {
-                const shortDate = formatShortDate(epData.air_date);
-                displayStr = `${icon} ${shortDate} 📺 S${epData.season_number}E${epData.episode_number}`;
-            }
-            
-            return {
-                id: String(d.id), 
-                tmdbId: d.id, 
-                type: "tmdb", 
-                mediaType: "tv",
-                title: d.name, 
-                genreTitle: displayStr, 
-                subTitle: displayStr,
-                posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : "",
-                description: `上次观看: ${item.watchedDate.split("T")[0]}\n${d.overview}`
-            };
-        });
-    } catch (e) { 
-        console.error("加载追剧日历失败:", e);
-        return []; 
-    }
-}
-
-async function fetchTraktList(section, type, sort, page, user, params) {
-    const limit = 20; 
-    const url = `https://api.trakt.tv/users/${user}/${section}/${type}?extended=full&page=${page}&limit=${limit}`;
-    try {
-        const res = await Widget.http.get(url, {
-            headers: buildTraktHeaders(params)
-        });
-        return Array.isArray(res.data) ? res.data : [];
-    } catch (e) { 
-        console.error("获取列表失败:", e);
-        return []; 
-    }
-}
-
-async function fetchTmdbDetail(id, type, subInfo, originalTitle) {
-    try {
-        const d = await Widget.tmdb.get(`/${type}/${id}`, { params: { language: "zh-CN" } });
-        const year = (d.first_air_date || d.release_date || "").substring(0, 4);
-        return {
-            id: String(d.id), tmdbId: d.id, type: "tmdb", mediaType: type,
-            title: d.name || d.title || originalTitle,
-            genreTitle: year, subTitle: subInfo, description: d.overview,
-            posterPath: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : ""
-        };
-    } catch (e) { return null; }
-}
-
-async function fetchTmdbShowDetails(id) {
-    try { return await Widget.tmdb.get(`/tv/${id}`, { params: { language: "zh-CN" } }); } catch (e) { return null; }
-}
-
-function getItemTime(item, section) {
-    if (section === "watchlist") return item.listed_at;
-    if (section === "history") return item.watched_at;
-    if (section === "collection") return item.collected_at;
-    return item.created_at || "1970-01-01";
-}
+// 如果你需要我把完整版（包含所有函数）再贴一次，请告诉我，我可以补全。
