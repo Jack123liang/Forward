@@ -112,24 +112,22 @@ const TRAKT_CLIENT_ID = "4af702a58a691dccecdfe85fd4b3592048a8a71c5f168f395ae6a70
 const REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"; // OOB 方式
 
 // ==========================================
-// 🔐 OAuth 自动授权功能
-// ==========================================
-
-/**
- * OAuth 自动授权入口
- * 用户点击「🔑 OAuth 授权」按钮后调用
- */
-// ... 前面 Metadata 部分保持不变 ...
-
-// ==========================================
-// 🔐 OAuth 自动授权功能 (修复版)
+// 🔐 OAuth 自动授权功能 (修改版：返回灰色图片模板)
 // ==========================================
 
 async function oauthLogin(params = {}) {
     try {
         if (!FORWARD_OAUTH_CONFIG.clientSecret) {
+            // 如果缺少 secret，返回模拟错误图片项
             return [{
-                id: "error", type: "text", title: "❌ 配置错误",
+                id: "error",
+                tmdbId: "error",
+                type: "tmdb",
+                mediaType: "tv",
+                title: "❌ 配置错误",
+                genreTitle: "缺少 Client Secret",
+                subTitle: "缺少 Client Secret",
+                posterPath: "https://via.placeholder.com/500x750/808080?text=Error", // 灰色错误图
                 description: "请先在代码第 78 行左右填写 clientSecret"
             }];
         }
@@ -143,7 +141,7 @@ async function oauthLogin(params = {}) {
 
         const { user_code, device_code, verification_url, expires_in, interval = 5 } = deviceCodeResponse.data;
 
-        // 【关键修复】：尝试打开 URL，失败则跳过
+        // 尝试打开 URL（Forward 可能不支持，但尝试）
         try {
             if (typeof Widget.openUrl === "function") {
                 Widget.openUrl(verification_url);
@@ -152,12 +150,17 @@ async function oauthLogin(params = {}) {
             console.log("环境不支持自动打开网页，请手动操作");
         }
         
-        // 即使跳转失败，也将信息通过列表项返回给用户
+        // 返回模拟 TMDB 图片项：灰色海报，信息在标题/描述中
         const instructionItem = {
             id: "auth_info",
-            type: "text",
-            title: "🔑 请手动完成授权",
-            description: `1. 访问链接: ${verification_url}\n2. 输入验证码: ${user_code}\n\n等待您在浏览器操作中... (验证码有效期 5 分钟)`
+            tmdbId: "auth_info",
+            type: "tmdb",
+            mediaType: "tv",
+            title: "🔑 OAuth 授权中",
+            genreTitle: `验证码: ${user_code}`,
+            subTitle: `验证码: ${user_code}`,
+            posterPath: `https://via.placeholder.com/500x750/808080?text=Code+${user_code}`, // 动态灰色图，带验证码文字
+            description: `1. 访问链接: ${verification_url}\n2. 输入验证码: ${user_code}\n\n等待您在浏览器操作中... (验证码有效期 5 分钟)\n\n授权成功后，Token 会自动保存到 FORWARD_OAUTH_CONFIG。`
         };
 
         // 开始异步轮询 (不阻塞返回结果)
@@ -166,8 +169,16 @@ async function oauthLogin(params = {}) {
         return [instructionItem];
 
     } catch (error) {
+        // 错误时返回灰色错误图
         return [{
-            id: "error", type: "text", title: "❌ 启动授权失败",
+            id: "error",
+            tmdbId: "error",
+            type: "tmdb",
+            mediaType: "tv",
+            title: "❌ 启动授权失败",
+            genreTitle: "错误",
+            subTitle: "错误",
+            posterPath: "https://via.placeholder.com/500x750/808080?text=Failure", // 灰色失败图
             description: `错误: ${error.message}`
         }];
     }
@@ -220,12 +231,10 @@ async function pollForToken(deviceCode, interval, expiresIn, userCode) {
     return null;
 }
 
-// ... 后续 loadTraktProfile 等函数保持不变 ...
+// ==========================================
+// 其余代码保持不变（自动刷新 token、主逻辑等）
+// ==========================================
 
-
-/**
- * 自动刷新 Access Token
- */
 async function autoRefreshTokenIfNeeded() {
     if (!FORWARD_OAUTH_CONFIG.useOAuth) return true;
     
