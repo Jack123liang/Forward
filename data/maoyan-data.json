@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06T14:50:30.511+08:00",
+  "last_updated": "2026-02-06T20:52:46.168+08:00",
   "tv": {
     "全网": [
       {
@@ -39,6 +39,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "成何体统",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "风过留痕",
         "description": "暂无简介",
         "type": "maoyan",
@@ -55,12 +61,6 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
-      },
-      {
-        "title": "成何体统",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
       }
     ],
     "优酷": [
@@ -71,13 +71,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "暗恋者的救赎",
+        "title": "逍遥",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "逍遥",
+        "title": "暗恋者的救赎",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -139,13 +139,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "风过留痕",
+        "title": "成何体统",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "成何体统",
+        "title": "风过留痕",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -321,6 +321,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "宇宙闪烁请注意",
         "description": "暂无简介",
         "type": "maoyan",
@@ -333,19 +339,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧·天路篇",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
+        "title": "奔跑吧·天路篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -357,13 +357,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "声生不息·华流季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "音乐缘计划2",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -377,13 +377,19 @@
     ],
     "优酷": [
       {
+        "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "奔跑吧·天路篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -396,12 +402,6 @@
       },
       {
         "title": "快乐趣吹风",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -431,7 +431,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "共同说 第三季",
+        "title": "偏爱之恋",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -451,13 +451,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "音乐缘计划2",
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "最强大脑 第13季",
+        "title": "音乐缘计划2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -487,13 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "泰甜啦",
+        "title": "王牌对王牌 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "王牌对王牌 第九季",
+        "title": "泰甜啦",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -513,13 +513,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧·天路篇",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "奔跑吧·天路篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -537,13 +537,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "最强大脑 第13季",
+        "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,13 +563,13 @@
     ],
     "芒果TV": [
       {
-        "title": "快乐老友·有风季",
+        "title": "声生不息·华流季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "声生不息·华流季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -593,12 +593,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我和朋友的假期",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "源来是你·青春季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -611,13 +605,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "再见爱人 第五季",
+        "title": "我和朋友的假期",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "当家爸爸的聚会",
+        "title": "中国新声代 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "再见爱人 第五季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
