@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T00:38:21.108+08:00",
+  "last_updated": "2026-02-08T00:23:33.327+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.5,
+      "rating": 6.506,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rhmu8ePA306X8ooQrcA195nBgsg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 6,
+      "rating": 5.769,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.848,
+      "rating": 5.847,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rE7mi4WfvT1Kc0LxUqpMtYoG26G.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
       "releaseDate": "2026-01-01",
-      "rating": 6.676,
+      "rating": 6.651,
       "mediaType": "movie"
     },
     {
@@ -68,7 +68,7 @@
       "originalTitle": "Mercy",
       "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/mHC8tSRYfAKGh2jaSNQMSzGdbOW.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/l0rY0RH64CXne5vW2Y3yHZpjmDy.jpg",
       "releaseDate": "2026-01-20",
       "rating": 6.7,
       "mediaType": "movie"
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wIATfOCE25jVxdXXO2ss6S770Bm.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpJr8wRED8BpBVaxM0eODQEBNwC.jpg",
       "releaseDate": "2025-12-31",
-      "rating": 6.143,
+      "rating": 6.1,
       "mediaType": "movie"
     },
     {
@@ -154,7 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1djbwZxkovIVONz6x4nSPA7VMGE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
       "releaseDate": "2026-02-07",
-      "rating": 7.1,
+      "rating": 7.107,
       "mediaType": "movie"
     },
     {
@@ -304,6 +304,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1602727,
+      "type": "tmdb",
+      "title": "夜王",
+      "originalTitle": "夜王",
+      "description": "2012年，昔日风光一时的东日夜总会被收购，在尖东打滚数十年的大经理欢哥（黄子华 饰）面临时代转变的挑战。公司新任CEO竟是欢哥狠辣的前妻V姐（郑秀文 饰），强迫欢哥及众女公关转型，业绩渐有起色。怎料背后原来是大财团的操控游戏，东日随时关灯不保。为了保住东日，欢哥及V姐联手，誓要与众女公关作最后反扑，企硬尖东！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
+      "releaseDate": "2026-02-20",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1359005,
       "type": "tmdb",
       "title": "星河入梦",
@@ -316,15 +328,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1602727,
+      "id": 485289,
       "type": "tmdb",
-      "title": "夜王",
-      "originalTitle": "夜王",
-      "description": "2012年，昔日风光一时的东日夜总会被收购，在尖东打滚数十年的大经理欢哥（黄子华 饰）面临时代转变的挑战。公司新任CEO竟是欢哥狠辣的前妻V姐（郑秀文 饰），强迫欢哥及众女公关转型，业绩渐有起色。怎料背后原来是大财团的操控游戏，东日随时关灯不保。为了保住东日，欢哥及V姐联手，誓要与众女公关作最后反扑，企硬尖东！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-20",
-      "rating": 0,
+      "title": "重返·狼群",
+      "originalTitle": "重返·狼群",
+      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
+      "releaseDate": "2017-06-16",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -349,18 +361,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
       "releaseDate": "2018-01-01",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 485289,
-      "type": "tmdb",
-      "title": "重返·狼群",
-      "originalTitle": "重返·狼群",
-      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
-      "releaseDate": "2017-06-16",
-      "rating": 7,
       "mediaType": "movie"
     },
     {
