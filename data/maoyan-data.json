@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T15:00:45.696+08:00",
+  "last_updated": "2026-02-09T21:01:46.997+08:00",
   "tv": {
     "全网": [
       {
@@ -33,13 +33,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "生命树",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "生命树",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -133,13 +133,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "生命树",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "生命树",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -151,13 +151,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "有罪之身",
+        "title": "罚罪2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "罚罪2",
+        "title": "有罪之身",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -333,6 +333,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "日落时分说爱你",
         "description": "暂无简介",
         "type": "maoyan",
@@ -345,19 +351,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
+        "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -369,7 +369,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "有你的恋歌Ⅱ",
+        "title": "老板是新人",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,19 +563,13 @@
     ],
     "芒果TV": [
       {
-        "title": "声生不息·华流季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "有你的恋歌Ⅱ",
+        "title": "声生不息·华流季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -587,13 +581,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "有你的恋歌Ⅱ",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "中国新声代 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
