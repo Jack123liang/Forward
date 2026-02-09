@@ -1,15 +1,9 @@
 {
-  "last_updated": "2026-02-09T09:56:44.378+08:00",
+  "last_updated": "2026-02-09T15:00:45.696+08:00",
   "tv": {
     "全网": [
       {
         "title": "成何体统",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "夜色正浓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -21,7 +15,19 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "夜色正浓",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "年少有为",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -34,12 +40,6 @@
       },
       {
         "title": "生命树",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -119,7 +119,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "凤凰台上",
+        "title": "新闻女王2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -163,13 +163,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "轧戏",
+        "title": "唐朝诡事录之长安",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "唐朝诡事录之长安",
+        "title": "轧戏",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -231,6 +231,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "重返青春",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "被隐匿的真相",
         "description": "暂无简介",
         "type": "maoyan",
@@ -241,23 +247,17 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
-      },
-      {
-        "title": "狙击蝴蝶",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
       }
     ],
     "芒果TV": [
       {
-        "title": "太平年",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -321,43 +321,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "宇宙闪烁请注意",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "有你的恋歌Ⅱ",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "老板是新人",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "声生不息·华流季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "日落时分说爱你",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -369,7 +333,43 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "日落时分说爱你",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "声生不息·华流季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "现在就出发 第三季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "奔跑吧·天路篇",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "有你的恋歌Ⅱ",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -463,13 +463,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "你好种地少年第3季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "你好种地少年第3季",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -507,13 +507,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "日落时分说爱你",
+        "title": "势均力敌的我们 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "势均力敌的我们 第二季",
+        "title": "日落时分说爱你",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,18 +563,6 @@
     ],
     "芒果TV": [
       {
-        "title": "有你的恋歌Ⅱ",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "老板是新人",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "声生不息·华流季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -587,13 +575,25 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "有你的恋歌Ⅱ",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "老板是新人",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "中国新声代 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -617,7 +617,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我和朋友的假期",
+        "title": "当家爸爸的聚会",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
