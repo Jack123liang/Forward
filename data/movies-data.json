@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T01:00:07.485+08:00",
+  "last_updated": "2026-02-13T00:53:11.960+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.555,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 5.541,
+      "rating": 5.6,
       "mediaType": "movie"
     },
     {
@@ -32,9 +32,9 @@
       "originalTitle": "Shelter",
       "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uCGzI1EtQWXG5yRPB5PSyOdFNcC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 7.526,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.835,
+      "rating": 5.815,
       "mediaType": "movie"
     },
     {
@@ -56,9 +56,9 @@
       "originalTitle": "Return to Silent Hill",
       "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sVB8MrQr0x7sqAj3KVpAqpCbapT.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.228,
+      "rating": 5.2,
       "mediaType": "movie"
     },
     {
@@ -68,21 +68,9 @@
       "originalTitle": "Mercy",
       "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/l0rY0RH64CXne5vW2Y3yHZpjmDy.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.679,
-      "mediaType": "movie"
-    },
-    {
-      "id": 313369,
-      "type": "tmdb",
-      "title": "爱乐之城",
-      "originalTitle": "La La Land",
-      "description": "心怀演员梦想的米娅在试镜间隙为电影明星端送拿铁，而执着于爵士乐的塞巴斯汀则在昏暗酒吧靠弹奏钢琴曲勉强度日。然而当事业渐有起色，两人不得不做出抉择，这些决定逐渐磨损着他们如薄纱般的恋情，那些曾奋力彼此守护的梦想，此刻却可能将彼此撕裂。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
-      "releaseDate": "2017-02-14",
-      "rating": 7.899,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -98,15 +86,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 804370,
+      "id": 313369,
       "type": "tmdb",
-      "title": "时空奇旅",
-      "originalTitle": "Arco",
-      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
-      "releaseDate": "2026-01-17",
-      "rating": 7.8,
+      "title": "爱乐之城",
+      "originalTitle": "La La Land",
+      "description": "心怀演员梦想的米娅在试镜间隙为电影明星端送拿铁，而执着于爵士乐的塞巴斯汀则在昏暗酒吧靠弹奏钢琴曲勉强度日。然而当事业渐有起色，两人不得不做出抉择，这些决定逐渐磨损着他们如薄纱般的恋情，那些曾奋力彼此守护的梦想，此刻却可能将彼此撕裂。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+      "releaseDate": "2017-02-14",
+      "rating": 7.899,
       "mediaType": "movie"
     },
     {
@@ -119,6 +107,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 804370,
+      "type": "tmdb",
+      "title": "时空奇旅",
+      "originalTitle": "Arco",
+      "description": "这个世界始终萦绕着一个终极猜想：若彩虹实为穿越时空的未来观测者，人类历史将如何被重写？公元2932年，十岁少年阿尔科身着虹光太空服开启人生首航，却在时空乱流中意外坠入2075年的过去。同龄女孩艾瑞斯目睹了这场天降奇遇，这个坚信彩虹藏着宇宙秘密的少女，将帮助迷失时空的\"彩虹之子\"踏上惊心动魄的归家之旅......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
+      "releaseDate": "2026-01-17",
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -158,14 +158,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249173,
+      "id": 1447971,
       "type": "tmdb",
-      "title": "我的朋友安德烈",
-      "originalTitle": "我的朋友安德烈",
-      "description": "性格迥异的李默（刘昊然 饰）与安德烈（董子健 饰）因为足球成为知己，而一场意外却让安德烈跟随年少往事一起消失在了李默的记忆中。多年后，李默在为父亲奔丧路上与安德烈“重逢”，一段尘封的回忆被逐渐揭开……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
-      "releaseDate": "2026-01-17",
+      "title": "惊蛰无声",
+      "originalTitle": "惊蛰无声",
+      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1YOLU0ZJ7lc4AiaJaLmofXIN6or.jpg",
+      "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -182,14 +182,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1447971,
+      "id": 1249173,
       "type": "tmdb",
-      "title": "惊蛰无声",
-      "originalTitle": "惊蛰无声",
-      "description": "我国重要情报遭到外泄，国安小组立刻展开行动，随着调查深入，抓捕行动接连遭遇重创，矛头竟指向国安小组内部。信任与背叛的漩涡中，一场无声的较量悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i4DiHE1WweZGy3VwDQBDocpF4r3.jpg",
-      "releaseDate": "2026-02-17",
+      "title": "我的朋友安德烈",
+      "originalTitle": "我的朋友安德烈",
+      "description": "性格迥异的李默（刘昊然 饰）与安德烈（董子健 饰）因为足球成为知己，而一场意外却让安德烈跟随年少往事一起消失在了李默的记忆中。多年后，李默在为父亲奔丧路上与安德烈“重逢”，一段尘封的回忆被逐渐揭开……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
+      "releaseDate": "2026-01-17",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -199,7 +199,7 @@
       "title": "星河入梦",
       "originalTitle": "星河入梦",
       "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/93RR7UuUw4s0d6VG6wZ0OcrUdYU.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uYsrxhR0VfwTcY1KzfrLf6xbhA2.jpg",
       "backdropPath": null,
       "releaseDate": "2026-02-17",
       "rating": 0,
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 9,
+      "rating": 9.7,
       "mediaType": "movie"
     },
     {
