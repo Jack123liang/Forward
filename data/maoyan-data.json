@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T20:52:27.591+08:00",
+  "last_updated": "2026-02-14T02:42:25.704+08:00",
   "tv": {
     "全网": [
       {
@@ -21,7 +21,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -33,13 +33,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "夜色正浓",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
+        "title": "夜色正浓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -107,13 +107,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "红腰鼓",
+        "title": "暗河传",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "暗河传",
+        "title": "红腰鼓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -133,13 +133,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "生命树",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "生命树",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -231,13 +231,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "突然的喜欢",
+        "title": "傻儿师长",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "傻儿师长",
+        "title": "突然的喜欢",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -251,13 +251,13 @@
     ],
     "芒果TV": [
       {
-        "title": "太平年",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -333,13 +333,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "主咖和Ta的朋友们",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -363,13 +363,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "喜人奇妙夜 第2季",
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "喜人奇妙夜 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -513,19 +513,25 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
+        "title": "现在就出发 第三季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "奔跑吧·天路篇",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -538,12 +544,6 @@
       },
       {
         "title": "十三邀 第九季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -575,6 +575,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "中国新声代 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "有你的恋歌Ⅱ",
         "description": "暂无简介",
         "type": "maoyan",
@@ -587,19 +593,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "源来是你·青春季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "声生不息·华流季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "源来是你·青春季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
