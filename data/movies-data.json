@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T00:53:11.960+08:00",
+  "last_updated": "2026-02-14T00:39:16.408+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.5,
+      "rating": 6.549,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 5.6,
+      "rating": 5.825,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1234731,
+      "type": "tmdb",
+      "title": "新狂蟒之灾",
+      "originalTitle": "Anaconda",
+      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+      "releaseDate": "2026-01-09",
+      "rating": 5.808,
       "mediaType": "movie"
     },
     {
@@ -35,18 +47,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
       "releaseDate": "2026-01-30",
       "rating": 7.6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1234731,
-      "type": "tmdb",
-      "title": "新狂蟒之灾",
-      "originalTitle": "Anaconda",
-      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
-      "releaseDate": "2026-01-09",
-      "rating": 5.815,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.7,
+      "rating": 6.655,
       "mediaType": "movie"
     },
     {
@@ -122,18 +122,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1618784,
-      "type": "tmdb",
-      "title": "东北警察故事3",
-      "originalTitle": "东北警察故事3",
-      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/m8RL0ksOFAbxjRfVpmJnTEwEEQW.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3lxudebZT3Ed5YslEuwqsfM7KxB.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划之部落奇遇记",
@@ -146,15 +134,27 @@
       "mediaType": "movie"
     },
     {
+      "id": 1618784,
+      "type": "tmdb",
+      "title": "东北警察故事3",
+      "originalTitle": "东北警察故事3",
+      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/f5EoZe8Z256w0tgRhYzV0LAtNuH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3lxudebZT3Ed5YslEuwqsfM7KxB.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 51731,
       "type": "tmdb",
       "title": "鹿鼎记II神龙教",
       "originalTitle": "鹿鼎記 II : 神龍敎",
       "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1djbwZxkovIVONz6x4nSPA7VMGE.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
       "releaseDate": "2026-02-07",
-      "rating": 7.107,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -175,7 +175,7 @@
       "title": "飞驰人生3",
       "originalTitle": "飞驰人生3",
       "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4AHYWDA0HQQNT65pCpr7mLaZ6et.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
@@ -190,6 +190,30 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
       "releaseDate": "2026-01-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1443959,
+      "type": "tmdb",
+      "title": "马腾你别走",
+      "originalTitle": "马腾你别走",
+      "description": "行动不便的钢厂退休骨干老林（李幼斌 饰）虽衣食无忧却整日郁郁寡欢，在一场乌龙护工面试中，与空有满脑子 “无用知识”、做事总半途而废的闲人马腾（林更新 饰）相遇。初逢闹剧，二人从误解频出到相互扶持，在一段特殊的旅程中，两人打破年龄与身份隔阂，成为彼此的依靠与慰藉，共同演绎出一场跨越生死的“忘年交”，也在彼此身上找到了直面病痛与死亡、继续勇敢生活的力量。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4JMf7bSHXxK4b3g5KW4BBLZMlOa.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/aXrDbwKv8t7oBO7CumI66rFbtfo.jpg",
+      "releaseDate": "2026-01-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1555232,
+      "type": "tmdb",
+      "title": "不过是上班",
+      "originalTitle": "不过是上班",
+      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
+      "releaseDate": "2026-01-10",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -216,30 +240,6 @@
       "releaseDate": "2026-01-12",
       "rating": 0,
       "mediaType": "movie"
-    },
-    {
-      "id": 1572735,
-      "type": "tmdb",
-      "title": "非传统浪漫关系",
-      "originalTitle": "非传统浪漫关系",
-      "description": "情感博主祝君好与婚姻登记员龚玺两个爱情专家以离婚收场。祝君好决定与龚玺互相介绍对象，在这场荒诞的实验中，他们得以重新看待婚姻与爱情：从以自我为中心到求同存异，从我要幸福成长到我们要幸福。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mszLDElSdPjJamDBwrpeD92KHEq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eVDn4nuqxITr0akk3pJpi7VbGUv.jpg",
-      "releaseDate": "2026-01-31",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1555232,
-      "type": "tmdb",
-      "title": "不过是上班",
-      "originalTitle": "不过是上班",
-      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
-      "releaseDate": "2026-01-10",
-      "rating": 0,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 9.7,
+      "rating": 8.8,
       "mediaType": "movie"
     },
     {
