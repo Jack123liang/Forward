@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T00:39:16.408+08:00",
+  "last_updated": "2026-02-15T00:22:36.644+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.549,
+      "rating": 6.6,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
       "releaseDate": "2026-01-10",
-      "rating": 5.825,
+      "rating": 5.878,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.808,
+      "rating": 5.818,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 7.6,
+      "rating": 7.659,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sVB8MrQr0x7sqAj3KVpAqpCbapT.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.2,
+      "rating": 5.1,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.655,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -170,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1462229,
-      "type": "tmdb",
-      "title": "飞驰人生3",
-      "originalTitle": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1249173,
       "type": "tmdb",
       "title": "我的朋友安德烈",
@@ -190,6 +178,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rEZ64PPreR93T56gfYjf9pRbvU9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oSU2icznEh9clWbL5jksJxJHbxu.jpg",
       "releaseDate": "2026-01-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "originalTitle": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
+      "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -206,18 +206,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1555232,
-      "type": "tmdb",
-      "title": "不过是上班",
-      "originalTitle": "不过是上班",
-      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
-      "releaseDate": "2026-01-10",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1359005,
       "type": "tmdb",
       "title": "星河入梦",
@@ -230,14 +218,26 @@
       "mediaType": "movie"
     },
     {
-      "id": 1411529,
+      "id": 1555232,
       "type": "tmdb",
-      "title": "飞行家",
-      "originalTitle": "飞行家",
-      "description": "　　李明奇（蒋奇明 饰），一个沉迷飞行的东北犟种，为了爱人决定认命回到地面，把梦想锁进工具箱底。可生活的难题从四面八方奔涌而来，将他们逼至绝境，唯一的生机，竟是他那被嘲笑了半辈子的飞行梦。一个怪人，一家亲人，一群朋友——他们共同押上所有，凝聚成托举的长风。为了托起沉甸甸的生活，李明奇再次从高空一跃而下，对命运做出勇敢反击！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4MCXfUEaIDLLZew1JQg817fqyb0.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yJDFQkTMSzZfdsA4U5ckh8565Zi.jpg",
-      "releaseDate": "2026-01-12",
+      "title": "不过是上班",
+      "originalTitle": "不过是上班",
+      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
+      "releaseDate": "2026-01-10",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1537690,
+      "type": "tmdb",
+      "title": "爆水管",
+      "originalTitle": "爆水管",
+      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
+      "releaseDate": "2026-01-23",
       "rating": 0,
       "mediaType": "movie"
     }
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 8.8,
+      "rating": 8.25,
       "mediaType": "movie"
     },
     {
