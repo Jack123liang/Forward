@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T00:37:10.981+08:00",
+  "last_updated": "2026-02-18T00:52:09.692+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.537,
+      "rating": 6.548,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
       "releaseDate": "2026-01-09",
-      "rating": 5.801,
+      "rating": 5.802,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.117,
+      "rating": 5.14,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/po1niVuud0tX86xOFegO5omQ2wX.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.7,
+      "rating": 6.679,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 8.206,
+      "rating": 8.205,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.899,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nlFMfaCvlclqgP8yXqB4zfqCZbj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2026-01-17",
-      "rating": 7.843,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -178,7 +178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 0,
+      "rating": 4,
       "mediaType": "movie"
     },
     {
@@ -189,6 +189,18 @@
       "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
       "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359005,
+      "type": "tmdb",
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
       "releaseDate": "2026-02-17",
       "rating": 0,
       "mediaType": "movie"
@@ -228,18 +240,6 @@
       "releaseDate": "2026-01-17",
       "rating": 0,
       "mediaType": "movie"
-    },
-    {
-      "id": 1555232,
-      "type": "tmdb",
-      "title": "不过是上班",
-      "originalTitle": "不过是上班",
-      "description": "　　一旦领导冒出一句“什么狗屁方案”，你的人生就将陷入无尽循环.....重复的职场里，有人摸鱼摆烂，有人趁机搞事，直到同事离奇 “消失”，他才发现循环背后藏着公司要命的秘密——想活下来，得先在重复的日子里找到出路……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ocOIxHfnxaIzrDdZRAgRnnCPS0S.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eyIxeio4UhUen5XJY67Dhs6rSJV.jpg",
-      "releaseDate": "2026-01-10",
-      "rating": 0,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.2,
+      "rating": 6.989,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
       "releaseDate": "2026-02-20",
-      "rating": 0,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
