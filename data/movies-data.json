@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T00:52:09.692+08:00",
+  "last_updated": "2026-02-19T00:57:32.321+08:00",
   "now_playing": [
     {
       "id": 840464,
@@ -10,31 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.548,
+      "rating": 6.538,
       "mediaType": "movie"
     },
     {
-      "id": 1271895,
+      "id": 1236153,
       "type": "tmdb",
-      "title": "96分钟：列车爆炸案",
-      "originalTitle": "96分鐘",
-      "description": "前拆弹专家和他的未婚妻登上装有炸弹的高铁，卷入外遇丑闻的物理老师，也为了挽回乘坐高铁的妻子，登上了这趟列车。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fGYt3JmiueEJEjH4SlMizIOzV5h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lAtuFCx6cYkNBmTMSNnLE0qlCLx.jpg",
-      "releaseDate": "2026-01-10",
-      "rating": 5.765,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1234731,
-      "type": "tmdb",
-      "title": "新狂蟒之灾",
-      "originalTitle": "Anaconda",
-      "description": "　　一群面临中年危机的朋友前往雨林，打算重拍他们年轻时最喜爱的电影，却意外遭遇自然灾害、巨蟒和凶残罪犯，不得不为生存而殊死搏斗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hmwPrYslUn9BVkCsxDcaPi0FaHg.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
-      "releaseDate": "2026-01-09",
-      "rating": 5.802,
+      "title": "极限审判",
+      "originalTitle": "Mercy",
+      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
+      "releaseDate": "2026-01-20",
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -58,19 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.14,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1236153,
-      "type": "tmdb",
-      "title": "极限审判",
-      "originalTitle": "Mercy",
-      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/po1niVuud0tX86xOFegO5omQ2wX.jpg",
-      "releaseDate": "2026-01-20",
-      "rating": 6.679,
+      "rating": 5.108,
       "mediaType": "movie"
     },
     {
@@ -94,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.9,
+      "rating": 7.899,
       "mediaType": "movie"
     },
     {
@@ -106,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 0,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -119,6 +95,30 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/jFKbhV0uFZuA3K73UJIq1dzisCi.jpg",
       "releaseDate": "2026-01-17",
       "rating": 7.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "originalTitle": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1537690,
+      "type": "tmdb",
+      "title": "爆水管",
+      "originalTitle": "爆水管",
+      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 4,
       "mediaType": "movie"
     },
     {
@@ -146,18 +146,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1447971,
       "type": "tmdb",
       "title": "惊蛰无声",
@@ -170,26 +158,38 @@
       "mediaType": "movie"
     },
     {
-      "id": 1537690,
+      "id": 51731,
       "type": "tmdb",
-      "title": "爆水管",
-      "originalTitle": "爆水管",
-      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ktMJsXp3aPm97BR0V78ELIhdwzc.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 4,
+      "title": "鹿鼎记II神龙教",
+      "originalTitle": "鹿鼎記 II : 神龍敎",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
-      "id": 1462229,
+      "id": 1602727,
       "type": "tmdb",
-      "title": "飞驰人生3",
-      "originalTitle": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
-      "releaseDate": "2026-02-17",
+      "title": "夜王",
+      "originalTitle": "夜王",
+      "description": "2012年，昔日风光一时的东日夜总会被收购，在尖东打滚数十年的大经理欢哥（黄子华 饰）面临时代转变的挑战。公司新任CEO竟是欢哥狠辣的前妻V姐（郑秀文 饰），强迫欢哥及众女公关转型，业绩渐有起色。怎料背后原来是大财团的操控游戏，东日随时关灯不保。为了保住东日，欢哥及V姐联手，誓要与众女公关作最后反扑，企硬尖东！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
+      "releaseDate": "2026-02-20",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1612059,
+      "type": "tmdb",
+      "title": "解决专家",
+      "originalTitle": "解决专家",
+      "description": "　　“解决专家”衣然英俊遇到罗师傅上门求助，罗师傅因跌打油遭诬告，其妹双双、盈盈为帮兄私自参加高颜奖金选美。衣然英俊携老孙、罗师傅追至赛场，与罗妹及中国选手徐菲组队，闯丛林、破庙宇机关，最终揭穿比赛的阴谋，助罗师傅渡过难关。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tG18iQCVNvreHxS4FKk3lg1INZM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/5MIKcaW4tErOUYjzR7gJqYB80rA.jpg",
+      "releaseDate": "2026-01-20",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -202,18 +202,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1612059,
-      "type": "tmdb",
-      "title": "解决专家",
-      "originalTitle": "解决专家",
-      "description": "　　“解决专家”衣然英俊遇到罗师傅上门求助，罗师傅因跌打油遭诬告，其妹双双、盈盈为帮兄私自参加高颜奖金选美。衣然英俊携老孙、罗师傅追至赛场，与罗妹及中国选手徐菲组队，闯丛林、破庙宇机关，最终揭穿比赛的阴谋，助罗师傅渡过难关。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tG18iQCVNvreHxS4FKk3lg1INZM.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5MIKcaW4tErOUYjzR7gJqYB80rA.jpg",
-      "releaseDate": "2026-01-20",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -240,9 +228,45 @@
       "releaseDate": "2026-01-17",
       "rating": 0,
       "mediaType": "movie"
+    },
+    {
+      "id": 1614368,
+      "type": "tmdb",
+      "title": "喜欢上“欠欠”的你",
+      "originalTitle": "喜欢上“欠欠”的你",
+      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 0,
+      "mediaType": "movie"
     }
   ],
   "upcoming": [
+    {
+      "id": 1316092,
+      "type": "tmdb",
+      "title": "呼啸山庄",
+      "originalTitle": "“Wuthering Heights”",
+      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "releaseDate": "2026-03-13",
+      "rating": 6.652,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1297842,
+      "type": "tmdb",
+      "title": "奇迹梦之队",
+      "originalTitle": "GOAT",
+      "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 7.3,
+      "mediaType": "movie"
+    },
     {
       "id": 1171145,
       "type": "tmdb",
@@ -252,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 6.989,
+      "rating": 6.933,
       "mediaType": "movie"
     },
     {
@@ -268,30 +292,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1602727,
-      "type": "tmdb",
-      "title": "夜王",
-      "originalTitle": "夜王",
-      "description": "2012年，昔日风光一时的东日夜总会被收购，在尖东打滚数十年的大经理欢哥（黄子华 饰）面临时代转变的挑战。公司新任CEO竟是欢哥狠辣的前妻V姐（郑秀文 饰），强迫欢哥及众女公关转型，业绩渐有起色。怎料背后原来是大财团的操控游戏，东日随时关灯不保。为了保住东日，欢哥及V姐联手，誓要与众女公关作最后反扑，企硬尖东！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
-      "releaseDate": "2026-02-20",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 485289,
-      "type": "tmdb",
-      "title": "重返·狼群",
-      "originalTitle": "重返·狼群",
-      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
-      "releaseDate": "2017-06-16",
-      "rating": 5.5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1454209,
       "type": "tmdb",
       "title": "非穷尽列举",
@@ -304,6 +304,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1249668,
+      "type": "tmdb",
+      "title": "拼桌",
+      "originalTitle": "拼桌",
+      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1632606,
       "type": "tmdb",
       "title": "团圆令",
@@ -312,6 +324,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lVdryD9bJWHWC48vYPGGXy6tgOE.jpg",
       "backdropPath": null,
       "releaseDate": "2026-02-28",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1615877,
+      "type": "tmdb",
+      "title": "上学路上之山海无阻",
+      "originalTitle": "上学路上之山海无阻",
+      "description": "　　影片聚焦生活于印度孟加拉湾海岸、中国四川、中国新疆、俄罗斯北极圈的四位少年的入学道路。他们日常穿越河沼、峡谷、雪岭、荒原等艰险地貌，以乘渡船、徒步攀山、骑驴、搭直升机等不同方式奔赴校园。影片用真实镜头记录下孩子们在求学路上的坚韧与乐观，展现多样文化背景下共通的求知渴望。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9dgRnoN3Xxx07FeS55IfZTgPuNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nYvQFMivh9DDkFRGlPrVLP1vk98.jpg",
+      "releaseDate": "2026-03-14",
       "rating": 0,
       "mediaType": "movie"
     }
