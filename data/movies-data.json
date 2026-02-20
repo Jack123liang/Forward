@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T00:44:46.866+08:00",
+  "last_updated": "2026-02-21T00:31:49.229+08:00",
   "now_playing": [
     {
       "id": 1236153,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nOTj1ZofMjOWP1RE6wJImwRo7iu.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 6.747,
+      "rating": 6.836,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tyjXlexbNZQ0ZT1KEJslQtBirqc.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.543,
+      "rating": 6.542,
       "mediaType": "movie"
     },
     {
@@ -32,7 +32,7 @@
       "originalTitle": "Shelter",
       "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
       "posterPath": "https://image.tmdb.org/t/p/w500/b2kNtO8MgTjQ73uDdTBeyvpw9XF.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg",
       "releaseDate": "2026-01-30",
       "rating": 7.5,
       "mediaType": "movie"
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.143,
+      "rating": 5.15,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.8,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.9,
+      "rating": 7.899,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fzkfI2LWgPEHiFOFW2JveqlAY3h.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/h6tGwt2luW8keksY677qCxyFxTZ.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7,
+      "rating": 8.5,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yBeSkhMSCA6FdckEMOQ9ROzibak.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 3,
+      "rating": 5.333,
       "mediaType": "movie"
     },
     {
@@ -154,7 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/f5EoZe8Z256w0tgRhYzV0LAtNuH.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/AtvnNg6R0kunKDhdNl9tAAGVOdT.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 0,
+      "rating": 1,
       "mediaType": "movie"
     },
     {
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.7,
+      "rating": 6.653,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.3,
+      "rating": 7.314,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.008,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
