@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T20:39:58.371+08:00",
+  "last_updated": "2026-02-22T02:30:22.928+08:00",
   "tv": {
     "全网": [
       {
@@ -21,13 +21,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "生命树",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -52,12 +58,6 @@
       },
       {
         "title": "我的妈妈是校花",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "风过留痕",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -139,13 +139,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "生命树",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "生命树",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -243,7 +243,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "傻儿师长",
+        "title": "枭起青壤",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -251,13 +251,13 @@
     ],
     "芒果TV": [
       {
-        "title": "太平年",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -333,13 +333,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "主咖和Ta的朋友们",
+        "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
+        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -369,7 +369,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧·天路篇",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -413,13 +413,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "王牌对王牌 第九季",
+        "title": "快乐趣吹风",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐趣吹风",
+        "title": "王牌对王牌 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -549,13 +549,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "探索新境 第2季",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "探索新境 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -599,13 +599,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我在中国当农人 第二季",
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
+        "title": "我在中国当农人 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
