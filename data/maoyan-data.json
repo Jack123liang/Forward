@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T14:56:15.362+08:00",
+  "last_updated": "2026-02-24T20:58:16.335+08:00",
   "tv": {
     "全网": [
       {
@@ -21,13 +21,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "成何体统",
+        "title": "除恶",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "除恶",
+        "title": "成何体统",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -133,13 +133,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "成何体统",
+        "title": "除恶",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "除恶",
+        "title": "成何体统",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -213,13 +213,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我的妈妈是校花",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "我的妈妈是校花",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -345,19 +345,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我在中国当农人 第二季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "现在就出发 第三季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -370,6 +358,18 @@
       },
       {
         "title": "今夜喜友秀",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "奔跑吧·天路篇",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "我在中国当农人 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -401,13 +401,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "一起开麦吧",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "一起开麦吧",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -425,13 +425,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "共同说 第三季",
+        "title": "王牌对王牌 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "王牌对王牌 第九季",
+        "title": "共同说 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -493,7 +493,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "开播吧！短剧季",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,13 +563,13 @@
     ],
     "芒果TV": [
       {
-        "title": "我在中国当农人 第二季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "我在中国当农人 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -581,19 +581,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "我家那小子2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "中国新声代 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -606,6 +594,18 @@
       },
       {
         "title": "声生不息·华流季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "中国新声代 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
