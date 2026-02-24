@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T02:58:09.867+08:00",
+  "last_updated": "2026-02-24T09:51:29.421+08:00",
   "tv": {
     "全网": [
       {
@@ -27,6 +27,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "除恶",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "江湖夜雨十年灯",
         "description": "暂无简介",
         "type": "maoyan",
@@ -39,25 +45,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "除恶",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "生命树",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "年少有为",
+        "title": "我的妈妈是校花",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -139,13 +139,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "江湖夜雨十年灯",
+        "title": "除恶",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "除恶",
+        "title": "江湖夜雨十年灯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -201,13 +201,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "年少有为",
+        "title": "我的妈妈是校花",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -219,7 +219,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我的妈妈是校花",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -305,7 +305,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "锦月如歌",
+        "title": "看得见风景的窗",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -333,7 +333,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -345,31 +345,31 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "现在就出发 第三季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "今夜喜友秀",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "主咖和Ta的朋友们",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "亲爱的客栈2026",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "奔跑吧·天路篇",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -425,13 +425,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "王牌对王牌 第九季",
+        "title": "共同说 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "共同说 第三季",
+        "title": "王牌对王牌 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -513,13 +513,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "主咖和Ta的朋友们",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -537,19 +537,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "喜人奇妙夜 第2季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "探索新境 第2季",
+        "title": "喜人奇妙夜 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -559,11 +553,17 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
+      },
+      {
+        "title": "探索新境 第2季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
       }
     ],
     "芒果TV": [
       {
-        "title": "名侦探学院第9季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -575,13 +575,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "中国新声代 第六季",
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -593,13 +587,25 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "声生不息·华流季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "声生不息·华流季",
+        "title": "中国新声代 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "在恋爱开始之前",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -611,13 +617,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "再见爱人 第五季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "当家爸爸的聚会",
+        "title": "跳进地理书的旅行2025·甘肃篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
