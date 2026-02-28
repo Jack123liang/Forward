@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T00:35:10.226+08:00",
+  "last_updated": "2026-03-01T00:20:17.723+08:00",
   "now_playing": [
     {
       "id": 1290821,
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
       "releaseDate": "2026-01-20",
-      "rating": 7.125,
+      "rating": 7.131,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/8lCaaZYiyKBuLpq7WmihnZau6aJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.093,
+      "rating": 5.1,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.514,
+      "rating": 6.504,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.8,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.9,
+      "rating": 7.898,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/mYGhDzTRB8n45En5BQZVXcvE2p.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
       "releaseDate": "2026-02-20",
-      "rating": 7.4,
+      "rating": 7.462,
       "mediaType": "movie"
     },
     {
@@ -218,18 +218,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 485289,
-      "type": "tmdb",
-      "title": "重返·狼群",
-      "originalTitle": "重返·狼群",
-      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
-      "releaseDate": "2017-06-16",
-      "rating": 5.5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1454209,
       "type": "tmdb",
       "title": "非穷尽列举",
@@ -238,6 +226,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
       "releaseDate": "2026-02-28",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 871900,
+      "type": "tmdb",
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
+      "releaseDate": "2026-02-13",
       "rating": 0,
       "mediaType": "movie"
     }
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.5,
+      "rating": 6.497,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.486,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.53,
+      "rating": 7.537,
       "mediaType": "movie"
     },
     {
@@ -288,7 +288,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 6.962,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -300,7 +300,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
