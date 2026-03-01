@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T20:40:54.289+08:00",
+  "last_updated": "2026-03-02T02:28:49.861+08:00",
   "tv": {
     "全网": [
       {
@@ -57,7 +57,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -207,13 +207,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "年少有为",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -487,13 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "嗨放派·生存对战季",
+        "title": "开播吧！短剧季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "中国唱将",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -555,7 +555,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "探索新境 第2季",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -569,19 +569,25 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "夺金2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
+        "title": "中国新声代 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -594,12 +600,6 @@
       },
       {
         "title": "快乐老友·有风季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "夺金2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
