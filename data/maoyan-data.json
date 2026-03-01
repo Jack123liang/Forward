@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T02:28:23.303+08:00",
+  "last_updated": "2026-03-01T10:00:16.279+08:00",
   "tv": {
     "全网": [
       {
@@ -57,7 +57,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "年少有为",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -207,12 +207,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "年少有为",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
@@ -220,6 +214,12 @@
       },
       {
         "title": "夜色正浓",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -275,12 +275,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "乌蒙深处",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "猎豹",
         "description": "暂无简介",
         "type": "maoyan",
@@ -294,6 +288,12 @@
       },
       {
         "title": "时差一万公里",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "乌蒙深处",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -351,13 +351,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "势均力敌的我们 第二季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "势均力敌的我们 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -369,7 +369,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -425,13 +425,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "王牌对王牌 第九季",
+        "title": "圆桌派 第八季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "圆桌派 第八季",
+        "title": "王牌对王牌 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -463,12 +463,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "2026中央广播电视总台春节联欢晚会",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "泰甜啦",
         "description": "暂无简介",
         "type": "maoyan",
@@ -493,7 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "中国唱将",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "开播吧！短剧季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -555,7 +555,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "笑有新生",
+        "title": "探索新境 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -569,13 +569,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "快乐老友·有风季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "中国新声代 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -600,12 +606,6 @@
       },
       {
         "title": "我在中国当农人 第二季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
