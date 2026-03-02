@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T00:21:19.244+08:00",
+  "last_updated": "2026-03-03T00:38:02.718+08:00",
   "now_playing": [
     {
       "id": 1290821,
@@ -10,19 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/buWK1jAS0lrpzGQuqDWl3GHVJdt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 6.8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1236153,
-      "type": "tmdb",
-      "title": "极限审判",
-      "originalTitle": "Mercy",
-      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
-      "releaseDate": "2026-01-20",
-      "rating": 7.147,
+      "rating": 6.792,
       "mediaType": "movie"
     },
     {
@@ -34,7 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bgrECjDxdlO5vjxQZynuDZ0QobA.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
       "releaseDate": "2026-01-23",
-      "rating": 5.047,
+      "rating": 5.045,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1236153,
+      "type": "tmdb",
+      "title": "极限审判",
+      "originalTitle": "Mercy",
+      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
+      "releaseDate": "2026-01-20",
+      "rating": 7.129,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.514,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zXKCwVNVsvYeg2XapKXszm5x9tZ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/mmd1HnuvAzFc4iuVJcnBrhDNEKr.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 8.2,
+      "rating": 8.205,
       "mediaType": "movie"
     },
     {
@@ -98,6 +98,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1421552,
+      "type": "tmdb",
+      "title": "熊猫计划之部落奇遇记",
+      "originalTitle": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 7.5,
+      "mediaType": "movie"
+    },
+    {
       "id": 1462229,
       "type": "tmdb",
       "title": "飞驰人生3",
@@ -122,15 +134,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421552,
+      "id": 871900,
       "type": "tmdb",
-      "title": "熊猫计划之部落奇遇记",
-      "originalTitle": "熊猫计划之部落奇遇记",
-      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 7.5,
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
+      "releaseDate": "2026-02-13",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -143,6 +155,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/AtvnNg6R0kunKDhdNl9tAAGVOdT.jpg",
       "releaseDate": "2026-01-23",
       "rating": 6.25,
+      "mediaType": "movie"
+    },
+    {
+      "id": 51731,
+      "type": "tmdb",
+      "title": "鹿鼎记II神龙教",
+      "originalTitle": "鹿鼎記 II : 神龍敎",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -170,30 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1614368,
-      "type": "tmdb",
-      "title": "喜欢上“欠欠”的你",
-      "originalTitle": "喜欢上“欠欠”的你",
-      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
-      "releaseDate": "2026-02-14",
-      "rating": 1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1607088,
       "type": "tmdb",
       "title": "熊出没·年年有熊",
@@ -203,18 +203,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
       "releaseDate": "2026-02-17",
       "rating": 4,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1164767,
-      "type": "tmdb",
-      "title": "营救汪星人",
-      "originalTitle": "营救汪星人",
-      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
-      "releaseDate": "2018-01-01",
-      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -230,14 +218,26 @@
       "mediaType": "movie"
     },
     {
-      "id": 1640489,
+      "id": 1614368,
       "type": "tmdb",
-      "title": "未来之心",
-      "originalTitle": "未来之心",
-      "description": "余书与梁澜夫妇研发了革命性AI“超心智脑”，旨在复原古生物生态。因儿子重病急需资金，二人分道扬镳：梁澜与投资人何叔合作，将AI用于建造赛博机械乐园；余书则携子离开，坚信技术不应沦为娱乐工具。多年后为救子，余书登岛交出原始代码。不料程序遭窃，机械巨兽失控暴走。危机关头，何叔牺牲自我换取生机，余书夫妇最终联手重启初代代码，关闭系统，阻止灾难。离岛后，他们发现何叔留下的代码备份与医疗资源。儿子康复后，将这段经历写成小说《未来之心》，见证科技、人性与爱的交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3RmGh1w3lBpKiFKnK2LBfbk7U7U.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-26",
+      "title": "喜欢上“欠欠”的你",
+      "originalTitle": "喜欢上“欠欠”的你",
+      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1628728,
+      "type": "tmdb",
+      "title": "替身拳手",
+      "originalTitle": "替身拳手",
+      "description": "电影讲述了出身贫寒的拳击少年田野与父亲田海军靠送水维持生计。在留学中介李倩与富商陈辉夫妇的谋划下，田野被骗成为了富二代陈火炬的拳击比赛替身。被蒙在鼓里的田野与陈火炬意外成为好友，在得知真相后又不得不站在了对立面，两个少年决定用拳击刺破生活的假象，为了共同的理想奋起抗衡的热血故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ntQR36Imr8WDHJBEkWZmnzusAHm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jFlF37hKyhSizLBUBwyy8tv9eF6.jpg",
+      "releaseDate": "2026-02-07",
       "rating": 0,
       "mediaType": "movie"
     }
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.523,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.475,
+      "rating": 7.465,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.533,
+      "rating": 7.524,
       "mediaType": "movie"
     },
     {
@@ -288,7 +288,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7,
+      "rating": 6.982,
       "mediaType": "movie"
     },
     {
@@ -300,7 +300,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.8,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -312,7 +312,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8XeUEIXiZiRNqz0EcKC65vje8Th.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 0,
+      "rating": 10,
       "mediaType": "movie"
     },
     {
@@ -325,6 +325,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/o2xLxY1LdwBMsrGD9hjIaOrIQm6.jpg",
       "releaseDate": "2026-03-20",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 682012,
+      "type": "tmdb",
+      "title": "你好，爱美丽",
+      "originalTitle": "Amélie et la métaphysique des tubes",
+      "description": "对年幼的爱美丽来说，世界是静谧而神秘的，直到一次与巧克力的奇遇点燃了她对生活的无尽好奇。在异国他乡的家中，她与温柔的女管家西尾小姐建立起深厚情感，也在她的陪伴下，学会聆听风、触摸雨、感受光。随着三岁生日临近，告别与失落悄然降临——亲爱的奶奶悄然离世，熟悉的日常也随之起了波澜。爱美丽开始意识到，那些看似平静如常的日子，藏着人生最深的悸动与转变。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -384,6 +396,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9dgRnoN3Xxx07FeS55IfZTgPuNe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nYvQFMivh9DDkFRGlPrVLP1vk98.jpg",
       "releaseDate": "2026-03-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1644945,
+      "type": "tmdb",
+      "title": "熊猫奇遇记",
+      "originalTitle": "熊猫奇遇记",
+      "description": "　　影片以年龄由小到大的六只熊猫为主角，依次讲述大熊猫诞生、成长、野化、放归、“养老”等故事，表现熊猫奇妙又充满挑战的一生，以及人类与珍稀物种之间深厚情感，熊猫工作者们为保护全球物种多样性贡献中国智慧。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sRtqBdHlZP2oIwZXLvQkVgDPUhD.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-10",
       "rating": 0,
       "mediaType": "movie"
     }
