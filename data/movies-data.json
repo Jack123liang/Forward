@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T00:40:15.914+08:00",
+  "last_updated": "2026-03-05T00:37:12.124+08:00",
   "now_playing": [
     {
       "id": 1290821,
@@ -10,31 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/buWK1jAS0lrpzGQuqDWl3GHVJdt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6YjnTRBz704LF1uJ3ZC4wsS9T8r.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 6.7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 680493,
-      "type": "tmdb",
-      "title": "重返寂静岭",
-      "originalTitle": "Return to Silent Hill",
-      "description": "James在与爱人分开后伤心欲绝，而此时，他被一封神秘的信件召唤回了寂静岭去寻找她，却发现自己曾经熟悉的小镇已经被未知的邪恶占据。面对着各种熟悉和陌生的可怕人事物，James开始质疑自己的理智和对现实的认知，但他必须坚持下去，拯救自己失落的爱人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bgrECjDxdlO5vjxQZynuDZ0QobA.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 5.053,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1236153,
-      "type": "tmdb",
-      "title": "极限审判",
-      "originalTitle": "Mercy",
-      "description": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
-      "releaseDate": "2026-01-20",
-      "rating": 7.1,
+      "rating": 6.732,
       "mediaType": "movie"
     },
     {
@@ -46,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
       "releaseDate": "2026-01-31",
-      "rating": 6.507,
+      "rating": 6.503,
       "mediaType": "movie"
     },
     {
@@ -58,7 +34,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.727,
+      "rating": 7.435,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1159831,
+      "type": "tmdb",
+      "title": "暗黑新娘！",
+      "originalTitle": "The Bride!",
+      "description": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8XeUEIXiZiRNqz0EcKC65vje8Th.jpg",
+      "releaseDate": "2026-03-06",
+      "rating": 8.4,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1171145,
+      "type": "tmdb",
+      "title": "洛杉矶劫案",
+      "originalTitle": "Crime 101",
+      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
+      "releaseDate": "2026-03-07",
+      "rating": 6.983,
       "mediaType": "movie"
     },
     {
@@ -98,18 +98,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421552,
-      "type": "tmdb",
-      "title": "熊猫计划之部落奇遇记",
-      "originalTitle": "熊猫计划之部落奇遇记",
-      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 7.5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1462229,
       "type": "tmdb",
       "title": "飞驰人生3",
@@ -119,6 +107,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
       "releaseDate": "2026-02-17",
       "rating": 6.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1421552,
+      "type": "tmdb",
+      "title": "熊猫计划之部落奇遇记",
+      "originalTitle": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 871900,
-      "type": "tmdb",
-      "title": "藏地情书",
-      "originalTitle": "藏地情书",
-      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
-      "releaseDate": "2026-02-13",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1618784,
       "type": "tmdb",
       "title": "东北警察故事3",
@@ -155,42 +143,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/AtvnNg6R0kunKDhdNl9tAAGVOdT.jpg",
       "releaseDate": "2026-01-23",
       "rating": 6.25,
-      "mediaType": "movie"
-    },
-    {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1537690,
-      "type": "tmdb",
-      "title": "爆水管",
-      "originalTitle": "爆水管",
-      "description": "　　一个东南亚小镇中，卷王警察于大海（彭于晏 饰）起早贪黑，努力工作，让小镇连续7年维持0犯罪率。结果因为没有案子，警察将被全员辞退，“铁饭碗”成了“塑料碗”，为保住工作，于大海决定和队友们一起造个大案。与此同时，真正的大案正在发生，前来投奔罗四季（艾伦 饰）盗墓贼罗浩（周游 饰）、牛大轮（闫佩伦 饰）一家人，盯上了传说中藏有宝藏的古墓，而这个古墓就在警局之下......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kDsSmwtX8N0wmxRRdxjgYHenFNe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yBeSkhMSCA6FdckEMOQ9ROzibak.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "originalTitle": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -206,27 +158,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 1454209,
+      "id": 871900,
       "type": "tmdb",
-      "title": "非穷尽列举",
-      "originalTitle": "National Theatre Live: Inter Alia",
-      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
-      "releaseDate": "2026-02-28",
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
+      "releaseDate": "2026-02-13",
       "rating": 0,
       "mediaType": "movie"
     },
     {
-      "id": 1614368,
+      "id": 51731,
       "type": "tmdb",
-      "title": "喜欢上“欠欠”的你",
-      "originalTitle": "喜欢上“欠欠”的你",
-      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
-      "releaseDate": "2026-02-14",
-      "rating": 1,
+      "title": "鹿鼎记II神龙教",
+      "originalTitle": "鹿鼎記 II : 神龍敎",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -240,6 +192,54 @@
       "releaseDate": "2026-02-07",
       "rating": 0,
       "mediaType": "movie"
+    },
+    {
+      "id": 1640489,
+      "type": "tmdb",
+      "title": "未来之心",
+      "originalTitle": "未来之心",
+      "description": "余书与梁澜夫妇研发了革命性AI“超心智脑”，旨在复原古生物生态。因儿子重病急需资金，二人分道扬镳：梁澜与投资人何叔合作，将AI用于建造赛博机械乐园；余书则携子离开，坚信技术不应沦为娱乐工具。多年后为救子，余书登岛交出原始代码。不料程序遭窃，机械巨兽失控暴走。危机关头，何叔牺牲自我换取生机，余书夫妇最终联手重启初代代码，关闭系统，阻止灾难。离岛后，他们发现何叔留下的代码备份与医疗资源。儿子康复后，将这段经历写成小说《未来之心》，见证科技、人性与爱的交织。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3RmGh1w3lBpKiFKnK2LBfbk7U7U.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-02-26",
+      "rating": 4,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359005,
+      "type": "tmdb",
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1454209,
+      "type": "tmdb",
+      "title": "非穷尽列举",
+      "originalTitle": "National Theatre Live: Inter Alia",
+      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
+      "releaseDate": "2026-02-28",
+      "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1614368,
+      "type": "tmdb",
+      "title": "喜欢上“欠欠”的你",
+      "originalTitle": "喜欢上“欠欠”的你",
+      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
+      "releaseDate": "2026-02-14",
+      "rating": 1,
+      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.477,
+      "rating": 6.464,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.935,
       "mediaType": "movie"
     },
     {
@@ -276,43 +288,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.523,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 8.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1171145,
-      "type": "tmdb",
-      "title": "洛杉矶劫案",
-      "originalTitle": "Crime 101",
-      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
-      "releaseDate": "2026-03-07",
-      "rating": 6.991,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1159831,
-      "type": "tmdb",
-      "title": "暗黑新娘！",
-      "originalTitle": "The Bride!",
-      "description": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8XeUEIXiZiRNqz0EcKC65vje8Th.jpg",
-      "releaseDate": "2026-03-06",
-      "rating": 8.333,
+      "rating": 7.525,
       "mediaType": "movie"
     },
     {
@@ -364,18 +340,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1454209,
-      "type": "tmdb",
-      "title": "非穷尽列举",
-      "originalTitle": "National Theatre Live: Inter Alia",
-      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
-      "releaseDate": "2026-02-28",
-      "rating": 6,
-      "mediaType": "movie"
-    },
-    {
       "id": 1357815,
       "type": "tmdb",
       "title": "时间旅馆",
@@ -396,18 +360,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9dgRnoN3Xxx07FeS55IfZTgPuNe.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nYvQFMivh9DDkFRGlPrVLP1vk98.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1644945,
-      "type": "tmdb",
-      "title": "熊猫奇遇记",
-      "originalTitle": "熊猫奇遇记",
-      "description": "　　影片以年龄由小到大的六只熊猫为主角，依次讲述大熊猫诞生、成长、野化、放归、“养老”等故事，表现熊猫奇妙又充满挑战的一生，以及人类与珍稀物种之间深厚情感，熊猫工作者们为保护全球物种多样性贡献中国智慧。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sRtqBdHlZP2oIwZXLvQkVgDPUhD.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-03-10",
       "rating": 0,
       "mediaType": "movie"
     }
