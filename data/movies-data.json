@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T00:34:17.361+08:00",
+  "last_updated": "2026-03-08T00:21:19.771+08:00",
   "now_playing": [
     {
       "id": 1290821,
@@ -7,10 +7,10 @@
       "title": "庇护之地",
       "originalTitle": "Shelter",
       "description": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7Dmc7bnUpiHsGbwLvyO0iu4gD82.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/buWK1jAS0lrpzGQuqDWl3GHVJdt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
       "releaseDate": "2026-01-30",
-      "rating": 6.8,
+      "rating": 6.762,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8XeUEIXiZiRNqz0EcKC65vje8Th.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 7.081,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -55,7 +55,7 @@
       "title": "洛杉矶劫案",
       "originalTitle": "Crime 101",
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yWZc7ZglTAecVLKHS0oROuetKce.jpg",
       "releaseDate": "2026-03-07",
       "rating": 7,
@@ -98,6 +98,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "originalTitle": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6.727,
+      "mediaType": "movie"
+    },
+    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划之部落奇遇记",
@@ -107,30 +119,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
       "releaseDate": "2026-02-17",
       "rating": 6.3,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1462229,
-      "type": "tmdb",
-      "title": "飞驰人生3",
-      "originalTitle": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 6.9,
-      "mediaType": "movie"
-    },
-    {
-      "id": 51731,
-      "type": "tmdb",
-      "title": "鹿鼎记II神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -146,6 +134,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 51731,
+      "type": "tmdb",
+      "title": "鹿鼎记II神龙教",
+      "originalTitle": "鹿鼎記 II : 神龍敎",
+      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
+      "releaseDate": "2026-02-07",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1618784,
+      "type": "tmdb",
+      "title": "东北警察故事3",
+      "originalTitle": "东北警察故事3",
+      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/f5EoZe8Z256w0tgRhYzV0LAtNuH.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AtvnNg6R0kunKDhdNl9tAAGVOdT.jpg",
+      "releaseDate": "2026-01-23",
+      "rating": 6.444,
+      "mediaType": "movie"
+    },
+    {
       "id": 871900,
       "type": "tmdb",
       "title": "藏地情书",
@@ -158,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1618784,
-      "type": "tmdb",
-      "title": "东北警察故事3",
-      "originalTitle": "东北警察故事3",
-      "description": "　　李红旗要办婚礼了！本想婚礼一切从简，但彪悍热心的丈母娘（林晓杰 饰）坚持做主想大操大办，李红旗不得不飞往海角，落地后却得知飞机邻座女孩昕昕（马千壹 饰）被人贩子拐走。面对凶残狡猾的犯罪团伙，李红旗与当地办案风格迥异的警察孙彪（崔志佳 饰）强强联手，在婚期逼近的倒计时中和人贩子头目秦叶蓉（黄米依 饰）及卖鱼佬（伍允龙 饰）展开殊死搏斗。婚礼筹备笑料百出，办案追凶惊心动魄——红旗不倒，正义不休假！看李红旗如何罪犯、幸福两手抓。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/f5EoZe8Z256w0tgRhYzV0LAtNuH.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AtvnNg6R0kunKDhdNl9tAAGVOdT.jpg",
-      "releaseDate": "2026-01-23",
-      "rating": 6.25,
-      "mediaType": "movie"
-    },
-    {
       "id": 1607088,
       "type": "tmdb",
       "title": "熊出没·年年有熊",
@@ -179,6 +179,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
       "releaseDate": "2026-02-17",
       "rating": 4,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1617366,
+      "type": "tmdb",
+      "title": "太空异种",
+      "originalTitle": "太空异种",
+      "description": "　　未来世界，在一艘名为“苍穹号”的飞船上，船长梁承天带领着船员们经常在星际之间从事采集矿物质的买卖，以此来获得巨大的经济利益。虽然他们在多次采集过程中偶尔会遇到危险，但最终也都能安全返航。\r 　　直到这次，梁承天带着船员们在银河系中，意外找到一颗六千万年前爆炸的超新星，他们在附近采集到了稀有的矿物质，从而能获得巨额利益。可因利益分配不均，各怀心事的船员们就此踏上返航之旅。\r 　　在返航途中“苍穹号”意外接到了一组未知的求救讯号。他们成功救下了“创世纪号”的生物学家林修远和他的妻子Angel，而梁承天在救援的过程中也意外受伤。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/u0GrncLTYL0nvL2aZPwrkmyDKcS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pLMla6H6hFsoY8sjhbWBT8ZKw21.jpg",
+      "releaseDate": "2026-01-30",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -206,15 +218,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1617366,
+      "id": 1454209,
       "type": "tmdb",
-      "title": "太空异种",
-      "originalTitle": "太空异种",
-      "description": "　　未来世界，在一艘名为“苍穹号”的飞船上，船长梁承天带领着船员们经常在星际之间从事采集矿物质的买卖，以此来获得巨大的经济利益。虽然他们在多次采集过程中偶尔会遇到危险，但最终也都能安全返航。\r 　　直到这次，梁承天带着船员们在银河系中，意外找到一颗六千万年前爆炸的超新星，他们在附近采集到了稀有的矿物质，从而能获得巨额利益。可因利益分配不均，各怀心事的船员们就此踏上返航之旅。\r 　　在返航途中“苍穹号”意外接到了一组未知的求救讯号。他们成功救下了“创世纪号”的生物学家林修远和他的妻子Angel，而梁承天在救援的过程中也意外受伤。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/u0GrncLTYL0nvL2aZPwrkmyDKcS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pLMla6H6hFsoY8sjhbWBT8ZKw21.jpg",
-      "releaseDate": "2026-01-30",
-      "rating": 0,
+      "title": "非穷尽列举",
+      "originalTitle": "National Theatre Live: Inter Alia",
+      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
+      "releaseDate": "2026-02-28",
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -228,18 +240,6 @@
       "releaseDate": "2026-02-17",
       "rating": 6,
       "mediaType": "movie"
-    },
-    {
-      "id": 1454209,
-      "type": "tmdb",
-      "title": "非穷尽列举",
-      "originalTitle": "National Theatre Live: Inter Alia",
-      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
-      "releaseDate": "2026-02-28",
-      "rating": 6,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -249,10 +249,10 @@
       "title": "河狸变身计划",
       "originalTitle": "Hoppers",
       "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fEYM3VM5RI0OXccXaGOoWjHTHfd.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.8,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.432,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -286,9 +286,9 @@
       "originalTitle": "Marty Supreme",
       "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.531,
+      "rating": 7.53,
       "mediaType": "movie"
     },
     {
@@ -352,18 +352,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1615877,
-      "type": "tmdb",
-      "title": "上学路上之山海无阻",
-      "originalTitle": "上学路上之山海无阻",
-      "description": "　　影片聚焦生活于印度孟加拉湾海岸、中国四川、中国新疆、俄罗斯北极圈的四位少年的入学道路。他们日常穿越河沼、峡谷、雪岭、荒原等艰险地貌，以乘渡船、徒步攀山、骑驴、搭直升机等不同方式奔赴校园。影片用真实镜头记录下孩子们在求学路上的坚韧与乐观，展现多样文化背景下共通的求知渴望。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9dgRnoN3Xxx07FeS55IfZTgPuNe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nYvQFMivh9DDkFRGlPrVLP1vk98.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1268630,
       "type": "tmdb",
       "title": "搜查瑠公圳",
@@ -373,6 +361,18 @@
       "backdropPath": null,
       "releaseDate": "2026-03-28",
       "rating": 5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1615877,
+      "type": "tmdb",
+      "title": "上学路上之山海无阻",
+      "originalTitle": "上学路上之山海无阻",
+      "description": "　　影片聚焦生活于印度孟加拉湾海岸、中国四川、中国新疆、俄罗斯北极圈的四位少年的入学道路。他们日常穿越河沼、峡谷、雪岭、荒原等艰险地貌，以乘渡船、徒步攀山、骑驴、搭直升机等不同方式奔赴校园。影片用真实镜头记录下孩子们在求学路上的坚韧与乐观，展现多样文化背景下共通的求知渴望。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9dgRnoN3Xxx07FeS55IfZTgPuNe.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nYvQFMivh9DDkFRGlPrVLP1vk98.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 0,
       "mediaType": "movie"
     }
   ]
