@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T20:55:44.110+08:00",
+  "last_updated": "2026-03-10T02:47:53.272+08:00",
   "tv": {
     "全网": [
       {
@@ -237,13 +237,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "风过留痕",
+        "title": "狙击蝴蝶",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "狙击蝴蝶",
+        "title": "风过留痕",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -305,7 +305,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "人生若如初相见",
+        "title": "锦月如歌",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -314,6 +314,12 @@
   },
   "show": {
     "全网": [
+      {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
       {
         "title": "宇宙闪烁请注意",
         "description": "暂无简介",
@@ -357,19 +363,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "亲爱的客栈2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -469,13 +469,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "泰甜啦",
+        "title": "你好种地少年第3季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "你好种地少年第3季",
+        "title": "泰甜啦",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,6 +563,12 @@
     ],
     "芒果TV": [
       {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "夺金2026",
         "description": "暂无简介",
         "type": "maoyan",
@@ -570,12 +576,6 @@
       },
       {
         "title": "快乐老友·有风季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
