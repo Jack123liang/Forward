@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T00:54:50.872+08:00",
+  "last_updated": "2026-03-14T00:34:21.688+08:00",
   "now_playing": [
     {
       "id": 1159831,
@@ -10,19 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.281,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1316092,
-      "type": "tmdb",
-      "title": "呼啸山庄",
-      "originalTitle": "\"Wuthering Heights\"",
-      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
-      "releaseDate": "2026-03-13",
-      "rating": 6.4,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -34,7 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aNNDPQn8dUSPp6CH8p45iMlIceC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7,
+      "rating": 7.023,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1316092,
+      "type": "tmdb",
+      "title": "呼啸山庄",
+      "originalTitle": "\"Wuthering Heights\"",
+      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3iK4OUoMztIg7basATxRGLXEulR.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "releaseDate": "2026-03-13",
+      "rating": 6.396,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.9,
+      "rating": 7.898,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "originalTitle": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -110,30 +122,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1462229,
-      "type": "tmdb",
-      "title": "飞驰人生3",
-      "originalTitle": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 6.667,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1447971,
-      "type": "tmdb",
-      "title": "惊蛰无声",
-      "originalTitle": "惊蛰无声",
-      "description": "你看不见的地方，谍战从未停止交锋！我国最新战机的涉密信息外泄，国家安全面临威胁，国安小组迅速行动抓捕间谍，在信任与背叛的漩涡中，一场惊心博弈悄然上演……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tNfhsO5CdMRzThEx3XlkTEp808Q.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 6.1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划之部落奇遇记",
@@ -146,15 +134,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 871900,
+      "id": 1447971,
       "type": "tmdb",
-      "title": "藏地情书",
-      "originalTitle": "藏地情书",
-      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
-      "releaseDate": "2026-02-13",
-      "rating": 0,
+      "title": "惊蛰无声",
+      "originalTitle": "惊蛰无声",
+      "description": "你看不见的地方，谍战从未停止交锋！我国最新战机的涉密信息外泄，国家安全面临威胁，国安小组迅速行动抓捕间谍，在信任与背叛的漩涡中，一场惊心博弈悄然上演……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tNfhsO5CdMRzThEx3XlkTEp808Q.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6.1,
       "mediaType": "movie"
     },
     {
@@ -194,6 +182,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 871900,
+      "type": "tmdb",
+      "title": "藏地情书",
+      "originalTitle": "藏地情书",
+      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
+      "releaseDate": "2026-02-13",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1607088,
       "type": "tmdb",
       "title": "熊出没·年年有熊",
@@ -230,15 +230,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1640489,
+      "id": 1164767,
       "type": "tmdb",
-      "title": "未来之心",
-      "originalTitle": "未来之心",
-      "description": "余书与梁澜夫妇研发了革命性AI“超心智脑”，旨在复原古生物生态。因儿子重病急需资金，二人分道扬镳：梁澜与投资人何叔合作，将AI用于建造赛博机械乐园；余书则携子离开，坚信技术不应沦为娱乐工具。多年后为救子，余书登岛交出原始代码。不料程序遭窃，机械巨兽失控暴走。危机关头，何叔牺牲自我换取生机，余书夫妇最终联手重启初代代码，关闭系统，阻止灾难。离岛后，他们发现何叔留下的代码备份与医疗资源。儿子康复后，将这段经历写成小说《未来之心》，见证科技、人性与爱的交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3RmGh1w3lBpKiFKnK2LBfbk7U7U.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-02-26",
-      "rating": 4,
+      "title": "营救汪星人",
+      "originalTitle": "营救汪星人",
+      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
+      "releaseDate": "2018-01-01",
+      "rating": 0,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.766,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/jtUHnlGbcq70uHLJ36ZnkF5MJdc.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.523,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -286,9 +286,9 @@
       "originalTitle": "Marty Supreme",
       "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/jT8P4cc3C4Tm1vDz9DfPkvPSajo.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.506,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
