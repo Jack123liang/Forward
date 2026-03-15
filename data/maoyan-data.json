@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T02:33:10.432+08:00",
+  "last_updated": "2026-03-15T10:03:23.431+08:00",
   "tv": {
     "全网": [
       {
@@ -39,6 +39,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "太平年",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "江湖夜雨十年灯",
         "description": "暂无简介",
         "type": "maoyan",
@@ -52,12 +58,6 @@
       },
       {
         "title": "成何体统",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "除恶",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -89,13 +89,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "长安二十四计",
+        "title": "逍遥",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "逍遥",
+        "title": "长安二十四计",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -133,6 +133,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "太平年",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "江湖夜雨十年灯",
         "description": "暂无简介",
         "type": "maoyan",
@@ -163,12 +169,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "罚罪2",
         "description": "暂无简介",
         "type": "maoyan",
@@ -181,7 +181,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "双轨",
+        "title": "老舅",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -213,6 +213,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "太平年",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "江湖夜雨十年灯",
         "description": "暂无简介",
         "type": "maoyan",
@@ -220,12 +226,6 @@
       },
       {
         "title": "骄阳似我",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -263,6 +263,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "乌蒙深处",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "苦菜花",
         "description": "暂无简介",
         "type": "maoyan",
@@ -270,12 +276,6 @@
       },
       {
         "title": "女神蒙上眼",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "乌蒙深处",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -293,13 +293,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "猎豹",
+        "title": "水龙吟",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "水龙吟",
+        "title": "猎豹",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -327,12 +327,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
@@ -345,7 +339,25 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "快乐老友·有风季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "势均力敌的我们 第二季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -357,19 +369,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "今夜喜友秀",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -407,13 +407,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐趣吹风",
+        "title": "一起开麦吧",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "一起开麦吧",
+        "title": "快乐趣吹风",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -425,13 +425,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "圆桌派 第八季",
+        "title": "中国红妆",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国红妆",
+        "title": "圆桌派 第八季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -463,6 +463,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "2026中央广播电视总台春节联欢晚会",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "泰甜啦",
         "description": "暂无简介",
         "type": "maoyan",
@@ -481,19 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "2026中央广播电视总台春节联欢晚会",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "一路繁花 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国唱将",
+        "title": "笑有新生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,13 +563,19 @@
     ],
     "芒果TV": [
       {
+        "title": "快乐老友·有风季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐老友·有风季",
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -581,13 +587,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "夺金2026",
+        "title": "有你的恋歌Ⅱ",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "有你的恋歌Ⅱ",
+        "title": "夺金2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -600,12 +606,6 @@
       },
       {
         "title": "我在中国当农人 第二季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
