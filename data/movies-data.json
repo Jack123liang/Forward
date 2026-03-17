@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T00:57:06.397+08:00",
+  "last_updated": "2026-03-18T00:59:45.543+08:00",
   "now_playing": [
     {
       "id": 1316092,
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.061,
+      "rating": 7.06,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.598,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.266,
+      "rating": 6.274,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.464,
+      "rating": 7.345,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 6.857,
+      "rating": 7.067,
       "mediaType": "movie"
     },
     {
@@ -122,18 +122,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1454209,
-      "type": "tmdb",
-      "title": "非穷尽列举",
-      "originalTitle": "National Theatre Live: Inter Alia",
-      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
-      "releaseDate": "2026-02-28",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
       "id": 1447971,
       "type": "tmdb",
       "title": "惊蛰无声",
@@ -142,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tNfhsO5CdMRzThEx3XlkTEp808Q.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 6.455,
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -158,15 +146,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249668,
+      "id": 1454209,
       "type": "tmdb",
-      "title": "拼桌",
-      "originalTitle": "拼桌",
-      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 6,
+      "title": "非穷尽列举",
+      "originalTitle": "National Theatre Live: Inter Alia",
+      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
+      "releaseDate": "2026-02-28",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -178,6 +166,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
       "releaseDate": "2026-02-17",
+      "rating": 6.333,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249668,
+      "type": "tmdb",
+      "title": "拼桌",
+      "originalTitle": "拼桌",
+      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
+      "releaseDate": "2026-03-14",
       "rating": 6,
       "mediaType": "movie"
     },
@@ -194,14 +194,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1497788,
+      "id": 1164767,
       "type": "tmdb",
-      "title": "长夜将尽",
-      "originalTitle": "长夜将尽",
-      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
-      "releaseDate": "2026-03-14",
+      "title": "营救汪星人",
+      "originalTitle": "营救汪星人",
+      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
+      "releaseDate": "2018-01-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -218,6 +218,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1497788,
+      "type": "tmdb",
+      "title": "长夜将尽",
+      "originalTitle": "长夜将尽",
+      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1614368,
       "type": "tmdb",
       "title": "喜欢上“欠欠”的你",
@@ -227,18 +239,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
       "releaseDate": "2026-02-14",
       "rating": 1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1628728,
-      "type": "tmdb",
-      "title": "替身拳手",
-      "originalTitle": "替身拳手",
-      "description": "电影讲述了出身贫寒的拳击少年田野与父亲田海军靠送水维持生计。在留学中介李倩与富商陈辉夫妇的谋划下，田野被骗成为了富二代陈火炬的拳击比赛替身。被蒙在鼓里的田野与陈火炬意外成为好友，在得知真相后又不得不站在了对立面，两个少年决定用拳击刺破生活的假象，为了共同的理想奋起抗衡的热血故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ntQR36Imr8WDHJBEkWZmnzusAHm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/jFlF37hKyhSizLBUBwyy8tv9eF6.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 0,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.73,
+      "rating": 7.718,
       "mediaType": "movie"
     },
     {
@@ -262,9 +262,9 @@
       "originalTitle": "Project Hail Mary",
       "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "posterPath": "https://image.tmdb.org/t/p/w500/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ckgitpsGKUFVO8yHinQdKSSyrFC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.7,
+      "rating": 8.8,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.654,
+      "rating": 6.685,
       "mediaType": "movie"
     },
     {
@@ -288,7 +288,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.466,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -324,7 +324,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 8,
+      "rating": 7.988,
       "mediaType": "movie"
     },
     {
@@ -352,6 +352,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1421609,
+      "type": "tmdb",
+      "title": "我的妈耶",
+      "originalTitle": "我的妈耶",
+      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "releaseDate": "2026-04-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1357815,
       "type": "tmdb",
       "title": "时间旅馆",
@@ -376,30 +400,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421609,
-      "type": "tmdb",
-      "title": "我的妈耶",
-      "originalTitle": "我的妈耶",
-      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
-      "releaseDate": "2026-04-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1566589,
-      "type": "tmdb",
-      "title": "蜂蜜的针",
-      "originalTitle": "蜂蜜的针",
-      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……\r 　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-03-28",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1249589,
       "type": "tmdb",
       "title": "天才游戏",
@@ -408,6 +408,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
       "backdropPath": null,
       "releaseDate": "2026-04-04",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1546855,
+      "type": "tmdb",
+      "title": "我，许可",
+      "originalTitle": "我，许可",
+      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dNqm62dHg9vesWXSoP9pWTJgoSS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
+      "releaseDate": "2026-04-03",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -424,14 +436,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1546855,
+      "id": 1653289,
       "type": "tmdb",
-      "title": "我，许可",
-      "originalTitle": "我，许可",
-      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dNqm62dHg9vesWXSoP9pWTJgoSS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
-      "releaseDate": "2026-04-03",
+      "title": "如父如母",
+      "originalTitle": "如父如母",
+      "description": "父亲车祸成植物人，儿子被迫成长。周旋于生母/养母的复杂亲情与两位恋人之间，在相似与迥异中完成成人礼。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rpvXuRZcakBtcUKbaGop0HlA4Mk.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
       "rating": 0,
       "mediaType": "movie"
     }
