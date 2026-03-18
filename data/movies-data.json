@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-03-18T00:59:45.543+08:00",
+  "last_updated": "2026-03-19T00:54:19.833+08:00",
   "now_playing": [
     {
-      "id": 1316092,
+      "id": 687163,
       "type": "tmdb",
-      "title": "呼啸山庄",
-      "originalTitle": "\"Wuthering Heights\"",
-      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
-      "releaseDate": "2026-03-13",
-      "rating": 6.4,
+      "title": "挽救计划",
+      "originalTitle": "Project Hail Mary",
+      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 8.422,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,43 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.06,
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1316092,
+      "type": "tmdb",
+      "title": "呼啸山庄",
+      "originalTitle": "\"Wuthering Heights\"",
+      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "releaseDate": "2026-03-13",
+      "rating": 6.347,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1317288,
+      "type": "tmdb",
+      "title": "至尊马蒂",
+      "originalTitle": "Marty Supreme",
+      "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.468,
       "mediaType": "movie"
     },
     {
@@ -34,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.6,
+      "rating": 7.586,
       "mediaType": "movie"
     },
     {
@@ -46,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.274,
+      "rating": 6.279,
       "mediaType": "movie"
     },
     {
@@ -62,18 +98,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 682012,
-      "type": "tmdb",
-      "title": "你好，爱美丽",
-      "originalTitle": "Amélie et la métaphysique des tubes",
-      "description": "对于爱美丽来说，世界是一个令人困惑又安宁的谜团，直到一次与巧克力的奇妙邂逅点燃了她强烈的好奇心。随着她对家中女佣西尾小姐产生深厚依恋，爱美丽不仅发现了大自然的奇迹，也窥见了这个外国人家庭在战后日本田园诗般生活表象之下隐藏的情感真相。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 8,
-      "mediaType": "movie"
-    },
-    {
       "id": 313369,
       "type": "tmdb",
       "title": "爱乐之城",
@@ -86,6 +110,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 682012,
+      "type": "tmdb",
+      "title": "你好，爱美丽",
+      "originalTitle": "Amélie et la métaphysique des tubes",
+      "description": "对于爱美丽来说，世界是一个令人困惑又安宁的谜团，直到一次与巧克力的奇妙邂逅点燃了她强烈的好奇心。随着她对家中女佣西尾小姐产生深厚依恋，爱美丽不仅发现了大自然的奇迹，也窥见了这个外国人家庭在战后日本田园诗般生活表象之下隐藏的情感真相。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
       "id": 1462229,
       "type": "tmdb",
       "title": "飞驰人生3",
@@ -94,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.067,
+      "rating": 7.125,
       "mediaType": "movie"
     },
     {
@@ -134,15 +170,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 51731,
+      "id": 455714,
       "type": "tmdb",
-      "title": "鹿鼎记II：神龙教",
-      "originalTitle": "鹿鼎記 II : 神龍敎",
-      "description": "　　韦小宝要护送建宁公主嫁到云南，以安抚图谋造反的吴三桂父子。在途中遇到了独臂神尼的刺杀。小宝被抓走后，借口拜神尼为师，其实是想追求其徒弟阿珂。不料韦小宝被神龙教圣女龙儿抓走，想要报之前在王宫里埋下的仇恨，却没想到遭到了平西王的陷害。韦小宝极力相救，龙儿以身相许更把绝世武功传于韦小宝。韦小宝与公主之间的事情被平西王发现了，平西王更提前造反。小宝在独臂神尼、神龙教、天地会、云南王等多方势力角逐中终得化险为夷、还赢得了包括龙儿在内的众多姑娘的芳心。最后制服了吴三桂父子，回到京城受到皇帝赏识，同时，韦小宝天地会的身份被人密告皇帝……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/wHUgmng3fCSCVPTwdbYqdZqc3XQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uiTFVCL19OLaPAgrbX9zTvYK5bb.jpg",
-      "releaseDate": "2026-02-07",
-      "rating": 7.1,
+      "title": "天才枪手",
+      "originalTitle": "ฉลาดเกมส์โกง",
+      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
+      "releaseDate": "2017-10-13",
+      "rating": 7.861,
       "mediaType": "movie"
     },
     {
@@ -170,6 +206,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1249668,
       "type": "tmdb",
       "title": "拼桌",
@@ -192,81 +240,9 @@
       "releaseDate": "2026-02-17",
       "rating": 4,
       "mediaType": "movie"
-    },
-    {
-      "id": 1164767,
-      "type": "tmdb",
-      "title": "营救汪星人",
-      "originalTitle": "营救汪星人",
-      "description": "退役警犬训练员，与其训练多年的立功无数的功勋犬拉布拉多——大雄，任职星级宠物俱乐部店长，收养了十多只流浪犬，一夜之间街坊邻居的爱犬全部失踪。成斌与大雄踏上了营救之路，并展开了惊心动魄的生死营救。营救途中意外卷入犯罪团伙的案件中，成斌与大雄及流浪狗联合与犯罪团伙作斗争，勇获全胜，为国家安定繁荣贡献了一份力量。最后，一百多只汪星人重获自由的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4uFjb41fS0BBYsqvoL9CQnIQv6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bTrn5gRO0dHYmgGYVSSk18WH4Vt.jpg",
-      "releaseDate": "2018-01-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 871900,
-      "type": "tmdb",
-      "title": "藏地情书",
-      "originalTitle": "藏地情书",
-      "description": "毛铭基（屈楚萧 饰）和傅真（邱天 饰）在拉萨相遇，并和子琪（马苏 饰）、李健（张宁江 饰）、达娃（金巴 饰）结伴前往珠峰大本营。历经各种波折后，毛铭基和傅真二人之间产生了纯粹且强烈的爱情，但两人都未在即将结束的旅途前表达爱意，他们最终能否知晓彼此的心意？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cgdBwVt7COqch2UI4HxSyrivyb3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rA8mmVQQ0aYMAwBmjGZ1Mv6NVjd.jpg",
-      "releaseDate": "2026-02-13",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1497788,
-      "type": "tmdb",
-      "title": "长夜将尽",
-      "originalTitle": "长夜将尽",
-      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1614368,
-      "type": "tmdb",
-      "title": "喜欢上“欠欠”的你",
-      "originalTitle": "喜欢上“欠欠”的你",
-      "description": "通过消费获取情绪满足的张若愚（秦霄贤 饰）遇上通过攒钱获取安全感的贾琼（王影璐 饰），一段“你花我拦”的奇妙纠葛就此开启。从互相嫌弃的省钱搭子，到渐生情愫的打趣逗乐，再到因误解而生出的刺痛猜疑……这段“欠欠”又“暖暖”的感情又将走向怎样的结局？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/e8Vxgpke2CJlyaiN0Nmb0aUBNdY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ykT38Me2FXg2e6C1xxDWpXCKNpZ.jpg",
-      "releaseDate": "2026-02-14",
-      "rating": 1,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.718,
-      "mediaType": "movie"
-    },
-    {
-      "id": 687163,
-      "type": "tmdb",
-      "title": "挽救计划",
-      "originalTitle": "Project Hail Mary",
-      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 8.8,
-      "mediaType": "movie"
-    },
     {
       "id": 696393,
       "type": "tmdb",
@@ -276,19 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.685,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1317288,
-      "type": "tmdb",
-      "title": "至尊马蒂",
-      "originalTitle": "Marty Supreme",
-      "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.5,
+      "rating": 6.697,
       "mediaType": "movie"
     },
     {
@@ -316,39 +280,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 682012,
+      "id": 1303236,
       "type": "tmdb",
-      "title": "你好，爱美丽",
-      "originalTitle": "Amélie et la métaphysique des tubes",
-      "description": "对于爱美丽来说，世界是一个令人困惑又安宁的谜团，直到一次与巧克力的奇妙邂逅点燃了她强烈的好奇心。随着她对家中女佣西尾小姐产生深厚依恋，爱美丽不仅发现了大自然的奇迹，也窥见了这个外国人家庭在战后日本田园诗般生活表象之下隐藏的情感真相。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 7.988,
+      "title": "角头：大桥头",
+      "originalTitle": "角頭－大橋頭",
+      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
+      "releaseDate": "2026-04-10",
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
-      "id": 455714,
+      "id": 559974,
       "type": "tmdb",
-      "title": "天才枪手",
-      "originalTitle": "ฉลาดเกมส์โกง",
-      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
-      "releaseDate": "2017-10-13",
-      "rating": 7.861,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1268630,
-      "type": "tmdb",
-      "title": "搜查瑠公圳",
-      "originalTitle": "搜查瑠公圳",
-      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-03-28",
-      "rating": 5,
+      "title": "拆弹专家2",
+      "originalTitle": "拆彈專家2",
+      "description": "香港某处发生爆炸案，前拆弹专家潘乘风因昏迷于现场，被警方怀疑牵涉其中。苏醒后的潘乘风记忆缺损，只能一边逃亡一边查明真相，然而，他的好友董卓文和他的前女友庞玲却给他讲述了一段截然不同的回忆。有计划的爆炸案接二连三发生，真相却越来越扑朔迷离。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
+      "releaseDate": "2020-12-24",
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -364,39 +316,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421609,
+      "id": 1268630,
       "type": "tmdb",
-      "title": "我的妈耶",
-      "originalTitle": "我的妈耶",
-      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
-      "releaseDate": "2026-04-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1357815,
-      "type": "tmdb",
-      "title": "时间旅馆",
-      "originalTitle": "时间旅馆",
-      "description": "小说家李唐（张本煜 饰）接到昔日恋人高丽（王佳佳 饰）的电话，被告知她要来他所在的城市出差三天。在这三天里，他们一起回到了过去，体验了当下，演绎了未来。在他们即将告别时，高丽带着李唐来到玄武湖，她讲述起一件往事，李唐对此错愕无言，恍然间不知当下是何时……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gEXH8EQPaAhADjoKreM68CL28hP.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qqAZlGWYcuRIv5Ty4HJx0praYsX.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1497788,
-      "type": "tmdb",
-      "title": "长夜将尽",
-      "originalTitle": "长夜将尽",
-      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 0,
+      "title": "搜查瑠公圳",
+      "originalTitle": "搜查瑠公圳",
+      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-28",
+      "rating": 5,
       "mediaType": "movie"
     },
     {
@@ -424,6 +352,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1421609,
+      "type": "tmdb",
+      "title": "我的妈耶",
+      "originalTitle": "我的妈耶",
+      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "releaseDate": "2026-04-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1579223,
       "type": "tmdb",
       "title": "北回归线以北",
@@ -444,6 +384,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rpvXuRZcakBtcUKbaGop0HlA4Mk.jpg",
       "backdropPath": null,
       "releaseDate": "2026-04-04",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1653743,
+      "type": "tmdb",
+      "title": "甜咸之间",
+      "originalTitle": "甜咸之间",
+      "description": "在有着170多年历史的杭州“楼外楼”里，传统名菜“西湖醋鱼”串起了这座城市里的动人故事。大厨陆一鸣在录制美食节目时与主持人唐果意外结缘并互生好感，但他性格木讷，始终不敢表白，这道经典的“西湖醋鱼”会成为他们酸酸甜甜的爱情宣言吗？打算退休后周游世界的陆一鸣师父区天明，发现妻子患上了阿尔茨海默症，“西湖醋鱼”的味道能否唤醒她对初恋的记忆呢？外卖小哥陈奋早出晚归地攒钱，只为实现开小饭馆的梦想，巴掌大的后厨成了他们一家人温暖的港湾。单亲妈妈周姐与处于叛逆期的女儿维恩看似相互对抗，实则饱含着母女间天然的真情，女儿人生中做的第一道菜便是对妈妈爱的回报。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7sz1cSDjDiA0GnxEmlWPWK94t1Y.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-26",
       "rating": 0,
       "mediaType": "movie"
     }
