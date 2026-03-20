@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T00:52:51.769+08:00",
+  "last_updated": "2026-03-21T00:37:03.664+08:00",
   "now_playing": [
     {
       "id": 687163,
@@ -10,7 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.431,
+      "rating": 8.3,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1171145,
+      "type": "tmdb",
+      "title": "洛杉矶劫案",
+      "originalTitle": "Crime 101",
+      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
+      "releaseDate": "2026-03-07",
+      "rating": 7.022,
       "mediaType": "movie"
     },
     {
@@ -26,18 +38,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1171145,
-      "type": "tmdb",
-      "title": "洛杉矶劫案",
-      "originalTitle": "Crime 101",
-      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
-      "releaseDate": "2026-03-07",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
       "id": 1316092,
       "type": "tmdb",
       "title": "呼啸山庄",
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.349,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.6,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.282,
+      "rating": 6.304,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.898,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421552,
-      "type": "tmdb",
-      "title": "熊猫计划之部落奇遇记",
-      "originalTitle": "熊猫计划之部落奇遇记",
-      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 6.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 1602727,
       "type": "tmdb",
       "title": "夜王",
@@ -158,6 +146,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1421552,
+      "type": "tmdb",
+      "title": "熊猫计划之部落奇遇记",
+      "originalTitle": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6.3,
+      "mediaType": "movie"
+    },
+    {
       "id": 1447971,
       "type": "tmdb",
       "title": "惊蛰无声",
@@ -167,6 +167,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/tNfhsO5CdMRzThEx3XlkTEp808Q.jpg",
       "releaseDate": "2026-02-17",
       "rating": 6.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1359005,
+      "type": "tmdb",
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 5.25,
       "mediaType": "movie"
     },
     {
@@ -191,18 +203,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
       "releaseDate": "2026-02-28",
       "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "originalTitle": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 5.25,
       "mediaType": "movie"
     },
     {
@@ -238,7 +238,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qt32OrO5CkfAKCwJUfU5m3qmhg0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 4,
+      "rating": 5,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.741,
+      "rating": 6.744,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.3,
+      "rating": 7.346,
       "mediaType": "movie"
     },
     {
@@ -292,18 +292,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1303236,
-      "type": "tmdb",
-      "title": "角头：大桥头",
-      "originalTitle": "角頭－大橋頭",
-      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
-      "releaseDate": "2026-04-10",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
       "id": 559974,
       "type": "tmdb",
       "title": "拆弹专家2",
@@ -313,6 +301,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
       "releaseDate": "2020-12-24",
       "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1303236,
+      "type": "tmdb",
+      "title": "角头：大桥头",
+      "originalTitle": "角頭－大橋頭",
+      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
+      "releaseDate": "2026-04-10",
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
