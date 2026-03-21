@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T00:37:03.664+08:00",
+  "last_updated": "2026-03-22T00:23:09.590+08:00",
   "now_playing": [
     {
       "id": 687163,
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.022,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.7,
+      "rating": 7.675,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.3,
+      "rating": 6.351,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.5,
+      "rating": 7.469,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.304,
+      "rating": 6.309,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/cYyNJzwhaj7aC4uTlUctrfaERbf.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.367,
+      "rating": 7.094,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.9,
+      "rating": 7.898,
       "mediaType": "movie"
     },
     {
@@ -118,19 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 8,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1462229,
-      "type": "tmdb",
-      "title": "飞驰人生3",
-      "originalTitle": "飞驰人生3",
-      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 7.125,
+      "rating": 7.972,
       "mediaType": "movie"
     },
     {
@@ -146,6 +134,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1462229,
+      "type": "tmdb",
+      "title": "飞驰人生3",
+      "originalTitle": "飞驰人生3",
+      "description": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 7.125,
+      "mediaType": "movie"
+    },
+    {
       "id": 1421552,
       "type": "tmdb",
       "title": "熊猫计划之部落奇遇记",
@@ -154,7 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 6.3,
+      "rating": 5.75,
       "mediaType": "movie"
     },
     {
@@ -170,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1359005,
-      "type": "tmdb",
-      "title": "星河入梦",
-      "originalTitle": "星河入梦",
-      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 5.25,
-      "mediaType": "movie"
-    },
-    {
       "id": 455714,
       "type": "tmdb",
       "title": "天才枪手",
@@ -194,27 +182,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1454209,
+      "id": 1359005,
       "type": "tmdb",
-      "title": "非穷尽列举",
-      "originalTitle": "National Theatre Live: Inter Alia",
-      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
-      "releaseDate": "2026-02-28",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1566589,
-      "type": "tmdb",
-      "title": "蜂蜜的针",
-      "originalTitle": "蜂蜜的针",
-      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
-      "releaseDate": "2026-03-21",
-      "rating": 0,
+      "title": "星河入梦",
+      "originalTitle": "星河入梦",
+      "description": "　　专心备考的高中生张启蒙被一名破窗而入的陌生男子彪哥拉出考场，还被告知一个令人震惊的事实：她所在的世界只是一个虚拟元宇宙程序。启蒙在现实中是一名正在冬眠的宇航员，而此刻灾难正在飞速奔向他们的飞船....",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ztaczDDAR6t676HTNUMQHEqaUy7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/AdsSM2GIlub3dB74ibSnWLJYsT0.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 6.2,
       "mediaType": "movie"
     },
     {
@@ -230,15 +206,39 @@
       "mediaType": "movie"
     },
     {
-      "id": 1607088,
+      "id": 1454209,
       "type": "tmdb",
-      "title": "熊出没·年年有熊",
-      "originalTitle": "熊出没·年年有熊",
-      "description": "　　熊大曾是森林里的“老大哥”，直到一个不速之客到来，它将自己神力传给了熊强，熊大变成了三人组合内能力最弱者。为了改变现状，他步入了反派陷阱，引发了毁天灭地的危机......",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qt32OrO5CkfAKCwJUfU5m3qmhg0.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/hXSA2wWdRO1KfJWC0wY7HfjUKzt.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 5,
+      "title": "非穷尽列举",
+      "originalTitle": "National Theatre Live: Inter Alia",
+      "description": "Jessica Parks是一位精明的刑事法庭法官，正处于事业巅峰期。在法袍背后，她是一个卡拉OK发烧友、有爱的妻子和支持孩子的家长。当一起事件有可能让她的生活完全失去平衡时，她能否支撑起自己的家庭？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
+      "releaseDate": "2026-02-28",
+      "rating": 7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1497788,
+      "type": "tmdb",
+      "title": "长夜将尽",
+      "originalTitle": "长夜将尽",
+      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 0,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.744,
+      "rating": 6.732,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.346,
+      "rating": 7.341,
       "mediaType": "movie"
     },
     {
@@ -316,18 +316,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1268630,
-      "type": "tmdb",
-      "title": "搜查瑠公圳",
-      "originalTitle": "搜查瑠公圳",
-      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rd3Q2lQ7YyMGufJhuXlwYYnBblr.jpg",
-      "releaseDate": "2026-03-28",
-      "rating": 5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1566589,
       "type": "tmdb",
       "title": "蜂蜜的针",
@@ -340,15 +328,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249589,
+      "id": 1268630,
       "type": "tmdb",
-      "title": "天才游戏",
-      "originalTitle": "天才游戏",
-      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-04",
-      "rating": 0,
+      "title": "搜查瑠公圳",
+      "originalTitle": "搜查瑠公圳",
+      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rd3Q2lQ7YyMGufJhuXlwYYnBblr.jpg",
+      "releaseDate": "2026-03-28",
+      "rating": 5,
       "mediaType": "movie"
     },
     {
@@ -360,6 +348,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
       "releaseDate": "2026-04-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249589,
+      "type": "tmdb",
+      "title": "天才游戏",
+      "originalTitle": "天才游戏",
+      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -388,18 +388,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1653289,
-      "type": "tmdb",
-      "title": "如父如母",
-      "originalTitle": "如父如母",
-      "description": "父亲车祸成植物人，儿子被迫成长。周旋于生母/养母的复杂亲情与两位恋人之间，在相似与迥异中完成成人礼。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rpvXuRZcakBtcUKbaGop0HlA4Mk.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-04",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1653743,
       "type": "tmdb",
       "title": "甜咸之间",
@@ -408,6 +396,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7sz1cSDjDiA0GnxEmlWPWK94t1Y.jpg",
       "backdropPath": null,
       "releaseDate": "2026-03-26",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1653289,
+      "type": "tmdb",
+      "title": "如父如母",
+      "originalTitle": "如父如母",
+      "description": "父亲车祸成植物人，儿子被迫成长。周旋于生母/养母的复杂亲情与两位恋人之间，在相似与迥异中完成成人礼。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rpvXuRZcakBtcUKbaGop0HlA4Mk.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
       "rating": 0,
       "mediaType": "movie"
     }
