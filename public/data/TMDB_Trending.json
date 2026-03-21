@@ -5,7 +5,7 @@
       "type": "tv",
       "title": "逐玉",
       "genreTitle": "剧情",
-      "rating": 7.9,
+      "rating": 7.942,
       "overview": "屠户女樊长玉与落难侯爷谢征于风雪中宿命相逢，一个父母双亡要做女户主，一个隐姓埋名为报十七年前血仇，二人“各有目的”地演出了一场假婚真爱！利用变成真爱，真爱却带来了血腥战事，相爱之人被迫分离。樊长玉拿着杀猪刀上战场，寻亲寻夫寻正义；谢征恢复铁血侯爷，护国护爱护真相！两人终于战场重逢，并肩搏杀，不畏生死；揭破真相，不惧威权；回归家园，不忘初心！",
       "release_date": "2026-03-06",
       "poster_url": "/maDtgvjlqLXXNWlzp1uOrfZSPj9.jpg",
@@ -13,14 +13,14 @@
       "genre_ids": [
         18
       ],
-      "popularity": 100.7879
+      "popularity": 103.4798
     },
     {
       "id": 250307,
       "type": "tv",
       "title": "匹兹堡医护前线",
       "genreTitle": "剧情",
-      "rating": 8.7,
+      "rating": 8.687,
       "overview": "　　讲述匹兹堡一家医院的医护人员日常应对个人危机、职场政治和危重病人的情志护理等情况，检视当今美国医疗工作者所面临的挑战，揭示他们肩负崇高使命所需的韧性。",
       "release_date": "2025-01-09",
       "poster_url": "/ohKJ1hbzPSt7AHnR7hplo6cu4sK.jpg",
@@ -28,31 +28,29 @@
       "genre_ids": [
         18
       ],
-      "popularity": 85.0064
+      "popularity": 103.0616
     },
     {
-      "id": 240740,
+      "id": 290856,
       "type": "tv",
-      "title": "首席女法医",
-      "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 6.19,
-      "overview": "著名法医病理学家凯·斯卡佩塔博士重返弗吉尼亚州担任首席法医，调查一起令人毛骨悚然的谋杀案。这起案件的诡异细节不断唤起她数十年前首起重大案件的记忆。在1998年，斯卡佩塔曾与警探皮特·马里诺及联邦调查局探员本顿·韦斯利联手，调查一系列残忍的勒颈命案。本剧改编自帕特里夏·康威尔的畅销小说。",
-      "release_date": "2026-03-11",
-      "poster_url": "/ihbtGf1CEIJkUc5oJHsmVQBc1sB.jpg",
-      "title_backdrop": "/oHnlulBoE3XbI3HIYWY0dZfh5RH.jpg",
+      "title": "法警小队",
+      "genreTitle": "剧情",
+      "rating": 7.449,
+      "overview": "前海豹突击队员凯西·达顿离开黄石牧场，加入美国法警队，利用他的牛仔和军事技能在蒙大拿州打击犯罪，同时还要处理家庭关系和执法工作带来的精神压力。",
+      "release_date": "2026-03-01",
+      "poster_url": "/AqbqHlfjq3kT7ecf5zlk0FcMzV6.jpg",
+      "title_backdrop": "/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
       "genre_ids": [
-        18,
-        80,
-        9648
+        18
       ],
-      "popularity": 84.4706
+      "popularity": 98.8666
     },
     {
       "id": 292474,
       "type": "tv",
       "title": "放射危机",
       "genreTitle": "剧情•悬疑•动作冒险",
-      "rating": 7.3,
+      "rating": 6.821,
       "overview": "在这部灵感来自真实事件的剧集中，物理学家和医生争分夺秒，试图控制大规模放射性灾难，拯救数千人的生命。",
       "release_date": "2026-03-18",
       "poster_url": "/m7bGOf2EQKgfM6T0tbR7tTm58Gm.jpg",
@@ -62,14 +60,31 @@
         9648,
         10759
       ],
-      "popularity": 82.4436
+      "popularity": 91.1907
+    },
+    {
+      "id": 240740,
+      "type": "tv",
+      "title": "首席女法医",
+      "genreTitle": "剧情•犯罪•悬疑",
+      "rating": 6.262,
+      "overview": "著名法医病理学家凯·斯卡佩塔博士重返弗吉尼亚州担任首席法医，调查一起令人毛骨悚然的谋杀案。这起案件的诡异细节不断唤起她数十年前首起重大案件的记忆。在1998年，斯卡佩塔曾与警探皮特·马里诺及联邦调查局探员本顿·韦斯利联手，调查一系列残忍的勒颈命案。本剧改编自帕特里夏·康威尔的畅销小说。",
+      "release_date": "2026-03-11",
+      "poster_url": "/ihbtGf1CEIJkUc5oJHsmVQBc1sB.jpg",
+      "title_backdrop": "/oHnlulBoE3XbI3HIYWY0dZfh5RH.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "popularity": 73.8967
     },
     {
       "id": 225891,
       "type": "tv",
       "title": "麦迪逊河谷",
       "genreTitle": "剧情•西部",
-      "rating": 9.025,
+      "rating": 9.0,
       "overview": "该剧是《黄石》宇宙的第一部现代背景衍生剧，故事聚焦一个纽约家庭在蒙大拿州中部麦迪逊河谷地的生活，将对悲伤和人际关系进行真诚的研究和审视。",
       "release_date": "2026-03-14",
       "poster_url": "/nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
@@ -78,14 +93,14 @@
         18,
         37
       ],
-      "popularity": 64.1245
+      "popularity": 63.2296
     },
     {
       "id": 245927,
       "type": "tv",
       "title": "极乐凶间",
       "genreTitle": "犯罪•剧情",
-      "rating": 7.4,
+      "rating": 7.392,
       "overview": "《极乐凶间》故事背景设定在一个宁静的社区，这里居住着一些极有威望的大人物。但一起令人震惊的凶案发生后，一场风险极大的调查随之展开，从此不得安宁。",
       "release_date": "2025-01-26",
       "poster_url": "/rtoB3pP2PZ5Z2zdszXThzQnSGfF.jpg",
@@ -94,64 +109,14 @@
         80,
         18
       ],
-      "popularity": 57.8004
-    },
-    {
-      "id": 226637,
-      "type": "tv",
-      "title": "潜能探案组",
-      "genreTitle": "剧情•犯罪•悬疑",
-      "rating": 8.019,
-      "overview": "摩根是一位头脑非凡的单身妈妈，她非常规的探案秘诀让她与一位循规蹈矩但经验丰富的侦探建立了不寻常且势不可挡的合作伙伴关系。",
-      "release_date": "2024-09-17",
-      "poster_url": "/ra0fpPjXEiAlIl4glPLFxR9xqJM.jpg",
-      "title_backdrop": "/fGZH7czsIFgf291AI0RLkHnGsRY.jpg",
-      "genre_ids": [
-        18,
-        80,
-        9648
-      ],
-      "popularity": 55.6134
-    },
-    {
-      "id": 255661,
-      "type": "tv",
-      "title": "青年夏洛克",
-      "genreTitle": "动作冒险•悬疑",
-      "rating": 7.958,
-      "overview": "这部玩世不恭、动作场面精彩的推理影集由盖瑞奇执导，讲述夏洛克福尔摩斯的传奇起源，描绘这位著名侦探最早期的冒险故事。",
-      "release_date": "2026-03-04",
-      "poster_url": "/beWoUmSdD8BHGmtodOoxVYQO6lG.jpg",
-      "title_backdrop": "/8mmDLb108DoFZlE8sfc64TRqLvm.jpg",
-      "genre_ids": [
-        10759,
-        9648
-      ],
-      "popularity": 50.5967
-    },
-    {
-      "id": 259819,
-      "type": "tv",
-      "title": "公鸡斗士",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 9.3,
-      "overview": "咯咯助（Keiji）绝非一只普通的公鸡——他是人类最伟大的捍卫者！他的对手或许高达十层楼，但没有什么能比得上他那颗勇敢无畏的心，以及那声威震四方的战斗怒吼——鸪鴂鹘䴔（Kokekokko）！",
-      "release_date": "2026-03-15",
-      "poster_url": "/iCtbr0sIdaKZjhQH3Wr7hW6A1IU.jpg",
-      "title_backdrop": "/nTDL4UmMLDBCeMtYh8F1LZtgmLV.jpg",
-      "genre_ids": [
-        16,
-        10759,
-        10765
-      ],
-      "popularity": 41.8022
+      "popularity": 59.6809
     },
     {
       "id": 246246,
       "type": "tv",
       "title": "黑色丽人",
       "genreTitle": "剧情",
-      "rating": 7.6,
+      "rating": 7.58,
       "overview": "泰勒·派瑞的《黑色丽人》讲述两个过着截然不同生活的女人的故事：金蜜在被母亲赶出家门后努力谋生，玛洛莉则经营着一家成功的企业，她们宛如平行线的人生意外交会，从此纠缠不清。",
       "release_date": "2024-10-24",
       "poster_url": "/i0GjCWo5X8br9GUR54afsoCmhWd.jpg",
@@ -159,79 +124,46 @@
       "genre_ids": [
         18
       ],
-      "popularity": 38.366
+      "popularity": 50.7635
     },
     {
-      "id": 254953,
+      "id": 285386,
       "type": "tv",
-      "title": "雄鸡生活",
-      "genreTitle": "喜剧",
-      "rating": 7.353,
-      "overview": "本喜剧以大学校园为背景，讲述一位作家与他女儿之间复杂的关系。",
-      "release_date": "2026-03-08",
-      "poster_url": "/9lBVaIrzi4jqXlRfmD19GuG1TO3.jpg",
-      "title_backdrop": "/mhZAT8ktiNi7YwuL50kmumsau69.jpg",
-      "genre_ids": [
-        35
-      ],
-      "popularity": 36.2463
-    },
-    {
-      "id": 285166,
-      "type": "tv",
-      "title": "泛而不精的我被逐出了勇者队伍",
-      "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.1,
-      "overview": "　　“奥伦·杜勒，限你在今天内离开队伍”奥伦因队伍的需要，从剑士，转职成为了并非本职的赋予术士。这样的他在一天突然收到的是，因实力不足而开除的通知。不管是身体素质，还是能使用的魔术都是平均水平，没有什么突出的东西——。而这样的奥伦的优点是，能够将就算是凡人只要努力就能习得的技术，全部都学会——正所谓“泛而不精”。在独自开始重新活动后，奥伦从赋予术士转职回了剑士。不过，赋予术士绝对不是白当的。在勇者队伍时代培养的知识、经验，以及开发出的数个原创魔术，让奥伦成长为了强得脱离常识的剑士……？！",
-      "release_date": "2026-01-04",
-      "poster_url": "/4krFgYKveJfBPrrG8RHUkk2DcCn.jpg",
-      "title_backdrop": "/1nt43fq7CKbqAJAospEo63vYXBV.jpg",
-      "genre_ids": [
-        16,
-        10759,
-        10765
-      ],
-      "popularity": 35.721
-    },
-    {
-      "id": 108181,
-      "type": "tv",
-      "title": "不完美女人",
-      "genreTitle": "剧情•悬疑•犯罪",
-      "rating": 5.105,
-      "overview": "一宗谋杀案摧毁了三位好友的人生之后，随着调查揭露出惊人真相，她们数十年的情谊亦面临考验。",
-      "release_date": "2026-03-17",
-      "poster_url": "/fhBKciCGxjWe3aEikM39yYwt1fN.jpg",
-      "title_backdrop": "/a9L2TZ4e6aUuIVXLe9X5qZqqy8t.jpg",
+      "title": "第一天",
+      "genreTitle": "剧情•悬疑",
+      "rating": 6.667,
+      "overview": "2026年，巴塞罗那。世界移动通信大会期间，昔日的科技神童乌利塞斯·阿尔贝特因涉嫌谋杀案成为头号嫌疑人。在城市封锁的混乱中逃亡时，他意外揭露了一项即将推出的颠覆性技术——其问世或将危及人类伦理存续。为阻止这一切，他不得不直面自己的过往。",
+      "release_date": "2026-03-13",
+      "poster_url": "/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg",
+      "title_backdrop": "/4uKDIoL3o3xtm9n3dCuZVOQjo1J.jpg",
       "genre_ids": [
         18,
-        9648,
-        80
+        9648
       ],
-      "popularity": 35.6883
+      "popularity": 45.2307
     },
     {
-      "id": 291339,
+      "id": 273160,
       "type": "tv",
-      "title": "杀手记忆",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.52,
-      "overview": "安杰罗过着双重生活，既是杀手又是顾家男人——这一切原本相安无事，直到他被早发性阿尔茨海默病击中。如今他的两个世界正发生碰撞，将家人置于危险之中。",
-      "release_date": "2026-01-25",
-      "poster_url": "/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
-      "title_backdrop": "/llrSuUkFiR6EjDnh79dq8HEeziF.jpg",
+      "title": "美丽毒素",
+      "genreTitle": "剧情•Sci-Fi & Fantasy",
+      "rating": 6.245,
+      "overview": "国际超模接连以骇人听闻的诡异方式惨死，两名FBI探员奉命前往巴黎、威尼斯、罗马和纽约，誓言揭开离奇死亡背后的真相，却意外发现一桩威胁到全人类未来的阴谋。",
+      "release_date": "2026-01-21",
+      "poster_url": "/p7xg7JUg0RdSdOYJKcRARsOZSGm.jpg",
+      "title_backdrop": "/cX6dzeKsBTTXHoG3uQUuhQbqyvq.jpg",
       "genre_ids": [
-        80,
-        18
+        18,
+        10765
       ],
-      "popularity": 32.1131
+      "popularity": 35.5344
     },
     {
       "id": 213306,
       "type": "tv",
       "title": "神探追缉令",
       "genreTitle": "犯罪•剧情•悬疑",
-      "rating": 7.0,
+      "rating": 7.017,
       "overview": "改编自《纽约时报》畅销书作家詹姆斯·帕特森的头号英雄原型，《神探追缉令》是一部犯罪惊悚剧集，讲述了优秀的法医心理学家和华盛顿特区大都会警局警探亚历克斯·克罗斯调查办案的故事。克罗斯与他最好的朋友兼搭档侦探约翰·桑普森一起，深入探究美国最阴险狡诈的连环杀人犯的心理，同时还要竭力保护家人免受犯罪世界的威胁。",
       "release_date": "2024-11-14",
       "poster_url": "/ki38zfVGkTKVnID9ASfgenFUE8N.jpg",
@@ -241,45 +173,62 @@
         18,
         9648
       ],
-      "popularity": 31.308
+      "popularity": 31.8994
     },
     {
-      "id": 202555,
+      "id": 108181,
       "type": "tv",
-      "title": "夜魔侠：重生",
-      "genreTitle": "剧情•犯罪",
-      "rating": 7.953,
-      "overview": "拥有某些独特能力的盲人律师马修·默多克透过他忙碌的律师事务所伸张正义，而前黑帮老大威尔逊·菲斯克则在纽约追求自己的政治生涯。当他们过去的身份开始揭露，两人都发觉自己卷入了不可避免的冲突。",
-      "release_date": "2025-03-04",
-      "poster_url": "/cHfQQKZqJs4fwLrbn5RgfGsIoWt.jpg",
-      "title_backdrop": "/qsVW888AvaRiQqhYj8hI2DtYNor.jpg",
+      "title": "不完美女人",
+      "genreTitle": "剧情•悬疑•犯罪",
+      "rating": 5.1,
+      "overview": "一宗谋杀案摧毁了三位好友的人生之后，随着调查揭露出惊人真相，她们数十年的情谊亦面临考验。",
+      "release_date": "2026-03-17",
+      "poster_url": "/fhBKciCGxjWe3aEikM39yYwt1fN.jpg",
+      "title_backdrop": "/1RejXo8s6ot7ZbrgR8J16DVaaTi.jpg",
       "genre_ids": [
         18,
+        9648,
         80
       ],
-      "popularity": 30.6504
+      "popularity": 30.4034
     },
     {
-      "id": 315939,
+      "id": 131142,
       "type": "tv",
-      "title": "O11CE: Nueva generación",
+      "title": "爱情故事：小约翰·肯尼迪与卡罗琳·贝塞特",
       "genreTitle": "剧情",
-      "rating": 10.0,
-      "overview": "",
-      "release_date": "2026-03-18",
-      "poster_url": "/hqfAbHeJ5cIGz8gzwuIvuYn9O7z.jpg",
-      "title_backdrop": "/7FXAqtErb0KGyxJdHRyNFuIhUD9.jpg",
+      "rating": 8.6,
+      "overview": "一部收录了众多轰动一时的真实爱情故事的合集，这些故事曾引起全世界的关注。",
+      "release_date": "2026-02-12",
+      "poster_url": "/vn7GUb30iI6hj1O1sRJkJlEP8K7.jpg",
+      "title_backdrop": "/3wKkceyLaScXvCznxFOytBJBCjP.jpg",
       "genre_ids": [
         18
       ],
-      "popularity": 24.6879
+      "popularity": 30.2745
+    },
+    {
+      "id": 223530,
+      "type": "tv",
+      "title": "星际迷航：星际舰队学院",
+      "genreTitle": "Sci-Fi & Fantasy•动作冒险",
+      "rating": 5.234,
+      "overview": "该系列将讲述一批新星际舰队学员在银河系中最传奇的地方成长的历程。《星际迷航：星际舰队学院》将介绍一群年轻的学员，他们聚集在一起追求共同的希望与乐观梦想。在教官们严密且严苛的监督下，他们将发现成为星际舰队军官所需的条件，同时经历萌芽中的友谊、激烈的竞争、初恋以及威胁学院和联邦的新敌人。",
+      "release_date": "2026-01-15",
+      "poster_url": "/m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "title_backdrop": "/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+      "genre_ids": [
+        10765,
+        10759
+      ],
+      "popularity": 27.5665
     },
     {
       "id": 249907,
       "type": "tv",
       "title": "判处勇者刑 刑罚勇者9004队服刑记录",
       "genreTitle": "动画•动作冒险•Sci-Fi & Fantasy",
-      "rating": 8.728,
+      "rating": 8.755,
       "overview": "所谓勇者，是世间最为残酷的刑罚。犯下大罪之人被制造为“勇者”，其刑罚便是和魔王战斗。哪怕死了也会被复活起来，无法享受死亡的安宁。被判处勇者刑的前圣骑士团团长赛罗·弗巴茨，率领着由各种性格古怪之人构成的刑罚勇者部队，奔走于战斗的最前线。在残酷的战场上，赛罗与最强的生物兵器之一，剑之“女神”缇欧丽塔相遇了。“在将敌人歼灭之后，要为我献上赞赏……以及抚摸我的头。”为了活下来，以及报复陷害自己的人——赛罗与“女神”订下契约，在这令人绝望的世界中，投身于炽烈的斗争与阴谋的漩涡。",
       "release_date": "2026-01-03",
       "poster_url": "/jshoRakvXi5jefQPWMxVZ6SL1kF.jpg",
@@ -289,22 +238,7 @@
         10759,
         10765
       ],
-      "popularity": 22.7492
-    },
-    {
-      "id": 295778,
-      "type": "tv",
-      "title": "实习医生风云",
-      "genreTitle": "喜剧",
-      "rating": 8.0,
-      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
-      "release_date": "2026-02-25",
-      "poster_url": "/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
-      "title_backdrop": "/em2Jzx5QyBTVI7gKipCoE0kG4ot.jpg",
-      "genre_ids": [
-        35
-      ],
-      "popularity": 22.2373
+      "popularity": 25.3867
     },
     {
       "id": 241860,
@@ -320,7 +254,67 @@
         9648,
         18
       ],
-      "popularity": 22.1167
+      "popularity": 23.7342
+    },
+    {
+      "id": 313298,
+      "type": "tv",
+      "title": "恐龙时代：你不知道的故事",
+      "genreTitle": "纪录",
+      "rating": 7.958,
+      "overview": "从最早到最后的恐龙，这部史诗级纪录片剧集深入探索了它们在地球上长达 1.65 亿年的历程及其进化的动力。",
+      "release_date": "2026-03-06",
+      "poster_url": "/2PqiAWN4VEFZ6yYeUVxP202opTr.jpg",
+      "title_backdrop": "/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+      "genre_ids": [
+        99
+      ],
+      "popularity": 23.349
+    },
+    {
+      "id": 295778,
+      "type": "tv",
+      "title": "实习医生风云",
+      "genreTitle": "喜剧",
+      "rating": 8.0,
+      "overview": "约多(J.D.)与特克睽违多年，再度合体执刀。医学环境物换星移，实习医生也早已换了一批，但他们坚不可摧的兄弟情谊始终如一。新旧角色齐聚圣心医院，在充满欢笑、感动与惊喜的行医路上，继续向前迈进。",
+      "release_date": "2026-02-25",
+      "poster_url": "/p9V5Dc32VBMxNt9Uj1UdFPKoxJf.jpg",
+      "title_backdrop": "/em2Jzx5QyBTVI7gKipCoE0kG4ot.jpg",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 21.0859
+    },
+    {
+      "id": 312697,
+      "type": "tv",
+      "title": "陪审义务呈现：公司团建",
+      "genreTitle": "喜剧",
+      "rating": 10.0,
+      "overview": "　　本剧是一部纪录片风格的喜剧，通过新入职临时工Anthony的视角，记录了一家家族经营型辣椒酱公司举办的场外活动。Anthony浑然不知，这场活动实际是一出精心策划的戏，他身边的每位同事都在扮演角色，无论是在会议室里还是在闲暇时刻，每个瞬间都经过了周密安排。随着公司创始人准备卸任，这场团建活动逐渐演变成大企业野心和小企业价值观的激烈碰撞，公司控制权悬而未决。",
+      "release_date": "2026-03-20",
+      "poster_url": "/8aAHDb3XoTElMmGoTbuKggEVNgB.jpg",
+      "title_backdrop": "/v28KW6dRYIjj8FJBvB4nFO0HPmS.jpg",
+      "genre_ids": [
+        35
+      ],
+      "popularity": 14.6775
+    },
+    {
+      "id": 299172,
+      "type": "tv",
+      "title": "Amor Animal",
+      "genreTitle": "剧情",
+      "rating": 0.0,
+      "overview": "",
+      "release_date": "2026-03-20",
+      "poster_url": "/5KqSO36KhOCdh2rVlhg3CR85tLz.jpg",
+      "title_backdrop": "/qw8P7FaLcJjlY2LS0JeAaR8hKuN.jpg",
+      "genre_ids": [
+        18
+      ],
+      "popularity": 10.7449
     }
   ],
   "today_movies": [
@@ -329,7 +323,7 @@
       "type": "movie",
       "title": "侵略机器",
       "genreTitle": "动作•科幻•惊悚",
-      "rating": 7.262,
+      "rating": 7.261,
       "overview": "在陆军游骑兵训练的最后一项艰苦任务中，一名战斗工兵必须带领他的部队对抗来自异界的巨型杀戮机器。",
       "release_date": "2026-02-12",
       "poster_url": "/kgnfgmVMXpJaNvst7B1CJRremOV.jpg",
@@ -339,14 +333,31 @@
         878,
         53
       ],
-      "popularity": 377.835
+      "popularity": 361.6614
+    },
+    {
+      "id": 1290821,
+      "type": "movie",
+      "title": "庇护之地",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 6.555,
+      "overview": "隐居孤岛的特工界黄金王牌迈克尔·梅森（杰森·斯坦森 饰）本想就此隔绝过往，一场风暴却让他救下少女杰茜（博德希·蕾·布里纳希 饰），命运的齿轮彻底反转……他们的行踪不慎暴露在严密的监控网络之下，神秘势力的追杀接踵而至，无路可退的梅森被迫重操旧业，携手少女开启生死突围之路。 面对顶尖特工小队和冷血杀手的轮番围剿，梅森一路火力全开：近身肉搏、飞车追逃、枪林弹雨，硬核爽战全程高能！随着追杀不断升级，层层阴谋被逐一揭开，互相防备的两人成为彼此唯一的依靠。当滔天阴谋席卷而来，他们能否冲破死局？这份绝境中的守护，又会成为铠甲还是软肋？",
+      "release_date": "2026-01-28",
+      "poster_url": "/8ZrDrwXyqsntlSS564yGNhBe75f.jpg",
+      "title_backdrop": "/wsQPh8gz0sK3C3mAyaXcPSSOWUZ.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "popularity": 296.3502
     },
     {
       "id": 83533,
       "type": "movie",
       "title": "阿凡达：火与烬",
       "genreTitle": "科幻•冒险•奇幻",
-      "rating": 7.263,
+      "rating": 7.262,
       "overview": "从人类归化纳美族并当上首领的杰克·萨利、妻子纳美战士奈蒂莉及萨利的家人一同在经历奋战与伤痛后开始在岛礁群生活，但他们仍未走出纳特亚姆去世的阴影。为保护蜘蛛，他们随风之商人部族踏上返乡之旅，却途中遭到由瓦琅率领的灰烬族袭击。与此同时，人类军方正在筹备新的进攻。",
       "release_date": "2025-12-17",
       "poster_url": "/bY9hEk4od0ywjCErkwYWkwXuLE0.jpg",
@@ -356,14 +367,14 @@
         12,
         14
       ],
-      "popularity": 200.1306
+      "popularity": 237.8186
     },
     {
       "id": 1159559,
       "type": "movie",
       "title": "惊声尖叫7",
       "genreTitle": "恐怖•悬疑•犯罪",
-      "rating": 5.938,
+      "rating": 5.903,
       "overview": "当新的鬼脸杀手出现在西德妮·普雷斯科特归隐的宁静小镇时，她最深的恐惧化为现实——这一次，屠刀指向了她的女儿。为守护仅存的安宁，这位曾经的幸存者必须再度直面血色的过往，与纠缠半生的梦魇进行最后的清算。",
       "release_date": "2026-02-25",
       "poster_url": "/lk8xhLpI7VgMIWPdHhBtB5JHHgA.jpg",
@@ -373,14 +384,30 @@
         9648,
         80
       ],
-      "popularity": 174.1944
+      "popularity": 231.1484
+    },
+    {
+      "id": 875828,
+      "type": "movie",
+      "title": "浴血黑帮：不朽传奇",
+      "genreTitle": "犯罪•剧情",
+      "rating": 7.416,
+      "overview": "　　1940年的伯明翰，在第二次世界大战的混乱中，因疏远已久的儿子卷入一场纳粹阴谋，已离开江湖的黑帮老大托马斯·谢尔比不得不重返伯明翰，拯救家人和国家。",
+      "release_date": "2026-03-05",
+      "poster_url": "/r1QSrP7xTqA4roGeAUt8a3Gwiy4.jpg",
+      "title_backdrop": "/1fkuBPid72KGS6WmtkEXMftZtkE.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "popularity": 225.5177
     },
     {
       "id": 687163,
       "type": "movie",
       "title": "挽救计划",
       "genreTitle": "科幻•冒险•悬疑",
-      "rating": 8.5,
+      "rating": 8.216,
       "overview": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
       "release_date": "2026-03-15",
       "poster_url": "/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
@@ -390,14 +417,30 @@
         12,
         9648
       ],
-      "popularity": 170.1674
+      "popularity": 210.0281
+    },
+    {
+      "id": 1171145,
+      "type": "movie",
+      "title": "洛杉矶劫案",
+      "genreTitle": "犯罪•惊悚",
+      "rating": 7.0,
+      "overview": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "release_date": "2026-02-11",
+      "poster_url": "/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
+      "title_backdrop": "/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
+      "genre_ids": [
+        80,
+        53
+      ],
+      "popularity": 196.2929
     },
     {
       "id": 1084242,
       "type": "movie",
       "title": "疯狂动物城2",
       "genreTitle": "动画•喜剧•冒险",
-      "rating": 7.605,
+      "rating": 7.607,
       "overview": "在成功侦破动物城历史上最重大的案件后，警官兔朱迪与狐尼克发现自己陷入了一个错综复杂的谜团之中。一只神秘爬行动物的到来，把温馨的动物城搅动得天翻地覆。面对全新的城市危机，朱迪与狐尼克将继续携手为保卫动物城而奔波。在追捕行动中，这对老搭档不仅要揭开新角色的神秘面纱，还要前往被迷雾笼罩的新领域，探索未知的地下黑市。一场疯狂动物城的全新冒险即将展开……",
       "release_date": "2025-11-26",
       "poster_url": "/8dUcTbuYgqUd3Yp88zA7x6w3Zrm.jpg",
@@ -409,31 +452,31 @@
         10751,
         9648
       ],
-      "popularity": 169.3243
+      "popularity": 164.4327
     },
     {
-      "id": 1054867,
+      "id": 840464,
       "type": "movie",
-      "title": "一战再战",
-      "genreTitle": "惊悚•犯罪•喜剧",
-      "rating": 7.4,
-      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
-      "release_date": "2025-09-23",
-      "poster_url": "/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
-      "title_backdrop": "/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
+      "title": "末日逃生2：迁移",
+      "genreTitle": "冒险•惊悚•科幻",
+      "rating": 6.394,
+      "overview": "　　由于宇宙中的两颗彗星正面撞击了地球，致使地表生态遭遇毁灭性打击，造成恶劣后果。全人类不得不躲藏在地堡中求得生存。身为科学家的加里蒂带着一家人劫后余生，幸存了下来。虽然他们躲过了第一波的冲击，但是他们所在的地堡中剩余的生活物资逐渐减少，其他幸存的人类也开始蠢蠢欲动。迫于压力这一家人必须离开格陵兰岛的安全掩体，开始踏上危险的旅程。在这一路上他们无奈的发现，整个欧洲已经被毁灭，变成了冰冻荒地。于是一家人只能再次被迫上路……",
+      "release_date": "2026-01-07",
+      "poster_url": "/yCOqrQxlh8M8O4PV19SXATHEIK5.jpg",
+      "title_backdrop": "/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
       "genre_ids": [
+        12,
         53,
-        80,
-        35
+        878
       ],
-      "popularity": 137.6897
+      "popularity": 159.0856
     },
     {
       "id": 1327819,
       "type": "movie",
       "title": "河狸变身计划",
       "genreTitle": "动画•家庭•科幻",
-      "rating": 7.7,
+      "rating": 7.709,
       "overview": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
       "release_date": "2026-03-04",
       "poster_url": "/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
@@ -444,7 +487,57 @@
         878,
         35
       ],
-      "popularity": 128.8945
+      "popularity": 134.1029
+    },
+    {
+      "id": 1054867,
+      "type": "movie",
+      "title": "一战再战",
+      "genreTitle": "惊悚•犯罪•喜剧",
+      "rating": 7.393,
+      "overview": "落魄潦倒的革命者鲍勃（莱昂纳多·迪卡普里奥 饰）终日生活在草木皆兵的偏执状态，他与世隔绝，只和坚韧自立的女儿薇拉（蔡斯·英菲尼迪 饰）相依为命。然而，当鲍勃的宿敌（西恩·潘 饰）在16年后再度现身，女儿也突然失踪，这位曾经的激进分子仓促踏上了寻女之路，父女二人不得不直面他过往行为种下的恶果……",
+      "release_date": "2025-09-23",
+      "poster_url": "/6cjr6NL1MQC8TKgoNmagSGUu3SK.jpg",
+      "title_backdrop": "/zpEWFNqoN8Qg1SzMMHmaGyOBTdW.jpg",
+      "genre_ids": [
+        53,
+        80,
+        35
+      ],
+      "popularity": 133.5868
+    },
+    {
+      "id": 1316092,
+      "type": "movie",
+      "title": "呼啸山庄",
+      "genreTitle": "爱情•剧情",
+      "rating": 6.352,
+      "overview": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "release_date": "2026-02-11",
+      "poster_url": "/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "title_backdrop": "/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "popularity": 121.4815
+    },
+    {
+      "id": 1236153,
+      "type": "movie",
+      "title": "极限审判",
+      "genreTitle": "科幻•动作•惊悚",
+      "rating": 7.086,
+      "overview": "背景设定在不久的将来，死罪不断增加，一名侦探（克里斯·帕拉特 Chris Pratt 饰）被指控犯有暴力罪，他被迫证明自己无罪。",
+      "release_date": "2026-01-20",
+      "poster_url": "/fq2AqiarysK2Swl7SUQxVMyofh2.jpg",
+      "title_backdrop": "/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
+      "genre_ids": [
+        878,
+        28,
+        53
+      ],
+      "popularity": 116.9637
     },
     {
       "id": 1233413,
@@ -461,7 +554,41 @@
         28,
         53
       ],
-      "popularity": 113.1079
+      "popularity": 110.2812
+    },
+    {
+      "id": 1368166,
+      "type": "movie",
+      "title": "家弑服务",
+      "genreTitle": "剧情•悬疑•惊悚",
+      "rating": 7.233,
+      "overview": "　　生活困顿的米莉，得到了一份在富豪夫妇妮娜和安德鲁家中做家政的工作。但这份看似理想的工作，很快便变得危机四伏。米莉发现，这个富足家庭光鲜亮丽的外表之下，隐藏着远比她想象中更为危险的秘密。她置身于一个充满阴谋与恐惧的环境中，而这个家庭的悲剧命运也随着交织着秘密、丑闻与权力游戏的风暴在逐渐展开。",
+      "release_date": "2025-12-18",
+      "poster_url": "/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
+      "title_backdrop": "/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        53
+      ],
+      "popularity": 91.9974
+    },
+    {
+      "id": 1582770,
+      "type": "movie",
+      "title": "征服者2",
+      "genreTitle": "动作•犯罪•惊悚",
+      "rating": 7.5,
+      "overview": "　　当敌对帮派、腐败官员和冷酷的伊克巴尔少校步步紧逼，哈姆扎为国家而战的使命逐渐沦陷为一场血腥的个人复仇。在利亚里的街头，爱国者与恶魔的界限逐渐模糊。",
+      "release_date": "2026-03-18",
+      "poster_url": "/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
+      "title_backdrop": "/owQeDouUZ6wI6f1aTOYEFd511zn.jpg",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "popularity": 90.7023
     },
     {
       "id": 969681,
@@ -478,41 +605,7 @@
         28,
         12
       ],
-      "popularity": 81.5967
-    },
-    {
-      "id": 1582770,
-      "type": "movie",
-      "title": "征服者2",
-      "genreTitle": "动作•犯罪•惊悚",
-      "rating": 7.429,
-      "overview": "　　当敌对帮派、腐败官员和冷酷的伊克巴尔少校步步紧逼，哈姆扎为国家而战的使命逐渐沦陷为一场血腥的个人复仇。在利亚里的街头，爱国者与恶魔的界限逐渐模糊。",
-      "release_date": "2026-03-18",
-      "poster_url": "/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
-      "title_backdrop": "/owQeDouUZ6wI6f1aTOYEFd511zn.jpg",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 80.1797
-    },
-    {
-      "id": 1119449,
-      "type": "movie",
-      "title": "团战之夜",
-      "genreTitle": "科幻•动作•喜剧",
-      "rating": 6.867,
-      "overview": "　　故事围绕着一个“来自未来的人”展开，他来到洛杉矶的一家小餐馆，在那里他必须招募一群心怀不满的顾客，与他一起完成一个为期一晚、跨越六个街区的任务，以拯救世界免受流氓人工智能的终极威胁。",
-      "release_date": "2026-02-13",
-      "poster_url": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
-      "title_backdrop": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
-      "genre_ids": [
-        878,
-        28,
-        35
-      ],
-      "popularity": 65.7335
+      "popularity": 75.5399
     },
     {
       "id": 1317288,
@@ -528,143 +621,40 @@
         18,
         53
       ],
-      "popularity": 57.8733
+      "popularity": 58.2715
     },
     {
-      "id": 858024,
+      "id": 1119449,
       "type": "movie",
-      "title": "哈姆奈特",
-      "genreTitle": "剧情•爱情•历史",
-      "rating": 7.723,
-      "overview": "16世纪末期，彼时还未成名的威廉·莎士比亚（保罗·麦斯卡 饰）以教授拉丁语为生，为偿还父亲债务而奔波。他与在森林长大、性格奔放不羁的“女巫之女”艾格尼丝（杰西·巴克利 饰）相遇，被对方身上蓬勃的生命力深深吸引，随即陷入热恋。两人深知家族不会认可这段关系，便私下结合，不久后长女苏珊娜（博德希·蕾·布里纳希 饰）降生，他们的婚姻也因此被世俗接纳。后来艾格尼丝怀上双胞胎，却被婆婆要求在室内分娩，被迫切断与自然的联结。最终她顺利诞下儿子哈姆奈特（雅各比·尤佩 饰）与女儿珠迪丝（奥利维娅·莱恩斯 饰）。此后，莎士比亚前往伦敦追寻剧作家的梦想，艾格尼丝则留在家中抚养孩子。不幸的是，哈姆奈特夭折，这给夫妻二人带来沉重打击。莎士比亚将满腔悲痛倾注于创作，写出经典悲剧《哈姆雷特》，还亲自在剧中饰演哈姆雷特父亲的鬼魂；艾格尼丝则在伦敦环球剧院的舞台下，默默宣泄内心的哀伤。",
-      "release_date": "2025-11-26",
-      "poster_url": "/ufdPQfqNxsHwsDvpj1gOHdo2Nbb.jpg",
-      "title_backdrop": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
-      "genre_ids": [
-        18,
-        10749,
-        36
-      ],
-      "popularity": 55.3181
-    },
-    {
-      "id": 1170608,
-      "type": "movie",
-      "title": "沙丘3",
-      "genreTitle": "科幻•冒险•惊悚",
-      "rating": 0.0,
-      "overview": "讲述保罗·厄崔迪成为宇宙皇帝后，虽拥有预知未来的能力，却无法阻止以他之名发动的圣战席卷星系，在权力、信仰与个人命运的夹缝中，他逐渐走向无法回头的抉择与代价。",
-      "release_date": "2026-12-16",
-      "poster_url": "/b4wekkUaxExzOeGe7hKXzhnyXHt.jpg",
-      "title_backdrop": "/bU206dN0ucfOFRK17OXabkdHKFC.jpg",
+      "title": "团战之夜",
+      "genreTitle": "科幻•动作•喜剧",
+      "rating": 6.877,
+      "overview": "　　故事围绕着一个“来自未来的人”展开，他来到洛杉矶的一家小餐馆，在那里他必须招募一群心怀不满的顾客，与他一起完成一个为期一晚、跨越六个街区的任务，以拯救世界免受流氓人工智能的终极威胁。",
+      "release_date": "2026-02-13",
+      "poster_url": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
+      "title_backdrop": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
       "genre_ids": [
         878,
-        12,
-        53
-      ],
-      "popularity": 43.6598
-    },
-    {
-      "id": 1226863,
-      "type": "movie",
-      "title": "超级马力欧银河大电影",
-      "genreTitle": "家庭•奇幻•喜剧",
-      "rating": 0.0,
-      "overview": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
-      "release_date": "2026-04-01",
-      "poster_url": "/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "title_backdrop": "/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
-      "genre_ids": [
-        10751,
-        14,
-        35,
-        12,
-        16
-      ],
-      "popularity": 34.9114
-    },
-    {
-      "id": 1266127,
-      "type": "movie",
-      "title": "准备好了没2：我来了",
-      "genreTitle": "恐怖•惊悚•喜剧",
-      "rating": 7.625,
-      "overview": "　　格蕾丝侥幸逃过勒多马斯家族的追杀后，发现游戏并未结束，而是进入了下一阶段，这次她疏远已久的妹妹也被卷入其中。面临四个敌对家族猎杀的格蕾丝必须活下来、保护妹妹，同时争夺掌控世界的议会王座。",
-      "release_date": "2026-03-19",
-      "poster_url": "/6101Vi0RXKjzjzu92PiXQg8ZkkP.jpg",
-      "title_backdrop": "/34edT0SIrmUqH59J5OAQqYxp11D.jpg",
-      "genre_ids": [
-        27,
-        53,
+        28,
         35
       ],
-      "popularity": 34.0528
+      "popularity": 56.9099
     },
     {
-      "id": 1406657,
+      "id": 1314786,
       "type": "movie",
-      "title": "复仇公主斯嘉丽",
-      "genreTitle": "动画•动作•剧情",
-      "rating": 6.1,
-      "overview": "　　公主斯嘉丽目睹父亲遭暗杀，决心踏上报仇之路却以失败告终，再次醒来时发现自己身处名为「死者之国」的神秘异界。传说中，雪耻未竟并来到此地的人，亡魂会逐渐被虚无吞噬，最终连自身存在都会完全消失。为免从此灰飞烟灭，斯嘉丽必须穿越死亡与绝望的边境，展开一场无止境的复仇之旅！日本动画大师细田守亲自操刀包办原作、编剧及导演，邀来芦田爱菜与冈田将生联手声演，以哥德式美学及独特视觉呈现华丽异世界，编写一出跨越生死的复仇史诗。",
-      "release_date": "2025-11-21",
-      "poster_url": "/glG3OSzMGqIWBDko0WHzHG3ATE9.jpg",
-      "title_backdrop": "/4ZZiOP4Imzv6ULF9QczvfQ1VdEO.jpg",
+      "title": "特工泽塔",
+      "genreTitle": "剧情•惊悚",
+      "rating": 6.875,
+      "overview": "五名曾于数十年前在哥伦比亚参与秘密行动的西班牙前特工，在世界各地同时遭到暗杀。",
+      "release_date": "2026-03-20",
+      "poster_url": "/1R8ZQjZqTZM7YUVnEo5Oes0fygp.jpg",
+      "title_backdrop": "/ptcyGmBonW6mDQmrPhXbt6Rjrlp.jpg",
       "genre_ids": [
-        16,
-        28,
         18,
-        878
+        53
       ],
-      "popularity": 21.7506
-    },
-    {
-      "id": 1327688,
-      "type": "movie",
-      "title": "一英里：第一章",
-      "genreTitle": "动作•犯罪",
-      "rating": 7.123,
-      "overview": "　　一位父亲刑满释放后，试图通过带女儿参观大学校园来修复父女关系。然而，当一个凶残的邪教开始追杀他们时，两人所要拼命守护的，早已不只是那段早已破碎的亲情。",
-      "release_date": "2026-02-20",
-      "poster_url": "/yhJM8NSt9km7xlbgLbGBtSTO3r8.jpg",
-      "title_backdrop": "/xBORKTaQJTq3l7EdnTTnrZnYzYa.jpg",
-      "genre_ids": [
-        28,
-        80
-      ],
-      "popularity": 14.3175
-    },
-    {
-      "id": 1327690,
-      "type": "movie",
-      "title": "一英里：第二章",
-      "genreTitle": "动作•犯罪",
-      "rating": 7.023,
-      "overview": "　　前特种部队队员丹尼被迫重返一座偏远孤岛。一个残暴又隐秘的组织为了报复，绑架了他的女儿亚历克斯，并布下天罗地网，对他展开一场步步紧逼、针对他所有行动都早有准备的残酷猎杀。",
-      "release_date": "2026-02-27",
-      "poster_url": "/3sjc9qXXmQoUWKQ3qIjS1nZaUJy.jpg",
-      "title_backdrop": "/jxQIjkJBTyZSxN3yyilpR0ns6HA.jpg",
-      "genre_ids": [
-        28,
-        80
-      ],
-      "popularity": 8.7495
-    },
-    {
-      "id": 1294698,
-      "type": "movie",
-      "title": "137号案件",
-      "genreTitle": "犯罪•剧情",
-      "rating": 7.0,
-      "overview": "对于斯特凡妮（Stéphanie）——法国国家警察总督察署（IGPN，即监管警察的机构）的一名调查员来说，第137号案件起初似乎只是又一个普通案件。然而，一个意外因素将困扰斯特凡妮，并使这个案件从一个简单的编号演变为更具深意的存在。",
-      "release_date": "2025-11-19",
-      "poster_url": "/yeq4WtyPk4tSPp0EAOw1pMCy9LI.jpg",
-      "title_backdrop": "/kjKxmpuPIvXjDP4reWCkMaeK2Es.jpg",
-      "genre_ids": [
-        80,
-        18
-      ],
-      "popularity": 6.6778
+      "popularity": 55.6535
     }
   ]
 }
