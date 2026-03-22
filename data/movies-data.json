@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T00:23:09.590+08:00",
+  "last_updated": "2026-03-23T00:24:08.116+08:00",
   "now_playing": [
     {
       "id": 687163,
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7,
+      "rating": 7.026,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.675,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.351,
+      "rating": 6.36,
       "mediaType": "movie"
     },
     {
@@ -56,9 +56,9 @@
       "originalTitle": "Marty Supreme",
       "description": "为了实现一个无人相信的伟大梦想，马蒂去了一趟地狱。年轻迷人的马蒂，渴望名声、荣耀，以及遥不可及的“世界乒乓球冠军”头衔。为了梦想，他什么都能做到。穿越纽约、巴黎、伦敦、开罗与东京，他在无数的挫折与考验中前行，遇见了挚友、恋人与伙伴，也一次次在胜败之间重生。最终，他开创了自己的伟大道路，也领悟了荣光的真正意义。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.469,
+      "rating": 7.47,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.309,
+      "rating": 6.288,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.972,
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1421552,
+      "type": "tmdb",
+      "title": "熊猫计划之部落奇遇记",
+      "originalTitle": "熊猫计划之部落奇遇记",
+      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
+      "releaseDate": "2026-02-17",
+      "rating": 5.75,
       "mediaType": "movie"
     },
     {
@@ -142,19 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/rLHFufd3gALwHay1Sxl3MjbGQ7E.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 7.125,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1421552,
-      "type": "tmdb",
-      "title": "熊猫计划之部落奇遇记",
-      "originalTitle": "熊猫计划之部落奇遇记",
-      "description": "熊猫“糊糊”即将搬进全新熊猫馆，突发遭遇国际劫匪，大哥在和劫匪搏斗过程中坠入山崖，醒来后却意外发现置身神奇部落。大家为了能够回到熊猫馆，这个有趣的“组合”帮助部落解决种种难题...",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bt3JcjSC54qq83yfpLZmnD9y4qT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bnXeBvYaurIqP0ESAAHUIZjIB0o.jpg",
-      "releaseDate": "2026-02-17",
-      "rating": 5.75,
+      "rating": 7.176,
       "mediaType": "movie"
     },
     {
@@ -194,6 +194,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1249668,
       "type": "tmdb",
       "title": "拼桌",
@@ -228,18 +240,6 @@
       "releaseDate": "2026-03-14",
       "rating": 0,
       "mediaType": "movie"
-    },
-    {
-      "id": 1566589,
-      "type": "tmdb",
-      "title": "蜂蜜的针",
-      "originalTitle": "蜂蜜的针",
-      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
-      "releaseDate": "2026-03-21",
-      "rating": 0,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.732,
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.341,
+      "rating": 7.348,
       "mediaType": "movie"
     },
     {
