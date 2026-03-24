@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T00:53:22.337+08:00",
+  "last_updated": "2026-03-25T00:55:15.995+08:00",
   "now_playing": [
     {
       "id": 687163,
@@ -7,10 +7,10 @@
       "title": "挽救计划",
       "originalTitle": "Project Hail Mary",
       "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bdjbTVK55RSBq4jNEdifcIBlSI3.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kHAZpYjUautSvjzDOZ0l5GMMMuM.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.3,
+      "rating": 8.196,
       "mediaType": "movie"
     },
     {
@@ -19,22 +19,10 @@
       "title": "洛杉矶劫案",
       "originalTitle": "Crime 101",
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/l8dW6J5X8oDXBxz7tgBh9Km0loa.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.022,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.6,
+      "rating": 7.019,
       "mediaType": "movie"
     },
     {
@@ -46,7 +34,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.363,
+      "rating": 6.361,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.61,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qKWDHofjMHPSEOTLaixkC9ZmjTT.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.455,
+      "rating": 7.452,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vEgqZxbDavexla2Trjg9emiiMn6.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.5,
+      "rating": 7.551,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.28,
+      "rating": 6.291,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/wEOWf7ahe1yeDkng1AxIcuIXcB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
       "releaseDate": "2017-02-14",
-      "rating": 7.898,
+      "rating": 7.897,
       "mediaType": "movie"
     },
     {
@@ -166,7 +166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cPdZiwjdLel5DD7Nm99FcSsXuSr.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tNfhsO5CdMRzThEx3XlkTEp808Q.jpg",
       "releaseDate": "2026-02-17",
-      "rating": 6.5,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -238,7 +238,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/smdKDbTCLBuNJg3R5Eu0HakrwFU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gpQwPhKmUmBZxmA9bcBeFDbDgdS.jpg",
       "releaseDate": "2026-02-28",
-      "rating": 7,
+      "rating": 7.667,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/bVC17YGLv6vJcNdySp2ygnX96pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.762,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.346,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -304,18 +304,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 559974,
-      "type": "tmdb",
-      "title": "拆弹专家2",
-      "originalTitle": "拆彈專家2",
-      "description": "香港某处发生爆炸案，前拆弹专家潘乘风因昏迷于现场，被警方怀疑牵涉其中。苏醒后的潘乘风记忆缺损，只能一边逃亡一边查明真相，然而，他的好友董卓文和他的前女友庞玲却给他讲述了一段截然不同的回忆。有计划的爆炸案接二连三发生，真相却越来越扑朔迷离。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
-      "releaseDate": "2020-12-24",
-      "rating": 7.1,
-      "mediaType": "movie"
-    },
-    {
       "id": 1303236,
       "type": "tmdb",
       "title": "角头：大桥头",
@@ -328,6 +316,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 559974,
+      "type": "tmdb",
+      "title": "拆弹专家2",
+      "originalTitle": "拆彈專家2",
+      "description": "香港某处发生爆炸案，前拆弹专家潘乘风因昏迷于现场，被警方怀疑牵涉其中。苏醒后的潘乘风记忆缺损，只能一边逃亡一边查明真相，然而，他的好友董卓文和他的前女友庞玲却给他讲述了一段截然不同的回忆。有计划的爆炸案接二连三发生，真相却越来越扑朔迷离。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
+      "releaseDate": "2020-12-24",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
       "id": 1566589,
       "type": "tmdb",
       "title": "蜂蜜的针",
@@ -336,6 +336,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
       "releaseDate": "2026-03-21",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1421609,
+      "type": "tmdb",
+      "title": "我的妈耶",
+      "originalTitle": "我的妈耶",
+      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "releaseDate": "2026-04-03",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -352,13 +364,13 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421609,
+      "id": 1546855,
       "type": "tmdb",
-      "title": "我的妈耶",
-      "originalTitle": "我的妈耶",
-      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "title": "我，许可",
+      "originalTitle": "我，许可",
+      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dNqm62dHg9vesWXSoP9pWTJgoSS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
       "releaseDate": "2026-04-03",
       "rating": 0,
       "mediaType": "movie"
@@ -376,14 +388,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1546855,
+      "id": 1653743,
       "type": "tmdb",
-      "title": "我，许可",
-      "originalTitle": "我，许可",
-      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dNqm62dHg9vesWXSoP9pWTJgoSS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
-      "releaseDate": "2026-04-03",
+      "title": "甜咸之间",
+      "originalTitle": "甜咸之间",
+      "description": "在有着170多年历史的杭州“楼外楼”里，传统名菜“西湖醋鱼”串起了这座城市里的动人故事。大厨陆一鸣在录制美食节目时与主持人唐果意外结缘并互生好感，但他性格木讷，始终不敢表白，这道经典的“西湖醋鱼”会成为他们酸酸甜甜的爱情宣言吗？打算退休后周游世界的陆一鸣师父区天明，发现妻子患上了阿尔茨海默症，“西湖醋鱼”的味道能否唤醒她对初恋的记忆呢？外卖小哥陈奋早出晚归地攒钱，只为实现开小饭馆的梦想，巴掌大的后厨成了他们一家人温暖的港湾。单亲妈妈周姐与处于叛逆期的女儿维恩看似相互对抗，实则饱含着母女间天然的真情，女儿人生中做的第一道菜便是对妈妈爱的回报。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7sz1cSDjDiA0GnxEmlWPWK94t1Y.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-26",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -400,14 +412,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1653743,
+      "id": 1351168,
       "type": "tmdb",
-      "title": "甜咸之间",
-      "originalTitle": "甜咸之间",
-      "description": "在有着170多年历史的杭州“楼外楼”里，传统名菜“西湖醋鱼”串起了这座城市里的动人故事。大厨陆一鸣在录制美食节目时与主持人唐果意外结缘并互生好感，但他性格木讷，始终不敢表白，这道经典的“西湖醋鱼”会成为他们酸酸甜甜的爱情宣言吗？打算退休后周游世界的陆一鸣师父区天明，发现妻子患上了阿尔茨海默症，“西湖醋鱼”的味道能否唤醒她对初恋的记忆呢？外卖小哥陈奋早出晚归地攒钱，只为实现开小饭馆的梦想，巴掌大的后厨成了他们一家人温暖的港湾。单亲妈妈周姐与处于叛逆期的女儿维恩看似相互对抗，实则饱含着母女间天然的真情，女儿人生中做的第一道菜便是对妈妈爱的回报。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7sz1cSDjDiA0GnxEmlWPWK94t1Y.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-03-26",
+      "title": "蓝海",
+      "originalTitle": "蓝海",
+      "description": "　　在一个安静的海边小村里，活泼好动的小女孩小葵有很多梦想，她既渴望和朋友们玩耍，又渴望帮助母亲红菊表演“茂腔”戏。由于小葵的父亲从海上失踪，红菊独自承担起支撑家庭的重担。她最闪亮的一刻就是登上舞台，成为一名茂腔演员。但现在，由于很少有人对传统戏剧感兴趣，加上小葵生病，他们的生活突然陷入动荡。虽然这部电影描绘了不可避免的痛苦和失落时刻，但它的真正主题是恢复力--我们如何从这样的时刻中恢复过来。就像飘浮在村庄周围的气球，希望出海的人能平安归来，痛苦在他们的生活中无处不在，但彼此对幸福的美好祝愿也是如此。《蓝海》是一部充满这种善意的诗意新现实主义浪漫派暖心电影。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/v3oGyxua3Ne5TNtCICbgtysSfrk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hUtb0S3xSiYDFvmbUp2dP0iDjX5.jpg",
+      "releaseDate": "2026-03-25",
       "rating": 0,
       "mediaType": "movie"
     }
