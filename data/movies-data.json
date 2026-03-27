@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T00:55:57.472+08:00",
+  "last_updated": "2026-03-28T00:48:16.068+08:00",
   "now_playing": [
     {
       "id": 687163,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.182,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -19,34 +19,10 @@
       "title": "洛杉矶劫案",
       "originalTitle": "Crime 101",
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/l8dW6J5X8oDXBxz7tgBh9Km0loa.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 6.991,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1316092,
-      "type": "tmdb",
-      "title": "呼啸山庄",
-      "originalTitle": "\"Wuthering Heights\"",
-      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
-      "releaseDate": "2026-03-13",
-      "rating": 6.377,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7iPj1Bj03lX1RJaVdRmKs5N7Nrz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.6,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -58,7 +34,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.5,
+      "rating": 7.6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1316092,
+      "type": "tmdb",
+      "title": "呼啸山庄",
+      "originalTitle": "\"Wuthering Heights\"",
+      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "releaseDate": "2026-03-13",
+      "rating": 6.376,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.633,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.8,
+      "rating": 6.727,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.5,
+      "rating": 7.442,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.276,
+      "rating": 6.284,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.4,
+      "rating": 7.349,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.958,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -154,7 +154,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
       "releaseDate": "2017-10-13",
-      "rating": 7.9,
+      "rating": 7.863,
       "mediaType": "movie"
     },
     {
@@ -166,7 +166,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
       "releaseDate": "2020-12-24",
-      "rating": 7.1,
+      "rating": 7.087,
       "mediaType": "movie"
     },
     {
@@ -230,15 +230,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 485289,
+      "id": 1653743,
       "type": "tmdb",
-      "title": "重返·狼群",
-      "originalTitle": "重返·狼群",
-      "description": "美女画家李微漪在一次草原采风中意外收养了狼王遗孤，为其取名格林，并带回成都喂养。但繁华的都市无法容纳一匹野性的草原狼，李微漪带着格林重返草原，一路追寻狼群的踪迹，历经严寒酷雪，终于目送它成功地重返狼群。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/k51M8AtA3mVj0TMcH9a6CjQd3GC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1LtZ3PZiC57fTVKfsUbgxXAYpE5.jpg",
-      "releaseDate": "2017-06-16",
-      "rating": 6.3,
+      "title": "甜咸之间",
+      "originalTitle": "甜咸之间",
+      "description": "在有着170多年历史的杭州“楼外楼”里，传统名菜“西湖醋鱼”串起了这座城市里的动人故事。大厨陆一鸣在录制美食节目时与主持人唐果意外结缘并互生好感，但他性格木讷，始终不敢表白，这道经典的“西湖醋鱼”会成为他们酸酸甜甜的爱情宣言吗？打算退休后周游世界的陆一鸣师父区天明，发现妻子患上了阿尔茨海默症，“西湖醋鱼”的味道能否唤醒她对初恋的记忆呢？外卖小哥陈奋早出晚归地攒钱，只为实现开小饭馆的梦想，巴掌大的后厨成了他们一家人温暖的港湾。单亲妈妈周姐与处于叛逆期的女儿维恩看似相互对抗，实则饱含着母女间天然的真情，女儿人生中做的第一道菜便是对妈妈爱的回报。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7sz1cSDjDiA0GnxEmlWPWK94t1Y.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-03-26",
+      "rating": 0,
       "mediaType": "movie"
     }
   ],
