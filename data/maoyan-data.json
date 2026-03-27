@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T03:00:54.217+08:00",
+  "last_updated": "2026-03-27T10:02:52.249+08:00",
   "tv": {
     "全网": [
       {
@@ -15,13 +15,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我的山与海",
+        "title": "你是迟来的欢喜",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "好好的时光",
+        "title": "我的山与海",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -34,12 +34,6 @@
       },
       {
         "title": "家事法庭",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "你是迟来的欢喜",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -58,6 +52,12 @@
       },
       {
         "title": "骄阳似我",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "纯真年代的爱情",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -107,13 +107,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "红腰鼓",
+        "title": "剥茧",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "剥茧",
+        "title": "红腰鼓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -181,7 +181,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "岁月有情时",
+        "title": "我深深地爱着你",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -237,25 +237,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "年少有为",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "小城大事",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       }
     ],
     "芒果TV": [
-      {
-        "title": "好好的时光",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
       {
         "title": "你是迟来的欢喜",
         "description": "暂无简介",
@@ -264,6 +258,12 @@
       },
       {
         "title": "太平年",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "好好的时光",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -281,13 +281,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "时差一万公里",
+        "title": "女神蒙上眼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
+        "title": "时差一万公里",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -299,13 +299,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "猎豹",
+        "title": "水龙吟",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "水龙吟",
+        "title": "猎豹",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -315,12 +315,6 @@
   "show": {
     "全网": [
       {
-        "title": "初入职场金融季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "魔力歌先生",
         "description": "暂无简介",
         "type": "maoyan",
@@ -328,6 +322,12 @@
       },
       {
         "title": "宇宙闪烁请注意",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -345,25 +345,25 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "怦然心动20岁：冬季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "今夜喜友秀",
+        "title": "怦然心动20岁：冬季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
+        "title": "初入职场金融季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "今夜喜友秀",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -377,13 +377,13 @@
     ],
     "优酷": [
       {
-        "title": "怦然心动20岁：冬季",
+        "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
+        "title": "怦然心动20岁：冬季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -487,13 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "一路繁花 第二季",
+        "title": "2026中央广播电视总台春节联欢晚会",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "2026中央广播电视总台春节联欢晚会",
+        "title": "一路繁花 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,25 +563,19 @@
     ],
     "芒果TV": [
       {
-        "title": "初入职场金融季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
+        "title": "初入职场金融季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "大侦探第十一季 嫌疑人自述",
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -611,13 +605,19 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "有你的恋歌Ⅱ",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "我在中国当农人 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "有你的恋歌Ⅱ",
+        "title": "声声乐尔 国际篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
