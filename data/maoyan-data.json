@@ -1,9 +1,15 @@
 {
-  "last_updated": "2026-03-28T14:54:29.095+08:00",
+  "last_updated": "2026-03-28T20:48:00.972+08:00",
   "tv": {
     "全网": [
       {
         "title": "逐玉",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "白日提灯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -16,12 +22,6 @@
       },
       {
         "title": "你是迟来的欢喜",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "白日提灯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -107,13 +107,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "剥茧",
+        "title": "红腰鼓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "红腰鼓",
+        "title": "剥茧",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -195,13 +195,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "隐身的名字",
+        "title": "白日提灯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "白日提灯",
+        "title": "隐身的名字",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -313,68 +313,7 @@
     ]
   },
   "show": {
-    "全网": [
-      {
-        "title": "宇宙闪烁请注意",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "魔力歌先生",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "主咖和Ta的朋友们",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "周五晚高疯",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "我家那小子2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "今夜喜友秀",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "开始捉迷藏 第2季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "亲爱的客栈2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "怦然心动20岁：冬季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "初入职场金融季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      }
-    ],
+    "全网": [],
     "优酷": [
       {
         "title": "周五晚高疯",
@@ -469,12 +408,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "风华合伙人",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "泰甜啦",
         "description": "暂无简介",
         "type": "maoyan",
@@ -488,6 +421,12 @@
       },
       {
         "title": "你好种地少年第3季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "风华合伙人",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -531,13 +470,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "日落时分说爱你",
+        "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "现在就出发 第三季",
+        "title": "日落时分说爱你",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,13 +502,13 @@
     ],
     "芒果TV": [
       {
-        "title": "我家那小子2026",
+        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
+        "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -582,12 +521,6 @@
       },
       {
         "title": "夺金2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -618,6 +551,12 @@
       },
       {
         "title": "我在中国当农人 第二季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
