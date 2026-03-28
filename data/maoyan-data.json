@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T20:48:00.972+08:00",
+  "last_updated": "2026-03-29T02:35:51.955+08:00",
   "tv": {
     "全网": [
       {
@@ -107,19 +107,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "红腰鼓",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "剥茧",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "凤凰台上",
+        "title": "红腰鼓",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "入青云",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -181,7 +181,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "岁月有情时",
+        "title": "我深深地爱着你",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -219,13 +219,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "纯真年代的爱情",
+        "title": "骄阳似我",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "骄阳似我",
+        "title": "纯真年代的爱情",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -313,10 +313,57 @@
     ]
   },
   "show": {
-    "全网": [],
-    "优酷": [
+    "全网": [
+      {
+        "title": "宇宙闪烁请注意",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "魔力歌先生",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "主咖和Ta的朋友们",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
       {
         "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "我家那小子2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "今夜喜友秀",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "开始捉迷藏 第2季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -326,9 +373,23 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
+      }
+    ],
+    "优酷": [
+      {
+        "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
       },
       {
         "title": "最强大脑 第13季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "怦然心动20岁：冬季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -482,13 +543,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "奔跑吧·天路篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧·天路篇",
+        "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
