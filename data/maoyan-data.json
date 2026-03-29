@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T10:05:23.331+08:00",
+  "last_updated": "2026-03-29T14:59:07.057+08:00",
   "tv": {
     "全网": [
       {
@@ -157,6 +157,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "战旗如画",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "罚罪2",
         "description": "暂无简介",
         "type": "maoyan",
@@ -176,12 +182,6 @@
       },
       {
         "title": "太平年",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "海市蜃楼",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -237,13 +237,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "人之初",
+        "title": "战旗如画",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "玫瑰丛生",
+        "title": "人之初",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -257,13 +257,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "好好的时光",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "好好的时光",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -275,19 +275,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "女神蒙上眼",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "乌蒙深处",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "玉茗茶骨",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -299,7 +287,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "水龙吟",
+        "title": "女神蒙上眼",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "玉茗茶骨",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -309,17 +303,17 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
+      },
+      {
+        "title": "水龙吟",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
       }
     ]
   },
   "show": {
     "全网": [
-      {
-        "title": "魔力歌先生",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
       {
         "title": "宇宙闪烁请注意",
         "description": "暂无简介",
@@ -327,19 +321,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "名侦探学院第9季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "周五晚高疯",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "亲爱的客栈2026",
+        "title": "魔力歌先生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -351,13 +333,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "今夜喜友秀",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "开始捉迷藏 第2季",
+        "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -369,7 +345,31 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "最强大脑 第13季",
+        "title": "今夜喜友秀",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "名侦探学院第9季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "开始捉迷藏 第2季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "不好笑就露宿街头",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -383,6 +383,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "不好笑就露宿街头",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -390,12 +396,6 @@
       },
       {
         "title": "怦然心动20岁：冬季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "不好笑就露宿街头",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -531,25 +531,25 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "日落时分说爱你",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "现在就出发 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "日落时分说爱你",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "奔跑吧·天路篇",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,7 +563,7 @@
     ],
     "芒果TV": [
       {
-        "title": "名侦探学院第9季",
+        "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -575,7 +575,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我家那小子2026",
+        "title": "名侦探学院第9季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -599,13 +599,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "有你的恋歌Ⅱ",
+        "title": "声声乐尔 国际篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "声声乐尔 国际篇",
+        "title": "有你的恋歌Ⅱ",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
