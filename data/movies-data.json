@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-31T00:50:40.101+08:00",
+  "last_updated": "2026-04-01T00:52:24.512+08:00",
   "now_playing": [
+    {
+      "id": 1297842,
+      "type": "tmdb",
+      "title": "奇迹梦之队",
+      "originalTitle": "GOAT",
+      "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 7.735,
+      "mediaType": "movie"
+    },
     {
       "id": 687163,
       "type": "tmdb",
@@ -14,39 +26,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1297842,
-      "type": "tmdb",
-      "title": "奇迹梦之队",
-      "originalTitle": "GOAT",
-      "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 7.819,
-      "mediaType": "movie"
-    },
-    {
       "id": 1171145,
       "type": "tmdb",
       "title": "洛杉矶劫案",
       "originalTitle": "Crime 101",
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "posterPath": "https://image.tmdb.org/t/p/w500/cMilCixwsrrTmAjYGP6OQvSMVaU.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2t25zHKX3PAUZWppuLD36JGdgCA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vG42HeYtoTFflqwP42wYD7tBuNr.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.6,
+      "rating": 6.996,
       "mediaType": "movie"
     },
     {
@@ -62,6 +50,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.563,
+      "mediaType": "movie"
+    },
+    {
       "id": 696393,
       "type": "tmdb",
       "title": "绿液惊魂",
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.732,
+      "rating": 6.73,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.434,
+      "rating": 7.433,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.3,
+      "rating": 6.269,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.35,
+      "rating": 7.345,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.966,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -146,18 +146,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1497788,
-      "type": "tmdb",
-      "title": "长夜将尽",
-      "originalTitle": "长夜将尽",
-      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 455714,
       "type": "tmdb",
       "title": "天才枪手",
@@ -167,6 +155,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
       "releaseDate": "2017-10-13",
       "rating": 7.863,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -182,15 +182,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1566589,
+      "id": 1497788,
       "type": "tmdb",
-      "title": "蜂蜜的针",
-      "originalTitle": "蜂蜜的针",
-      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
-      "releaseDate": "2026-03-21",
-      "rating": 6,
+      "title": "长夜将尽",
+      "originalTitle": "长夜将尽",
+      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 8.4,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -280,15 +280,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 1005985,
+      "id": 1497788,
       "type": "tmdb",
-      "title": "器子",
-      "originalTitle": "器子",
-      "description": "女儿在三个月大时失踪，疑似被贩婴集团偷走，妻子过度自责后自戕，他为追查真相反被诬陷入狱，出狱后查出女儿是落入活摘器官集团，成为被取走心脏的「器子」。他悲愤难当，对犯罪集团连翻展开以暴制暴的复仇行动，全力营救作为「器子」的女儿。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/prmdcWDzvhKiHKp6naKwADj9KU7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/o0n8l6Itc3vjf9svwHGzC3uuQhZ.jpg",
-      "releaseDate": "2026-04-18",
-      "rating": 6.1,
+      "title": "长夜将尽",
+      "originalTitle": "长夜将尽",
+      "description": "　　影片以保姆叶晓霖（万茜 饰）为核心人物，讲述她伪装进入老人家庭图谋行凶，因与饲养员马德勇（饶晓志 饰）的相遇打破了原有生活平衡，警察周平（屈楚萧 饰）在追查案件中与他们的命运交织。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rC6v4sY0Bbe1YZkfs0m4uCXgioT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249589,
+      "type": "tmdb",
+      "title": "天才游戏",
+      "originalTitle": "天才游戏",
+      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -304,6 +316,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1005985,
+      "type": "tmdb",
+      "title": "器子",
+      "originalTitle": "器子",
+      "description": "女儿在三个月大时失踪，疑似被贩婴集团偷走，妻子过度自责后自戕，他为追查真相反被诬陷入狱，出狱后查出女儿是落入活摘器官集团，成为被取走心脏的「器子」。他悲愤难当，对犯罪集团连翻展开以暴制暴的复仇行动，全力营救作为「器子」的女儿。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/prmdcWDzvhKiHKp6naKwADj9KU7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/o0n8l6Itc3vjf9svwHGzC3uuQhZ.jpg",
+      "releaseDate": "2026-04-18",
+      "rating": 6.1,
+      "mediaType": "movie"
+    },
+    {
       "id": 1421609,
       "type": "tmdb",
       "title": "我的妈耶",
@@ -312,18 +336,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uGGoNI8CAQBKyoqJwc5YFDyOW5B.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1249589,
-      "type": "tmdb",
-      "title": "天才游戏",
-      "originalTitle": "天才游戏",
-      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-04",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -352,18 +364,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1657534,
-      "type": "tmdb",
-      "title": "蝴蝶楼·惊魂",
-      "originalTitle": "蝴蝶楼·惊魂",
-      "description": "　　婚托阿伟派助手李晗接近富家孤女陆瑶，协助自己捕获陆瑶芳心，就在以为即将成为富家女婿之际，陆家别墅内灵异怪象四起，一场阴魂与诡计间的碰撞正在悄然展开……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xn3otFb9ARLNkFPUOYjD9Udtp5Y.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1653289,
       "type": "tmdb",
       "title": "如父如母",
@@ -372,6 +372,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rpvXuRZcakBtcUKbaGop0HlA4Mk.jpg",
       "backdropPath": null,
       "releaseDate": "2026-04-04",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1657534,
+      "type": "tmdb",
+      "title": "蝴蝶楼·惊魂",
+      "originalTitle": "蝴蝶楼·惊魂",
+      "description": "　　婚托阿伟派助手李晗接近富家孤女陆瑶，协助自己捕获陆瑶芳心，就在以为即将成为富家女婿之际，陆家别墅内灵异怪象四起，一场阴魂与诡计间的碰撞正在悄然展开……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xn3otFb9ARLNkFPUOYjD9Udtp5Y.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-03",
       "rating": 0,
       "mediaType": "movie"
     },
