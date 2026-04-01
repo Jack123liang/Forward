@@ -10,7 +10,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Jackie",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/traktkey.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/traktkey.js"
     },
     {
       "id": "Move_list",
@@ -19,7 +19,7 @@
       "requiredVersion": "0.0.2",
       "version": "1.5.1",
       "author": "Jackie",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/Move_list.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/Move_list.js"
     },
     {
       "id": "trakt_personal_mixed",
@@ -28,7 +28,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.7",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/traktlistpro.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/traktlistpro.js"
     },
     {
       "id": "variety_hub_ultimate_v4_fix",
@@ -37,7 +37,7 @@
       "requiredVersion": "0.0.1",
       "version": "2.0.3",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/zongyi.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/zongyi.js"
     },
     {
       "id": "western_trends_hub",
@@ -46,7 +46,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.1",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/bangdan-one.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/bangdan-one.js"
     },
     {
       "id": "global_tv_calendar_ultimate",
@@ -55,7 +55,7 @@
       "requiredVersion": "0.0.1",
       "version": "2.0.8",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/zhuijurili-one.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/zhuijurili-one.js"
     },
     {
       "id": "cinephile_hub_ultimate",
@@ -64,7 +64,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.3",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/movielist&interesting.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/movielist%26interesting.js"
     },
     {
       "id": "discover_hub_ultimate",
@@ -73,7 +73,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.4",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/today-one.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/today-one.js"
     },
     {
       "id": "ultimate_media_hub_pro_ui",
@@ -82,7 +82,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.2.1",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/cn-int-bangdan.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/cn-int-bangdan.js"
     },
     {
       "id": "makka.platform.originals",
@@ -91,7 +91,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.5",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/pingtai.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/pingtai.js"
     },
     {
       "id": "platform.originals.ui.fix",
@@ -100,7 +100,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.4",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/pingtaidujia.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/pingtaidujia.js"
     },
     {
       "id": "imdb_cn_fix_",
@@ -118,7 +118,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.2.1",
       "author": "两块",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/HotPicks.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/HotPicks.js"
     },
     {
       "id": "baranwang.danmu.universe",
@@ -127,7 +127,7 @@
       "requiredVersion": "0.0.2",
       "version": "0.15.1",
       "author": "Baran",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/danmu_universe.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/danmu_universe.js"
     },
     {
       "id": "forward.auto.danmu_api",
