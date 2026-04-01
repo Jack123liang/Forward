@@ -1,0 +1,119 @@
+{
+  "title": "𝓙𝓪𝓬𝓴'𝓼 𝓦𝓲𝓭𝓰𝓮𝓽𝓼",
+  "description": "影视榜单,流媒体top10,烂番茄好评榜，弹幕api-pro等追剧模块",
+  "icon": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/icon.png",
+  "widgets": [
+    {
+      "id": "jack_trakt_calendar",
+      "title": "Trakt 追剧日历",
+      "version": "1.0.0",
+      "author": "Jackie",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/traktkey.js?v=1"
+    },
+    {
+      "id": "jack_movie_list",
+      "title": "影视榜单",
+      "version": "1.5.1",
+      "author": "Jackie",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/Move_list.js?v=1"
+    },
+    {
+      "id": "jack_trakt_personal",
+      "title": "Trakt 追剧日历&个人中心",
+      "version": "1.0.7",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/traktlistpro.js?v=1"
+    },
+    {
+      "id": "jack_variety_hub",
+      "title": "全球综艺追更热度榜",
+      "version": "2.0.3",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/zongyi.js?v=1"
+    },
+    {
+      "id": "jack_western_trends",
+      "title": "欧美风向标",
+      "version": "1.0.1",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/bangdan-one.js?v=1"
+    },
+    {
+      "id": "jack_tv_calendar",
+      "title": "全球追剧时刻表",
+      "version": "2.0.8",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/zhuijurili-one.js?v=1"
+    },
+    {
+      "id": "jack_cinephile",
+      "title": "影迷宝藏",
+      "version": "1.0.3",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/movielist&interesting.js?v=1"
+    },
+    {
+      "id": "jack_discover",
+      "title": "探索发现",
+      "version": "1.0.4",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/today-one.js?v=1"
+    },
+    {
+      "id": "jack_cn_int_bangdan",
+      "title": "全球影视分流",
+      "version": "1.2.1",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/cn-int-bangdan.js?v=1"
+    },
+    {
+      "id": "jack_platform_originals",
+      "title": "流媒体独播",
+      "version": "1.0.5",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/pingtai.js?v=1"
+    },
+    {
+      "id": "jack_platform_originals_alt",
+      "title": "流媒体独家",
+      "version": "1.0.4",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/pingtaidujia.js?v=1"
+    },
+    {
+      "id": "jack_imdb",
+      "title": "IMDb热榜",
+      "version": "1.0.3",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/imdb.js?v=1"
+    },
+    {
+      "id": "jack_hot_picks",
+      "title": "热门精选",
+      "version": "1.2.1",
+      "author": "两块",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/HotPicks.js?v=1"
+    },
+    {
+      "id": "jack_danmu_universe",
+      "title": "通用弹幕",
+      "version": "0.15.1",
+      "author": "Baran",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmu_universe.js?v=1"
+    },
+    {
+      "id": "jack_danmu_api",
+      "title": "danmu_api弹幕",
+      "version": "1.0.3",
+      "author": "huangxd",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmu_api.js?v=1"
+    },
+    {
+      "id": "jack_danmu_pro",
+      "title": "多源弹幕",
+      "version": "1.0.8",
+      "author": "MakkaPakka",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmuapi-Pro.js?v=1"
+    }
+  ]
+}
