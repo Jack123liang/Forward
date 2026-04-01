@@ -4,115 +4,147 @@
   "icon": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/icon.png",
   "widgets": [
     {
-      "id": "jack_trakt_calendar",
+      "id": "trakt_sam_666",
       "title": "Trakt 追剧日历",
+      "description": "追剧日历、待看、收藏及历史记录",
+      "requiredVersion": "0.0.1",
       "version": "1.0.0",
       "author": "Jackie",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/traktkey.js?v=1"
     },
     {
-      "id": "jack_movie_list",
+      "id": "Move_list",
       "title": "影视榜单",
+      "description": "影视排行榜单",
+      "requiredVersion": "0.0.2",
       "version": "1.5.1",
       "author": "Jackie",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/Move_list.js?v=1"
     },
     {
-      "id": "jack_trakt_personal",
-      "title": "Trakt 追剧日历&个人中心",
+      "id": "trakt_personal_mixed",
+      "title": "Trak 追剧日历&个人中心",
+      "description": "追剧日历:显示你观看剧集最新集的 更新时间&Trakt 待看/收藏/历史。",
+      "requiredVersion": "0.0.1",
       "version": "1.0.7",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/traktlistpro.js?v=1"
     },
     {
-      "id": "jack_variety_hub",
+      "id": "variety_hub_ultimate_v4_fix",
       "title": "全球综艺追更热度榜",
+      "description": "综艺更新时间表，热度榜",
+      "requiredVersion": "0.0.1",
       "version": "2.0.3",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/zongyi.js?v=1"
     },
     {
-      "id": "jack_western_trends",
-      "title": "欧美风向标",
+      "id": "western_trends_hub",
+      "title": "欧美风向标|口碑与热度",
+      "description": "聚合烂番茄(口碑)与流媒体平台(热度)，一站式掌握欧美影视动态。",
+      "requiredVersion": "0.0.1",
       "version": "1.0.1",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/bangdan-one.js?v=1"
     },
     {
-      "id": "jack_tv_calendar",
+      "id": "global_tv_calendar_ultimate",
       "title": "全球追剧时刻表",
+      "description": "聚合全球剧集更新&综艺排期&bangumi动漫周更表。",
+      "requiredVersion": "0.0.1",
       "version": "2.0.8",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/zhuijurili-one.js?v=1"
     },
     {
-      "id": "jack_cinephile",
-      "title": "影迷宝藏",
+      "id": "cinephile_hub_ultimate",
+      "title": "影迷宝藏 | 系列与流派",
+      "description": "聚合【系列电影大满贯】与【趣味流派探索】，一键补番，探索未知。",
+      "requiredVersion": "0.0.1",
       "version": "1.0.3",
-      "author": "MakkaPakka",
-      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/movielist&interesting.js?v=1"
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/movielist%26interesting.js?v=1"
     },
     {
-      "id": "jack_discover",
-      "title": "探索发现",
+      "id": "discover_hub_ultimate",
+      "title": "探索发现 | 惊喜推荐",
+      "description": "聚合【今天看什么】、【Trakt惊喜推荐】与【那年今日】、一站式发现好片。",
+      "requiredVersion": "0.0.1",
       "version": "1.0.4",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/today-one.js?v=1"
     },
     {
-      "id": "jack_cn_int_bangdan",
-      "title": "全球影视分流",
+      "id": "ultimate_media_hub_pro_ui",
+      "title": "全球影视 | 分流聚合",
+      "description": "集大成之作：Trakt/豆瓣/平台分流，全线支持【年份•类型】展示。",
+      "requiredVersion": "0.0.1",
       "version": "1.2.1",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/cn-int-bangdan.js?v=1"
     },
     {
-      "id": "jack_platform_originals",
-      "title": "流媒体独播",
+      "id": "makka.platform.originals",
+      "title": "流媒体·独家原创（更新时间版）",
+      "description": "各平台独播剧",
+      "requiredVersion": "0.0.1",
       "version": "1.0.5",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/pingtai.js?v=1"
     },
     {
-      "id": "jack_platform_originals_alt",
-      "title": "流媒体独家",
+      "id": "platform.originals.ui.fix",
+      "title": "流媒体·独家原创",
+      "description": "发现Netflix/HBO/腾讯/B站等平台自制内容",
+      "requiredVersion": "0.0.1",
       "version": "1.0.4",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/pingtaidujia.js?v=1"
     },
     {
-      "id": "jack_imdb",
+      "id": "imdb_cn_fix_",
       "title": "IMDb热榜",
+      "description": "IMDb全球榜单，支持日/周纬度切换。",
+      "requiredVersion": "0.0.1",
       "version": "1.0.3",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/imdb.js?v=1"
     },
     {
-      "id": "jack_hot_picks",
+      "id": "hot_picks",
       "title": "热门精选",
+      "description": "获取最新热播剧和热门影片推荐",
+      "requiredVersion": "0.0.1",
       "version": "1.2.1",
       "author": "两块",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/HotPicks.js?v=1"
     },
     {
-      "id": "jack_danmu_universe",
+      "id": "baranwang.danmu.universe",
       "title": "通用弹幕",
+      "description": "通用弹幕插件，支持腾讯、优酷、爱奇艺、哔哩哔哩、人人视频等平台",
+      "requiredVersion": "0.0.2",
       "version": "0.15.1",
       "author": "Baran",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmu_universe.js?v=1"
     },
     {
-      "id": "jack_danmu_api",
+      "id": "forward.auto.danmu_api",
       "title": "danmu_api弹幕",
+      "description": "从danmu_api获取弹幕",
+      "requiredVersion": "0.0.2",
       "version": "1.0.3",
       "author": "huangxd",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmu_api.js?v=1"
     },
     {
-      "id": "jack_danmu_pro",
+      "id": "forward.danmu.pro.online_dict",
       "title": "多源弹幕",
+      "description": "支持添加多条api并自命名&繁简互转",
+      "requiredVersion": "0.0.1",
       "version": "1.0.8",
-      "author": "MakkaPakka",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
       "url": "https://cdn.jsdelivr.net/gh/Jack123liang/Forward@main/Widgets/danmuapi-Pro.js?v=1"
     }
   ]
