@@ -136,7 +136,7 @@
       "requiredVersion": "0.0.2",
       "version": "1.0.3",
       "author": "huangxd",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/danmu_api.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/danmu_api.js"
     },
     {
       "id": "forward.danmu.pro.online_dict",
@@ -145,7 +145,7 @@
       "requiredVersion": "0.0.1",
       "version": "1.0.8",
       "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
-      "url": "https://github.com/Jack123liang/Forward/raw/refs/heads/main/Widgets/danmuapi-Pro.js"
+      "url": "https://raw.githubusercontent.com/Jack123liang/Forward/refs/heads/main/Widgets/danmuapi-Pro.js"
     }
   ]
 }
