@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T00:47:52.601+08:00",
+  "last_updated": "2026-04-03T00:52:37.215+08:00",
   "now_playing": [
     {
       "id": 1297842,
@@ -10,19 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 687163,
-      "type": "tmdb",
-      "title": "挽救计划",
-      "originalTitle": "Project Hail Mary",
-      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 8.195,
+      "rating": 7.735,
       "mediaType": "movie"
     },
     {
@@ -34,31 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kKF4gEiBDArhONlCcunHVgBp3bA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 6.978,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
-      "id": 1316092,
+      "id": 687163,
       "type": "tmdb",
-      "title": "呼啸山庄",
-      "originalTitle": "\"Wuthering Heights\"",
-      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
-      "releaseDate": "2026-03-13",
-      "rating": 6.446,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "title": "挽救计划",
+      "originalTitle": "Project Hail Mary",
+      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.571,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -70,7 +46,31 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 7.25,
+      "rating": 6.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.57,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1316092,
+      "type": "tmdb",
+      "title": "呼啸山庄",
+      "originalTitle": "\"Wuthering Heights\"",
+      "description": "　　故事以十八世纪英格兰北部的约克郡荒原为背景，围绕恩萧家族和林顿家族之间紧张而又具有破坏性的关系，讲述恩萧先生收养的孤儿希斯克利夫和恩萧先生的女儿凯瑟琳之间充满激情和悲剧的爱情故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+      "releaseDate": "2026-03-13",
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.731,
+      "rating": 6.734,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.434,
+      "rating": 7.433,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.3,
+      "rating": 6.266,
       "mediaType": "movie"
     },
     {
@@ -134,18 +134,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1268630,
-      "type": "tmdb",
-      "title": "搜查瑠公圳",
-      "originalTitle": "搜查瑠公圳",
-      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rd3Q2lQ7YyMGufJhuXlwYYnBblr.jpg",
-      "releaseDate": "2026-03-28",
-      "rating": 6,
-      "mediaType": "movie"
-    },
-    {
       "id": 1481955,
       "type": "tmdb",
       "title": "阳光女子合唱团",
@@ -158,15 +146,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 455714,
+      "id": 1268630,
       "type": "tmdb",
-      "title": "天才枪手",
-      "originalTitle": "ฉลาดเกมส์โกง",
-      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
-      "releaseDate": "2017-10-13",
-      "rating": 7.863,
+      "title": "搜查瑠公圳",
+      "originalTitle": "搜查瑠公圳",
+      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dI2GTY54Beqq9JfKc5J8EqyJ1bB.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rd3Q2lQ7YyMGufJhuXlwYYnBblr.jpg",
+      "releaseDate": "2026-03-28",
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -191,6 +179,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
       "releaseDate": "2020-12-24",
       "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 455714,
+      "type": "tmdb",
+      "title": "天才枪手",
+      "originalTitle": "ฉลาดเกมส์โกง",
+      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
+      "releaseDate": "2017-10-13",
+      "rating": 7.863,
       "mediaType": "movie"
     },
     {
@@ -230,15 +230,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249668,
+      "id": 1421609,
       "type": "tmdb",
-      "title": "拼桌",
-      "originalTitle": "拼桌",
-      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 6,
+      "title": "我的妈耶",
+      "originalTitle": "我的妈耶",
+      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cE15hXnCv6VfADRCo69n83BRNsS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "releaseDate": "2026-04-03",
+      "rating": 0,
       "mediaType": "movie"
     }
   ],
@@ -312,6 +312,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/p76KuTVKM2BDMFK1Cgggyz3Cuc.jpg",
       "backdropPath": null,
       "releaseDate": "2026-04-24",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1662256,
+      "type": "tmdb",
+      "title": "勇者无疆",
+      "originalTitle": "勇者无疆",
+      "description": "影片根据“100位新中国成立以来感动中国人物”之一，“最美奋斗者”罗盛教的真实事迹改编。 参与抗美援朝战争的罗盛教是侦察连的一位文书，紧张的战斗期间，他和抗美援朝的各位志愿军战士不仅要面对敌军的猛烈攻击，还要在物资匮乏、环境恶劣的情况下克服种种困难，在修筑机场的过程当中，他和志愿军战士用乐观坚韧的精神一次又一次的抵抗敌军的侵略，为抗美援朝战争做出了巨大贡献。在一次日常训练时，罗盛教发现一名不慎跌入冰窟的孩童，面对-20℃的天气，罗盛教想都没想便跳入了冰窟当中，用自己的全身力气将孩童托起，最终因体力耗尽英勇牺牲。 每一位志愿军战士都在保家卫国的道路上付出了巨大的努力和牺牲，他们的事迹和精神永远激励着每一个人！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
+      "releaseDate": "2026-04-22",
       "rating": 0,
       "mediaType": "movie"
     }
