@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T14:56:28.350+08:00",
+  "last_updated": "2026-04-04T20:47:23.813+08:00",
   "tv": {
     "全网": [
       {
@@ -321,25 +321,31 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "宇宙闪烁请注意",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "魔力歌先生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "奋斗吧人生-演员篇",
+        "title": "哈哈哈哈哈 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "宇宙闪烁请注意",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "周五晚高疯",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "奋斗吧人生-演员篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -367,12 +373,6 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
-      },
-      {
-        "title": "最强大脑 第13季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
       }
     ],
     "优酷": [
@@ -390,6 +390,12 @@
       },
       {
         "title": "最强大脑 第13季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "无限超越班 第四季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -429,15 +435,15 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
-      },
-      {
-        "title": "笑有新生",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
       }
     ],
     "爱奇艺": [
+      {
+        "title": "哈哈哈哈哈 第六季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
       {
         "title": "宇宙闪烁请注意",
         "description": "暂无简介",
@@ -481,19 +487,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "你好种地少年第3季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "泰甜啦",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "2026中央广播电视总台春节联欢晚会",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "你好种地少年第3季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -502,6 +502,12 @@
     "腾讯视频": [
       {
         "title": "魔力歌先生",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "哈哈哈哈哈 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -553,12 +559,6 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
-      },
-      {
-        "title": "十三邀 第九季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
       }
     ],
     "芒果TV": [
@@ -575,13 +575,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "中国新声代 第六季",
+        "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "我家那小子2026",
+        "title": "中国新声代 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -599,13 +599,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "初入职场金融季",
+        "title": "欢迎来到蘑菇屋 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "欢迎来到蘑菇屋 第二季",
+        "title": "初入职场金融季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
