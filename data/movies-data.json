@@ -1,18 +1,6 @@
 {
-  "last_updated": "2026-04-06T00:30:29.647+08:00",
+  "last_updated": "2026-04-07T00:40:34.011+08:00",
   "now_playing": [
-    {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.6,
-      "mediaType": "movie"
-    },
     {
       "id": 1171145,
       "type": "tmdb",
@@ -22,7 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/vzOl0DgvaxuGMPJhncUeOqIxjyi.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kKF4gEiBDArhONlCcunHVgBp3bA.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7.04,
+      "rating": 7.057,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.57,
       "mediaType": "movie"
     },
     {
@@ -32,9 +32,9 @@
       "originalTitle": "The Super Mario Galaxy Movie",
       "description": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.949,
+      "rating": 7.006,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.192,
+      "rating": 8.187,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.5,
+      "rating": 6.507,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.4,
+      "rating": 7.417,
       "mediaType": "movie"
     },
     {
@@ -104,9 +104,9 @@
       "originalTitle": "The Bride!",
       "description": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
       "posterPath": "https://image.tmdb.org/t/p/w500/1pZ3BK2tdODT3cv0SAhXu9VPJSk.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/5hH7QiEPOiz7aGa4eJce74kZkO1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/l8rKKMU2M9dDULO9CEtDNdWAEUJ.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.276,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -118,19 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.339,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1268630,
-      "type": "tmdb",
-      "title": "搜查瑠公圳",
-      "originalTitle": "搜查瑠公圳",
-      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4pgaOLGKY9klkPwtOFLQCOse1o7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pyg46sZg60RrO5k8MwWfsQYmokU.jpg",
-      "releaseDate": "2026-03-28",
-      "rating": 6,
+      "rating": 7.337,
       "mediaType": "movie"
     },
     {
@@ -146,15 +134,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249589,
+      "id": 1268630,
       "type": "tmdb",
-      "title": "天才游戏",
-      "originalTitle": "天才游戏",
-      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-04",
-      "rating": 7,
+      "title": "搜查瑠公圳",
+      "originalTitle": "搜查瑠公圳",
+      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4pgaOLGKY9klkPwtOFLQCOse1o7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pyg46sZg60RrO5k8MwWfsQYmokU.jpg",
+      "releaseDate": "2026-03-28",
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -166,7 +154,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cS4hcvBU2xrn5u5eHbTkHW43hWj.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
       "releaseDate": "2026-04-04",
-      "rating": 7.167,
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249589,
+      "type": "tmdb",
+      "title": "天才游戏",
+      "originalTitle": "天才游戏",
+      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -182,15 +182,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 455714,
+      "id": 1421609,
       "type": "tmdb",
-      "title": "天才枪手",
-      "originalTitle": "ฉลาดเกมส์โกง",
-      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
-      "releaseDate": "2017-10-13",
-      "rating": 7.859,
+      "title": "我的妈耶",
+      "originalTitle": "我的妈耶",
+      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cE15hXnCv6VfADRCo69n83BRNsS.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
+      "releaseDate": "2026-04-03",
+      "rating": 5.5,
       "mediaType": "movie"
     },
     {
@@ -206,15 +206,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 1421609,
+      "id": 1249668,
       "type": "tmdb",
-      "title": "我的妈耶",
-      "originalTitle": "我的妈耶",
-      "description": "十一（黄明昊 饰）从小由父亲张永勋（白客 饰）独自抚养长大，自出生时就离世的妈妈东玉（马思纯 饰）对于他而言则是陌生人般的存在。处于青春叛逆期的十一，在自己18岁生日这天意外发现了一本「妈妈的日记」。在好奇心的驱使下，十一翻开日记，开启了一段“认识妈妈”的旅程——十一跟随着妈妈的成长经历，邂逅了她人生不同阶段的重要人物——霹雳舞学长（梁靖康 饰）、高中闺蜜彩霞（嵇嘉禾 饰）、发小刘皮孩（王天放 饰）、初恋小哥（孙阳 饰）以及老公张永勋。这些人物串联起东玉一生所经历的友谊、爱情与亲情…… 透过这本「日记」，十一看见了东玉短暂却向阳的一生，也终于感受到了她对自己从始至终不曾缺席的爱……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cE15hXnCv6VfADRCo69n83BRNsS.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
-      "releaseDate": "2026-04-03",
-      "rating": 5.5,
+      "title": "拼桌",
+      "originalTitle": "拼桌",
+      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 6.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 455714,
+      "type": "tmdb",
+      "title": "天才枪手",
+      "originalTitle": "ฉลาดเกมส์โกง",
+      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
+      "releaseDate": "2017-10-13",
+      "rating": 7.859,
       "mediaType": "movie"
     },
     {
@@ -227,18 +239,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/bMJiOIuLXfa9fwB6rmAT13qVqzZ.jpg",
       "releaseDate": "2026-03-14",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1249668,
-      "type": "tmdb",
-      "title": "拼桌",
-      "originalTitle": "拼桌",
-      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 6,
       "mediaType": "movie"
     }
   ],
