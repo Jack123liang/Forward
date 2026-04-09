@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T21:19:29.803+08:00",
+  "last_updated": "2026-04-10T03:00:09.008+08:00",
   "tv": {
     "全网": [
       {
@@ -101,13 +101,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "红腰鼓",
+        "title": "长安二十四计",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "长安二十四计",
+        "title": "红腰鼓",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -351,6 +351,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "主咖和Ta的朋友们",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "无限超越班 第四季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -358,12 +364,6 @@
       },
       {
         "title": "开始捉迷藏 第2季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -419,13 +419,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "第一人称复数 第三季",
+        "title": "快乐趣吹风",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "快乐趣吹风",
+        "title": "第一人称复数 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -519,13 +519,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "开始捉迷藏 第2季",
+        "title": "主咖和Ta的朋友们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "主咖和Ta的朋友们",
+        "title": "开始捉迷藏 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -537,13 +537,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "最强大脑 第13季",
+        "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "最强大脑 第13季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
