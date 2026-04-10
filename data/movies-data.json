@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T01:01:36.293+08:00",
+  "last_updated": "2026-04-11T00:43:52.413+08:00",
   "now_playing": [
     {
       "id": 1327819,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.6,
+      "rating": 7.586,
       "mediaType": "movie"
     },
     {
@@ -20,9 +20,9 @@
       "originalTitle": "Crime 101",
       "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sl2649wlcocfFU7HKxQgNUEBMnT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vG42HeYtoTFflqwP42wYD7tBuNr.jpg",
       "releaseDate": "2026-03-07",
-      "rating": 7,
+      "rating": 7.1,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.903,
+      "rating": 6.939,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.2,
+      "rating": 8.19,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l8rKKMU2M9dDULO9CEtDNdWAEUJ.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.286,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.522,
+      "rating": 6.528,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.414,
+      "rating": 7.415,
       "mediaType": "movie"
     },
     {
@@ -106,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.715,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.3,
+      "rating": 7.313,
       "mediaType": "movie"
     },
     {
@@ -158,6 +158,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1481955,
+      "type": "tmdb",
+      "title": "阳光女子合唱团",
+      "originalTitle": "陽光女子合唱團",
+      "description": "长期遭受家庭暴力的惠贞，于一次意外事件中杀害了丈夫，遭判刑入狱。在法务部矫正署台北女子看守所服刑期间，怀孕的惠贞在监狱内产下一女，取名叫芸熙。其后，芸熙被诊断出患有弱视，使惠贞在服刑之余亦承受沉重的母职压力与心理负担。随着新生命的诞生，原本充满冲突与矛盾的监狱环境也逐渐产生变化。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cS4hcvBU2xrn5u5eHbTkHW43hWj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
+      "releaseDate": "2026-04-04",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1249668,
       "type": "tmdb",
       "title": "拼桌",
@@ -179,18 +191,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
       "releaseDate": "2012-11-26",
       "rating": 6.7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1481955,
-      "type": "tmdb",
-      "title": "阳光女子合唱团",
-      "originalTitle": "陽光女子合唱團",
-      "description": "长期遭受家庭暴力的惠贞，于一次意外事件中杀害了丈夫，遭判刑入狱。在法务部矫正署台北女子看守所服刑期间，怀孕的惠贞在监狱内产下一女，取名叫芸熙。其后，芸熙被诊断出患有弱视，使惠贞在服刑之余亦承受沉重的母职压力与心理负担。随着新生命的诞生，原本充满冲突与矛盾的监狱环境也逐渐产生变化。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cS4hcvBU2xrn5u5eHbTkHW43hWj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
-      "releaseDate": "2026-04-04",
-      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -218,18 +218,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 455714,
-      "type": "tmdb",
-      "title": "天才枪手",
-      "originalTitle": "ฉลาดเกมส์โกง",
-      "description": "　　影片根据2014年轰动一时的亚洲考场作弊案改编，讲述了天才学霸利用高智商考场作弊牟取暴利的故事。出生平凡的天才少女Lynn（茱蒂蒙·琼查容苏因 饰）在进入贵族学校后，结识了富二代同学Grace（依莎亚·贺苏汪饰）与Pat（披纳若·苏潘平佑饰），从此开始了考场作弊生涯，与此同时，另一名记忆力极佳的天才学霸Bank（查侬·散顶腾古 饰）发现了Lynn不为人知的“交易”。经过多场险象环生的“作弊战争”后，Lynn接下最后一单在国际考场上为富家子弟作弊的天价委托。一场横跨两大洲的完美作弊方案横空出世，然而一切并不像他们想的那么简单……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/aHcC4iI4WFAB2sgSjVwcEXaeWE.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6qTpufRgDkl0M2zRPewozYD1g5y.jpg",
-      "releaseDate": "2017-10-13",
-      "rating": 7.859,
-      "mediaType": "movie"
-    },
-    {
       "id": 1421609,
       "type": "tmdb",
       "title": "我的妈耶",
@@ -239,6 +227,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
       "releaseDate": "2026-04-03",
       "rating": 5.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 6,
       "mediaType": "movie"
     }
   ],
@@ -292,6 +292,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1499071,
+      "type": "tmdb",
+      "title": "寒战1994",
+      "originalTitle": "寒戰1994",
+      "description": "　　1994年，香港一宗富豪绑架案，掀起各界暗涌风潮，金融中心的地位亦随即受创。调查期间，警队众人各怀鬼胎，为名利攀附权贵。面对各种挑战，O记警司李文彬以身犯险游走各界，势要揭露真相，维护香港繁荣稳定。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sjgqasza3OBsqi0HLrpZ2LydzwT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/b1ycUYUWvj14J8pgE3BjNxjwItk.jpg",
+      "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1005985,
       "type": "tmdb",
       "title": "器子",
@@ -304,14 +316,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1499071,
+      "id": 1418531,
       "type": "tmdb",
-      "title": "寒战1994",
-      "originalTitle": "寒戰1994",
-      "description": "　　1994年，香港一宗富豪绑架案，掀起各界暗涌风潮，金融中心的地位亦随即受创。调查期间，警队众人各怀鬼胎，为名利攀附权贵。面对各种挑战，O记警司李文彬以身犯险游走各界，势要揭露真相，维护香港繁荣稳定。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sjgqasza3OBsqi0HLrpZ2LydzwT.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/b1ycUYUWvj14J8pgE3BjNxjwItk.jpg",
-      "releaseDate": "2026-05-01",
+      "title": "燃比娃",
+      "originalTitle": "燃比娃",
+      "description": "影片故事源自羌族神话，讲述了一只被人类抚养长大的猴子，追寻母亲阿勿巴吉（周迅 配音）的足迹，踏上神山探寻“温暖”之谜的旅程。他在“恐惧之兽”口中夺取火种，烈焰焚身，褪去毛发，涅槃成人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/345iQbrsk9GPUrk8toAuhxcacss.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uzJxjBo7jp1eFOUnNFKMShiQtRo.jpg",
+      "releaseDate": "2026-04-28",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -328,30 +340,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1645455,
-      "type": "tmdb",
-      "title": "登月(第一部)",
-      "originalTitle": "登月(第一部)",
-      "description": "　　38万公里，53天，中国探月工程嫦娥六号任务完成了人类首次月背采样返回——从那个永远背对地球、充满未知的世界带了一捧月壤回来。 2024年5月，海南文昌，长征五号火箭静立雨中，等待着那个不可错失的发射窗口。指挥大厅里，倒计时声与心跳声交织，数字跳动，屏息凝视。没有人能确定，这是否会成为本次征途的终点。 月背之上，一场人类从未尝试过的“挖土”，正在进行…… 你看到的每一秒历史，都曾有人为此奋斗一生。影片首次深入“嫦娥六号任务”幕后那群隐于视野之外的航天人，他们是普通的中国人，却共同承担着人类探索星辰的使命。他们用一生、用双手，把“星辰”从梦想变成了现实。他们的故事，也是每一个认真生活、默默前行的“我们”的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/p76KuTVKM2BDMFK1Cgggyz3Cuc.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-24",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1418531,
-      "type": "tmdb",
-      "title": "燃比娃",
-      "originalTitle": "燃比娃",
-      "description": "影片故事源自羌族神话，讲述了一只被人类抚养长大的猴子，追寻母亲阿勿巴吉（周迅 配音）的足迹，踏上神山探寻“温暖”之谜的旅程。他在“恐惧之兽”口中夺取火种，烈焰焚身，褪去毛发，涅槃成人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/345iQbrsk9GPUrk8toAuhxcacss.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uzJxjBo7jp1eFOUnNFKMShiQtRo.jpg",
-      "releaseDate": "2026-04-28",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1658653,
       "type": "tmdb",
       "title": "消失的人",
@@ -360,6 +348,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
       "backdropPath": null,
       "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1645455,
+      "type": "tmdb",
+      "title": "登月(第一部)",
+      "originalTitle": "登月(第一部)",
+      "description": "　　38万公里，53天，中国探月工程嫦娥六号任务完成了人类首次月背采样返回——从那个永远背对地球、充满未知的世界带了一捧月壤回来。 2024年5月，海南文昌，长征五号火箭静立雨中，等待着那个不可错失的发射窗口。指挥大厅里，倒计时声与心跳声交织，数字跳动，屏息凝视。没有人能确定，这是否会成为本次征途的终点。 月背之上，一场人类从未尝试过的“挖土”，正在进行…… 你看到的每一秒历史，都曾有人为此奋斗一生。影片首次深入“嫦娥六号任务”幕后那群隐于视野之外的航天人，他们是普通的中国人，却共同承担着人类探索星辰的使命。他们用一生、用双手，把“星辰”从梦想变成了现实。他们的故事，也是每一个认真生活、默默前行的“我们”的故事。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/p76KuTVKM2BDMFK1Cgggyz3Cuc.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4hOnfpVCu2MM7n7QKmi0zARASxb.jpg",
+      "releaseDate": "2026-04-08",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -376,18 +376,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1662256,
-      "type": "tmdb",
-      "title": "勇者无疆",
-      "originalTitle": "勇者无疆",
-      "description": "影片根据“100位新中国成立以来感动中国人物”之一，“最美奋斗者”罗盛教的真实事迹改编。 参与抗美援朝战争的罗盛教是侦察连的一位文书，紧张的战斗期间，他和抗美援朝的各位志愿军战士不仅要面对敌军的猛烈攻击，还要在物资匮乏、环境恶劣的情况下克服种种困难，在修筑机场的过程当中，他和志愿军战士用乐观坚韧的精神一次又一次的抵抗敌军的侵略，为抗美援朝战争做出了巨大贡献。在一次日常训练时，罗盛教发现一名不慎跌入冰窟的孩童，面对-20℃的天气，罗盛教想都没想便跳入了冰窟当中，用自己的全身力气将孩童托起，最终因体力耗尽英勇牺牲。 每一位志愿军战士都在保家卫国的道路上付出了巨大的努力和牺牲，他们的事迹和精神永远激励着每一个人！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
-      "releaseDate": "2026-04-22",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1492501,
       "type": "tmdb",
       "title": "10间敢死队",
@@ -396,6 +384,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
       "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1662256,
+      "type": "tmdb",
+      "title": "勇者无疆",
+      "originalTitle": "勇者无疆",
+      "description": "影片根据“100位新中国成立以来感动中国人物”之一，“最美奋斗者”罗盛教的真实事迹改编。 参与抗美援朝战争的罗盛教是侦察连的一位文书，紧张的战斗期间，他和抗美援朝的各位志愿军战士不仅要面对敌军的猛烈攻击，还要在物资匮乏、环境恶劣的情况下克服种种困难，在修筑机场的过程当中，他和志愿军战士用乐观坚韧的精神一次又一次的抵抗敌军的侵略，为抗美援朝战争做出了巨大贡献。在一次日常训练时，罗盛教发现一名不慎跌入冰窟的孩童，面对-20℃的天气，罗盛教想都没想便跳入了冰窟当中，用自己的全身力气将孩童托起，最终因体力耗尽英勇牺牲。 每一位志愿军战士都在保家卫国的道路上付出了巨大的努力和牺牲，他们的事迹和精神永远激励着每一个人！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
+      "releaseDate": "2026-04-22",
       "rating": 0,
       "mediaType": "movie"
     },
