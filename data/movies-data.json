@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12T00:30:19.082+08:00",
+  "last_updated": "2026-04-13T00:31:52.970+08:00",
   "now_playing": [
     {
       "id": 1327819,
@@ -10,43 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.561,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1171145,
-      "type": "tmdb",
-      "title": "洛杉矶劫案",
-      "originalTitle": "Crime 101",
-      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vG42HeYtoTFflqwP42wYD7tBuNr.jpg",
-      "releaseDate": "2026-03-07",
-      "rating": 7.036,
-      "mediaType": "movie"
-    },
-    {
-      "id": 687163,
-      "type": "tmdb",
-      "title": "挽救计划",
-      "originalTitle": "Project Hail Mary",
-      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 8.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1297842,
-      "type": "tmdb",
-      "title": "奇迹梦之队",
-      "originalTitle": "GOAT",
-      "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 7.8,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -58,7 +22,43 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.927,
+      "rating": 6.888,
+      "mediaType": "movie"
+    },
+    {
+      "id": 687163,
+      "type": "tmdb",
+      "title": "挽救计划",
+      "originalTitle": "Project Hail Mary",
+      "description": "　　太阳即将熄灭，地球命悬一线，对太空一窍不通的中学老师瑞恩（瑞恩·高斯林 饰）竟成为全人类的希望。被迫成为宇航员的他，踏上有去无回的太空孤旅。他能否力挽狂澜，为人类带来新的黎明？\r 　　影片改编自安迪·威尔的同名畅销科幻小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 8.223,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1171145,
+      "type": "tmdb",
+      "title": "洛杉矶劫案",
+      "originalTitle": "Crime 101",
+      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/vG42HeYtoTFflqwP42wYD7tBuNr.jpg",
+      "releaseDate": "2026-03-07",
+      "rating": 7.031,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1297842,
+      "type": "tmdb",
+      "title": "奇迹梦之队",
+      "originalTitle": "GOAT",
+      "description": "　　主角威尔是只梦想成为职业球手的小山羊，面对向来由猛兽主宰的凶险赛场，队友对他嗤之以鼻，他能否打破偏见，用实力证明小个子也能称霸球场？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 7.892,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/l8rKKMU2M9dDULO9CEtDNdWAEUJ.jpg",
       "releaseDate": "2026-03-06",
-      "rating": 6.323,
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.532,
+      "rating": 6.533,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.413,
+      "rating": 7.407,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b4uXVgLCOxx2c9VbyppdSD9G3Xq.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.313,
+      "rating": 7.316,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 8,
+      "rating": 7.965,
       "mediaType": "movie"
     },
     {
@@ -250,7 +250,7 @@
       "originalTitle": "Michael",
       "description": "　　流行天王迈克尔·杰克逊传记片宣布开拍，《怪奇物语》卢卡斯饰演者凯莱布·麦克劳克林将在片中扮演少年时期的MJ。《007》《天才捕手》编剧约翰·洛根执笔，更多细节信息即将发布。",
       "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9k1ZEKl2RnlLRFt52Yo78yPAOPF.jpg",
       "releaseDate": "2026-04-24",
       "rating": 0,
       "mediaType": "movie"
@@ -262,7 +262,7 @@
       "originalTitle": "The Devil Wears Prada 2",
       "description": "　　随着传统出版业的式微，时尚女王米兰达在职业生涯中迎来新挑战。她不得不与手握广告预算的曾经的助理，如今已是奢侈品牌集团高管的艾米莉正面交锋。两人在行业变局中展开了一场关乎权力与生存的较量。",
       "posterPath": "https://image.tmdb.org/t/p/w500/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/e5dglyzFNGvrcnddZxF4LJu5b4b.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/y3fQa7pytlysovXzovpXc1OQlTW.jpg",
       "releaseDate": "2026-04-30",
       "rating": 0,
       "mediaType": "movie"
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1FXbo86BoKBCL1Upovi8k0SPcWh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
       "releaseDate": "2026-04-17",
-      "rating": 7.49,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -300,7 +300,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/prmdcWDzvhKiHKp6naKwADj9KU7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/o0n8l6Itc3vjf9svwHGzC3uuQhZ.jpg",
       "releaseDate": "2026-04-18",
-      "rating": 6.1,
+      "rating": 6.074,
       "mediaType": "movie"
     },
     {
@@ -312,30 +312,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sjgqasza3OBsqi0HLrpZ2LydzwT.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/b1ycUYUWvj14J8pgE3BjNxjwItk.jpg",
       "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1492501,
-      "type": "tmdb",
-      "title": "10间敢死队",
-      "originalTitle": "10间敢死队",
-      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
-      "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1470918,
-      "type": "tmdb",
-      "title": "不能错过的只有你2",
-      "originalTitle": "不能错过的只有你2",
-      "description": "主要讲述了主人公余晚空在他的旅途中偶然遇到了一个境遇相似的女子，并决定与她一起前往美丽的大凉山。在相处的过程中，他们不仅解决了彼此之间的问题，还为家乡带来了积极的影响",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3Y17MhSIdIvg4Q1NUOuB52aIprt.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ngLsUz7IPSZDjl8n50RSFCD8UaB.jpg",
-      "releaseDate": "2026-04-18",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -352,6 +328,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1470918,
+      "type": "tmdb",
+      "title": "不能错过的只有你2",
+      "originalTitle": "不能错过的只有你2",
+      "description": "主要讲述了主人公余晚空在他的旅途中偶然遇到了一个境遇相似的女子，并决定与她一起前往美丽的大凉山。在相处的过程中，他们不仅解决了彼此之间的问题，还为家乡带来了积极的影响",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3Y17MhSIdIvg4Q1NUOuB52aIprt.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ngLsUz7IPSZDjl8n50RSFCD8UaB.jpg",
+      "releaseDate": "2026-04-18",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1492501,
+      "type": "tmdb",
+      "title": "10间敢死队",
+      "originalTitle": "10间敢死队",
+      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
+      "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1645455,
       "type": "tmdb",
       "title": "登月(第一部)",
@@ -364,14 +364,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1658653,
+      "id": 1662256,
       "type": "tmdb",
-      "title": "消失的人",
-      "originalTitle": "消失的人",
-      "description": "冬至清晨，唐宇（郑恺 饰）的儿子在楼梯间消失无踪。隔壁单元，赌鬼严午（邱泽 饰）决定在出租屋藏匿父亲的尸体。半年前，单身独居的女孩林雨彤（刘浩存 饰）在熟睡中被侵犯，而凶手不知所踪。这些看似毫不相关的事，却在这一刻重新交织，重新演绎。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-05-01",
+      "title": "勇者无疆",
+      "originalTitle": "勇者无疆",
+      "description": "影片根据“100位新中国成立以来感动中国人物”之一，“最美奋斗者”罗盛教的真实事迹改编。 参与抗美援朝战争的罗盛教是侦察连的一位文书，紧张的战斗期间，他和抗美援朝的各位志愿军战士不仅要面对敌军的猛烈攻击，还要在物资匮乏、环境恶劣的情况下克服种种困难，在修筑机场的过程当中，他和志愿军战士用乐观坚韧的精神一次又一次的抵抗敌军的侵略，为抗美援朝战争做出了巨大贡献。在一次日常训练时，罗盛教发现一名不慎跌入冰窟的孩童，面对-20℃的天气，罗盛教想都没想便跳入了冰窟当中，用自己的全身力气将孩童托起，最终因体力耗尽英勇牺牲。 每一位志愿军战士都在保家卫国的道路上付出了巨大的努力和牺牲，他们的事迹和精神永远激励着每一个人！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
+      "releaseDate": "2026-04-22",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -388,14 +388,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1662256,
+      "id": 1658653,
       "type": "tmdb",
-      "title": "勇者无疆",
-      "originalTitle": "勇者无疆",
-      "description": "影片根据“100位新中国成立以来感动中国人物”之一，“最美奋斗者”罗盛教的真实事迹改编。 参与抗美援朝战争的罗盛教是侦察连的一位文书，紧张的战斗期间，他和抗美援朝的各位志愿军战士不仅要面对敌军的猛烈攻击，还要在物资匮乏、环境恶劣的情况下克服种种困难，在修筑机场的过程当中，他和志愿军战士用乐观坚韧的精神一次又一次的抵抗敌军的侵略，为抗美援朝战争做出了巨大贡献。在一次日常训练时，罗盛教发现一名不慎跌入冰窟的孩童，面对-20℃的天气，罗盛教想都没想便跳入了冰窟当中，用自己的全身力气将孩童托起，最终因体力耗尽英勇牺牲。 每一位志愿军战士都在保家卫国的道路上付出了巨大的努力和牺牲，他们的事迹和精神永远激励着每一个人！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
-      "releaseDate": "2026-04-22",
+      "title": "消失的人",
+      "originalTitle": "消失的人",
+      "description": "冬至清晨，唐宇（郑恺 饰）的儿子在楼梯间消失无踪。隔壁单元，赌鬼严午（邱泽 饰）决定在出租屋藏匿父亲的尸体。半年前，单身独居的女孩林雨彤（刘浩存 饰）在熟睡中被侵犯，而凶手不知所踪。这些看似毫不相关的事，却在这一刻重新交织，重新演绎。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
