@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T01:00:21.683+08:00",
+  "last_updated": "2026-04-16T00:57:24.792+08:00",
   "now_playing": [
     {
       "id": 1226863,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.834,
+      "rating": 6.826,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.585,
+      "rating": 7.584,
       "mediaType": "movie"
     },
     {
@@ -34,19 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.229,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1171145,
-      "type": "tmdb",
-      "title": "洛杉矶劫案",
-      "originalTitle": "Crime 101",
-      "description": "　　当多年来从未失手的珠宝大盗（克里斯·海姆斯沃斯 饰）决心干票大的就金盆洗手时，人生失意的保险公司高管（哈莉·贝瑞 饰）却意外加入，两人被迫联手。与此同时，一位警探（马克·鲁法洛 饰）正通过蛛丝马迹的线索将矛头对准他们。监守自盗的内鬼，黑吃黑的争斗，交错的阴谋下谁将成为这场惊天劫案的最终赢家？\r 　　影片改编自《纽约时报》榜首畅销书作者唐·温斯洛同名小说。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zpKmXqcDOwKtJtrSpwu6ZWGtUPh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/vG42HeYtoTFflqwP42wYD7tBuNr.jpg",
-      "releaseDate": "2026-03-07",
-      "rating": 7,
+      "rating": 8.225,
       "mediaType": "movie"
     },
     {
@@ -58,19 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.916,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1159831,
-      "type": "tmdb",
-      "title": "暗黑新娘！",
-      "originalTitle": "The Bride!",
-      "description": "　　孤独的科学怪人弗兰肯斯坦（克里斯蒂安·贝尔 饰）来到了1930年代的芝加哥，恳请顶级科学家尤弗洛尼斯博士（安妮特·贝宁 饰）为他创造一位伴侣。两人成功复活了一名遭到谋杀的年轻女子，“新娘”（杰西·巴克利 饰）就此诞生。然而事态发展却远超两人想象：谋杀接踵而至，占有欲疯狂滋生，一场激进的文化运动席卷社会，更有一对亡命鸳鸯，上演一段狂烈炽热的禁忌之恋。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/X8oYS7jRagGIAPfYARvpQWY8pv.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/l8rKKMU2M9dDULO9CEtDNdWAEUJ.jpg",
-      "releaseDate": "2026-03-06",
-      "rating": 6.248,
+      "rating": 7.927,
       "mediaType": "movie"
     },
     {
@@ -82,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.515,
+      "rating": 6.528,
       "mediaType": "movie"
     },
     {
@@ -94,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.4,
+      "rating": 7.407,
       "mediaType": "movie"
     },
     {
@@ -106,7 +82,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.708,
+      "rating": 6.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1124566,
+      "type": "tmdb",
+      "title": "情感价值",
+      "originalTitle": "Affeksjonsverdi",
+      "description": "Nora和Agnes与疏远的父亲——魅力非凡的导演Gustav重聚。这位昔日名导试图让舞台剧演员Nora参演自己寄予厚望的复出之作，却遭女儿拒绝。Nora很快发现，父亲已将她的角色转给了一位野心勃勃的好莱坞新星。突如其来的变故迫使两姐妹直面与父亲的复杂纠葛，而这位美国明星的加入，更让本就微妙的家庭关系陷入新的波澜。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/1FXbo86BoKBCL1Upovi8k0SPcWh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
+      "releaseDate": "2026-04-17",
+      "rating": 7.487,
       "mediaType": "movie"
     },
     {
@@ -122,18 +110,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1303236,
-      "type": "tmdb",
-      "title": "角头：大桥头",
-      "originalTitle": "角頭－大橋頭",
-      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
-      "releaseDate": "2026-04-10",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
       "id": 682012,
       "type": "tmdb",
       "title": "你好，爱美丽",
@@ -146,6 +122,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1303236,
+      "type": "tmdb",
+      "title": "角头：大桥头",
+      "originalTitle": "角頭－大橋頭",
+      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
+      "releaseDate": "2026-04-10",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1421609,
       "type": "tmdb",
       "title": "我的妈耶",
@@ -155,30 +143,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/tRg0CIV7HQVKcdd2Jabv4GdhEVF.jpg",
       "releaseDate": "2026-04-03",
       "rating": 5.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1481955,
-      "type": "tmdb",
-      "title": "阳光女子合唱团",
-      "originalTitle": "陽光女子合唱團",
-      "description": "长期遭受家庭暴力的惠贞，于一次意外事件中杀害了丈夫，遭判刑入狱。在法务部矫正署台北女子看守所服刑期间，怀孕的惠贞在监狱内产下一女，取名叫芸熙。其后，芸熙被诊断出患有弱视，使惠贞在服刑之余亦承受沉重的母职压力与心理负担。随着新生命的诞生，原本充满冲突与矛盾的监狱环境也逐渐产生变化。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cS4hcvBU2xrn5u5eHbTkHW43hWj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
-      "releaseDate": "2026-04-04",
-      "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 137409,
-      "type": "tmdb",
-      "title": "寒战",
-      "originalTitle": "寒戰",
-      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
-      "releaseDate": "2012-11-26",
-      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -206,27 +170,51 @@
       "mediaType": "movie"
     },
     {
-      "id": 1249668,
+      "id": 1481955,
       "type": "tmdb",
-      "title": "拼桌",
-      "originalTitle": "拼桌",
-      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
-      "releaseDate": "2026-03-14",
-      "rating": 6.5,
+      "title": "阳光女子合唱团",
+      "originalTitle": "陽光女子合唱團",
+      "description": "长期遭受家庭暴力的惠贞，于一次意外事件中杀害了丈夫，遭判刑入狱。在法务部矫正署台北女子看守所服刑期间，怀孕的惠贞在监狱内产下一女，取名叫芸熙。其后，芸熙被诊断出患有弱视，使惠贞在服刑之余亦承受沉重的母职压力与心理负担。随着新生命的诞生，原本充满冲突与矛盾的监狱环境也逐渐产生变化。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3ZlvgP5vXHPdJLNo6eJ464qumAs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
+      "releaseDate": "2026-03-30",
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
-      "id": 1268630,
+      "id": 137409,
       "type": "tmdb",
-      "title": "搜查瑠公圳",
-      "originalTitle": "搜查瑠公圳",
-      "description": "不愿受将军父亲庇护的叛逆警探，面对受陷害成为女分尸命案凶手的父亲，携手备受歧视妇幼线女记者，在全民热议与媒体编造报导下追查事件真相，却发现…凶手似乎另有其人？ ！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4pgaOLGKY9klkPwtOFLQCOse1o7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/pyg46sZg60RrO5k8MwWfsQYmokU.jpg",
-      "releaseDate": "2026-03-28",
-      "rating": 5,
+      "title": "寒战",
+      "originalTitle": "寒戰",
+      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
+      "releaseDate": "2012-11-26",
+      "rating": 6.7,
+      "mediaType": "movie"
+    },
+    {
+      "id": 559974,
+      "type": "tmdb",
+      "title": "拆弹专家2",
+      "originalTitle": "拆彈專家2",
+      "description": "香港某处发生爆炸案，前拆弹专家潘乘风因昏迷于现场，被警方怀疑牵涉其中。苏醒后的潘乘风记忆缺损，只能一边逃亡一边查明真相，然而，他的好友董卓文和他的前女友庞玲却给他讲述了一段截然不同的回忆。有计划的爆炸案接二连三发生，真相却越来越扑朔迷离。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
+      "releaseDate": "2020-12-24",
+      "rating": 7.1,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249589,
+      "type": "tmdb",
+      "title": "天才游戏",
+      "originalTitle": "天才游戏",
+      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-04",
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -239,6 +227,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
       "releaseDate": "2026-03-21",
       "rating": 6.6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249668,
+      "type": "tmdb",
+      "title": "拼桌",
+      "originalTitle": "拼桌",
+      "description": "滞销书编辑张嘉怡和失业程序员陆拾谷意外成为了“饭搭子”，随着两人生活变故的不断发生，他们之间轻松单纯的快餐式友谊也渐渐发生了变化。在成长的道路上，他们遵从自己的内心，勇敢的追求属于自己的事业和爱情。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
+      "releaseDate": "2026-03-14",
+      "rating": 5.667,
       "mediaType": "movie"
     }
   ],
@@ -268,15 +268,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1124566,
+      "id": 931285,
       "type": "tmdb",
-      "title": "情感价值",
-      "originalTitle": "Affeksjonsverdi",
-      "description": "Nora和Agnes与疏远的父亲——魅力非凡的导演Gustav重聚。这位昔日名导试图让舞台剧演员Nora参演自己寄予厚望的复出之作，却遭女儿拒绝。Nora很快发现，父亲已将她的角色转给了一位野心勃勃的好莱坞新星。突如其来的变故迫使两姐妹直面与父亲的复杂纠葛，而这位美国明星的加入，更让本就微妙的家庭关系陷入新的波澜。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/1FXbo86BoKBCL1Upovi8k0SPcWh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
-      "releaseDate": "2026-04-17",
-      "rating": 7.487,
+      "title": "真人快打2",
+      "originalTitle": "Mortal Kombat II",
+      "description": "　　守护者们被卷入毫无规则可言的终极搏杀，他们在血肉激战中对抗大反派绍康的黑暗统治，这场对决关乎着地球界的生死存亡。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/m6ciqp691frwE1nNeMgWFBr0AZf.jpg",
+      "releaseDate": "2026-05-08",
+      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -304,18 +304,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1005985,
-      "type": "tmdb",
-      "title": "器子",
-      "originalTitle": "器子",
-      "description": "女儿在三个月大时失踪，疑似被贩婴集团偷走，妻子过度自责后自戕，他为追查真相反被诬陷入狱，出狱后查出女儿是落入活摘器官集团，成为被取走心脏的「器子」。他悲愤难当，对犯罪集团连翻展开以暴制暴的复仇行动，全力营救作为「器子」的女儿。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/prmdcWDzvhKiHKp6naKwADj9KU7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/o0n8l6Itc3vjf9svwHGzC3uuQhZ.jpg",
-      "releaseDate": "2026-04-18",
-      "rating": 6.074,
-      "mediaType": "movie"
-    },
-    {
       "id": 1499071,
       "type": "tmdb",
       "title": "寒战1994",
@@ -340,14 +328,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1470918,
+      "id": 1492501,
       "type": "tmdb",
-      "title": "不能错过的只有你2",
-      "originalTitle": "不能错过的只有你2",
-      "description": "主要讲述了主人公余晚空在他的旅途中偶然遇到了一个境遇相似的女子，并决定与她一起前往美丽的大凉山。在相处的过程中，他们不仅解决了彼此之间的问题，还为家乡带来了积极的影响",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3Y17MhSIdIvg4Q1NUOuB52aIprt.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4QUGnUtYdw7KHkVAWUcH7zjZ3Pm.jpg",
-      "releaseDate": "2026-04-18",
+      "title": "10间敢死队",
+      "originalTitle": "10间敢死队",
+      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
+      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -364,18 +352,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1492501,
-      "type": "tmdb",
-      "title": "10间敢死队",
-      "originalTitle": "10间敢死队",
-      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
-      "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1662256,
       "type": "tmdb",
       "title": "勇者无疆",
@@ -384,18 +360,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5ENxl6xf3YUpcoUFVz4AebdHVi4.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fArULAIfPBG6mRMX6yXjslK1kWP.jpg",
       "releaseDate": "2026-04-22",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1658653,
-      "type": "tmdb",
-      "title": "消失的人",
-      "originalTitle": "消失的人",
-      "description": "冬至清晨，唐宇（郑恺 饰）的儿子在楼梯间消失无踪。隔壁单元，赌鬼严午（邱泽 饰）决定在出租屋藏匿父亲的尸体。半年前，单身独居的女孩林雨彤（刘浩存 饰）在熟睡中被侵犯，而凶手不知所踪。这些看似毫不相关的事，却在这一刻重新交织，重新演绎。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -412,6 +376,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1658653,
+      "type": "tmdb",
+      "title": "消失的人",
+      "originalTitle": "消失的人",
+      "description": "冬至清晨，唐宇（郑恺 饰）的儿子在楼梯间消失无踪。隔壁单元，赌鬼严午（邱泽 饰）决定在出租屋藏匿父亲的尸体。半年前，单身独居的女孩林雨彤（刘浩存 饰）在熟睡中被侵犯，而凶手不知所踪。这些看似毫不相关的事，却在这一刻重新交织，重新演绎。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1500148,
+      "type": "tmdb",
+      "title": "青銅葵花",
+      "originalTitle": "青銅葵花",
+      "description": "　　曹文轩经典文学改编。\r 　　一场命运安排，一次特别机缘，城市女孩葵花和艺术家爸爸来到大麦地。爸爸意外死亡，贫穷善良的青铜家领养了葵花，两人成了兄妹，一起长大，经历饥饿、灾荒，体验了在那个苦难年代，生命中真实而可贵的真善美。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tQB9biQwL1blSHkT9sJhQxnUS4P.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/5Fe6IfrIm0D9nFSL36RE2xc4mHS.jpg",
+      "releaseDate": "2026-05-08",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1658136,
       "type": "tmdb",
       "title": "猪猪侠大电影之竞速小英雄",
@@ -420,18 +408,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lpc1z69ycoQ8ond8PXmsal7MMfQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4xlI7YMHe3UmtRireGoJ0ZUCjUO.jpg",
       "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1475606,
-      "type": "tmdb",
-      "title": "祭屋",
-      "originalTitle": "祭屋",
-      "description": "方程程陪同未婚夫苏醒来到诡异的老宅见未来公婆，却发现只在半夜三更出现的苏母竟然已去世多年，且从未举办过葬礼。而苏父明明活着，却非要给自己举办一场死亡祭祀……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/v8sxF0qXfhf5qncrYRpYYWfUzCI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/1bMwCcp7iMr2QZZjjTDj6L7x0Wv.jpg",
-      "releaseDate": "2026-04-17",
       "rating": 0,
       "mediaType": "movie"
     },
