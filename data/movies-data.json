@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T01:09:05.457+08:00",
+  "last_updated": "2026-04-18T00:50:34.636+08:00",
   "now_playing": [
     {
       "id": 1226863,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.797,
+      "rating": 6.811,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.2,
+      "rating": 8.216,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nODMNLnqlyusqGr8l4R0IzIN49D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 7.943,
+      "rating": 7.925,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cRgLp1jyRDTeHcHFUNZvFF2hRTp.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
       "releaseDate": "2026-03-13",
-      "rating": 6.528,
+      "rating": 6.531,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.409,
+      "rating": 7.404,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.7,
+      "rating": 6.729,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/1FXbo86BoKBCL1Upovi8k0SPcWh.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
       "releaseDate": "2026-04-17",
-      "rating": 7.5,
+      "rating": 7.497,
       "mediaType": "movie"
     },
     {
@@ -106,19 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eeGRpU64sIrRApjWXvTpK5Lep2K.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.317,
-      "mediaType": "movie"
-    },
-    {
-      "id": 682012,
-      "type": "tmdb",
-      "title": "你好，爱美丽",
-      "originalTitle": "Amélie et la métaphysique des tubes",
-      "description": "对于爱美丽来说，世界是一个令人困惑又安宁的谜团，直到一次与巧克力的奇妙邂逅点燃了她强烈的好奇心。随着她对家中女佣西尾小姐产生深厚依恋，爱美丽不仅发现了大自然的奇迹，也窥见了这个外国人家庭在战后日本田园诗般生活表象之下隐藏的情感真相。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.997,
+      "rating": 7.311,
       "mediaType": "movie"
     },
     {
@@ -131,6 +119,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
       "releaseDate": "2026-04-10",
       "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 682012,
+      "type": "tmdb",
+      "title": "你好，爱美丽",
+      "originalTitle": "Amélie et la métaphysique des tubes",
+      "description": "对于爱美丽来说，世界是一个令人困惑又安宁的谜团，直到一次与巧克力的奇妙邂逅点燃了她强烈的好奇心。随着她对家中女佣西尾小姐产生深厚依恋，爱美丽不仅发现了大自然的奇迹，也窥见了这个外国人家庭在战后日本田园诗般生活表象之下隐藏的情感真相。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 8.003,
       "mediaType": "movie"
     },
     {
@@ -170,18 +170,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 137409,
-      "type": "tmdb",
-      "title": "寒战",
-      "originalTitle": "寒戰",
-      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
-      "releaseDate": "2012-11-26",
-      "rating": 6.7,
-      "mediaType": "movie"
-    },
-    {
       "id": 416249,
       "type": "tmdb",
       "title": "寒战2",
@@ -206,6 +194,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 137409,
+      "type": "tmdb",
+      "title": "寒战",
+      "originalTitle": "寒戰",
+      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
+      "releaseDate": "2012-11-26",
+      "rating": 6.7,
+      "mediaType": "movie"
+    },
+    {
       "id": 1546855,
       "type": "tmdb",
       "title": "我，许可",
@@ -226,7 +226,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/9iJpbmb9WgVqrTSPQlpeGKllpDC.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xn6XrlOWp76VQhhghyQMBDbd1pB.jpg",
       "releaseDate": "2026-03-14",
-      "rating": 5.667,
+      "rating": 5.7,
       "mediaType": "movie"
     },
     {
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
       "releaseDate": "2026-04-24",
-      "rating": 8.2,
+      "rating": 5.8,
       "mediaType": "movie"
     },
     {
@@ -381,7 +381,7 @@
       "title": "消失的人",
       "originalTitle": "消失的人",
       "description": "冬至清晨，唐宇（郑恺 饰）的儿子在楼梯间消失无踪。隔壁单元，赌鬼严午（邱泽 饰）决定在出租屋藏匿父亲的尸体。半年前，单身独居的女孩林雨彤（刘浩存 饰）在熟睡中被侵犯，而凶手不知所踪。这些看似毫不相关的事，却在这一刻重新交织，重新演绎。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zjkvK81E0WQ4O65sV5rSdltOcDT.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xRqCkGHiT3j9UBl5uruMhInCEGP.jpg",
       "backdropPath": null,
       "releaseDate": "2026-05-01",
       "rating": 0,
@@ -402,9 +402,9 @@
     {
       "id": 1500148,
       "type": "tmdb",
-      "title": "青銅葵花",
+      "title": "青铜葵花",
       "originalTitle": "青銅葵花",
-      "description": "　　曹文轩经典文学改编。\r 　　一场命运安排，一次特别机缘，城市女孩葵花和艺术家爸爸来到大麦地。爸爸意外死亡，贫穷善良的青铜家领养了葵花，两人成了兄妹，一起长大，经历饥饿、灾荒，体验了在那个苦难年代，生命中真实而可贵的真善美。",
+      "description": "　　曹文轩经典文学改编。  　　一场命运安排，一次特别机缘，城市女孩葵花和艺术家爸爸来到大麦地。爸爸意外死亡，贫穷善良的青铜家领养了葵花，两人成了兄妹，一起长大，经历饥饿、灾荒，体验了在那个苦难年代，生命中真实而可贵的真善美。",
       "posterPath": "https://image.tmdb.org/t/p/w500/tQB9biQwL1blSHkT9sJhQxnUS4P.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/5Fe6IfrIm0D9nFSL36RE2xc4mHS.jpg",
       "releaseDate": "2026-05-08",
@@ -424,6 +424,42 @@
       "mediaType": "movie"
     },
     {
+      "id": 1666325,
+      "type": "tmdb",
+      "title": "万桐书",
+      "originalTitle": "万桐书",
+      "description": "影片通过讲述万桐书抢救性保护维吾尔十二木卡姆的艺术人生，展示了党和国家高度重视少数民族地区文化事业，大力开展少数民族地区传统文化抢救工作的史实，以及为筑牢中华民族共同体意识而奋斗的伟绩。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8WkWqkSSrnEEvBOBsrX0L9lCGqo.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1549824,
+      "type": "tmdb",
+      "title": "门牙",
+      "originalTitle": "门牙",
+      "description": "李未阳（章宇 饰）骑摩托被撞，导致女友沈青（陈昊宇 饰）失去两颗门牙。他没钱，但一定要为女友装上两颗最好的门牙。为了这笔钱，他开始与肇事者，保险公司进行周旋。伤者与肇事者拮据但平静的生活被这场突发意外打乱。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sm7TQZlGilRKNvpYREd7iNeQVGY.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1671548,
+      "type": "tmdb",
+      "title": "给阿嬷的情书",
+      "originalTitle": "给阿嬷的情书",
+      "description": "潮汕阿嬷叶淑柔一直守着平淡的日子，安享晚年。孙子晓伟因债务缠身，瞒着家人远赴泰国，寻找传闻中已成亿万富豪的阿公郑木生。然而，一个令人意外的消息打破了整个家庭的平静：多年来一直通过跨国信件与阿嬷“谈情说爱”诉说思念的人，竟然并非阿嬷的丈夫郑木生。随着晓伟的调查，一个感人的真相被缓缓揭开。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ePIAxow5xpinDIdwWELS3GtxpSD.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oZURKlzlwdRfZ40D61v1vLF5eVD.jpg",
+      "releaseDate": "2026-04-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1670314,
       "type": "tmdb",
       "title": "红孩儿火焰山之王",
@@ -436,14 +472,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1666325,
+      "id": 1674632,
       "type": "tmdb",
-      "title": "万桐书",
-      "originalTitle": "万桐书",
-      "description": "影片通过讲述万桐书抢救性保护维吾尔十二木卡姆的艺术人生，展示了党和国家高度重视少数民族地区文化事业，大力开展少数民族地区传统文化抢救工作的史实，以及为筑牢中华民族共同体意识而奋斗的伟绩。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8WkWqkSSrnEEvBOBsrX0L9lCGqo.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-30",
+      "title": "狼牙行动",
+      "originalTitle": "狼牙行动",
+      "description": "退伍侦察兵尊言在境外遭遇突发冲突与恶意诬陷。为营救身陷险境的同伴陈旭、洗刷自身污名、守护无辜人质，尊言凭借专业能力与坚定意志组建临时小队，深入险境与不法团伙展开激烈对抗，在重重危机中坚守正义、探寻真相。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/h07NK5hOYjczxwDsxWfpNlllzht.jpg",
+      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     }
