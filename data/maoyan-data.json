@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T10:23:11.590+08:00",
+  "last_updated": "2026-04-24T15:57:46.882+08:00",
   "tv": {
     "全网": [
       {
@@ -27,13 +27,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "夏末初见",
+        "title": "方圆八百米",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "方圆八百米",
+        "title": "夏末初见",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -51,13 +51,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "金关",
+        "title": "冰湖重生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "冰湖重生",
+        "title": "金关",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -101,13 +101,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "黑夜告白",
+        "title": "逍遥",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "逍遥",
+        "title": "黑夜告白",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -169,13 +169,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "你好1983",
+        "title": "太平年",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "你好1983",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -281,13 +281,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "致最初的我们",
+        "title": "玉茗茶骨",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "玉茗茶骨",
+        "title": "致最初的我们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -315,19 +315,13 @@
   "show": {
     "全网": [
       {
-        "title": "怦然心动20岁：冬季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "哈哈哈哈哈 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "乘风2026",
+        "title": "怦然心动20岁：冬季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -339,25 +333,31 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "无限超越班 第四季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "奋斗吧人生-演员篇",
+        "title": "乘风2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
+        "title": "超燃青春的合唱",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "无限超越班 第四季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "奋斗吧人生-演员篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -389,13 +389,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "不好笑就露宿街头",
+        "title": "周五晚高疯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "周五晚高疯",
+        "title": "不好笑就露宿街头",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -445,6 +445,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "超燃青春的合唱",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "宇宙闪烁请注意",
         "description": "暂无简介",
         "type": "maoyan",
@@ -488,12 +494,6 @@
       },
       {
         "title": "音乐缘计划2",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "你好种地少年第3季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,25 +563,25 @@
     ],
     "芒果TV": [
       {
-        "title": "乘风2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
+        "title": "乘风2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "乘风2026 训练室全纪录",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -599,13 +599,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我家那小子2026",
+        "title": "初入职场金融季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "初入职场金融季",
+        "title": "我家那小子2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
