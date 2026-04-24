@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T21:16:11.097+08:00",
+  "last_updated": "2026-04-25T02:43:57.460+08:00",
   "tv": {
     "全网": [
       {
@@ -51,13 +51,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "冰湖重生",
+        "title": "金关",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "金关",
+        "title": "冰湖重生",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -225,13 +225,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "隐身的名字",
+        "title": "突然的喜欢",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "突然的喜欢",
+        "title": "隐身的名字",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -315,13 +315,13 @@
   "show": {
     "全网": [
       {
-        "title": "哈哈哈哈哈 第六季",
+        "title": "怦然心动20岁：冬季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "怦然心动20岁：冬季",
+        "title": "哈哈哈哈哈 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -339,6 +339,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "乘风2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "超燃青春的合唱",
         "description": "暂无简介",
         "type": "maoyan",
@@ -351,25 +357,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "乘风2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "无限超越班 第四季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "奋斗吧人生-演员篇",
+        "title": "乘风2026 训练室全纪录",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "乘风2026 训练室全纪录",
+        "title": "奋斗吧人生-演员篇",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -563,13 +563,13 @@
     ],
     "芒果TV": [
       {
-        "title": "妻子的浪漫旅行2026",
+        "title": "乘风2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "乘风2026",
+        "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
