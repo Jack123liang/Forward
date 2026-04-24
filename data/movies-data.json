@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T01:14:36.869+08:00",
+  "last_updated": "2026-04-25T00:50:05.922+08:00",
   "now_playing": [
     {
       "id": 1226863,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.765,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qf8HaEGNUFXU6nVAq9BVEk4Tiqb.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 8.2,
+      "rating": 8.218,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.585,
+      "rating": 7.586,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
       "releaseDate": "2026-04-24",
-      "rating": 7.2,
+      "rating": 7.3,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.783,
+      "rating": 6.776,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.398,
+      "rating": 7.4,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3ZmKi8iT8CSwY2zkc0D7m75cDpJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
       "releaseDate": "2026-04-17",
-      "rating": 7.489,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -122,6 +122,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1168719,
+      "type": "tmdb",
+      "title": "寂静的朋友",
+      "originalTitle": "Stiller Freund",
+      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sd49Wx5Tevlp1y6Huygv99ueXDt.jpg",
+      "releaseDate": "2026-04-24",
+      "rating": 8.143,
+      "mediaType": "movie"
+    },
+    {
       "id": 1566589,
       "type": "tmdb",
       "title": "蜂蜜的针",
@@ -131,18 +143,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
       "releaseDate": "2026-03-21",
       "rating": 6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1168719,
-      "type": "tmdb",
-      "title": "寂静的朋友",
-      "originalTitle": "Stiller Freund",
-      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/e40FMjHg2RoypsjxygoTFB5jLUd.jpg",
-      "releaseDate": "2026-04-24",
-      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -158,6 +158,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1546855,
+      "type": "tmdb",
+      "title": "我，许可",
+      "originalTitle": "我，许可",
+      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/Z4PcigZfdhrU2via1XrdSrEq4G.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 6.857,
+      "mediaType": "movie"
+    },
+    {
       "id": 137409,
       "type": "tmdb",
       "title": "寒战",
@@ -166,7 +178,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
       "releaseDate": "2012-11-26",
-      "rating": 6.651,
+      "rating": 6.658,
       "mediaType": "movie"
     },
     {
@@ -178,7 +190,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ehUy4cqRy0xLRMq56maGVM8KeGq.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/nxXfBygLNR22bmcIHRqaf5dit1f.jpg",
       "releaseDate": "2020-12-24",
-      "rating": 7.1,
+      "rating": 7.087,
       "mediaType": "movie"
     },
     {
@@ -202,31 +214,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/jQoVfFAeuFmEnSTykJLjTa7Kh89.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7yR2BMksskCgw87Ts04dL2p0pIn.jpg",
       "releaseDate": "2016-07-08",
-      "rating": 6.265,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1546855,
-      "type": "tmdb",
-      "title": "我，许可",
-      "originalTitle": "我，许可",
-      "description": "00后“母单”女孩儿许可（文淇 饰）面临一场迫在眉睫的妇科手术，却因妈妈胡春蓉（秦海璐 饰）的突袭式造访打乱了所有计划。母女同居，冲突乍起。在新旧观念的摩擦中，没想到女儿对妈妈展开了一次又一次反向教育——跟妈谈心，不如带妈蹦迪；给妈上生理课，不如直接送妈小玩具……最终许可能否顺利手术，胡春蓉又能否鼓起勇气开始新生活？这场笑点和泪点齐飞的大戏，又将如何重塑两人之间的母女关系……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/Z4PcigZfdhrU2via1XrdSrEq4G.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sc2Q8HwhUOb49IfbkHHvi8dB7yy.jpg",
-      "releaseDate": "2026-03-21",
-      "rating": 6.857,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1470918,
-      "type": "tmdb",
-      "title": "不能错过的只有你2",
-      "originalTitle": "不能错过的只有你2",
-      "description": "主要讲述了主人公余晚空在他的旅途中偶然遇到了一个境遇相似的女子，并决定与她一起前往美丽的大凉山。在相处的过程中，他们不仅解决了彼此之间的问题，还为家乡带来了积极的影响",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3Y17MhSIdIvg4Q1NUOuB52aIprt.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4QUGnUtYdw7KHkVAWUcH7zjZ3Pm.jpg",
-      "releaseDate": "2026-04-18",
-      "rating": 2,
+      "rating": 6.288,
       "mediaType": "movie"
     },
     {
@@ -240,6 +228,18 @@
       "releaseDate": "2026-03-30",
       "rating": 7.2,
       "mediaType": "movie"
+    },
+    {
+      "id": 1443374,
+      "type": "tmdb",
+      "title": "森中有林",
+      "originalTitle": "森中有林",
+      "description": "下岗狱警廉加海（于和伟 饰）与昔日爱人王秀义（高圆圆 饰）多年后重逢，旧情复燃之际，却意外卷入一场被精心掩盖的凶案——两个家、三代人，就此陷入横跨数十年的生死纠葛、爱恨痴缠。从东北到海南，从上世纪末到今天，没有人可以从宿命轮回中远走高飞……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lauBwkkT3dNqnLYAmd8YtRj7HD7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
+      "releaseDate": "2026-04-25",
+      "rating": 0,
+      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 6,
+      "rating": 8.3,
       "mediaType": "movie"
     },
     {
@@ -264,6 +264,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/m6ciqp691frwE1nNeMgWFBr0AZf.jpg",
       "releaseDate": "2026-05-08",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1301421,
+      "type": "tmdb",
+      "title": "绵羊侦探团",
+      "originalTitle": "The Sheep Detectives",
+      "description": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6ZeoDWIG1XkujwUQy73OLVuMoyt.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "releaseDate": "2026-05-16",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -280,18 +292,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1443374,
-      "type": "tmdb",
-      "title": "森中有林",
-      "originalTitle": "森中有林",
-      "description": "下岗狱警廉加海（于和伟 饰）与昔日爱人王秀义（高圆圆 饰）多年后重逢，旧情复燃之际，却意外卷入一场被精心掩盖的凶案——两个家、三代人，就此陷入横跨数十年的生死纠葛、爱恨痴缠。从东北到海南，从上世纪末到今天，没有人可以从宿命轮回中远走高飞……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lauBwkkT3dNqnLYAmd8YtRj7HD7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
-      "releaseDate": "2026-04-25",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1671548,
       "type": "tmdb",
       "title": "给阿嬷的情书",
@@ -304,14 +304,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1499071,
+      "id": 1443374,
       "type": "tmdb",
-      "title": "寒战1994",
-      "originalTitle": "寒戰1994",
-      "description": "　　1994年，香港一宗富豪绑架案，掀起各界暗涌风潮，金融中心的地位亦随即受创。调查期间，警队众人各怀鬼胎，为名利攀附权贵。面对各种挑战，O记警司李文彬以身犯险游走各界，势要揭露真相，维护香港繁荣稳定。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/digyHMNMAljJZnCm6GSuWcOo4fw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/izha2mBeBHfCIniJCibpJIUovy0.jpg",
-      "releaseDate": "2026-05-01",
+      "title": "森中有林",
+      "originalTitle": "森中有林",
+      "description": "下岗狱警廉加海（于和伟 饰）与昔日爱人王秀义（高圆圆 饰）多年后重逢，旧情复燃之际，却意外卷入一场被精心掩盖的凶案——两个家、三代人，就此陷入横跨数十年的生死纠葛、爱恨痴缠。从东北到海南，从上世纪末到今天，没有人可以从宿命轮回中远走高飞……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lauBwkkT3dNqnLYAmd8YtRj7HD7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
+      "releaseDate": "2026-04-25",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -324,6 +324,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/pk72qbn8gIaV5l56OI7DT7ZWbkO.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/fRSGoYlxL4ZcDVVn0XzfKh92kog.jpg",
       "releaseDate": "2026-05-16",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1499071,
+      "type": "tmdb",
+      "title": "寒战1994",
+      "originalTitle": "寒戰1994",
+      "description": "　　1994年，香港一宗富豪绑架案，掀起各界暗涌风潮，金融中心的地位亦随即受创。调查期间，警队众人各怀鬼胎，为名利攀附权贵。面对各种挑战，O记警司李文彬以身犯险游走各界，势要揭露真相，维护香港繁荣稳定。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/digyHMNMAljJZnCm6GSuWcOo4fw.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/izha2mBeBHfCIniJCibpJIUovy0.jpg",
+      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -364,18 +376,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1666325,
-      "type": "tmdb",
-      "title": "万桐书",
-      "originalTitle": "万桐书",
-      "description": "影片通过讲述万桐书抢救性保护维吾尔十二木卡姆的艺术人生，展示了党和国家高度重视少数民族地区文化事业，大力开展少数民族地区传统文化抢救工作的史实，以及为筑牢中华民族共同体意识而奋斗的伟绩。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/8WkWqkSSrnEEvBOBsrX0L9lCGqo.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-04-30",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1658653,
       "type": "tmdb",
       "title": "消失的人",
@@ -388,6 +388,30 @@
       "mediaType": "movie"
     },
     {
+      "id": 1666325,
+      "type": "tmdb",
+      "title": "万桐书",
+      "originalTitle": "万桐书",
+      "description": "影片通过讲述万桐书抢救性保护维吾尔十二木卡姆的艺术人生，展示了党和国家高度重视少数民族地区文化事业，大力开展少数民族地区传统文化抢救工作的史实，以及为筑牢中华民族共同体意识而奋斗的伟绩。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/8WkWqkSSrnEEvBOBsrX0L9lCGqo.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-04-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1111750,
+      "type": "tmdb",
+      "title": "再见，朱莉娅",
+      "originalTitle": "وداعًا جوليا",
+      "description": "荣获第76届戛纳电影节 一种关注单元 自由奖，莫娜是一位来自苏丹北部的退休歌手，她的婚姻生活并不如意。她因为掩盖了一桩谋杀案而深感内疚，为了弥补这一过错，她决定收留被害者的寡妇朱莉娅及其儿子丹尼尔。然而，莫娜无法向朱莉娅坦白自己的罪行，于是她决定放下过去，努力适应这种新的生活状态。但她没有意识到，苏丹国内的动荡局势可能会波及到她的家庭，让她不得不直面自己曾经的罪行。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3MalTz0WHBts2qdvdIildpk9TAn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cfB7VJF9LXrZRkMZLaa6Yhxo1Fb.jpg",
+      "releaseDate": "2026-05-13",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 1512942,
       "type": "tmdb",
       "title": "为我的心动买单",
@@ -396,6 +420,30 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qtcp6nOOqa63EGZtzCwGmDv8bqb.jpg",
       "backdropPath": null,
       "releaseDate": "2026-05-20",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1658136,
+      "type": "tmdb",
+      "title": "猪猪侠大电影之竞速小英雄",
+      "originalTitle": "猪猪侠大电影之竞速小英雄",
+      "description": "猪猪侠与星航携手穿越时空，以赛车为武器，拯救被神秘物质“P型剂”影响的车神银河。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lpc1z69ycoQ8ond8PXmsal7MMfQ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4xlI7YMHe3UmtRireGoJ0ZUCjUO.jpg",
+      "releaseDate": "2026-05-01",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1581733,
+      "type": "tmdb",
+      "title": "三心两意",
+      "originalTitle": "三心两意",
+      "description": "江芮琳（林依晨 饰）撞见老公罗斌（孙艺洲 饰）出轨，又意外救下企图上吊的“第三者”余小鱼（张艺凡 饰），并阴差阳错成为了她的感情疗愈师，在余小鱼无所保留的倾诉下，江芮琳知晓了老公出轨的各项细节，并由此开启了一场“婚姻版碟中谍”。他们三人关系将会怎样发展？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/6YartNIb6Gd72tRfeaNCYaAxXFZ.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -424,30 +472,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1581733,
-      "type": "tmdb",
-      "title": "三心两意",
-      "originalTitle": "三心两意",
-      "description": "江芮琳（林依晨 饰）撞见老公罗斌（孙艺洲 饰）出轨，又意外救下企图上吊的“第三者”余小鱼（张艺凡 饰），并阴差阳错成为了她的感情疗愈师，在余小鱼无所保留的倾诉下，江芮琳知晓了老公出轨的各项细节，并由此开启了一场“婚姻版碟中谍”。他们三人关系将会怎样发展？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/6YartNIb6Gd72tRfeaNCYaAxXFZ.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1658136,
-      "type": "tmdb",
-      "title": "猪猪侠大电影之竞速小英雄",
-      "originalTitle": "猪猪侠大电影之竞速小英雄",
-      "description": "猪猪侠与星航携手穿越时空，以赛车为武器，拯救被神秘物质“P型剂”影响的车神银河。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lpc1z69ycoQ8ond8PXmsal7MMfQ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4xlI7YMHe3UmtRireGoJ0ZUCjUO.jpg",
-      "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1674632,
       "type": "tmdb",
       "title": "狼牙行动",
@@ -455,18 +479,6 @@
       "description": "退伍侦察兵尊言在境外遭遇突发冲突与恶意诬陷。为营救身陷险境的同伴陈旭、洗刷自身污名、守护无辜人质，尊言凭借专业能力与坚定意志组建临时小队，深入险境与不法团伙展开激烈对抗，在重重危机中坚守正义、探寻真相。",
       "posterPath": "https://image.tmdb.org/t/p/w500/2NnKC9vcjqhJIJ22ILrVH8O7Kk0.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/h07NK5hOYjczxwDsxWfpNlllzht.jpg",
-      "releaseDate": "2026-05-01",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1670314,
-      "type": "tmdb",
-      "title": "红孩儿火焰山之王",
-      "originalTitle": "红孩儿火焰山之王",
-      "description": "　　唐僧西天取经前500年，青鸾为了恢复曾经的族群盛世，不惜一切手段获取三昧真火；而与生俱来拥有三昧真火的红孩儿却备受真火折磨；时逢大闹天宫的孙悟空踢倒太上老君的炼丹炉导致大量三昧真火降落人间，突降的真火又将会改变青鸾和红孩儿的命运几何。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/5uRimjnIi842IrS1i8yd3ic7rzG.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3Ghg1kL9Hon2K0cP4P2yGNddq6R.jpg",
       "releaseDate": "2026-05-01",
       "rating": 0,
       "mediaType": "movie"
