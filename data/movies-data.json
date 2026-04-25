@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T00:50:05.922+08:00",
+  "last_updated": "2026-04-26T00:35:11.437+08:00",
   "now_playing": [
     {
       "id": 1226863,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tavRK9y9yGuBUQpXIXgocqFHx72.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.7,
+      "rating": 6.759,
       "mediaType": "movie"
     },
     {
@@ -26,18 +26,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1327819,
-      "type": "tmdb",
-      "title": "河狸变身计划",
-      "originalTitle": "Hoppers",
-      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
-      "releaseDate": "2026-03-20",
-      "rating": 7.586,
-      "mediaType": "movie"
-    },
-    {
       "id": 936075,
       "type": "tmdb",
       "title": "迈克尔·杰克逊：巨星之路",
@@ -46,7 +34,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
       "releaseDate": "2026-04-24",
-      "rating": 7.3,
+      "rating": 7.294,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1327819,
+      "type": "tmdb",
+      "title": "河狸变身计划",
+      "originalTitle": "Hoppers",
+      "description": "　　梅宝是一位对动物世界充满好奇的年轻女孩，她利用先进的意识上传技术，将自己的思维注入一只机械河狸体内。以这种独特的形态，梅宝结识了河狸王国的乔治国王等动物伙伴。然而，一个由房地产开发计划带来的威胁，正试图破坏动物们的栖息地。梅宝与她的新朋友们联手，利用机械河狸的能力和人类的智慧，共同对抗这个危机，守护动物们的家园。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fAKE5cezL6eOezlNCz8U2coDd86.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/u53UYu5XG2hNgWGvs3xGhAVzypl.jpg",
+      "releaseDate": "2026-03-20",
+      "rating": 7.578,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/kiCOAurt9Vho6otZpfGMUJIdvFY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/puqQGxK9HYITUKhCdREg3XOLlZd.jpg",
       "releaseDate": "2026-03-28",
-      "rating": 6.776,
+      "rating": 6.767,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zzeTarZ1E75NH651MO8ULF6KcdP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.4,
+      "rating": 7.398,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qQHYG1yoCD16SYXlN9EQqoyGP4o.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eeGRpU64sIrRApjWXvTpK5Lep2K.jpg",
       "releaseDate": "2026-03-27",
-      "rating": 7.3,
+      "rating": 7.299,
       "mediaType": "movie"
     },
     {
@@ -94,7 +94,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/3ZmKi8iT8CSwY2zkc0D7m75cDpJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
       "releaseDate": "2026-04-17",
-      "rating": 7.5,
+      "rating": 7.493,
       "mediaType": "movie"
     },
     {
@@ -118,43 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/uSDivMwl8EPKfUFx2YpUfPSxb9R.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/2WCpiFmRqXyu5y7WoZjEa3CJbiI.jpg",
       "releaseDate": "2026-03-20",
-      "rating": 7.924,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1168719,
-      "type": "tmdb",
-      "title": "寂静的朋友",
-      "originalTitle": "Stiller Freund",
-      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sd49Wx5Tevlp1y6Huygv99ueXDt.jpg",
-      "releaseDate": "2026-04-24",
-      "rating": 8.143,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1566589,
-      "type": "tmdb",
-      "title": "蜂蜜的针",
-      "originalTitle": "蜂蜜的针",
-      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
-      "releaseDate": "2026-03-21",
-      "rating": 6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1303236,
-      "type": "tmdb",
-      "title": "角头：大桥头",
-      "originalTitle": "角頭－大橋頭",
-      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
-      "releaseDate": "2026-04-10",
-      "rating": 7.2,
+      "rating": 7.925,
       "mediaType": "movie"
     },
     {
@@ -170,15 +134,27 @@
       "mediaType": "movie"
     },
     {
-      "id": 137409,
+      "id": 1168719,
       "type": "tmdb",
-      "title": "寒战",
-      "originalTitle": "寒戰",
-      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
-      "releaseDate": "2012-11-26",
-      "rating": 6.658,
+      "title": "寂静的朋友",
+      "originalTitle": "Stiller Freund",
+      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sd49Wx5Tevlp1y6Huygv99ueXDt.jpg",
+      "releaseDate": "2026-04-24",
+      "rating": 7.867,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1566589,
+      "type": "tmdb",
+      "title": "蜂蜜的针",
+      "originalTitle": "蜂蜜的针",
+      "description": "　　性格孤僻的农科院研究员支宁（袁泉 饰），在爱情里四处碰壁。在一次文学讲座上，她对作家寇逸（耿乐 饰）一见钟情，从此陷入偏执爱情的她开始悄悄跟在寇逸身后……在偶然的契机下，支宁应寇逸之邀加入一场旅行。本以为是靠近心意的“爱情”之旅，却没料到途中变故接踵而至，逐渐成为了一场亡命之行。蹊跷的命案接连发生，所有人和事都在朝着完全失控的方向狂奔……  　　以爱之名的潘多拉魔盒已然开启，当爱意被执念裹挟，人究竟会为了守住所谓的“爱”，突破多少不可逾越的边界？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/oGKsrIWhoceXLcVlnZlOUTkuev1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewXAjwiHEklrVY2gvaFB6HuBWvB.jpg",
+      "releaseDate": "2026-03-21",
+      "rating": 6,
       "mediaType": "movie"
     },
     {
@@ -194,6 +170,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1303236,
+      "type": "tmdb",
+      "title": "角头：大桥头",
+      "originalTitle": "角頭－大橋頭",
+      "description": "一句大佬牌桌的轻佻玩笑，让大桥头二代麦克愤而掀桌宣战，却教大桥头角头Ko桑陷入两难。而无端卷入这场四帮混战的，还有三个底层求生的土狗帮无名小卒。为了帮弟弟筹贷款，不惜铤而走险做起卖药生意，到头来却身不由己赌上性命。角头宇宙来到第四部，时间溯回世界之初，新老面孔齐聚一堂，摊开一幅江湖黑帮的岁月群像。血气火拼分毫不减，再奏响内敛情深的父子哀歌。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gaNsN1ojr3mhFBUexBpA4gJ7ejs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/cBBIk8jCSt6vIVJkaCwjjDLSMKH.jpg",
+      "releaseDate": "2026-04-10",
+      "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
       "id": 455714,
       "type": "tmdb",
       "title": "天才枪手",
@@ -206,15 +194,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 416249,
+      "id": 137409,
       "type": "tmdb",
-      "title": "寒战2",
-      "originalTitle": "寒戰 II",
-      "description": "刘杰辉（郭富城饰）荣升警队一哥后，他的妻儿却遭遇了歹徒绑架，对方要求警队以李家俊（彭于晏饰）为交换。虽然费尽心机，但最终被对方得逞，李家俊逃跑，而他也由于违反警队规定擅自行动，遭遇香港司法机关质询。他一心要揪出绑架案的幕后黑手。而引咎辞职的前警务处处长李文彬，受到已退休的前警务处长蔡元祺（张国柱饰）的蛊惑，在质询过程中临阵倒戈，引发了刘杰辉被弹劾的危机。  同时，立法会议员简奥伟（周润发饰），对李文彬的倒戈也充满疑虑，派出自己的侄女欧咏恩调查李文彬的行踪，从而发现了李文彬与逃跑的李家俊以及蔡元祺有接触，后来在跟踪过程中被蔡元祺一伙发现，最终死于车祸。欧咏恩的死激怒了简奥伟，使他也加入到了对李文彬的调查之中。简奥伟通过欧咏恩留下的云端文件，获得了李文彬跟李家俊、蔡元祺密会的照片。而刘杰辉也通过反间谍的方式，发现了警队中李文彬的眼线，并顺藤摸瓜找到了蔡元祺藏匿之前失踪冲锋车的地点，同时通过调查发现了蔡元祺控制香港警队信息系统的证据，并最终一举破坏了蔡元祺的阴谋。而更深层次原因——律政司司长黎永廉（李子雄饰）想要竞选香港特首，进而控制香港政府的政治阴谋，依然藏在水下未被揭开。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jQoVfFAeuFmEnSTykJLjTa7Kh89.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7yR2BMksskCgw87Ts04dL2p0pIn.jpg",
-      "releaseDate": "2016-07-08",
-      "rating": 6.288,
+      "title": "寒战",
+      "originalTitle": "寒戰",
+      "description": "作为亚洲金融中心的香港被称作“最安全的城市”，岂料警局接到一通匿名电话，对方声称劫持了警队的一辆前线冲锋车以及车内的五名警员和武器装备。此次事件引起了香港警队高层的高度重视，适逢处长（王敏德 饰）出访国外，此时由鹰派人物行动副处长李文彬（梁家辉 饰）与年轻的管理副处长刘杰辉（郭富城 饰）一起负责这次案件，并将行动命名为“寒战”，李文彬任总指挥。李文彬的儿子（彭于晏 饰）也是人质之一，刘杰辉因此对李文彬父子产生怀疑。与此同时，匪徒展开了进一步行动：警察被杀、爆炸案频发……到底是谁在将整个警队玩弄于鼓掌之中？香港真的是“最安全的城市”吗？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fJQt3Rf6flurPUOrpkbHMqUml8D.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
+      "releaseDate": "2012-11-26",
+      "rating": 6.658,
       "mediaType": "movie"
     },
     {
@@ -227,6 +215,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
       "releaseDate": "2026-03-30",
       "rating": 7.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 416249,
+      "type": "tmdb",
+      "title": "寒战2",
+      "originalTitle": "寒戰 II",
+      "description": "刘杰辉（郭富城饰）荣升警队一哥后，他的妻儿却遭遇了歹徒绑架，对方要求警队以李家俊（彭于晏饰）为交换。虽然费尽心机，但最终被对方得逞，李家俊逃跑，而他也由于违反警队规定擅自行动，遭遇香港司法机关质询。他一心要揪出绑架案的幕后黑手。而引咎辞职的前警务处处长李文彬，受到已退休的前警务处长蔡元祺（张国柱饰）的蛊惑，在质询过程中临阵倒戈，引发了刘杰辉被弹劾的危机。  同时，立法会议员简奥伟（周润发饰），对李文彬的倒戈也充满疑虑，派出自己的侄女欧咏恩调查李文彬的行踪，从而发现了李文彬与逃跑的李家俊以及蔡元祺有接触，后来在跟踪过程中被蔡元祺一伙发现，最终死于车祸。欧咏恩的死激怒了简奥伟，使他也加入到了对李文彬的调查之中。简奥伟通过欧咏恩留下的云端文件，获得了李文彬跟李家俊、蔡元祺密会的照片。而刘杰辉也通过反间谍的方式，发现了警队中李文彬的眼线，并顺藤摸瓜找到了蔡元祺藏匿之前失踪冲锋车的地点，同时通过调查发现了蔡元祺控制香港警队信息系统的证据，并最终一举破坏了蔡元祺的阴谋。而更深层次原因——律政司司长黎永廉（李子雄饰）想要竞选香港特首，进而控制香港政府的政治阴谋，依然藏在水下未被揭开。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jQoVfFAeuFmEnSTykJLjTa7Kh89.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7yR2BMksskCgw87Ts04dL2p0pIn.jpg",
+      "releaseDate": "2016-07-08",
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
