@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T00:46:42.158+08:00",
+  "last_updated": "2026-05-11T00:47:35.690+08:00",
   "now_playing": [
     {
       "id": 1226863,
@@ -8,21 +8,9 @@
       "originalTitle": "The Super Mario Galaxy Movie",
       "description": "　　重返奇妙世界，探索浩瀚宇宙，罗莎塔公主、酷霸Jr.、耀西等更多惊喜角色登场，开拓更宏大酷炫的版图，呈现更精彩纷呈的冒险。",
       "posterPath": "https://image.tmdb.org/t/p/w500/wt1hPXzpM60YCsp23OUbTwI8Gwe.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
       "releaseDate": "2026-04-03",
-      "rating": 6.724,
-      "mediaType": "movie"
-    },
-    {
-      "id": 936075,
-      "type": "tmdb",
-      "title": "迈克尔·杰克逊：巨星之路",
-      "originalTitle": "Michael",
-      "description": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
-      "releaseDate": "2026-04-24",
-      "rating": 7.564,
+      "rating": 6.726,
       "mediaType": "movie"
     },
     {
@@ -34,7 +22,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
       "releaseDate": "2026-05-08",
-      "rating": 7.183,
+      "rating": 7.054,
+      "mediaType": "movie"
+    },
+    {
+      "id": 936075,
+      "type": "tmdb",
+      "title": "迈克尔·杰克逊：巨星之路",
+      "originalTitle": "Michael",
+      "description": "　　本片将通过一段从未展现过的深度视角，真实记录传奇巨星迈克尔·杰克逊的复杂人生。影片不仅再现了他最具标志性的艺术表演瞬间，更深入挖掘了他的内心世界——从天才神童的成长阵痛到全球偶像背后的争议与坚韧，全面呈现这位伟大艺术家的辉煌与坎坷。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
+      "releaseDate": "2026-04-24",
+      "rating": 7.569,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/y3fQa7pytlysovXzovpXc1OQlTW.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 6.74,
+      "rating": 6.777,
       "mediaType": "movie"
     },
     {
@@ -55,22 +55,10 @@
       "title": "给阿嬷的情书",
       "originalTitle": "给阿嬷的情书",
       "description": "潮汕阿嬷叶淑柔一直守着平淡的日子，安享晚年。孙子晓伟因债务缠身，瞒着家人远赴泰国，寻找传闻中已成亿万富豪的阿公郑木生。然而，一个令人意外的消息打破了整个家庭的平静：多年来一直通过跨国信件与阿嬷“谈情说爱”诉说思念的人，竟然并非阿嬷的丈夫郑木生。随着晓伟的调查，一个感人的真相被缓缓揭开。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ePIAxow5xpinDIdwWELS3GtxpSD.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oZURKlzlwdRfZ40D61v1vLF5eVD.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 8.5,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1124566,
-      "type": "tmdb",
-      "title": "情感价值",
-      "originalTitle": "Affeksjonsverdi",
-      "description": "舞台剧演员诺拉（雷娜特·赖因斯夫 饰）在母亲离世后，突然迎来了生命中长期缺席的父亲古斯塔夫（斯特兰·斯卡斯加德 饰）。这位知名导演携带着自诩为“生涯最佳”的剧本不请自来，不仅执意邀请诺拉担任新片女主角，更坚持要在承载着家族记忆的北欧老宅取景。那栋宛如童话般梦幻的建筑，正是诺拉与妹妹阿格尼丝（英加·伊布斯多特·利勒亚斯 饰）的成长之地。面对这位早已抛弃家庭的父亲，诺拉斩钉截铁地表示拒绝。对她而言，二人之间没有和解的余地。直到仰慕古斯塔夫的好莱坞明星蕾切尔（艾丽·范宁 饰）代替她出演片中主角，事情逐渐往意想不到的方向发展：这个破碎家庭的“情感价值”开始以一种微妙的方式进行“重估” 。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3ZmKi8iT8CSwY2zkc0D7m75cDpJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
-      "releaseDate": "2026-04-17",
-      "rating": 7.5,
+      "rating": 8.7,
       "mediaType": "movie"
     },
     {
@@ -83,6 +71,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/ld6pkUVbFBdhtTwFNoRv4BRx0aM.jpg",
       "releaseDate": "2026-05-03",
       "rating": 6.8,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1124566,
+      "type": "tmdb",
+      "title": "情感价值",
+      "originalTitle": "Affeksjonsverdi",
+      "description": "舞台剧演员诺拉（雷娜特·赖因斯夫 饰）在母亲离世后，突然迎来了生命中长期缺席的父亲古斯塔夫（斯特兰·斯卡斯加德 饰）。这位知名导演携带着自诩为“生涯最佳”的剧本不请自来，不仅执意邀请诺拉担任新片女主角，更坚持要在承载着家族记忆的北欧老宅取景。那栋宛如童话般梦幻的建筑，正是诺拉与妹妹阿格尼丝（英加·伊布斯多特·利勒亚斯 饰）的成长之地。面对这位早已抛弃家庭的父亲，诺拉斩钉截铁地表示拒绝。对她而言，二人之间没有和解的余地。直到仰慕古斯塔夫的好莱坞明星蕾切尔（艾丽·范宁 饰）代替她出演片中主角，事情逐渐往意想不到的方向发展：这个破碎家庭的“情感价值”开始以一种微妙的方式进行“重估” 。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/3ZmKi8iT8CSwY2zkc0D7m75cDpJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oLgtpxK4aGZ7S8aiE3rDwahqkL2.jpg",
+      "releaseDate": "2026-04-17",
+      "rating": 7.493,
       "mediaType": "movie"
     },
     {
@@ -122,18 +122,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1168719,
-      "type": "tmdb",
-      "title": "寂静的朋友",
-      "originalTitle": "Silent Friend",
-      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/sd49Wx5Tevlp1y6Huygv99ueXDt.jpg",
-      "releaseDate": "2026-04-24",
-      "rating": 7.182,
-      "mediaType": "movie"
-    },
-    {
       "id": 137409,
       "type": "tmdb",
       "title": "寒战",
@@ -143,6 +131,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/uw28cMvJBFBzgaMM5YeKlXTtUqE.jpg",
       "releaseDate": "2012-11-26",
       "rating": 6.662,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1168719,
+      "type": "tmdb",
+      "title": "寂静的朋友",
+      "originalTitle": "Silent Friend",
+      "description": "影片以德国中世纪大学城马尔堡的植物园为背景，讲述100多年来与一棵银杏树有关的三个故事。2020年，来自香港的神经科学家Tony（梁朝伟 饰）因疫情被困在德国大学城，除了一颗银杏树与一个无法沟通的保安之外，他孤身一人。在一位同好（蕾雅·赛杜 饰）的鼓励下，开始了一段新实验。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ffq45gbM9om6vYY4c9y4RFNwNMv.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/sa8xMTPHkAMPeiiIFZImBKjO49b.jpg",
+      "releaseDate": "2026-04-24",
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -194,18 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1492501,
-      "type": "tmdb",
-      "title": "10间敢死队",
-      "originalTitle": "10间敢死队",
-      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
-      "releaseDate": "2026-04-25",
-      "rating": 6.5,
-      "mediaType": "movie"
-    },
-    {
       "id": 1481955,
       "type": "tmdb",
       "title": "阳光女子合唱团",
@@ -215,18 +203,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/21iGd9XfqAZJskCQNY1Nv70ksCH.jpg",
       "releaseDate": "2026-03-30",
       "rating": 7.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1249589,
-      "type": "tmdb",
-      "title": "天才游戏",
-      "originalTitle": "天才游戏",
-      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/hYj6z0w2fJd4VCrwwTerwtpR3i2.jpg",
-      "releaseDate": "2026-04-04",
-      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -240,6 +216,30 @@
       "releaseDate": "2026-04-08",
       "rating": 0,
       "mediaType": "movie"
+    },
+    {
+      "id": 1492501,
+      "type": "tmdb",
+      "title": "10间敢死队",
+      "originalTitle": "10间敢死队",
+      "description": "亲人离世，一无所有的章小兵自杀未遂。为了还债，他以护工的身份进入了10号癌症病房进行“心理干预”。一个不想活的和一群要死的人朝夕相处，互相帮助渡过难关。最终找到了人生意义，开启全新的生活。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/rsAAGBwAhezrPfl7dnVFm7xGgp1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/htddfU0co3jRl5vZL8vYmeORa9S.jpg",
+      "releaseDate": "2026-04-25",
+      "rating": 6.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1249589,
+      "type": "tmdb",
+      "title": "天才游戏",
+      "originalTitle": "天才游戏",
+      "description": "身份迥异的天才少年刘全龙（彭昱畅饰）与富家少年陈伦（丁禹兮饰），因缘际会下开始了一场人生交换。两个少年的人生镜像，一场命运的冒险游戏，就此开启。GAME START！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/9hXg73Gosne5bLHbo23Bh0oGR1R.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/hYj6z0w2fJd4VCrwwTerwtpR3i2.jpg",
+      "releaseDate": "2026-04-04",
+      "rating": 7,
+      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6ZeoDWIG1XkujwUQy73OLVuMoyt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/t6O6XWelu27BD0OmIDCCufZZT6d.jpg",
       "releaseDate": "2026-05-16",
-      "rating": 7.821,
+      "rating": 7.8,
       "mediaType": "movie"
     },
     {
@@ -268,18 +268,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 578,
-      "type": "tmdb",
-      "title": "大白鲨",
-      "originalTitle": "Jaws",
-      "description": "当海滨小镇艾米蒂遭遇一头危险大白鲨的袭击时，当地的警长（罗伊·谢德 饰）、一位年轻的海洋生物学家（理查德·德莱福斯 饰）与一位身经百战的老练鲨鱼猎人（罗伯特·肖 饰）联手展开殊死追捕，决心在这头猛兽再次发动攻击前将其消灭。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
-      "releaseDate": "2026-05-15",
-      "rating": 7.7,
-      "mediaType": "movie"
-    },
-    {
       "id": 77,
       "type": "tmdb",
       "title": "记忆碎片",
@@ -289,6 +277,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
       "releaseDate": "2026-05-29",
       "rating": 8.177,
+      "mediaType": "movie"
+    },
+    {
+      "id": 578,
+      "type": "tmdb",
+      "title": "大白鲨",
+      "originalTitle": "Jaws",
+      "description": "当海滨小镇艾米蒂遭遇一头危险大白鲨的袭击时，当地的警长（罗伊·谢德 饰）、一位年轻的海洋生物学家（理查德·德莱福斯 饰）与一位身经百战的老练鲨鱼猎人（罗伯特·肖 饰）联手展开殊死追捕，决心在这头猛兽再次发动攻击前将其消灭。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
+      "releaseDate": "2026-05-15",
+      "rating": 7.681,
       "mediaType": "movie"
     },
     {
@@ -304,15 +304,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 785429,
+      "id": 464293,
       "type": "tmdb",
-      "title": "森林之声",
-      "originalTitle": "OZI: Voice of the Forest",
-      "description": "印度尼西亚雨林的森林砍伐，一只名叫Ozi的十几岁的红毛猩猩被烧毁后成为孤儿。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tEdEL8M58BDRJToH5kmqtIXWSh6.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/9XBVJBj8smienzhkZ2ocW7fytWZ.jpg",
-      "releaseDate": "2026-05-30",
-      "rating": 6.1,
+      "title": "烈刃之怒",
+      "originalTitle": "The Legend of Maula Jatt",
+      "description": "这是一个关于真相、犹豫和正义的故事。赏金拳手毛拉·贾特为了复仇，向穷凶极恶的帮派首领努里·纳特发起正面挑战，随后走向了一条家破人亡、挚爱分离的道路。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4rT9wbohdwVhXcEUSdI17Mdgexh.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/lbxvZ4jooF6zHkC7fTeOCCaUhbe.jpg",
+      "releaseDate": "2026-05-21",
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -328,38 +328,26 @@
       "mediaType": "movie"
     },
     {
-      "id": 464293,
+      "id": 785429,
       "type": "tmdb",
-      "title": "烈刃之怒",
-      "originalTitle": "The Legend of Maula Jatt",
-      "description": "这是一个关于真相、犹豫和正义的故事。赏金拳手毛拉·贾特为了复仇，向穷凶极恶的帮派首领努里·纳特发起正面挑战，随后走向了一条家破人亡、挚爱分离的道路。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4rT9wbohdwVhXcEUSdI17Mdgexh.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lbxvZ4jooF6zHkC7fTeOCCaUhbe.jpg",
-      "releaseDate": "2026-05-21",
-      "rating": 7.9,
+      "title": "森林之声",
+      "originalTitle": "OZI: Voice of the Forest",
+      "description": "印度尼西亚雨林的森林砍伐，一只名叫Ozi的十几岁的红毛猩猩被烧毁后成为孤儿。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tEdEL8M58BDRJToH5kmqtIXWSh6.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/9XBVJBj8smienzhkZ2ocW7fytWZ.jpg",
+      "releaseDate": "2026-05-30",
+      "rating": 6.1,
       "mediaType": "movie"
     },
     {
-      "id": 974782,
+      "id": 1488778,
       "type": "tmdb",
-      "title": "错时告白",
-      "originalTitle": "OMG! รักจังวะ..ผิดจังหวะ",
-      "description": "　　盖和琼两人虽互生好感，但从大学时代起，就总因等不到对方单身，而不停错过彼此。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/4WvLijYQM4h6fw4RVXHuqn8r45s.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/odWLOSGczuUxmPXZHZXICxlyYnF.jpg",
+      "title": "今晚正好",
+      "originalTitle": "今晚正好",
+      "description": "一场失败的“网友奔现”，让设计师徐秋（马思纯 饰）意外结识了作家陈宇宙（陈昊森 饰）。两人在城市的夜色中，开启了一段关于爱的冒险……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yNC2rc1CDauPjyosunsrC52Kf44.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nwX6zvJ5aWUdJvUc0IM8sljq89C.jpg",
       "releaseDate": "2026-05-20",
-      "rating": 6.6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1241918,
-      "type": "tmdb",
-      "title": "出入平安",
-      "originalTitle": "出入平安",
-      "description": "本片根据真实事件改编，讲述了即将被处决的死刑犯郑立棍（肖央 饰）在押运途中突遇地震，看守所坍塌成废墟，死里逃生的郑立棍看似获得了突如其来的“自由”，但其实已经陷入另一场炼狱之中......与此同时警察尉迟晓（阿云嘎 饰）决定临时组织一支“不一样的”救援队。在天灾面前，仅剩24小时生命的死囚会逃生还是救人？负责看管他的警察又该如何抉择?所有人都站在了命运的岔路口上……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/dEBGIgF3mjHHEozd2VMcrbTP6g1.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/d9BG2RvTNKvsCl7wEfazTEtrXJz.jpg",
-      "releaseDate": "2024-09-30",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -376,6 +364,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 974782,
+      "type": "tmdb",
+      "title": "错时告白",
+      "originalTitle": "OMG! รักจังวะ..ผิดจังหวะ",
+      "description": "　　盖和琼两人虽互生好感，但从大学时代起，就总因等不到对方单身，而不停错过彼此。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4WvLijYQM4h6fw4RVXHuqn8r45s.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/odWLOSGczuUxmPXZHZXICxlyYnF.jpg",
+      "releaseDate": "2026-05-20",
+      "rating": 6.6,
+      "mediaType": "movie"
+    },
+    {
       "id": 1607073,
       "type": "tmdb",
       "title": "错过了，遗憾吗？",
@@ -388,14 +388,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1488778,
+      "id": 1241918,
       "type": "tmdb",
-      "title": "今晚正好",
-      "originalTitle": "今晚正好",
-      "description": "一场失败的“网友奔现”，让设计师徐秋（马思纯 饰）意外结识了作家陈宇宙（陈昊森 饰）。两人在城市的夜色中，开启了一段关于爱的冒险……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yNC2rc1CDauPjyosunsrC52Kf44.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nwX6zvJ5aWUdJvUc0IM8sljq89C.jpg",
-      "releaseDate": "2026-05-20",
+      "title": "出入平安",
+      "originalTitle": "出入平安",
+      "description": "本片根据真实事件改编，讲述了即将被处决的死刑犯郑立棍（肖央 饰）在押运途中突遇地震，看守所坍塌成废墟，死里逃生的郑立棍看似获得了突如其来的“自由”，但其实已经陷入另一场炼狱之中......与此同时警察尉迟晓（阿云嘎 饰）决定临时组织一支“不一样的”救援队。在天灾面前，仅剩24小时生命的死囚会逃生还是救人？负责看管他的警察又该如何抉择?所有人都站在了命运的岔路口上……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/dEBGIgF3mjHHEozd2VMcrbTP6g1.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/d9BG2RvTNKvsCl7wEfazTEtrXJz.jpg",
+      "releaseDate": "2024-09-30",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -430,6 +430,18 @@
       "originalTitle": "钟馗",
       "description": "　　少女初九偶然发现河阳城主墨白是妖怪的真相而被追杀。危机时刻，地府捉妖天师钟馗出手相救，初九由此立志降妖除魔并拜钟馗为师。与此同时，一场足以颠覆人间地府的巨大危机也悄然袭来……",
       "posterPath": "https://image.tmdb.org/t/p/w500/zsWPTAfEI6ealbmIpw0G6QArSSc.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-05-30",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1532474,
+      "type": "tmdb",
+      "title": "监狱来的妈妈",
+      "originalTitle": "监狱来的妈妈",
+      "description": "影片讲述一位母亲从监狱到心灵救赎的震撼旅程，七年打磨，真实采访上百位服刑人员。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vsXLjCa9pX1CWquSrinkxdAQFHU.jpg",
       "backdropPath": null,
       "releaseDate": "2026-05-30",
       "rating": 0,
