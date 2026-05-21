@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T02:12:44.105+08:00",
+  "last_updated": "2026-05-22T01:53:13.733+08:00",
   "now_playing": [
     {
       "id": 931285,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/15BGseWPe8LmCqWuk8dNyDgfsM7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
       "releaseDate": "2026-05-08",
-      "rating": 6.931,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/7VQRHtymBeIyHCfIGNT8N3pNmHY.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/xBT0oNq6rsTFv4SxG5uGRIEOrq6.jpg",
       "releaseDate": "2026-04-24",
-      "rating": 7.584,
+      "rating": 7.574,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "releaseDate": "2026-05-16",
-      "rating": 7.6,
+      "rating": 7.671,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/zGQyw7v2dvb2FNDdVUJFcaPrD5y.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/y3fQa7pytlysovXzovpXc1OQlTW.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 6.7,
+      "rating": 6.64,
       "mediaType": "movie"
     },
     {
@@ -56,9 +56,9 @@
       "originalTitle": "Star Wars: The Mandalorian and Grogu",
       "description": "“曼达洛人”丁·贾伦和“尤达宝宝”古古的星际冒险全面升级，“此乃正道”的誓言响彻宇宙，原力将继续与你同在。",
       "posterPath": "https://image.tmdb.org/t/p/w500/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4lj7MZtcIDI2FmZXGkFWh0sNCsq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/4VrLojD6Gl1HQkcDHAoHQjSDPh9.jpg",
       "releaseDate": "2026-05-22",
-      "rating": 6,
+      "rating": 6.361,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yHhQlFDhesO1UcTmZ4BUt0hxro7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dzWGnIAjUafpmY57F6vnm44FwWB.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 9.1,
+      "rating": 9.176,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
       "releaseDate": "2026-05-15",
-      "rating": 7.681,
+      "rating": 7.682,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/5RY3c5m7lElGAWHUbkJJXQtgKEQ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ld6pkUVbFBdhtTwFNoRv4BRx0aM.jpg",
       "releaseDate": "2026-05-03",
-      "rating": 6.83,
+      "rating": 6.8,
       "mediaType": "movie"
     },
     {
@@ -288,7 +288,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yjEg7eyREo2OfXcCFYM8NikgeT9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/P82NAcEsLIYgQtrtn36tYsj41m.jpg",
       "releaseDate": "2024-06-01",
-      "rating": 7,
+      "rating": 6.992,
       "mediaType": "movie"
     },
     {
@@ -301,6 +301,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/q7ZgPZIqSYm3UlrdCldkYzjGOCI.jpg",
       "releaseDate": "2026-06-06",
       "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1285965,
+      "type": "tmdb",
+      "title": "危险动物",
+      "originalTitle": "Dangerous Animals",
+      "description": "一个沉迷于鲨鱼的连环杀手绑架了一个无忧无虑的冲浪者，绑在自己的船里，要举行一个仪式把她喂鲨鱼。她的新男友发现恋人失踪，前来寻找，却也被这个疯癫的杀手所擒……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jOugiyKRuFX8RFUGnmVFDsh9Oai.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
+      "releaseDate": "2026-06-05",
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
