@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T21:18:06.832+08:00",
+  "last_updated": "2026-05-25T03:12:03.626+08:00",
   "tv": {
     "全网": [
       {
@@ -299,13 +299,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "夏末初见",
+        "title": "致最初的我们",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "致最初的我们",
+        "title": "夏末初见",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -555,7 +555,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧·天路篇",
+        "title": "势均力敌的我们 第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -564,12 +564,6 @@
     "芒果TV": [
       {
         "title": "乘风2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "合伙人第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -587,13 +581,19 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "妻子的浪漫旅行2026",
+        "title": "合伙人第二季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "我家那小子2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
