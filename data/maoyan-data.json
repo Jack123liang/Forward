@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T22:50:41.033+08:00",
+  "last_updated": "2026-06-13T04:04:41.125+08:00",
   "tv": {
     "全网": [
       {
@@ -345,13 +345,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "种地吧 第四季",
+        "title": "奔跑吧14",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "天才厨人",
+        "title": "种地吧 第四季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -363,7 +363,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧14",
+        "title": "天才厨人",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -377,13 +377,13 @@
     ],
     "优酷": [
       {
-        "title": "这是我的西游2",
+        "title": "奔跑吧14",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧14",
+        "title": "这是我的西游2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -445,6 +445,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "奔跑吧14",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "种地吧 第四季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -452,12 +458,6 @@
       },
       {
         "title": "天才厨人",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "奔跑吧14",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -617,7 +617,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "我们与恋爱的距离·奔赴季",
+        "title": "亲爱的客栈2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
