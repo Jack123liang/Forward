@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T01:14:33.614+08:00",
+  "last_updated": "2026-06-16T03:41:51.455+08:00",
   "now_playing": [
     {
       "id": 931285,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/laR2dpcNpbv83jdlRUNAYPPjH90.jpg",
       "releaseDate": "2026-05-08",
-      "rating": 8,
+      "rating": 8.017,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
       "releaseDate": "2026-06-12",
-      "rating": 7,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eQySd26OW7UmCuaeBOL7qy6foMn.jpg",
       "releaseDate": "2026-06-05",
-      "rating": 7.4,
+      "rating": 7.311,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg",
       "releaseDate": "2026-06-11",
-      "rating": 7.8,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 7.258,
+      "rating": 7.251,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "releaseDate": "2026-05-16",
-      "rating": 7.64,
+      "rating": 7.62,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/q7ZgPZIqSYm3UlrdCldkYzjGOCI.jpg",
       "releaseDate": "2026-05-30",
-      "rating": 7.765,
+      "rating": 7.889,
       "mediaType": "movie"
     },
     {
@@ -155,6 +155,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
       "releaseDate": "2026-04-25",
       "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1319522,
+      "type": "tmdb",
+      "title": "心犬相随",
+      "originalTitle": "โกฮัง..หัวใจโกโฮม",
+      "description": "　　影片以细腻的叙事串联起三段跨越十年的缘分，透过一只狗纯净的眼睛，折射出人类的孤独、勇气与希望。\r 　　2016年，退休日本工程师弘志在泰国偶然遇见蜷缩在便利店外的小白狗“Gohan”。从最初简单的喂食，到后来深刻的陪伴，Gohan让他重新感受到生活的温情。\r 　　2021年，缅甸籍女佣南查目睹雇主虐待一只被遗弃的狗，毅然决定救走它，并将它改名为“Brownie”。一人一狗展开了一场惊心动魄的逃亡之旅。\r 　　2026年，迷茫的大学生佩莱遇见了一只年迈病重的流浪狗，他为它取名“Hima”。在照顾Hima最后时光的过程里，佩莱尝试挽回逝去的感情，也逐渐在痛苦与怜悯中学会了如何真正去爱。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tZILgLUZW8BjkydL31yhlaxcZdV.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/gkb6yj4lRIkOQcLuni8V59YvKex.jpg",
+      "releaseDate": "2026-06-13",
+      "rating": 9,
       "mediaType": "movie"
     },
     {
@@ -228,18 +240,6 @@
       "releaseDate": "2026-05-20",
       "rating": 3.5,
       "mediaType": "movie"
-    },
-    {
-      "id": 1174145,
-      "type": "tmdb",
-      "title": "钟馗",
-      "originalTitle": "钟馗",
-      "description": "　　少女初九偶然发现河阳城主墨白是妖怪的真相而被追杀。危机时刻，地府捉妖天师钟馗出手相救，初九由此立志降妖除魔并拜钟馗为师。与此同时，一场足以颠覆人间地府的巨大危机也悄然袭来……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/zsWPTAfEI6ealbmIpw0G6QArSSc.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-05-30",
-      "rating": 6,
-      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/coyHrYHD2xHhDoYD6o4uwoJ2o7b.jpg",
       "releaseDate": "2026-06-19",
-      "rating": 6,
+      "rating": 6.4,
       "mediaType": "movie"
     },
     {
@@ -287,7 +287,7 @@
       "description": "　　影片以细腻的叙事串联起三段跨越十年的缘分，透过一只狗纯净的眼睛，折射出人类的孤独、勇气与希望。\r 　　2016年，退休日本工程师弘志在泰国偶然遇见蜷缩在便利店外的小白狗“Gohan”。从最初简单的喂食，到后来深刻的陪伴，Gohan让他重新感受到生活的温情。\r 　　2021年，缅甸籍女佣南查目睹雇主虐待一只被遗弃的狗，毅然决定救走它，并将它改名为“Brownie”。一人一狗展开了一场惊心动魄的逃亡之旅。\r 　　2026年，迷茫的大学生佩莱遇见了一只年迈病重的流浪狗，他为它取名“Hima”。在照顾Hima最后时光的过程里，佩莱尝试挽回逝去的感情，也逐渐在痛苦与怜悯中学会了如何真正去爱。",
       "posterPath": "https://image.tmdb.org/t/p/w500/tZILgLUZW8BjkydL31yhlaxcZdV.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/gkb6yj4lRIkOQcLuni8V59YvKex.jpg",
-      "releaseDate": "2026-06-26",
+      "releaseDate": "2026-06-13",
       "rating": 9,
       "mediaType": "movie"
     },
@@ -311,7 +311,7 @@
       "description": "70岁的申艳红（杨紫琼 饰）重病后被儿子送进了养老院，房子也被儿子租了出去。为了夺回自己的人生，她尝试赚钱却处处碰壁。就在她准备放弃时，她在魔方的天赋被年轻的魔方教练小吴发现。一个想赚钱离开养老院，一个想挽救濒临倒闭的魔方培训班，两人一拍即合，并登上电视节目。自始她不单收获了名利 、关注、尊严、爱情和人生的主动权，还给一潭死水的老人院带来了活力。她不畏失败，对抗着衰老与偏见，一路来到了魔方的最高舞台，最终在儿子的鼓励下，她完成了难度极高的挑战，获得了吉尼斯世界纪录。",
       "posterPath": "https://image.tmdb.org/t/p/w500/mrz0N2VOnwI5L8CVvTnzatKRWC9.jpg",
       "backdropPath": null,
-      "releaseDate": "2026-07-03",
+      "releaseDate": "2026-06-19",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -477,7 +477,7 @@
       "title": "蓝蓝的天上白云飘",
       "originalTitle": "蓝蓝的天上白云飘",
       "description": "　　小城青年，来到草原找自己的女朋友，两人改装了一辆移动售货车，同牧民以物易物。发生在辽阔壮美的自然环境中，一对小情侣之间绵密悠长，治愈且温暖的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/fGD4ZJ5W3E8bD6MYmLEEOKXmnUx.jpg",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lt12siSVn6meB3FAQhofhnY4Wpl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lOyPzTwN1e2VqYKAqlDFupdRtd.jpg",
       "releaseDate": "2026-06-30",
       "rating": 0,
