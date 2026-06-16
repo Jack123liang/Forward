@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T03:41:51.455+08:00",
+  "last_updated": "2026-06-17T03:30:02.597+08:00",
   "now_playing": [
     {
       "id": 931285,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/6ktKo8jm5weIA09oWqYtM4hBTwU.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/laR2dpcNpbv83jdlRUNAYPPjH90.jpg",
       "releaseDate": "2026-05-08",
-      "rating": 8.017,
+      "rating": 8.019,
       "mediaType": "movie"
     },
     {
@@ -22,7 +22,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
       "releaseDate": "2026-06-12",
-      "rating": 6.9,
+      "rating": 6.856,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/eQySd26OW7UmCuaeBOL7qy6foMn.jpg",
       "releaseDate": "2026-06-05",
-      "rating": 7.311,
+      "rating": 7.316,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg",
       "releaseDate": "2026-06-11",
-      "rating": 7.9,
+      "rating": 7.984,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sm5WjHemivXAIphAAEzZ5yCBdNt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 7.251,
+      "rating": 7.256,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "releaseDate": "2026-05-16",
-      "rating": 7.62,
+      "rating": 7.651,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/s0sC3hPPX4OobLNfdl2iSs2vtvI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dzWGnIAjUafpmY57F6vnm44FwWB.jpg",
       "releaseDate": "2026-04-30",
-      "rating": 9.107,
+      "rating": 9.121,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/q7ZgPZIqSYm3UlrdCldkYzjGOCI.jpg",
       "releaseDate": "2026-05-30",
-      "rating": 7.889,
+      "rating": 7.9,
       "mediaType": "movie"
     },
     {
@@ -142,7 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yjEg7eyREo2OfXcCFYM8NikgeT9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/P82NAcEsLIYgQtrtn36tYsj41m.jpg",
       "releaseDate": "2024-06-01",
-      "rating": 6.989,
+      "rating": 6.987,
       "mediaType": "movie"
     },
     {
@@ -182,18 +182,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1297245,
-      "type": "tmdb",
-      "title": "一个男人和一个女人",
-      "originalTitle": "一个男人和一个女人",
-      "description": "　2021年初春，男人（黄渤 饰）和女人（倪妮 饰）同时飞抵香港，在等待入关大陆期间同住一酒店，一墙之隔。两人在短暂的生命交集中把自身背负的压力倾诉于彼此，在绽放顽强生命力的香港，寻得心灵港湾。而又在答案揭晓之前，选择戛然而止。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pk72qbn8gIaV5l56OI7DT7ZWbkO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fRSGoYlxL4ZcDVVn0XzfKh92kog.jpg",
-      "releaseDate": "2026-05-16",
-      "rating": 6.3,
-      "mediaType": "movie"
-    },
-    {
       "id": 464293,
       "type": "tmdb",
       "title": "烈刃之怒",
@@ -203,6 +191,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/lbxvZ4jooF6zHkC7fTeOCCaUhbe.jpg",
       "releaseDate": "2026-05-21",
       "rating": 7.9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1297245,
+      "type": "tmdb",
+      "title": "一个男人和一个女人",
+      "originalTitle": "一个男人和一个女人",
+      "description": "　2021年初春，男人（黄渤 饰）和女人（倪妮 饰）同时飞抵香港，在等待入关大陆期间同住一酒店，一墙之隔。两人在短暂的生命交集中把自身背负的压力倾诉于彼此，在绽放顽强生命力的香港，寻得心灵港湾。而又在答案揭晓之前，选择戛然而止。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/pk72qbn8gIaV5l56OI7DT7ZWbkO.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/fRSGoYlxL4ZcDVVn0XzfKh92kog.jpg",
+      "releaseDate": "2026-05-16",
+      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -218,18 +218,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1488778,
-      "type": "tmdb",
-      "title": "今晚正好",
-      "originalTitle": "今晚正好",
-      "description": "一场失败的“网友奔现”，让设计师徐秋（马思纯 饰）意外结识了作家陈宇宙（陈昊森 饰）。两人在城市的夜色中，开启了一段关于爱的冒险……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yNC2rc1CDauPjyosunsrC52Kf44.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/nwX6zvJ5aWUdJvUc0IM8sljq89C.jpg",
-      "releaseDate": "2026-05-20",
-      "rating": 7,
-      "mediaType": "movie"
-    },
-    {
       "id": 1607073,
       "type": "tmdb",
       "title": "错过了，遗憾吗？",
@@ -239,6 +227,18 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/m2FJBmeINsNEY5rIrWTF1KkCFqd.jpg",
       "releaseDate": "2026-05-20",
       "rating": 3.5,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1488778,
+      "type": "tmdb",
+      "title": "今晚正好",
+      "originalTitle": "今晚正好",
+      "description": "一场失败的“网友奔现”，让设计师徐秋（马思纯 饰）意外结识了作家陈宇宙（陈昊森 饰）。两人在城市的夜色中，开启了一段关于爱的冒险……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yNC2rc1CDauPjyosunsrC52Kf44.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/nwX6zvJ5aWUdJvUc0IM8sljq89C.jpg",
+      "releaseDate": "2026-05-20",
+      "rating": 7,
       "mediaType": "movie"
     }
   ],
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/coyHrYHD2xHhDoYD6o4uwoJ2o7b.jpg",
       "releaseDate": "2026-06-19",
-      "rating": 6.4,
+      "rating": 7.6,
       "mediaType": "movie"
     },
     {
@@ -262,7 +262,7 @@
       "originalTitle": "Supergirl",
       "description": "DC影业联合CEO詹姆斯·古恩与彼得·萨夫兰对DCU的首批规划项目揭晓，电影《超级少女：明日之女》：改编自汤姆王编剧的同名连载漫画。",
       "posterPath": "https://image.tmdb.org/t/p/w500/qJDJ2NzoBfaPktg8Ic10Mx9tWX7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6nlqYWDUpNem3v2bDCxQNSg41aY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/2qWVt6JS1mIC2X2awSuuOnAYNbE.jpg",
       "releaseDate": "2026-06-26",
       "rating": 0,
       "mediaType": "movie"
@@ -274,7 +274,7 @@
       "originalTitle": "Minions & Monsters",
       "description": "为了拍摄心中理想的怪兽电影，这群萌趣活宝四处物色演员，竟然真的集齐了各式怪兽，上演疯狂大乱斗！",
       "posterPath": "https://image.tmdb.org/t/p/w500/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/2lHxj082xknb8kt4gOcmn1yPjkk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/pclNFoWcWDeoaQ2pwrXPPw1mjs7.jpg",
       "releaseDate": "2026-07-03",
       "rating": 0,
       "mediaType": "movie"
@@ -300,7 +300,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yKHEKsrIJLfPoS9f7m5Stbo6fpJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3WVhUsttN1uLyXhV33xCkONeFGA.jpg",
       "releaseDate": "2016-07-08",
-      "rating": 7.358,
+      "rating": 7.359,
       "mediaType": "movie"
     },
     {
@@ -311,18 +311,6 @@
       "description": "70岁的申艳红（杨紫琼 饰）重病后被儿子送进了养老院，房子也被儿子租了出去。为了夺回自己的人生，她尝试赚钱却处处碰壁。就在她准备放弃时，她在魔方的天赋被年轻的魔方教练小吴发现。一个想赚钱离开养老院，一个想挽救濒临倒闭的魔方培训班，两人一拍即合，并登上电视节目。自始她不单收获了名利 、关注、尊严、爱情和人生的主动权，还给一潭死水的老人院带来了活力。她不畏失败，对抗着衰老与偏见，一路来到了魔方的最高舞台，最终在儿子的鼓励下，她完成了难度极高的挑战，获得了吉尼斯世界纪录。",
       "posterPath": "https://image.tmdb.org/t/p/w500/mrz0N2VOnwI5L8CVvTnzatKRWC9.jpg",
       "backdropPath": null,
-      "releaseDate": "2026-06-19",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1435047,
-      "type": "tmdb",
-      "title": "爱是愤怒",
-      "originalTitle": "爱是愤怒",
-      "description": "无论工作还是生活，刘浩一直都是被轻视的那个。直到遇见菜菜，两个年轻人坠入爱河。然而，就在他们信心满满，想要展开美好未来时，一场意外彻底颠覆了他们的生活。面对险恶的世界，屈辱的人生，他们选择了不一样的反抗……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/px5DFjEhzSKRGZ5pSAUxokFC8rY.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ewenEi50R7BiUVRbFFvAuMqb0Lo.jpg",
       "releaseDate": "2026-06-19",
       "rating": 0,
       "mediaType": "movie"
@@ -352,18 +340,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1353926,
-      "type": "tmdb",
-      "title": "特立独行",
-      "originalTitle": "特立独行",
-      "description": "三十年前，以超人王长海为首的超英协会击溃了外星人，多年后，王长海被任命回乡建立战斗小队，但在这个多年和平的莱茵镇上，人情世故和礼尚往来让王长海手足无措，给王长海完成任务造成了层层阻碍。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cyzcsp95W2Op3G5Gb8S2cPEnSc2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/imoDW7tUgwq2wgajR1YafDTG9Ij.jpg",
-      "releaseDate": "2026-07-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1305672,
       "type": "tmdb",
       "title": "抓特务",
@@ -376,38 +352,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1396674,
+      "id": 1435047,
       "type": "tmdb",
-      "title": "一个部门的诞生",
-      "originalTitle": "一個部門的誕生",
-      "description": "电视台发生胁持事件，绑匪K仔不是为钱，只想把电视台月费终止。人质当劳为求自保，只想尽快了结，却没想过终止电视台月费竟是如此困难的事……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eW7S7tCPWQW50Bt1YHF0FPI1m16.jpg",
-      "releaseDate": "2026-06-27",
-      "rating": 9,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1613857,
-      "type": "tmdb",
-      "title": "开个玩笑",
-      "originalTitle": "开个玩笑",
-      "description": "环卫女工季红（张天爱 饰）为让孩子获得入学机会，面临职场领导以“玩笑”为名的越界骚扰，其他员工对此习以为常，而性格倔强的季红决定反抗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kI0Y4huryV7A5vXPveMftk6oINd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7GKqgR0jsa2HWriTz92vgCd50PP.jpg",
-      "releaseDate": "2026-07-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1604133,
-      "type": "tmdb",
-      "title": "四渡",
-      "originalTitle": "四渡",
-      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
-      "releaseDate": "2026-06-26",
+      "title": "爱是愤怒",
+      "originalTitle": "爱是愤怒",
+      "description": "无论工作还是生活，刘浩一直都是被轻视的那个。直到遇见菜菜，两个年轻人坠入爱河。然而，就在他们信心满满，想要展开美好未来时，一场意外彻底颠覆了他们的生活。面对险恶的世界，屈辱的人生，他们选择了不一样的反抗……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/px5DFjEhzSKRGZ5pSAUxokFC8rY.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ewenEi50R7BiUVRbFFvAuMqb0Lo.jpg",
+      "releaseDate": "2026-06-19",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -424,6 +376,54 @@
       "mediaType": "movie"
     },
     {
+      "id": 1353926,
+      "type": "tmdb",
+      "title": "特立独行",
+      "originalTitle": "特立独行",
+      "description": "三十年前，以超人王长海为首的超英协会击溃了外星人，多年后，王长海被任命回乡建立战斗小队，但在这个多年和平的莱茵镇上，人情世故和礼尚往来让王长海手足无措，给王长海完成任务造成了层层阻碍。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cyzcsp95W2Op3G5Gb8S2cPEnSc2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/imoDW7tUgwq2wgajR1YafDTG9Ij.jpg",
+      "releaseDate": "2026-07-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1396674,
+      "type": "tmdb",
+      "title": "一个部门的诞生",
+      "originalTitle": "一個部門的誕生",
+      "description": "电视台发生胁持事件，绑匪K仔不是为钱，只想把电视台月费终止。人质当劳为求自保，只想尽快了结，却没想过终止电视台月费竟是如此困难的事……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/eW7S7tCPWQW50Bt1YHF0FPI1m16.jpg",
+      "releaseDate": "2026-06-27",
+      "rating": 9,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1604133,
+      "type": "tmdb",
+      "title": "四渡",
+      "originalTitle": "四渡",
+      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
+      "releaseDate": "2026-06-26",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1613857,
+      "type": "tmdb",
+      "title": "开个玩笑",
+      "originalTitle": "开个玩笑",
+      "description": "环卫女工季红（张天爱 饰）为让孩子获得入学机会，面临职场领导以“玩笑”为名的越界骚扰，其他员工对此习以为常，而性格倔强的季红决定反抗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kI0Y4huryV7A5vXPveMftk6oINd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7GKqgR0jsa2HWriTz92vgCd50PP.jpg",
+      "releaseDate": "2026-07-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1579223,
       "type": "tmdb",
       "title": "北回归线以北",
@@ -431,18 +431,6 @@
       "description": "　　影片讲述了三组怀揣不同心结的人开着房车自驾游，在旅途中找到各自心灵解脱的故事。靠旅拍糊口的落魄摄影师何川，与热心肠的资深摄影论坛老玩家元哥入伙，拍摄青藏高原的雪豹；蜗居房车陪读三年的三口之家，夫妻俩为了完成儿子张匡匡的毕业心愿，踏上房车之旅；著名三甲医院主任程卉 退休第二天独自驾车去西部，寻找年轻时心中的夙愿，看一看初恋爱人红绢蝶。三组不同经历的人生，在旅途中遭遇各种啼笑皆非的意外，在一连串经历过后，人生的答案逐渐显现出来。",
       "posterPath": "https://image.tmdb.org/t/p/w500/hTEBWl9OutI6PHt201yGfm1J9Sz.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kyWGRvpNU7xSc4Yjf4eQw7BRRxk.jpg",
-      "releaseDate": "2026-06-19",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1655500,
-      "type": "tmdb",
-      "title": "床下有人4",
-      "originalTitle": "床下有人4",
-      "description": "民国时期的上海。杜采薇是电影明星沈雨梦的表妹，也是她的私人助手。杜采薇经常做噩梦，看到床下有女鬼爬出，要加害她们姐妹二人！当她解开心结，了解噩梦的原因后，以为恐怖即将过去。但此时，女鬼再次从床下爬出来，白脸惊魂，利爪骇人……这一次，不是梦！",
-      "posterPath": "https://image.tmdb.org/t/p/w500/r0HP4YOmztCsZHEiTAK0zqSk15H.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/rTncR0fUxFCJmcV8YwT2B7QtNYD.jpg",
       "releaseDate": "2026-06-19",
       "rating": 0,
       "mediaType": "movie"
@@ -456,6 +444,18 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
       "backdropPath": null,
       "releaseDate": "2026-06-27",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1655500,
+      "type": "tmdb",
+      "title": "床下有人4",
+      "originalTitle": "床下有人4",
+      "description": "民国时期的上海。杜采薇是电影明星沈雨梦的表妹，也是她的私人助手。杜采薇经常做噩梦，看到床下有女鬼爬出，要加害她们姐妹二人！当她解开心结，了解噩梦的原因后，以为恐怖即将过去。但此时，女鬼再次从床下爬出来，白脸惊魂，利爪骇人……这一次，不是梦！",
+      "posterPath": "https://image.tmdb.org/t/p/w500/r0HP4YOmztCsZHEiTAK0zqSk15H.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/rTncR0fUxFCJmcV8YwT2B7QtNYD.jpg",
+      "releaseDate": "2026-06-19",
       "rating": 0,
       "mediaType": "movie"
     },
