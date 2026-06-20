@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T21:53:43.642+08:00",
+  "last_updated": "2026-06-21T03:19:37.366+08:00",
   "tv": {
     "全网": [
       {
@@ -151,13 +151,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "低智商犯罪",
+        "title": "云秀行",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "云秀行",
+        "title": "低智商犯罪",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -237,13 +237,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "白日提灯",
+        "title": "佳偶天成",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "佳偶天成",
+        "title": "白日提灯",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -305,7 +305,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "长河落日",
+        "title": "玉茗茶骨",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -327,13 +327,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "奔跑吧14",
+        "title": "这是我的西游2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "这是我的西游2",
+        "title": "奔跑吧14",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -357,12 +357,6 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "妻子的浪漫旅行2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "种地吧 第四季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -373,17 +367,23 @@
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
+      },
+      {
+        "title": "天赐的声音 第七季",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
       }
     ],
     "优酷": [
       {
-        "title": "奔跑吧14",
+        "title": "这是我的西游2",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "这是我的西游2",
+        "title": "奔跑吧14",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -549,13 +549,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "开始捉迷藏 第2季",
+        "title": "十三邀 第九季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "十三邀 第九季",
+        "title": "开始捉迷藏 第2季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -564,12 +564,6 @@
     "芒果TV": [
       {
         "title": "乘风2026",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -587,6 +581,18 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "妻子的浪漫旅行2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "乘风2026 训练室全纪录",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "中餐厅·南洋拾光季",
         "description": "暂无简介",
         "type": "maoyan",
@@ -594,12 +600,6 @@
       },
       {
         "title": "国医少年志 第三季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "乘风2026 训练室全纪录",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -617,7 +617,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "亲爱的客栈2026",
+        "title": "为爱闪耀的她",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
