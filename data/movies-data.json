@@ -1,18 +1,6 @@
 {
-  "last_updated": "2026-06-21T01:20:23.447+08:00",
+  "last_updated": "2026-06-22T01:23:28.697+08:00",
   "now_playing": [
-    {
-      "id": 1275779,
-      "type": "tmdb",
-      "title": "揭秘日",
-      "originalTitle": "Disclosure Day",
-      "description": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
-      "releaseDate": "2026-06-12",
-      "rating": 6.743,
-      "mediaType": "movie"
-    },
     {
       "id": 1084244,
       "type": "tmdb",
@@ -22,7 +10,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/kwq3lxPrBfyyVRRSDSlojwCPzwH.jpg",
       "releaseDate": "2026-06-19",
-      "rating": 7.4,
+      "rating": 7.395,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1275779,
+      "type": "tmdb",
+      "title": "揭秘日",
+      "originalTitle": "Disclosure Day",
+      "description": "如果有人告诉你，我们并非宇宙中唯一的智慧生命，并且向你展示、证明了这一点，你会感到恐惧吗？今年夏天，真相将属于七十亿人。我们正一步步接近……揭秘日。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
+      "releaseDate": "2026-06-12",
+      "rating": 6.738,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/cafHjxEvhslX9MpBMxmPWxC5GWB.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6zg7A9ICOthNR2TSXlT51KvXrsA.jpg",
       "releaseDate": "2026-05-22",
-      "rating": 6.7,
+      "rating": 6.744,
       "mediaType": "movie"
     },
     {
@@ -44,9 +44,9 @@
       "originalTitle": "火遮眼",
       "description": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "posterPath": "https://image.tmdb.org/t/p/w500/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dxyNrJ4uG9os6miCG7s754nvKPs.jpg",
       "releaseDate": "2026-06-11",
-      "rating": 7.989,
+      "rating": 8,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
       "releaseDate": "2026-06-05",
-      "rating": 7.234,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -82,31 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tcK1gUmJY0GL9apwF9C3M2doQ3w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 7.253,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1301421,
-      "type": "tmdb",
-      "title": "绵羊侦探团",
-      "originalTitle": "The Sheep Detectives",
-      "description": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/t6O6XWelu27BD0OmIDCCufZZT6d.jpg",
-      "releaseDate": "2026-05-16",
-      "rating": 7.632,
-      "mediaType": "movie"
-    },
-    {
-      "id": 578,
-      "type": "tmdb",
-      "title": "大白鲨",
-      "originalTitle": "Jaws",
-      "description": "当海滨小镇艾米蒂遭遇一头危险大白鲨的袭击时，当地的警长（罗伊·谢德 饰）、一位年轻的海洋生物学家（理查德·德莱福斯 饰）与一位身经百战的老练鲨鱼猎人（罗伯特·肖 饰）联手展开殊死追捕，决心在这头猛兽再次发动攻击前将其消灭。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
-      "releaseDate": "2026-05-15",
-      "rating": 7.683,
+      "rating": 7.255,
       "mediaType": "movie"
     },
     {
@@ -119,6 +95,30 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/dzWGnIAjUafpmY57F6vnm44FwWB.jpg",
       "releaseDate": "2026-04-30",
       "rating": 9.2,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1301421,
+      "type": "tmdb",
+      "title": "绵羊侦探团",
+      "originalTitle": "The Sheep Detectives",
+      "description": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/t6O6XWelu27BD0OmIDCCufZZT6d.jpg",
+      "releaseDate": "2026-05-16",
+      "rating": 7.636,
+      "mediaType": "movie"
+    },
+    {
+      "id": 578,
+      "type": "tmdb",
+      "title": "大白鲨",
+      "originalTitle": "Jaws",
+      "description": "当海滨小镇艾米蒂遭遇一头危险大白鲨的袭击时，当地的警长（罗伊·谢德 饰）、一位年轻的海洋生物学家（理查德·德莱福斯 饰）与一位身经百战的老练鲨鱼猎人（罗伯特·肖 饰）联手展开殊死追捕，决心在这头猛兽再次发动攻击前将其消灭。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
+      "releaseDate": "2026-05-15",
+      "rating": 7.683,
       "mediaType": "movie"
     },
     {
@@ -142,43 +142,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yjEg7eyREo2OfXcCFYM8NikgeT9.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/P82NAcEsLIYgQtrtn36tYsj41m.jpg",
       "releaseDate": "2024-06-01",
-      "rating": 6.987,
-      "mediaType": "movie"
-    },
-    {
-      "id": 271706,
-      "type": "tmdb",
-      "title": "大鱼海棠",
-      "originalTitle": "大鱼海棠",
-      "description": "所有活着的人类，都是海里一条巨大的鱼；出生的时候他们从海的此岸出发。他们的生命就像横越大海，有时相遇，有时分开……死的时候，他们便到了岸，各去各的世界。  四十五亿年前，这个星球上，只有一片汪洋大海，和一群古老的大鱼。在与人类世界平行的空间里，生活着一个规规矩矩、遵守秩序的族群，他们为神工作，掌管世界万物运行规律，也掌管人类的灵魂。他们的天空与人类世界的大海相连。他们既不是神，也不是人，他们是“其他人”。  少女椿，作为生家族的继承人，掌管着海棠花的生长。不惜违背族人戒律，逆天而行，在海底世界秘密饲养人类少年的灵魂——一条拇指大的小鱼。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/yKHEKsrIJLfPoS9f7m5Stbo6fpJ.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/3WVhUsttN1uLyXhV33xCkONeFGA.jpg",
-      "releaseDate": "2016-07-08",
-      "rating": 7.347,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1285965,
-      "type": "tmdb",
-      "title": "危险动物",
-      "originalTitle": "Dangerous Animals",
-      "description": "一个沉迷于鲨鱼的连环杀手绑架了一个无忧无虑的冲浪者，绑在自己的船里，要举行一个仪式把她喂鲨鱼。她的新男友发现恋人失踪，前来寻找，却也被这个疯癫的杀手所擒……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jOugiyKRuFX8RFUGnmVFDsh9Oai.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
-      "releaseDate": "2026-06-05",
-      "rating": 6.464,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1443374,
-      "type": "tmdb",
-      "title": "森中有林",
-      "originalTitle": "森中有林",
-      "description": "下岗狱警廉加海（于和伟 饰）与昔日爱人王秀义（高圆圆 饰）多年后重逢，旧情复燃之际，却意外卷入一场被精心掩盖的凶案——两个家、三代人，就此陷入横跨数十年的生死纠葛、爱恨痴缠。从东北到海南，从上世纪末到今天，没有人可以从宿命轮回中远走高飞……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/2lCe3wAq9KpyHwRZo28PeRMZgFm.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
-      "releaseDate": "2026-04-25",
-      "rating": 6,
+      "rating": 7,
       "mediaType": "movie"
     },
     {
@@ -194,6 +158,54 @@
       "mediaType": "movie"
     },
     {
+      "id": 271706,
+      "type": "tmdb",
+      "title": "大鱼海棠",
+      "originalTitle": "大鱼海棠",
+      "description": "所有活着的人类，都是海里一条巨大的鱼；出生的时候他们从海的此岸出发。他们的生命就像横越大海，有时相遇，有时分开……死的时候，他们便到了岸，各去各的世界。  四十五亿年前，这个星球上，只有一片汪洋大海，和一群古老的大鱼。在与人类世界平行的空间里，生活着一个规规矩矩、遵守秩序的族群，他们为神工作，掌管世界万物运行规律，也掌管人类的灵魂。他们的天空与人类世界的大海相连。他们既不是神，也不是人，他们是“其他人”。  少女椿，作为生家族的继承人，掌管着海棠花的生长。不惜违背族人戒律，逆天而行，在海底世界秘密饲养人类少年的灵魂——一条拇指大的小鱼。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/yKHEKsrIJLfPoS9f7m5Stbo6fpJ.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/3WVhUsttN1uLyXhV33xCkONeFGA.jpg",
+      "releaseDate": "2016-07-08",
+      "rating": 7.346,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1443374,
+      "type": "tmdb",
+      "title": "森中有林",
+      "originalTitle": "森中有林",
+      "description": "下岗狱警廉加海（于和伟 饰）与昔日爱人王秀义（高圆圆 饰）多年后重逢，旧情复燃之际，却意外卷入一场被精心掩盖的凶案——两个家、三代人，就此陷入横跨数十年的生死纠葛、爱恨痴缠。从东北到海南，从上世纪末到今天，没有人可以从宿命轮回中远走高飞……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2lCe3wAq9KpyHwRZo28PeRMZgFm.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qAe5omymsbIvRzl0PySF3NKPdad.jpg",
+      "releaseDate": "2026-04-25",
+      "rating": 6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1285965,
+      "type": "tmdb",
+      "title": "危险动物",
+      "originalTitle": "Dangerous Animals",
+      "description": "一个沉迷于鲨鱼的连环杀手绑架了一个无忧无虑的冲浪者，绑在自己的船里，要举行一个仪式把她喂鲨鱼。她的新男友发现恋人失踪，前来寻找，却也被这个疯癫的杀手所擒……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jOugiyKRuFX8RFUGnmVFDsh9Oai.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
+      "releaseDate": "2026-06-05",
+      "rating": 6.464,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1305672,
+      "type": "tmdb",
+      "title": "抓特务",
+      "originalTitle": "抓特务",
+      "description": "1949年开国大典这天，刚入城改编成公安派出所所长的肖大力发现小学教员冯静波特嫌疑点重重。他本着军人的高度警惕和公安战士的责任感，硬是与冯搭做邻居，穷尽一生历尽磨难，进行了一场近四十年无怨无悔的追踪。影片根据张策同名小说改编。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xuLUtumvstPx00t3PBsLI7GTENA.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kXXveIklCvTpJOGu16dszmZrcwD.jpg",
+      "releaseDate": "2026-06-19",
+      "rating": 8,
+      "mediaType": "movie"
+    },
+    {
       "id": 464293,
       "type": "tmdb",
       "title": "烈刃之怒",
@@ -203,30 +215,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/lbxvZ4jooF6zHkC7fTeOCCaUhbe.jpg",
       "releaseDate": "2026-05-21",
       "rating": 7.9,
-      "mediaType": "movie"
-    },
-    {
-      "id": 597316,
-      "type": "tmdb",
-      "title": "小马宝莉：新世代",
-      "originalTitle": "My Little Pony: A New Generation",
-      "description": "不可思议的事情发生了······小马利亚失去了魔力！陆马、独角兽和飞马不再是朋友，如今只有同种族的小马才会待在一起。但理想主义的年轻陆马桑尼（凡妮莎·哈金斯配音）决心找到一种方法，让世界重新拥有魔法并变得像以前一样团结。她与性格开朗的独角兽伊兹（贵美子·格伦配音）一起前往遥远的国度，在那里她们遇到了富有魅力且勇敢的飞马皮璞（索菲亚·卡尔森配音）和齐璞（丽兹·考什配音），以及使命感满满的陆马希区烈焰（詹姆斯·麦斯登配音）。他们在完成任务的过程中遇到了诸多困难，但每一位新的好朋友都有自己独一无二的天赋，这可能正是小马利亚恢复魔法所需要的东西，并证明了小马也能带来大改变。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7PYEdLF5rD28HAexgDt6DOpOYxd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ugukqzx4gSzBd1yzmbWEHLkpGaS.jpg",
-      "releaseDate": "2022-07-30",
-      "rating": 7.7,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1297245,
-      "type": "tmdb",
-      "title": "一个男人和一个女人",
-      "originalTitle": "一个男人和一个女人",
-      "description": "　2021年初春，男人（黄渤 饰）和女人（倪妮 饰）同时飞抵香港，在等待入关大陆期间同住一酒店，一墙之隔。两人在短暂的生命交集中把自身背负的压力倾诉于彼此，在绽放顽强生命力的香港，寻得心灵港湾。而又在答案揭晓之前，选择戛然而止。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/pk72qbn8gIaV5l56OI7DT7ZWbkO.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/fRSGoYlxL4ZcDVVn0XzfKh92kog.jpg",
-      "releaseDate": "2026-05-16",
-      "rating": 6.3,
       "mediaType": "movie"
     },
     {
@@ -240,6 +228,18 @@
       "releaseDate": "2026-06-19",
       "rating": 4,
       "mediaType": "movie"
+    },
+    {
+      "id": 597316,
+      "type": "tmdb",
+      "title": "小马宝莉：新世代",
+      "originalTitle": "My Little Pony: A New Generation",
+      "description": "不可思议的事情发生了······小马利亚失去了魔力！陆马、独角兽和飞马不再是朋友，如今只有同种族的小马才会待在一起。但理想主义的年轻陆马桑尼（凡妮莎·哈金斯配音）决心找到一种方法，让世界重新拥有魔法并变得像以前一样团结。她与性格开朗的独角兽伊兹（贵美子·格伦配音）一起前往遥远的国度，在那里她们遇到了富有魅力且勇敢的飞马皮璞（索菲亚·卡尔森配音）和齐璞（丽兹·考什配音），以及使命感满满的陆马希区烈焰（詹姆斯·麦斯登配音）。他们在完成任务的过程中遇到了诸多困难，但每一位新的好朋友都有自己独一无二的天赋，这可能正是小马利亚恢复魔法所需要的东西，并证明了小马也能带来大改变。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7PYEdLF5rD28HAexgDt6DOpOYxd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ugukqzx4gSzBd1yzmbWEHLkpGaS.jpg",
+      "releaseDate": "2022-07-30",
+      "rating": 7.7,
+      "mediaType": "movie"
     }
   ],
   "upcoming": [
@@ -250,9 +250,9 @@
       "originalTitle": "Backrooms",
       "description": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
       "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/ckgd8xG6PnuMSbNg3sfY7QRzN9f.jpg",
       "releaseDate": "2026-06-26",
-      "rating": 6.888,
+      "rating": 6.9,
       "mediaType": "movie"
     },
     {
@@ -328,18 +328,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1353926,
-      "type": "tmdb",
-      "title": "特立独行",
-      "originalTitle": "特立独行",
-      "description": "三十年前，以超人王长海为首的超英协会击溃了外星人，多年后，王长海被任命回乡建立战斗小队，但在这个多年和平的莱茵镇上，人情世故和礼尚往来让王长海手足无措，给王长海完成任务造成了层层阻碍。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/cyzcsp95W2Op3G5Gb8S2cPEnSc2.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/imoDW7tUgwq2wgajR1YafDTG9Ij.jpg",
-      "releaseDate": "2026-07-03",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1396674,
       "type": "tmdb",
       "title": "一个部门的诞生",
@@ -349,18 +337,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/eW7S7tCPWQW50Bt1YHF0FPI1m16.jpg",
       "releaseDate": "2026-06-27",
       "rating": 9,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1604133,
-      "type": "tmdb",
-      "title": "四渡",
-      "originalTitle": "四渡",
-      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
-      "releaseDate": "2026-06-26",
-      "rating": 0,
       "mediaType": "movie"
     },
     {
@@ -376,14 +352,26 @@
       "mediaType": "movie"
     },
     {
-      "id": 1522776,
+      "id": 1353926,
       "type": "tmdb",
-      "title": "小气鬼",
-      "originalTitle": "小气鬼",
-      "description": "　　民乐团唢呐手高艺（孟鹤堂 饰）原是人见人嫌的小气鬼，这个把“省一分是一分”刻进DNA里的奇男子因三百块钱的贪念，受托临时照顾 一个4岁小男孩阿乌（包邮 饰），却不料男孩的母亲一去不返，老高原本平静的生活被突如其来的小男孩打破，两人被迫搭伙成为了“半路父子”。与此同时，唢呐技艺超群的老高对大提琴手温兰（管乐 饰）一见钟情，两人共同经历了一场惊心动魄的livehouse炸裂演出之后，老高向温兰展开了一系列抠搜绝伦的求爱攻势，在经历了一番番啼笑皆非的喜笑离合后，老高前半生坚守的金钱原则和人生态度似乎也开始在不经意间发生改变……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-06-27",
+      "title": "特立独行",
+      "originalTitle": "特立独行",
+      "description": "三十年前，以超人王长海为首的超英协会击溃了外星人，多年后，王长海被任命回乡建立战斗小队，但在这个多年和平的莱茵镇上，人情世故和礼尚往来让王长海手足无措，给王长海完成任务造成了层层阻碍。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/cyzcsp95W2Op3G5Gb8S2cPEnSc2.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/imoDW7tUgwq2wgajR1YafDTG9Ij.jpg",
+      "releaseDate": "2026-07-03",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1604133,
+      "type": "tmdb",
+      "title": "四渡",
+      "originalTitle": "四渡",
+      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
+      "releaseDate": "2026-06-26",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -394,6 +382,18 @@
       "originalTitle": "不成功穿越指南",
       "description": "陈涛在大城市频频受挫，决定回到家乡在母亲身边“躺平”。可随后他意外地在旧书中见到离世已久的父亲，二人共同经历了书中一段段妙趣横生的故事。在这次啼笑皆非的冒险中，父子破除了多年的心结隔阂，陈涛也重获力量，再次出发，开启了新的人生篇章。",
       "posterPath": "https://image.tmdb.org/t/p/w500/3ETbY1nV0vJIeoxiJslXon0Z9Q9.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-06-27",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1522776,
+      "type": "tmdb",
+      "title": "小气鬼",
+      "originalTitle": "小气鬼",
+      "description": "　　民乐团唢呐手高艺（孟鹤堂 饰）原是人见人嫌的小气鬼，这个把“省一分是一分”刻进DNA里的奇男子因三百块钱的贪念，受托临时照顾 一个4岁小男孩阿乌（包邮 饰），却不料男孩的母亲一去不返，老高原本平静的生活被突如其来的小男孩打破，两人被迫搭伙成为了“半路父子”。与此同时，唢呐技艺超群的老高对大提琴手温兰（管乐 饰）一见钟情，两人共同经历了一场惊心动魄的livehouse炸裂演出之后，老高向温兰展开了一系列抠搜绝伦的求爱攻势，在经历了一番番啼笑皆非的喜笑离合后，老高前半生坚守的金钱原则和人生态度似乎也开始在不经意间发生改变……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
       "backdropPath": null,
       "releaseDate": "2026-06-27",
       "rating": 0,
@@ -436,6 +436,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1714841,
+      "type": "tmdb",
+      "title": "关索岭",
+      "originalTitle": "关索岭",
+      "description": "丁虎和沈啸飞是八百年前明军的后裔，先后爱上了采茶女金儿。他们生活在宁静的田园中，由于居住的屯堡位于交通要塞，这里成为了日军攻占的重要目标。面对外敌入侵，丁虎和沈啸飞毅摒弃前嫌，民族大义高于个人恩怨。他们以关索岭为中心，带领乡亲们奋勇抵抗，最终全歼了一股携带机密测绘地图的敌人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hPBNYaVAwouAhLu2RpPxXZxKBvn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/luW1QPoiBpasSH2AeEgap5ZWB8Z.jpg",
+      "releaseDate": "2026-06-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
       "id": 1658666,
       "type": "tmdb",
       "title": "大圣崛起",
@@ -456,18 +468,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/lt12siSVn6meB3FAQhofhnY4Wpl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/lOyPzTwN1e2VqYKAqlDFupdRtd.jpg",
       "releaseDate": "2026-06-30",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1714841,
-      "type": "tmdb",
-      "title": "关索岭",
-      "originalTitle": "关索岭",
-      "description": "丁虎和沈啸飞是八百年前明军的后裔，先后爱上了采茶女金儿。他们生活在宁静的田园中，由于居住的屯堡位于交通要塞，这里成为了日军攻占的重要目标。面对外敌入侵，丁虎和沈啸飞毅摒弃前嫌，民族大义高于个人恩怨。他们以关索岭为中心，带领乡亲们奋勇抵抗，最终全歼了一股携带机密测绘地图的敌人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hPBNYaVAwouAhLu2RpPxXZxKBvn.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/luW1QPoiBpasSH2AeEgap5ZWB8Z.jpg",
-      "releaseDate": "2026-06-25",
       "rating": 0,
       "mediaType": "movie"
     }
