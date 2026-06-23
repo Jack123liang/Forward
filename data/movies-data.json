@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T03:20:56.740+08:00",
+  "last_updated": "2026-06-24T01:47:38.239+08:00",
   "now_playing": [
     {
       "id": 1084244,
@@ -8,9 +8,9 @@
       "originalTitle": "Toy Story 5",
       "description": "胡迪、巴斯光年、翠斯等“元老级”玩具将跟随小主人邦妮的成长脚步，共同迎接数字时代下的全新挑战。随着无所不能的科技产品逐渐走进童年世界，一批充满科技感的崭新角色也随之重磅亮相：青蛙造型的智能平板小荷、憨态可掬的导航玩具小不丢、活力十足的抓拍好手小拍侠，以及自带笑点的臭屁小机灵。当身边的同龄朋友们开始沉浸在科技玩具带来的“电子陪伴”中，而玩具伙伴们也迎来了前所未有的生存难题：在屏幕占据注意力的时代，玩具的时代真的结束了吗？在“被取代”危机的当下，这群玩具伙伴还能否携手，帮助邦妮找回属于自己的真实友谊与快乐？",
       "posterPath": "https://image.tmdb.org/t/p/w500/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
       "releaseDate": "2026-06-19",
-      "rating": 7.47,
+      "rating": 7.5,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
       "releaseDate": "2026-06-12",
-      "rating": 6.726,
+      "rating": 6.715,
       "mediaType": "movie"
     },
     {
@@ -44,9 +44,9 @@
       "originalTitle": "火遮眼",
       "description": "女儿在街头被拐走，店主（谢苗 饰）探寻一个复杂的犯罪网络，不择手段将女儿救回来。他唯一的盟友是一名记者（乔•塔斯利姆 饰）。这两个来自不同背景的人物必须学会相互信任、合作，运用自己不为人知的过去所赋予的格斗技能。",
       "posterPath": "https://image.tmdb.org/t/p/w500/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/ew3EqF9VLTxmK64OsHT7p7lr4wT.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/dxyNrJ4uG9os6miCG7s754nvKPs.jpg",
       "releaseDate": "2026-06-11",
-      "rating": 7.731,
+      "rating": 7.612,
       "mediaType": "movie"
     },
     {
@@ -58,7 +58,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
       "releaseDate": "2026-06-05",
-      "rating": 7.237,
+      "rating": 7.272,
       "mediaType": "movie"
     },
     {
@@ -70,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
       "releaseDate": "2026-05-30",
-      "rating": 7.584,
+      "rating": 7.549,
       "mediaType": "movie"
     },
     {
@@ -82,7 +82,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tcK1gUmJY0GL9apwF9C3M2doQ3w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 7.26,
+      "rating": 7.263,
       "mediaType": "movie"
     },
     {
@@ -118,7 +118,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
       "releaseDate": "2026-05-15",
-      "rating": 7.682,
+      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -130,7 +130,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dy8gXxDdWILkR7f2N6fQGwFxgKl.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 8.175,
+      "rating": 8.176,
       "mediaType": "movie"
     },
     {
@@ -170,6 +170,18 @@
       "mediaType": "movie"
     },
     {
+      "id": 1285965,
+      "type": "tmdb",
+      "title": "危险动物",
+      "originalTitle": "Dangerous Animals",
+      "description": "一个沉迷于鲨鱼的连环杀手绑架了一个无忧无虑的冲浪者，绑在自己的船里，要举行一个仪式把她喂鲨鱼。她的新男友发现恋人失踪，前来寻找，却也被这个疯癫的杀手所擒……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jOugiyKRuFX8RFUGnmVFDsh9Oai.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
+      "releaseDate": "2026-06-05",
+      "rating": 6.465,
+      "mediaType": "movie"
+    },
+    {
       "id": 1443374,
       "type": "tmdb",
       "title": "森中有林",
@@ -182,18 +194,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1285965,
-      "type": "tmdb",
-      "title": "危险动物",
-      "originalTitle": "Dangerous Animals",
-      "description": "一个沉迷于鲨鱼的连环杀手绑架了一个无忧无虑的冲浪者，绑在自己的船里，要举行一个仪式把她喂鲨鱼。她的新男友发现恋人失踪，前来寻找，却也被这个疯癫的杀手所擒……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/jOugiyKRuFX8RFUGnmVFDsh9Oai.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i5kvIf73Vrxu4lYF6rby0yw4FX2.jpg",
-      "releaseDate": "2026-06-05",
-      "rating": 6.464,
-      "mediaType": "movie"
-    },
-    {
       "id": 271706,
       "type": "tmdb",
       "title": "大鱼海棠",
@@ -202,7 +202,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/yKHEKsrIJLfPoS9f7m5Stbo6fpJ.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/3WVhUsttN1uLyXhV33xCkONeFGA.jpg",
       "releaseDate": "2016-07-08",
-      "rating": 7.346,
+      "rating": 7.343,
       "mediaType": "movie"
     },
     {
@@ -252,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
       "releaseDate": "2026-06-26",
-      "rating": 6.878,
+      "rating": 6.862,
       "mediaType": "movie"
     },
     {
@@ -264,7 +264,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/qJDJ2NzoBfaPktg8Ic10Mx9tWX7.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/6nlqYWDUpNem3v2bDCxQNSg41aY.jpg",
       "releaseDate": "2026-06-26",
-      "rating": 4.6,
+      "rating": 5.6,
       "mediaType": "movie"
     },
     {
@@ -276,7 +276,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pclNFoWcWDeoaQ2pwrXPPw1mjs7.jpg",
       "releaseDate": "2026-07-03",
-      "rating": 7.25,
+      "rating": 7.2,
       "mediaType": "movie"
     },
     {
@@ -316,15 +316,15 @@
       "mediaType": "movie"
     },
     {
-      "id": 1671541,
+      "id": 1178574,
       "type": "tmdb",
-      "title": "三国第一部：争洛阳",
-      "originalTitle": "三国第一部：争洛阳",
-      "description": "东汉末年，危机四伏，宦官掌权，百姓困苦。黄巾军起，曹操、袁绍、袁术、吕布、孙坚、刘备等乱世英雄初露头角。各方势力争斗洛阳，惊涛骇浪中，曹操、袁绍如何应对？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8qhiIL1HAq7ts1hybqGzodycQro.jpg",
-      "releaseDate": "2026-07-10",
-      "rating": 0,
+      "title": "爸爸",
+      "originalTitle": "爸爸",
+      "description": "失去了家人的阮永年（刘青云饰）如常回到茶餐厅开店，让自己感觉一切依旧，他活在回忆的日常里…… 妻子金燕（谷祖琳饰）准备早餐的厨房，儿子厚明（苏文涛饰）玩网路游戏的电脑桌，女儿厚恩（熊诺颐饰）收养的三色猫「三花」，还有一家人共进晚餐的快乐谷茶餐厅，仿佛那一夜从未将一切吞噬。  血缘的摰亲夺走了生命的挚爱，永年既无法憎恨生者，更无法忘记逝者，唯有回忆与幻想相濡以沫，让永年在迷茫的生活中找到一些真实感，纵与儿子一窗之隔，永年比以往更努力活得像一个「爸爸」。  父与子，这段窒息的关系会否迎来长夜尽头，成为彼此活着的救赎？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/bPpPAuonyLDqtF6ekTc7UqUVmwq.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/uXtdDvz7A4v8yc0HG1gC2HGuzWp.jpg",
+      "releaseDate": "2026-06-27",
+      "rating": 8.1,
       "mediaType": "movie"
     },
     {
@@ -340,26 +340,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1178574,
+      "id": 1671541,
       "type": "tmdb",
-      "title": "爸爸",
-      "originalTitle": "爸爸",
-      "description": "失去了家人的阮永年（刘青云饰）如常回到茶餐厅开店，让自己感觉一切依旧，他活在回忆的日常里…… 妻子金燕（谷祖琳饰）准备早餐的厨房，儿子厚明（苏文涛饰）玩网路游戏的电脑桌，女儿厚恩（熊诺颐饰）收养的三色猫「三花」，还有一家人共进晚餐的快乐谷茶餐厅，仿佛那一夜从未将一切吞噬。  血缘的摰亲夺走了生命的挚爱，永年既无法憎恨生者，更无法忘记逝者，唯有回忆与幻想相濡以沫，让永年在迷茫的生活中找到一些真实感，纵与儿子一窗之隔，永年比以往更努力活得像一个「爸爸」。  父与子，这段窒息的关系会否迎来长夜尽头，成为彼此活着的救赎？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bPpPAuonyLDqtF6ekTc7UqUVmwq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uXtdDvz7A4v8yc0HG1gC2HGuzWp.jpg",
-      "releaseDate": "2026-06-27",
-      "rating": 8.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1604133,
-      "type": "tmdb",
-      "title": "四渡",
-      "originalTitle": "四渡",
-      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
-      "releaseDate": "2026-06-26",
+      "title": "三国第一部：争洛阳",
+      "originalTitle": "三国第一部：争洛阳",
+      "description": "东汉末年，危机四伏，宦官掌权，百姓困苦。黄巾军起，曹操、袁绍、袁术、吕布、孙坚、刘备等乱世英雄初露头角。各方势力争斗洛阳，惊涛骇浪中，曹操、袁绍如何应对？",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8qhiIL1HAq7ts1hybqGzodycQro.jpg",
+      "releaseDate": "2026-07-10",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -376,26 +364,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1579223,
+      "id": 1604133,
       "type": "tmdb",
-      "title": "北回归线以北",
-      "originalTitle": "北回归线以北",
-      "description": "　　影片讲述了三组怀揣不同心结的人开着房车自驾游，在旅途中找到各自心灵解脱的故事。靠旅拍糊口的落魄摄影师何川，与热心肠的资深摄影论坛老玩家元哥入伙，拍摄青藏高原的雪豹；蜗居房车陪读三年的三口之家，夫妻俩为了完成儿子张匡匡的毕业心愿，踏上房车之旅；著名三甲医院主任程卉 退休第二天独自驾车去西部，寻找年轻时心中的夙愿，看一看初恋爱人红绢蝶。三组不同经历的人生，在旅途中遭遇各种啼笑皆非的意外，在一连串经历过后，人生的答案逐渐显现出来。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hTEBWl9OutI6PHt201yGfm1J9Sz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kyWGRvpNU7xSc4Yjf4eQw7BRRxk.jpg",
-      "releaseDate": "2026-06-19",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1522776,
-      "type": "tmdb",
-      "title": "小气鬼",
-      "originalTitle": "小气鬼",
-      "description": "　　民乐团唢呐手高艺（孟鹤堂 饰）原是人见人嫌的小气鬼，这个把“省一分是一分”刻进DNA里的奇男子因三百块钱的贪念，受托临时照顾 一个4岁小男孩阿乌（包邮 饰），却不料男孩的母亲一去不返，老高原本平静的生活被突如其来的小男孩打破，两人被迫搭伙成为了“半路父子”。与此同时，唢呐技艺超群的老高对大提琴手温兰（管乐 饰）一见钟情，两人共同经历了一场惊心动魄的livehouse炸裂演出之后，老高向温兰展开了一系列抠搜绝伦的求爱攻势，在经历了一番番啼笑皆非的喜笑离合后，老高前半生坚守的金钱原则和人生态度似乎也开始在不经意间发生改变……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-06-27",
+      "title": "四渡",
+      "originalTitle": "四渡",
+      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
+      "releaseDate": "2026-06-26",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -412,14 +388,38 @@
       "mediaType": "movie"
     },
     {
-      "id": 1613857,
+      "id": 1579223,
       "type": "tmdb",
-      "title": "开个玩笑",
-      "originalTitle": "开个玩笑",
-      "description": "环卫女工季红（张天爱 饰）为让孩子获得入学机会，面临职场领导以“玩笑”为名的越界骚扰，其他员工对此习以为常，而性格倔强的季红决定反抗。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/kI0Y4huryV7A5vXPveMftk6oINd.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/7GKqgR0jsa2HWriTz92vgCd50PP.jpg",
-      "releaseDate": "2026-07-03",
+      "title": "北回归线以北",
+      "originalTitle": "北回归线以北",
+      "description": "　　影片讲述了三组怀揣不同心结的人开着房车自驾游，在旅途中找到各自心灵解脱的故事。靠旅拍糊口的落魄摄影师何川，与热心肠的资深摄影论坛老玩家元哥入伙，拍摄青藏高原的雪豹；蜗居房车陪读三年的三口之家，夫妻俩为了完成儿子张匡匡的毕业心愿，踏上房车之旅；著名三甲医院主任程卉 退休第二天独自驾车去西部，寻找年轻时心中的夙愿，看一看初恋爱人红绢蝶。三组不同经历的人生，在旅途中遭遇各种啼笑皆非的意外，在一连串经历过后，人生的答案逐渐显现出来。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hTEBWl9OutI6PHt201yGfm1J9Sz.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/kyWGRvpNU7xSc4Yjf4eQw7BRRxk.jpg",
+      "releaseDate": "2026-06-19",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1714841,
+      "type": "tmdb",
+      "title": "关索岭",
+      "originalTitle": "关索岭",
+      "description": "丁虎和沈啸飞是八百年前明军的后裔，先后爱上了采茶女金儿。他们生活在宁静的田园中，由于居住的屯堡位于交通要塞，这里成为了日军攻占的重要目标。面对外敌入侵，丁虎和沈啸飞毅摒弃前嫌，民族大义高于个人恩怨。他们以关索岭为中心，带领乡亲们奋勇抵抗，最终全歼了一股携带机密测绘地图的敌人。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hPBNYaVAwouAhLu2RpPxXZxKBvn.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/luW1QPoiBpasSH2AeEgap5ZWB8Z.jpg",
+      "releaseDate": "2026-06-25",
+      "rating": 0,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1522776,
+      "type": "tmdb",
+      "title": "小气鬼",
+      "originalTitle": "小气鬼",
+      "description": "　　民乐团唢呐手高艺（孟鹤堂 饰）原是人见人嫌的小气鬼，这个把“省一分是一分”刻进DNA里的奇男子因三百块钱的贪念，受托临时照顾 一个4岁小男孩阿乌（包邮 饰），却不料男孩的母亲一去不返，老高原本平静的生活被突如其来的小男孩打破，两人被迫搭伙成为了“半路父子”。与此同时，唢呐技艺超群的老高对大提琴手温兰（管乐 饰）一见钟情，两人共同经历了一场惊心动魄的livehouse炸裂演出之后，老高向温兰展开了一系列抠搜绝伦的求爱攻势，在经历了一番番啼笑皆非的喜笑离合后，老高前半生坚守的金钱原则和人生态度似乎也开始在不经意间发生改变……",
+      "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
+      "backdropPath": null,
+      "releaseDate": "2026-06-27",
       "rating": 0,
       "mediaType": "movie"
     },
@@ -436,14 +436,14 @@
       "mediaType": "movie"
     },
     {
-      "id": 1714841,
+      "id": 1613857,
       "type": "tmdb",
-      "title": "关索岭",
-      "originalTitle": "关索岭",
-      "description": "丁虎和沈啸飞是八百年前明军的后裔，先后爱上了采茶女金儿。他们生活在宁静的田园中，由于居住的屯堡位于交通要塞，这里成为了日军攻占的重要目标。面对外敌入侵，丁虎和沈啸飞毅摒弃前嫌，民族大义高于个人恩怨。他们以关索岭为中心，带领乡亲们奋勇抵抗，最终全歼了一股携带机密测绘地图的敌人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hPBNYaVAwouAhLu2RpPxXZxKBvn.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/luW1QPoiBpasSH2AeEgap5ZWB8Z.jpg",
-      "releaseDate": "2026-06-25",
+      "title": "开个玩笑",
+      "originalTitle": "开个玩笑",
+      "description": "环卫女工季红（张天爱 饰）为让孩子获得入学机会，面临职场领导以“玩笑”为名的越界骚扰，其他员工对此习以为常，而性格倔强的季红决定反抗。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kI0Y4huryV7A5vXPveMftk6oINd.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/7GKqgR0jsa2HWriTz92vgCd50PP.jpg",
+      "releaseDate": "2026-07-03",
       "rating": 0,
       "mediaType": "movie"
     },
