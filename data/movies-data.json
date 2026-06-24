@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T01:47:38.239+08:00",
+  "last_updated": "2026-06-25T01:49:40.137+08:00",
   "now_playing": [
     {
       "id": 1084244,
@@ -10,7 +10,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/l9ui7Irttuekt4CMTOmyAMIDsQI.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
       "releaseDate": "2026-06-19",
-      "rating": 7.5,
+      "rating": 7.43,
       "mediaType": "movie"
     },
     {
@@ -34,7 +34,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/2K7QsrRFmIjItosg8oKxjjnKgRo.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/s6ly8laenkHWlIBRkLSfIuEMLC6.jpg",
       "releaseDate": "2026-06-12",
-      "rating": 6.715,
+      "rating": 6.7,
       "mediaType": "movie"
     },
     {
@@ -46,7 +46,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ftFM5P0ucyUwIEMs88oqxCpkzjf.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/dxyNrJ4uG9os6miCG7s754nvKPs.jpg",
       "releaseDate": "2026-06-11",
-      "rating": 7.612,
+      "rating": 7.6,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1083381,
+      "type": "tmdb",
+      "title": "后室",
+      "originalTitle": "Backrooms",
+      "description": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
+      "releaseDate": "2026-06-26",
+      "rating": 6.872,
       "mediaType": "movie"
     },
     {
@@ -58,7 +70,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/ijjRROhfvpO5TYFRM8jII64yTDS.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
       "releaseDate": "2026-06-05",
-      "rating": 7.272,
+      "rating": 7.263,
       "mediaType": "movie"
     },
     {
@@ -70,7 +82,19 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/gdBZxxPdX4CQ2Y3JkzU45EBiHEP.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
       "releaseDate": "2026-05-30",
-      "rating": 7.549,
+      "rating": 7.553,
+      "mediaType": "movie"
+    },
+    {
+      "id": 1081003,
+      "type": "tmdb",
+      "title": "超级少女",
+      "originalTitle": "Supergirl",
+      "description": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
+      "posterPath": "https://image.tmdb.org/t/p/w500/qJDJ2NzoBfaPktg8Ic10Mx9tWX7.jpg",
+      "backdropPath": "https://image.tmdb.org/t/p/w500/6nlqYWDUpNem3v2bDCxQNSg41aY.jpg",
+      "releaseDate": "2026-06-26",
+      "rating": 6.5,
       "mediaType": "movie"
     },
     {
@@ -82,7 +106,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/tcK1gUmJY0GL9apwF9C3M2doQ3w.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/zTnAnYIn0Iv3cn0ZHlzLhou3ybm.jpg",
       "releaseDate": "2026-05-29",
-      "rating": 7.263,
+      "rating": 7.266,
       "mediaType": "movie"
     },
     {
@@ -95,30 +119,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/dzWGnIAjUafpmY57F6vnm44FwWB.jpg",
       "releaseDate": "2026-04-30",
       "rating": 9.2,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1301421,
-      "type": "tmdb",
-      "title": "绵羊侦探团",
-      "originalTitle": "The Sheep Detectives",
-      "description": "改编自Leonie Swann的畅销小说，讲述牧羊人乔治（休·杰克曼 Hugh Jackman 饰）热爱自己的羊儿们，他养羊只是为了薅羊毛，并且每晚都会给羊大声朗读一则谋杀疑案故事，装作它们能听懂——其实它们真的能听懂，并且在听完故事后会热烈讨论争吵几小时。所以当此后，乔治神秘死去，羊儿们马上就知道：这是一场谋杀！而另一方面，当地的警察（尼可拉斯·博朗 Nicholas Braun 饰）则这辈子都没处理过真正严重的谋杀案。于是，羊儿们决定自己出手去破解这场悬案。但这也意味着它们必须羊生第一次离开这片草地，直面不像书里写的那么简单的人类世界。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/n4hv5lQvuXBdNyJAAelDnwv6Emw.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/t6O6XWelu27BD0OmIDCCufZZT6d.jpg",
-      "releaseDate": "2026-05-16",
-      "rating": 7.6,
-      "mediaType": "movie"
-    },
-    {
-      "id": 578,
-      "type": "tmdb",
-      "title": "大白鲨",
-      "originalTitle": "Jaws",
-      "description": "当海滨小镇艾米蒂遭遇一头危险大白鲨的袭击时，当地的警长（罗伊·谢德 饰）、一位年轻的海洋生物学家（理查德·德莱福斯 饰）与一位身经百战的老练鲨鱼猎人（罗伯特·肖 饰）联手展开殊死追捕，决心在这头猛兽再次发动攻击前将其消灭。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/shz3KVPeoqZ1SEPY20Q9PuEhTBX.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/i1yf91svRHX45l9BXL8rVFzLoPH.jpg",
-      "releaseDate": "2026-05-15",
-      "rating": 7.7,
       "mediaType": "movie"
     },
     {
@@ -244,30 +244,6 @@
   ],
   "upcoming": [
     {
-      "id": 1083381,
-      "type": "tmdb",
-      "title": "后室",
-      "originalTitle": "Backrooms",
-      "description": "一位心理治疗师的病人，在一次诡异的事故中“切入”到了一个超越现实的奇异维度。为了带回病人，这位治疗师不得不亲自踏入那片无边无际、充满黄色壁纸和嗡嗡荧光灯响声的未知迷宫。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/nS8TOKb62LnYJy1iszSV2pNEAQk.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
-      "releaseDate": "2026-06-26",
-      "rating": 6.862,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1081003,
-      "type": "tmdb",
-      "title": "超级少女",
-      "originalTitle": "Supergirl",
-      "description": "当一位冷酷无情、突如其来的劲敌突袭家园，“超级少女”卡拉·佐-艾尔不得不与一位意想不到的同伴结盟，横跨星际，踏上一段交织复仇与正义的壮阔征途。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/qJDJ2NzoBfaPktg8Ic10Mx9tWX7.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/6nlqYWDUpNem3v2bDCxQNSg41aY.jpg",
-      "releaseDate": "2026-06-26",
-      "rating": 5.6,
-      "mediaType": "movie"
-    },
-    {
       "id": 1315772,
       "type": "tmdb",
       "title": "小黄人与大怪兽",
@@ -276,7 +252,7 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/4RRGjHlhCJAU8vkJwzYd2bH9IkL.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/pclNFoWcWDeoaQ2pwrXPPw1mjs7.jpg",
       "releaseDate": "2026-07-03",
-      "rating": 7.2,
+      "rating": 8.2,
       "mediaType": "movie"
     },
     {
@@ -292,18 +268,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1319522,
-      "type": "tmdb",
-      "title": "心犬相随",
-      "originalTitle": "โกฮัง..หัวใจโกโฮม",
-      "description": "　　影片以细腻的叙事串联起三段跨越十年的缘分，透过一只狗纯净的眼睛，折射出人类的孤独、勇气与希望。\r 　　2016年，退休日本工程师弘志在泰国偶然遇见蜷缩在便利店外的小白狗“Gohan”。从最初简单的喂食，到后来深刻的陪伴，Gohan让他重新感受到生活的温情。\r 　　2021年，缅甸籍女佣南查目睹雇主虐待一只被遗弃的狗，毅然决定救走它，并将它改名为“Brownie”。一人一狗展开了一场惊心动魄的逃亡之旅。\r 　　2026年，迷茫的大学生佩莱遇见了一只年迈病重的流浪狗，他为它取名“Hima”。在照顾Hima最后时光的过程里，佩莱尝试挽回逝去的感情，也逐渐在痛苦与怜悯中学会了如何真正去爱。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/tZILgLUZW8BjkydL31yhlaxcZdV.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/gkb6yj4lRIkOQcLuni8V59YvKex.jpg",
-      "releaseDate": "2026-06-13",
-      "rating": 9,
-      "mediaType": "movie"
-    },
-    {
       "id": 1257942,
       "type": "tmdb",
       "title": "魔方小姐",
@@ -313,30 +277,6 @@
       "backdropPath": "https://image.tmdb.org/t/p/w500/aeW7Q3Ns2gzP003qivZ6A4s1zcG.jpg",
       "releaseDate": "2026-07-03",
       "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1178574,
-      "type": "tmdb",
-      "title": "爸爸",
-      "originalTitle": "爸爸",
-      "description": "失去了家人的阮永年（刘青云饰）如常回到茶餐厅开店，让自己感觉一切依旧，他活在回忆的日常里…… 妻子金燕（谷祖琳饰）准备早餐的厨房，儿子厚明（苏文涛饰）玩网路游戏的电脑桌，女儿厚恩（熊诺颐饰）收养的三色猫「三花」，还有一家人共进晚餐的快乐谷茶餐厅，仿佛那一夜从未将一切吞噬。  血缘的摰亲夺走了生命的挚爱，永年既无法憎恨生者，更无法忘记逝者，唯有回忆与幻想相濡以沫，让永年在迷茫的生活中找到一些真实感，纵与儿子一窗之隔，永年比以往更努力活得像一个「爸爸」。  父与子，这段窒息的关系会否迎来长夜尽头，成为彼此活着的救赎？",
-      "posterPath": "https://image.tmdb.org/t/p/w500/bPpPAuonyLDqtF6ekTc7UqUVmwq.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/uXtdDvz7A4v8yc0HG1gC2HGuzWp.jpg",
-      "releaseDate": "2026-06-27",
-      "rating": 8.1,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1396674,
-      "type": "tmdb",
-      "title": "一个部门的诞生",
-      "originalTitle": "一個部門的誕生",
-      "description": "电视台发生胁持事件，绑匪K仔不是为钱，只想把电视台月费终止。人质当劳为求自保，只想尽快了结，却没想过终止电视台月费竟是如此困难的事……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/azv0T4WEDjaaRe7ZeiegUEsKMHs.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/eW7S7tCPWQW50Bt1YHF0FPI1m16.jpg",
-      "releaseDate": "2026-06-27",
-      "rating": 9,
       "mediaType": "movie"
     },
     {
@@ -364,78 +304,6 @@
       "mediaType": "movie"
     },
     {
-      "id": 1604133,
-      "type": "tmdb",
-      "title": "四渡",
-      "originalTitle": "四渡",
-      "description": "　　长征时期的红军，是绝境。 四渡赤水，是红军的绝地反击。 毛泽东带领红军，从一渡的被迫无奈，到二渡的出其不意，再到三渡的精妙一笔，最后到四渡的神操作，创造了战争史上的经典战例，游击战的传奇。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7L9ymMPeBo4hSPlBGPvlzO6102T.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/8BVpdY93rqrbopHi9BwEkiIdkX7.jpg",
-      "releaseDate": "2026-06-26",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1572830,
-      "type": "tmdb",
-      "title": "不成功穿越指南",
-      "originalTitle": "不成功穿越指南",
-      "description": "陈涛在大城市频频受挫，决定回到家乡在母亲身边“躺平”。可随后他意外地在旧书中见到离世已久的父亲，二人共同经历了书中一段段妙趣横生的故事。在这次啼笑皆非的冒险中，父子破除了多年的心结隔阂，陈涛也重获力量，再次出发，开启了新的人生篇章。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/3ETbY1nV0vJIeoxiJslXon0Z9Q9.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-06-27",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1579223,
-      "type": "tmdb",
-      "title": "北回归线以北",
-      "originalTitle": "北回归线以北",
-      "description": "　　影片讲述了三组怀揣不同心结的人开着房车自驾游，在旅途中找到各自心灵解脱的故事。靠旅拍糊口的落魄摄影师何川，与热心肠的资深摄影论坛老玩家元哥入伙，拍摄青藏高原的雪豹；蜗居房车陪读三年的三口之家，夫妻俩为了完成儿子张匡匡的毕业心愿，踏上房车之旅；著名三甲医院主任程卉 退休第二天独自驾车去西部，寻找年轻时心中的夙愿，看一看初恋爱人红绢蝶。三组不同经历的人生，在旅途中遭遇各种啼笑皆非的意外，在一连串经历过后，人生的答案逐渐显现出来。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hTEBWl9OutI6PHt201yGfm1J9Sz.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/kyWGRvpNU7xSc4Yjf4eQw7BRRxk.jpg",
-      "releaseDate": "2026-06-19",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1714841,
-      "type": "tmdb",
-      "title": "关索岭",
-      "originalTitle": "关索岭",
-      "description": "丁虎和沈啸飞是八百年前明军的后裔，先后爱上了采茶女金儿。他们生活在宁静的田园中，由于居住的屯堡位于交通要塞，这里成为了日军攻占的重要目标。面对外敌入侵，丁虎和沈啸飞毅摒弃前嫌，民族大义高于个人恩怨。他们以关索岭为中心，带领乡亲们奋勇抵抗，最终全歼了一股携带机密测绘地图的敌人。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/hPBNYaVAwouAhLu2RpPxXZxKBvn.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/luW1QPoiBpasSH2AeEgap5ZWB8Z.jpg",
-      "releaseDate": "2026-06-25",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1522776,
-      "type": "tmdb",
-      "title": "小气鬼",
-      "originalTitle": "小气鬼",
-      "description": "　　民乐团唢呐手高艺（孟鹤堂 饰）原是人见人嫌的小气鬼，这个把“省一分是一分”刻进DNA里的奇男子因三百块钱的贪念，受托临时照顾 一个4岁小男孩阿乌（包邮 饰），却不料男孩的母亲一去不返，老高原本平静的生活被突如其来的小男孩打破，两人被迫搭伙成为了“半路父子”。与此同时，唢呐技艺超群的老高对大提琴手温兰（管乐 饰）一见钟情，两人共同经历了一场惊心动魄的livehouse炸裂演出之后，老高向温兰展开了一系列抠搜绝伦的求爱攻势，在经历了一番番啼笑皆非的喜笑离合后，老高前半生坚守的金钱原则和人生态度似乎也开始在不经意间发生改变……",
-      "posterPath": "https://image.tmdb.org/t/p/w500/sJVh2U27BXwnfT05kpLOmo0ZUop.jpg",
-      "backdropPath": null,
-      "releaseDate": "2026-06-27",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1715479,
-      "type": "tmdb",
-      "title": "幻影游船",
-      "originalTitle": "幻影游船",
-      "description": "　　幻影号及其狩梦人小队，深入三层梦境：在“北冥之海”力战巨鲲，在“昆仑之巅”对决大鹏。主角柳嘉在绝境中集结团队力量，击败了最终梦魇，拯救了所有沉睡者，也为后续的星空航程与神秘组织的威胁埋下伏笔。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/xqekZag8oc6LXGEsiyGRiEq9Oul.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/oTvcdQuNcIb8AtkxDFeS21D5FHN.jpg",
-      "releaseDate": "2026-06-27",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
       "id": 1613857,
       "type": "tmdb",
       "title": "开个玩笑",
@@ -456,30 +324,6 @@
       "posterPath": "https://image.tmdb.org/t/p/w500/dKO41iA97UtXuCCtX3kOm8HPWCt.jpg",
       "backdropPath": "https://image.tmdb.org/t/p/w500/sZsJYO2ND0ABSwTJVpYRhZspos0.jpg",
       "releaseDate": "2026-07-10",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1591929,
-      "type": "tmdb",
-      "title": "蓝蓝的天上白云飘",
-      "originalTitle": "蓝蓝的天上白云飘",
-      "description": "　　小城青年，来到草原找自己的女朋友，两人改装了一辆移动售货车，同牧民以物易物。发生在辽阔壮美的自然环境中，一对小情侣之间绵密悠长，治愈且温暖的故事。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/lt12siSVn6meB3FAQhofhnY4Wpl.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/lOyPzTwN1e2VqYKAqlDFupdRtd.jpg",
-      "releaseDate": "2026-06-30",
-      "rating": 0,
-      "mediaType": "movie"
-    },
-    {
-      "id": 1719063,
-      "type": "tmdb",
-      "title": "续范亭将军",
-      "originalTitle": "续范亭将军",
-      "description": "1935年，时任新一军中将总参议的续范亭在南京面谏蒋介石无果，在中山陵剖腹明志，欲以此唤醒国人一致抗日;获救后，在张学良、杨虎城的邀请下回到西安。在兵谏蒋介石的过程中，他再一次看清了国民党政府中的尔虞我诈，在周恩来等人的建议下，他回到山西积极投入抗日统一战线的工作，先后在战动总会、暂编第一师、晋西北行署等组织中与八路军共同战斗，逐渐对中国共产党有了深刻认识·续范亭因病前往延安治疗,与毛泽东建立了深厚友情，并坚定地认识到只有中国共产党可以救中国。他开始以笔为枪，击蒋介石、阎锡山等人。1947年，54岁的续范亭在转移途中于山西临县都督村病逝，临终留下遗言请求加入中国共产党。次日，他被中共中央追认为中共党员。",
-      "posterPath": "https://image.tmdb.org/t/p/w500/7LtTNZESbqslhW2NYnPWhCXwkHx.jpg",
-      "backdropPath": "https://image.tmdb.org/t/p/w500/aIw6vgmmJAWviFZ1DqnajqmmRfg.jpg",
-      "releaseDate": "2026-06-28",
       "rating": 0,
       "mediaType": "movie"
     }
