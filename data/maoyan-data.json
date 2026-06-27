@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T16:31:38.852+08:00",
+  "last_updated": "2026-06-27T21:24:51.872+08:00",
   "tv": {
     "全网": [
       {
@@ -175,13 +175,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "佳偶天成",
+        "title": "蜜语纪",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "蜜语纪",
+        "title": "佳偶天成",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -243,7 +243,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "佳偶天成",
+        "title": "蜜语纪",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -281,13 +281,13 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "汪汪队之小砾与工程家族 第三季",
+        "title": "海底小纵队 第十一季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "海底小纵队 第十一季",
+        "title": "汪汪队之小砾与工程家族 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -305,7 +305,7 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "太平年",
+        "title": "苦菜花",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -321,6 +321,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "说唱巅峰对决2026",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "乘风2026",
         "description": "暂无简介",
         "type": "maoyan",
@@ -328,12 +334,6 @@
       },
       {
         "title": "哈哈哈哈哈 第六季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "说唱巅峰对决2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -439,13 +439,13 @@
     ],
     "爱奇艺": [
       {
-        "title": "哈哈哈哈哈 第六季",
+        "title": "说唱巅峰对决2026",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "说唱巅峰对决2026",
+        "title": "哈哈哈哈哈 第六季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -569,6 +569,12 @@
         "note": "no_tmdb_match"
       },
       {
+        "title": "忙忙碌碌寻宝藏·双人成行记",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
         "title": "妻子的浪漫旅行2026",
         "description": "暂无简介",
         "type": "maoyan",
@@ -581,25 +587,25 @@
         "note": "no_tmdb_match"
       },
       {
-        "title": "乘风2026 训练室全纪录",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
         "title": "歌手2026 竖屏直拍版",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
-        "title": "忙忙碌碌寻宝藏·双人成行记",
+        "title": "乘风2026 训练室全纪录",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
       },
       {
         "title": "快乐老家",
+        "description": "暂无简介",
+        "type": "maoyan",
+        "note": "no_tmdb_match"
+      },
+      {
+        "title": "国医少年志 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
@@ -612,12 +618,6 @@
       },
       {
         "title": "初入职场金融季",
-        "description": "暂无简介",
-        "type": "maoyan",
-        "note": "no_tmdb_match"
-      },
-      {
-        "title": "国医少年志 第三季",
         "description": "暂无简介",
         "type": "maoyan",
         "note": "no_tmdb_match"
